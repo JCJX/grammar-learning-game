@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {chapters,roadmap,allQuestions} from './dist/content.js';
+import {art} from './dist/art.js';
+import {newLabState,labAnswer} from './dist/playgrounds.js';
+assert.equal(chapters.length,8);assert.equal(roadmap.length,22);
+const ids=new Set();
+for(const c of chapters){assert(c.lessons.length>=2);assert(c.missions.length>=2);for(const m of c.missions){assert(m.pages);assert(m.items.length>=5);for(const q of m.items){assert(!ids.has(q.id),'duplicate '+q.id);ids.add(q.id);assert(q.why.length>15,q.id);assert(q.sentence&&q.zh&&q.pages);if(q.type==='build'){assert.equal(q.words.length,q.roles.length,q.id);assert.equal(q.words.join(' ')+(q.punctuation||'.'),q.sentence,q.id);assert(new Set(q.words).size===q.words.length,'Unique blocks required for '+q.id);}else if(q.type==='pack'){assert(['direct','unit'].includes(q.mode));assert(q.count>=1&&q.count<=5);assert.equal(labAnswer(q,{...newLabState(),bin:q.mode,count:q.count}),q.answer);assert.notEqual(labAnswer(q,newLabState()),q.answer);}else if(q.type==='portrait'){const fits=q.characters.filter(p=>q.clues.every(([k,v])=>p[k]===v));assert.equal(fits.length,1,q.id);assert.equal(fits[0].id,q.answer,q.id);assert.equal(new Set(q.characters.map(p=>p.id)).size,q.characters.length);}else if(q.type==='mirror'){const correct=q.time==='past'?(['You','They','We'].includes(q.subject)?'were':'was'):(q.subject==='I'?'am':['You','They','We'].includes(q.subject)?'are':'is');assert.equal(q.be,correct,q.id);assert.equal(labAnswer(q,{...newLabState(),subject:q.subject,time:q.time,be:q.be}),q.answer,q.id);}else if(q.type==='director'){for(const[k,v]of Object.entries(q.expected))assert(q.axes[k].some(x=>x[0]===v),q.id);assert.equal(labAnswer(q,{...newLabState(),settings:q.expected}),q.answer,q.id);}else{const opts=q.options||q.parts;assert(opts.includes(q.answer),'Answer missing for '+q.id);assert.equal(new Set(opts).size,opts.length,q.id);}assert(art(q.icon).includes('<svg'));}}}
+if(fs.existsSync('tmp/baseline-v1.json'))for(const old of JSON.parse(fs.readFileSync('tmp/baseline-v1.json','utf8')))assert.deepEqual(allQuestions.find(q=>q.id===old.id),old,'Old question changed: '+old.id);
+for(const legacy of JSON.parse(fs.readFileSync('qa/legacy-v1-fingerprints.json','utf8'))){const q=allQuestions.find(q=>q.id===legacy.id);assert(q,'Legacy ID missing: '+legacy.id);assert.equal(createHash('sha256').update(JSON.stringify(q)).digest('hex'),legacy.sha256,'Legacy content changed: '+legacy.id);}
+for(const r of roadmap)if(r[5])assert(chapters.some(c=>c.id===r[5]));
+for(const f of ['index.html','style.css','app.js','content.js','art.js','icon.svg'])assert(fs.statSync('dist/'+f).size>0);
+const report={chapters:chapters.map(c=>({id:c.id,lessons:c.lessons.length,missions:c.missions.length,questions:c.missions.reduce((s,m)=>s+m.items.length,0)})),totalQuestions:allQuestions.length,roadmapUnits:roadmap.length,uniqueQuestionIds:ids.size,result:'passed'};
+fs.writeFileSync('verification.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

@@ -1,0 +1,173 @@
+{
+  "newMissions": [
+    {
+      "id": "c4-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c4-m2",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c4-m3",
+      "questions": 6,
+      "passed": true
+    },
+    {
+      "id": "c4-m4",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c4-m5",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c5-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c5-m2",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c5-m3",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c5-m4",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "be1-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "be1-m2",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "be1-m3",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "be1-m4",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c6-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c6-m2",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c6-m3",
+      "questions": 6,
+      "passed": true
+    },
+    {
+      "id": "c6-m4",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c6-m5",
+      "questions": 5,
+      "passed": true
+    }
+  ],
+  "legacyMissions": [
+    {
+      "id": "c1-m1",
+      "questions": 6,
+      "passed": true
+    },
+    {
+      "id": "c2-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "c3-m1",
+      "questions": 5,
+      "passed": true
+    },
+    {
+      "id": "t1-m1",
+      "questions": 5,
+      "passed": true
+    }
+  ],
+  "newChallenges": 92,
+  "legacyChallengesReplayed": 21,
+  "oldProgressRetained": {
+    "completedMissions": 14,
+    "solvedChallenges": 72
+  },
+  "wrongChecks": [
+    {
+      "id": "c4-m1",
+      "retryResets": true,
+      "wrongLocks": true
+    },
+    {
+      "id": "c5-m1",
+      "retryResets": true,
+      "wrongLocks": true
+    },
+    {
+      "id": "be1-m1",
+      "retryResets": true,
+      "wrongLocks": true
+    },
+    {
+      "id": "c6-m1",
+      "retryResets": true,
+      "wrongLocks": true
+    }
+  ],
+  "newMechanismReviewGraduation": true,
+  "mobileChecks": [
+    {
+      "id": "c4-m1",
+      "documentWidth": 375,
+      "width": 390
+    },
+    {
+      "id": "c5-m1",
+      "documentWidth": 375,
+      "width": 390
+    },
+    {
+      "id": "be1-m1",
+      "documentWidth": 375,
+      "width": 390
+    },
+    {
+      "id": "c6-m1",
+      "documentWidth": 375,
+      "width": 390
+    }
+  ],
+  "smallMirrorViewport": 320,
+  "animationDurations": {
+    "quickly": "1.5s",
+    "slowly": "5s"
+  },
+  "standaloneNewGamePassed": true
+}

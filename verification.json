@@ -1,0 +1,56 @@
+{
+  "chapters": [
+    {
+      "id": "c1",
+      "lessons": 4,
+      "missions": 4,
+      "questions": 22
+    },
+    {
+      "id": "c2",
+      "lessons": 3,
+      "missions": 4,
+      "questions": 20
+    },
+    {
+      "id": "c3",
+      "lessons": 3,
+      "missions": 4,
+      "questions": 20
+    },
+    {
+      "id": "c4",
+      "lessons": 4,
+      "missions": 5,
+      "questions": 26
+    },
+    {
+      "id": "c5",
+      "lessons": 4,
+      "missions": 4,
+      "questions": 20
+    },
+    {
+      "id": "be1",
+      "lessons": 4,
+      "missions": 4,
+      "questions": 20
+    },
+    {
+      "id": "c6",
+      "lessons": 4,
+      "missions": 5,
+      "questions": 26
+    },
+    {
+      "id": "t1",
+      "lessons": 2,
+      "missions": 2,
+      "questions": 10
+    }
+  ],
+  "totalQuestions": 164,
+  "roadmapUnits": 22,
+  "uniqueQuestionIds": 164,
+  "result": "passed"
+}
