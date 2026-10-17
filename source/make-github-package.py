@@ -14,7 +14,7 @@ stage = Path(tempfile.mkdtemp(prefix=f'github-v{version}-', dir=output))
 
 files = [
     'package.json', 'verify.mjs', 'build-standalone.mjs',
-    'make-github-package.py', 'GITHUB_README.md', 'CHANGELOG.md',
+    'make-github-package.py', 'make-github-web-package.py', 'GITHUB_README.md', 'CHANGELOG.md',
     'verification.json', '.github/workflows/pages.yml',
     'qa/legacy-v1-fingerprints.json', 'qa/v11-browser-results.json',
 ]
