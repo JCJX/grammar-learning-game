@@ -16,7 +16,7 @@ files = [
     'package.json', 'verify.mjs', 'build-standalone.mjs',
     'make-github-package.py', 'make-github-web-package.py', 'GITHUB_README.md', 'CHANGELOG.md',
     'verification.json', '.github/workflows/pages.yml',
-    'qa/legacy-v1-fingerprints.json', 'qa/v11-browser-results.json',
+    'qa/legacy-v1-fingerprints.json', 'qa/legacy-v11-fingerprints.json', 'qa/legacy-v12-fingerprints.json', 'qa/legacy-v13-fingerprints.json', 'qa/v11-browser-results.json', 'qa/v12-browser-results.json', 'qa/check-voyage.mjs', 'qa/check-expedition.mjs', 'qa/v13-browser-results.json', 'qa/check-crossing.mjs', 'qa/v14-browser-results.json', 'qa/legacy-v14-fingerprints.json', 'qa/check-finale.mjs', 'qa/v15-browser-results.json', 'qa/legacy-v15-fingerprints.json', 'qa/check-renewal.mjs', 'qa/v16-browser-results.json', 'qa/legacy-v16-fingerprints.json', 'qa/v17-corrections.json', 'qa/check-atlas.mjs', 'qa/check-progress.mjs', 'qa/full-book-coverage.json', 'qa/v17-browser-results.json',
 ]
 for relative in files:
     source = root / relative

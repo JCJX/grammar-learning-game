@@ -1,0 +1,353 @@
+{
+  "version": "1.6.0",
+  "date": "2026-10-19",
+  "newQuestionsPlayed": [
+    "c1-r1-q1",
+    "c1-r1-q2",
+    "c1-r1-q3",
+    "c1-r1-q4",
+    "c1-r1-q5",
+    "c1-r2-q1",
+    "c1-r2-q2",
+    "c1-r2-q3",
+    "c1-r2-q4",
+    "c1-r2-q5",
+    "c2-r1-q1",
+    "c2-r1-q2",
+    "c2-r1-q3",
+    "c2-r1-q4",
+    "c2-r1-q5",
+    "c2-r2-q1",
+    "c2-r2-q2",
+    "c2-r2-q3",
+    "c2-r2-q4",
+    "c2-r2-q5",
+    "c3-r1-q1",
+    "c3-r1-q2",
+    "c3-r1-q3",
+    "c3-r1-q4",
+    "c3-r1-q5",
+    "c3-r2-q1",
+    "c3-r2-q2",
+    "c3-r2-q3",
+    "c3-r2-q4",
+    "c3-r2-q5",
+    "c4-r1-q1",
+    "c4-r1-q2",
+    "c4-r1-q3",
+    "c4-r1-q4",
+    "c4-r1-q5",
+    "c4-r2-q1",
+    "c4-r2-q2",
+    "c4-r2-q3",
+    "c4-r2-q4",
+    "c4-r2-q5",
+    "c5-r1-q1",
+    "c5-r1-q2",
+    "c5-r1-q3",
+    "c5-r1-q4",
+    "c5-r1-q5",
+    "c5-r2-q1",
+    "c5-r2-q2",
+    "c5-r2-q3",
+    "c5-r2-q4",
+    "c5-r2-q5",
+    "be1-r1-q1",
+    "be1-r1-q2",
+    "be1-r1-q3",
+    "be1-r1-q4",
+    "be1-r1-q5",
+    "be1-r2-q1",
+    "be1-r2-q2",
+    "be1-r2-q3",
+    "be1-r2-q4",
+    "be1-r2-q5",
+    "be1-r3-q1",
+    "be1-r3-q2",
+    "be1-r3-q3",
+    "be1-r3-q4",
+    "be1-r3-q5",
+    "c6-r1-q1",
+    "c6-r1-q2",
+    "c6-r1-q3",
+    "c6-r1-q4",
+    "c6-r1-q5",
+    "c6-r2-q1",
+    "c6-r2-q2",
+    "c6-r2-q3",
+    "c6-r2-q4",
+    "c6-r2-q5",
+    "used1-m1-q1",
+    "used1-m1-q2",
+    "used1-m1-q3",
+    "used1-m1-q4",
+    "used1-m1-q5",
+    "used1-m2-q1",
+    "used1-m2-q2",
+    "used1-m2-q3",
+    "used1-m2-q4",
+    "used1-m2-q5",
+    "used1-m3-q1",
+    "used1-m3-q2",
+    "used1-m3-q3",
+    "used1-m3-q4",
+    "used1-m3-q5",
+    "used1-m4-q1",
+    "used1-m4-q2",
+    "used1-m4-q3",
+    "used1-m4-q4",
+    "used1-m4-q5",
+    "used1-m5-q1",
+    "used1-m5-q2",
+    "used1-m5-q3",
+    "used1-m5-q4",
+    "used1-m5-q5",
+    "it1-m1-q1",
+    "it1-m1-q2",
+    "it1-m1-q3",
+    "it1-m1-q4",
+    "it1-m1-q5",
+    "it1-m2-q1",
+    "it1-m2-q2",
+    "it1-m2-q3",
+    "it1-m2-q4",
+    "it1-m2-q5",
+    "it1-m3-q1",
+    "it1-m3-q2",
+    "it1-m3-q3",
+    "it1-m3-q4",
+    "it1-m3-q5",
+    "it1-m4-q1",
+    "it1-m4-q2",
+    "it1-m4-q3",
+    "it1-m4-q4",
+    "it1-m4-q5",
+    "it1-m5-q1",
+    "it1-m5-q2",
+    "it1-m5-q3",
+    "it1-m5-q4",
+    "it1-m5-q5"
+  ],
+  "newQuestionCount": 125,
+  "newMissions": 25,
+  "newStorySlides": [
+    "c1:4",
+    "c1:5",
+    "c2:3",
+    "c2:4",
+    "c3:3",
+    "c3:4",
+    "c4:4",
+    "c4:5",
+    "c5:4",
+    "c5:5",
+    "be1:4",
+    "be1:5",
+    "be1:6",
+    "c6:4",
+    "c6:5",
+    "used1:0",
+    "used1:1",
+    "used1:2",
+    "used1:3",
+    "used1:4",
+    "it1:0",
+    "it1:1",
+    "it1:2",
+    "it1:3",
+    "it1:4"
+  ],
+  "observations": [
+    {
+      "chapter": "c1",
+      "state": "name"
+    },
+    {
+      "chapter": "c1",
+      "state": "action"
+    },
+    {
+      "chapter": "c2",
+      "state": "subject"
+    },
+    {
+      "chapter": "c2",
+      "state": "description"
+    },
+    {
+      "chapter": "c3",
+      "state": "gift"
+    },
+    {
+      "chapter": "c3",
+      "state": "state"
+    },
+    {
+      "chapter": "c4",
+      "state": "items"
+    },
+    {
+      "chapter": "c4",
+      "state": "units"
+    },
+    {
+      "chapter": "c5",
+      "state": "attribute"
+    },
+    {
+      "chapter": "c5",
+      "state": "predicative"
+    },
+    {
+      "chapter": "c6",
+      "state": "slow"
+    },
+    {
+      "chapter": "c6",
+      "state": "fast"
+    }
+  ],
+  "wrongPaths": [
+    {
+      "type": "postbox",
+      "locked": true
+    },
+    {
+      "type": "rail",
+      "locked": true
+    },
+    {
+      "type": "architect",
+      "locked": true
+    },
+    {
+      "type": "beacon",
+      "locked": true
+    },
+    {
+      "type": "album",
+      "locked": true
+    },
+    {
+      "type": "spotlight",
+      "locked": true
+    }
+  ],
+  "retry": "wrong used track → retry → correct feedback observed",
+  "review": "six new mechanism errors answered correctly and removed; additional retry test reviewed and removed",
+  "legacyMechanisms": [
+    "pick",
+    "role",
+    "build",
+    "pack",
+    "portrait",
+    "mirror",
+    "director",
+    "camera",
+    "worlds",
+    "conductor",
+    "passive",
+    "treasure",
+    "capsule",
+    "relative",
+    "chain",
+    "balance",
+    "museum",
+    "launch",
+    "freeze",
+    "compress",
+    "time"
+  ],
+  "responsive": [
+    {
+      "route": "play/c1-r1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/c2-r1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/c3-r1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/be1-r1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/used1-m1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/it1-m1",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "chapter/c6",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "route": "play/c1-r1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "play/c2-r1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "play/c3-r1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "play/be1-r1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "play/used1-m1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "play/it1-m1",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "route": "chapter/c6",
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "animationOff": {
+    "animation": "none",
+    "still": true
+  },
+  "persistence": {
+    "chapter": "used1",
+    "completedAfterReload": 5
+  },
+  "standaloneMechanisms": [
+    "postbox",
+    "rail",
+    "architect",
+    "beacon",
+    "album",
+    "spotlight"
+  ],
+  "standaloneDemo": "c1 action state and sentence verified",
+  "speech": "six observation sentence buttons and settings test invoked; English voice detected; physical speaker output not independently verified",
+  "plan": "used and it independent destinations visible",
+  "consoleErrors": []
+}

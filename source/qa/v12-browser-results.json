@@ -1,0 +1,50 @@
+{
+  "version": "1.2.0",
+  "date": "2026-10-18",
+  "newQuestionsCompleted": 90,
+  "newMissionsCompleted": 18,
+  "errorRetryReviewTypes": [
+    "camera",
+    "worlds",
+    "conductor"
+  ],
+  "responsive": [
+    {
+      "width": 390,
+      "id": "c7-m2",
+      "scroll": 375
+    },
+    {
+      "width": 390,
+      "id": "c8-m3",
+      "scroll": 375
+    },
+    {
+      "width": 390,
+      "id": "c9-m1",
+      "scroll": 375
+    },
+    {
+      "width": 320,
+      "id": "c7-m2",
+      "scroll": 305
+    },
+    {
+      "width": 320,
+      "id": "c8-m3",
+      "scroll": 305
+    },
+    {
+      "width": 320,
+      "id": "c9-m1",
+      "scroll": 305
+    }
+  ],
+  "legacyQuestionSnapshotCount": 164,
+  "keyboard": "Space and Enter completed camera challenge",
+  "motionOff": "computed animation none; body still",
+  "reloadProgress": "chapter mission completion persisted",
+  "speech": "controls invoked; actual audio depends on system",
+  "standalone": "three mechanisms rendered; conductor answer completed",
+  "consoleErrors": []
+}

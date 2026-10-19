@@ -1,1 +1,1 @@
-{"name":"grammar-island","version":"1.1.0","private":true,"type":"module","scripts":{"check":"node verify.mjs"}}
+{"name": "grammar-island", "version": "1.7.0", "private": true, "type": "module", "scripts": {"check": "node verify.mjs"}}

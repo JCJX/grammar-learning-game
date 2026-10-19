@@ -1,3 +1,9 @@
+import {applyAtlas} from './atlas.js';
+import {applyRenewal} from './renewal.js';
+import {finaleChapters} from './finale.js';
+import {crossingChapters} from './crossing.js';
+import {expeditionChapters} from './expedition.js';
+import {voyageChapters} from './voyage.js';
 import {expansionChapters} from './expansion.js';
 // Original teaching examples; source ranges refer to printed pages of the user's book.
 const pick=(sentence,zh,target,answer,options,why,icon='leaf')=>({type:'pick',sentence,zh,target,answer,options,why,icon});
@@ -133,6 +139,10 @@ pick('I went to the park yesterday.','我昨天去了公园。','went','go 的�
 ]}
 ];
 chapters.splice(3,0,...expansionChapters);
+chapters.splice(chapters.length-1,0,...voyageChapters);
+chapters.splice(chapters.length-1,0,...expeditionChapters);
+chapters.splice(chapters.length-1,0,...crossingChapters);
+chapters.splice(chapters.length-1,0,...finaleChapters);
 export const roadmap=[
 ['1','词语职业邮局','三个核心问题与四大词性','post','认识词语的职业，按语境投递词卡。','c1'],
 ['2','句子小火车','主谓宾定状补表','train','挂接不同角色，观察主语、宾语与描述的关系。','c2'],
@@ -141,21 +151,23 @@ export const roadmap=[
 ['5','画像工作室','形容词和定语','paint','逐层加线索，从人群中找到被描述的角色。','c5'],
 ['拓展 1','身份镜屋','be 动词','mirror','人称和数量改变镜面，区分系动词与助动词。','be1'],
 ['6','动作导演台','副词和状语','bird','用速度、频率、地点控制故事动画。','c6'],
-['7','时间旅行照相馆','动词时态','clock','过去相册、进行光圈与反复轨迹；目前仅开放入门样板。','t1'],
-['8','平行世界剧院','动词语气','moon','事实、指令、愿望与反事实分屏。'],
-['9','主语指挥乐队','主谓一致','music','找到真正指挥，主语核心控制动词节拍。'],
-['10','电影换机位','被动语态','camera','换焦点、不换事件，观察施事与受事。'],
-['11','空间寻宝地图','介词短语','map','用位置与路径寻找宝藏，再把短语接回句子。'],
-['拓展 2','旧日相册与习惯营','used 的用法','book','过去习惯与逐渐适应，用不同轨迹区分。'],
-['12','句子胶囊港','名词性从句','box','将整句封装成胶囊，送入主语或宾语位置。'],
-['拓展 3','替身舞台','it 的用法','star','长结构移至后台，it 占位；聚光灯展示强调。'],
-['13','线索侦探馆','定语从句','search','用线索认出对象；逗号与关系词影响连接。'],
-['14','故事机关链','状语从句','link','因果、条件、时间、让步让故事分岔。'],
-['15','桥梁与天平','并列句与比较句','bridge','平行搭桥，同类比较让天平保持一致。'],
-['16','动作收藏馆','动名词','ball','把活动装进展品，放入名词位置。'],
-['17','任务发射站','动词不定式','rocket','目标路径与逻辑主语决定任务怎样出发。'],
-['18','动作定格动画厂','分词','film','切换动作与结果、主动与被动，找到描述对象。'],
-['19','句子压缩实验室','复杂句省略','leaf','淡出可恢复部分，再还原验证原来的意思。']
+['7','时间旅行照相馆','动词时态','clock','三种参照时间与四种镜头；原样板另外保留。','c7'],
+['8','平行世界剧院','动词语气','moon','事实、指令、愿望与反事实分屏。','c8'],
+['9','主语指挥乐队','主谓一致','music','找到真正指挥，主语核心控制动词节拍。','c9'],
+['10','电影换机位','被动语态','camera','换焦点、不换事件，观察施事与受事。','c10'],
+['11','空间寻宝地图','介词短语','map','用位置与路径寻找宝藏，再把短语接回句子。','c11'],
+['拓展 2','旧日相册与习惯营','used 的用法','book','过去习惯与逐渐适应，用不同轨迹区分。','used1'],
+['12','句子胶囊港','名词性从句','box','将整句封装成胶囊，送入主语或宾语位置。','c12'],
+['拓展 3','替身舞台','it 的用法','star','长结构移至后台，it 占位；聚光灯展示强调。','it1'],
+['13','线索侦探馆','定语从句','search','用线索认出对象；逗号与关系词影响连接。','c13'],
+['14','故事机关链','状语从句','link','因果、条件、时间、让步让故事分岔。','c14'],
+['15','桥梁与天平','并列句与比较句','bridge','平行搭桥，同类比较让天平保持一致。','c15'],
+['16','动作收藏馆','动名词','ball','把活动装进展品，放入名词位置。','c16'],
+['17','任务发射站','动词不定式','rocket','目标路径与逻辑主语决定任务怎样出发。','c17'],
+['18','动作定格动画厂','分词','film','切换动作与结果、主动与被动，找到描述对象。','c18'],
+['19','句子压缩实验室','复杂句省略','leaf','淡出可恢复部分，再还原验证原来的意思。','c19']
 ];
+applyRenewal(chapters);
+applyAtlas(chapters);
 for(const chapter of chapters) for(const mission of chapter.missions) mission.items.forEach((q,i)=>{q.id=mission.id+'-q'+(i+1);q.chapter=chapter.id;q.mission=mission.id;q.pages=mission.pages;});
 export const allQuestions=chapters.flatMap(c=>c.missions.flatMap(m=>m.items));

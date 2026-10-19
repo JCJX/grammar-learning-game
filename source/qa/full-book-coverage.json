@@ -1,0 +1,401 @@
+[
+  {
+    "unit": "1",
+    "topic": "三个核心问题与四大词性",
+    "chapter": "c1",
+    "stories": 6,
+    "missions": 6,
+    "questions": 32,
+    "interactiveTypes": [
+      "postbox",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q1",
+      "quest-m2-q4",
+      "quest-m8-q1"
+    ]
+  },
+  {
+    "unit": "2",
+    "topic": "主谓宾定状补表",
+    "chapter": "c2",
+    "stories": 5,
+    "missions": 6,
+    "questions": 30,
+    "interactiveTypes": [
+      "rail",
+      "role",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q2",
+      "quest-m6-q1",
+      "quest-m7-q3"
+    ]
+  },
+  {
+    "unit": "3",
+    "topic": "简单句的五种句型",
+    "chapter": "c3",
+    "stories": 5,
+    "missions": 6,
+    "questions": 30,
+    "interactiveTypes": [
+      "architect",
+      "build",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q2",
+      "quest-m6-q2"
+    ]
+  },
+  {
+    "unit": "4",
+    "topic": "名词和名词性结构",
+    "chapter": "c4",
+    "stories": 6,
+    "missions": 7,
+    "questions": 36,
+    "interactiveTypes": [
+      "pack",
+      "pick",
+      "role"
+    ],
+    "integration": [
+      "quest-m1-q2",
+      "quest-m1-q3",
+      "quest-m1-q4",
+      "quest-m6-q4",
+      "quest-m8-q4"
+    ]
+  },
+  {
+    "unit": "5",
+    "topic": "形容词和定语",
+    "chapter": "c5",
+    "stories": 6,
+    "missions": 6,
+    "questions": 30,
+    "interactiveTypes": [
+      "portrait",
+      "pick",
+      "build",
+      "role"
+    ],
+    "integration": [
+      "quest-m1-q1",
+      "quest-m3-q1",
+      "quest-m3-q2",
+      "quest-m3-q4",
+      "quest-m8-q3"
+    ]
+  },
+  {
+    "unit": "拓展 1",
+    "topic": "be 动词",
+    "chapter": "be1",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "mirror",
+      "pick",
+      "build",
+      "beacon"
+    ],
+    "integration": [
+      "quest-m1-q5",
+      "quest-m8-q5"
+    ]
+  },
+  {
+    "unit": "6",
+    "topic": "副词和状语",
+    "chapter": "c6",
+    "stories": 6,
+    "missions": 7,
+    "questions": 36,
+    "interactiveTypes": [
+      "director",
+      "pick",
+      "build",
+      "role"
+    ],
+    "integration": [
+      "quest-m2-q4",
+      "quest-m5-q3"
+    ]
+  },
+  {
+    "unit": "7",
+    "topic": "动词时态",
+    "chapter": "c7",
+    "stories": 8,
+    "missions": 10,
+    "questions": 50,
+    "interactiveTypes": [
+      "camera",
+      "pick"
+    ],
+    "integration": [
+      "quest-m2-q1",
+      "quest-m2-q2",
+      "quest-m4-q2",
+      "quest-m5-q5",
+      "quest-m7-q1"
+    ]
+  },
+  {
+    "unit": "8",
+    "topic": "动词语气",
+    "chapter": "c8",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "worlds",
+      "pick"
+    ],
+    "integration": [
+      "quest-m4-q3",
+      "quest-m5-q1",
+      "quest-m5-q5"
+    ]
+  },
+  {
+    "unit": "9",
+    "topic": "主谓一致",
+    "chapter": "c9",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "conductor",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q3",
+      "quest-m3-q3",
+      "quest-m8-q5"
+    ]
+  },
+  {
+    "unit": "10",
+    "topic": "被动语态",
+    "chapter": "c10",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "passive",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q5",
+      "quest-m2-q1",
+      "quest-m2-q2",
+      "quest-m6-q5",
+      "quest-m7-q1",
+      "quest-m7-q3"
+    ]
+  },
+  {
+    "unit": "11",
+    "topic": "介词短语",
+    "chapter": "c11",
+    "stories": 8,
+    "missions": 9,
+    "questions": 45,
+    "interactiveTypes": [
+      "treasure",
+      "pick",
+      "role"
+    ],
+    "integration": [
+      "quest-m2-q5",
+      "quest-m3-q4",
+      "quest-m5-q4"
+    ]
+  },
+  {
+    "unit": "拓展 2",
+    "topic": "used 的用法",
+    "chapter": "used1",
+    "stories": 5,
+    "missions": 5,
+    "questions": 25,
+    "interactiveTypes": [
+      "album",
+      "pick"
+    ],
+    "integration": [
+      "quest-m4-q1",
+      "quest-m6-q5",
+      "quest-m8-q2"
+    ]
+  },
+  {
+    "unit": "12",
+    "topic": "名词性从句",
+    "chapter": "c12",
+    "stories": 8,
+    "missions": 8,
+    "questions": 40,
+    "interactiveTypes": [
+      "capsule",
+      "pick"
+    ],
+    "integration": [
+      "quest-m2-q3",
+      "quest-m6-q2",
+      "quest-m8-q1"
+    ]
+  },
+  {
+    "unit": "拓展 3",
+    "topic": "it 的用法",
+    "chapter": "it1",
+    "stories": 5,
+    "missions": 5,
+    "questions": 25,
+    "interactiveTypes": [
+      "spotlight",
+      "pick"
+    ],
+    "integration": [
+      "quest-m3-q5",
+      "quest-m6-q1",
+      "quest-m8-q4"
+    ]
+  },
+  {
+    "unit": "13",
+    "topic": "定语从句",
+    "chapter": "c13",
+    "stories": 8,
+    "missions": 8,
+    "questions": 40,
+    "interactiveTypes": [
+      "relative",
+      "pick"
+    ],
+    "integration": [
+      "quest-m3-q1",
+      "quest-m3-q5",
+      "quest-m7-q5"
+    ]
+  },
+  {
+    "unit": "14",
+    "topic": "状语从句",
+    "chapter": "c14",
+    "stories": 7,
+    "missions": 8,
+    "questions": 40,
+    "interactiveTypes": [
+      "chain",
+      "pick"
+    ],
+    "integration": [
+      "quest-m5-q1",
+      "quest-m5-q2",
+      "quest-m5-q3",
+      "quest-m5-q5",
+      "quest-m7-q4"
+    ]
+  },
+  {
+    "unit": "15",
+    "topic": "并列句与比较句",
+    "chapter": "c15",
+    "stories": 8,
+    "missions": 9,
+    "questions": 45,
+    "interactiveTypes": [
+      "balance",
+      "pick"
+    ],
+    "integration": [
+      "quest-m6-q3",
+      "quest-m6-q4",
+      "quest-m7-q2",
+      "quest-m8-q5"
+    ]
+  },
+  {
+    "unit": "16",
+    "topic": "动名词",
+    "chapter": "c16",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "museum",
+      "pick"
+    ],
+    "integration": [
+      "quest-m1-q4",
+      "quest-m4-q1",
+      "quest-m4-q2",
+      "quest-m8-q2",
+      "quest-m8-q4"
+    ]
+  },
+  {
+    "unit": "17",
+    "topic": "动词不定式",
+    "chapter": "c17",
+    "stories": 8,
+    "missions": 11,
+    "questions": 55,
+    "interactiveTypes": [
+      "launch",
+      "pick"
+    ],
+    "integration": [
+      "quest-m4-q4",
+      "quest-m6-q3",
+      "quest-m6-q5",
+      "quest-m7-q3",
+      "quest-m8-q4"
+    ]
+  },
+  {
+    "unit": "18",
+    "topic": "分词",
+    "chapter": "c18",
+    "stories": 8,
+    "missions": 9,
+    "questions": 45,
+    "interactiveTypes": [
+      "freeze",
+      "pick"
+    ],
+    "integration": [
+      "quest-m3-q2",
+      "quest-m4-q5",
+      "quest-m7-q4",
+      "quest-m8-q3"
+    ]
+  },
+  {
+    "unit": "19",
+    "topic": "复杂句省略",
+    "chapter": "c19",
+    "stories": 7,
+    "missions": 7,
+    "questions": 35,
+    "interactiveTypes": [
+      "compress",
+      "pick"
+    ],
+    "integration": [
+      "quest-m7-q2",
+      "quest-m7-q4",
+      "quest-m7-q5",
+      "quest-m8-q5"
+    ]
+  }
+]

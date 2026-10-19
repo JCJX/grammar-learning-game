@@ -1,0 +1,203 @@
+{
+  "version": "1.4.0",
+  "date": "2026-10-18",
+  "newQuestionsCompleted": 95,
+  "questions": [
+    "c13-m1-q1",
+    "c13-m1-q2",
+    "c13-m1-q3",
+    "c13-m1-q4",
+    "c13-m1-q5",
+    "c13-m2-q1",
+    "c13-m2-q2",
+    "c13-m2-q3",
+    "c13-m2-q4",
+    "c13-m2-q5",
+    "c13-m3-q1",
+    "c13-m3-q2",
+    "c13-m3-q3",
+    "c13-m3-q4",
+    "c13-m3-q5",
+    "c13-m4-q1",
+    "c13-m4-q2",
+    "c13-m4-q3",
+    "c13-m4-q4",
+    "c13-m4-q5",
+    "c13-m5-q1",
+    "c13-m5-q2",
+    "c13-m5-q3",
+    "c13-m5-q4",
+    "c13-m5-q5",
+    "c13-m6-q1",
+    "c13-m6-q2",
+    "c13-m6-q3",
+    "c13-m6-q4",
+    "c13-m6-q5",
+    "c14-m1-q1",
+    "c14-m1-q2",
+    "c14-m1-q3",
+    "c14-m1-q4",
+    "c14-m1-q5",
+    "c14-m2-q1",
+    "c14-m2-q2",
+    "c14-m2-q3",
+    "c14-m2-q4",
+    "c14-m2-q5",
+    "c14-m3-q1",
+    "c14-m3-q2",
+    "c14-m3-q3",
+    "c14-m3-q4",
+    "c14-m3-q5",
+    "c14-m4-q1",
+    "c14-m4-q2",
+    "c14-m4-q3",
+    "c14-m4-q4",
+    "c14-m4-q5",
+    "c14-m5-q1",
+    "c14-m5-q2",
+    "c14-m5-q3",
+    "c14-m5-q4",
+    "c14-m5-q5",
+    "c14-m6-q1",
+    "c14-m6-q2",
+    "c14-m6-q3",
+    "c14-m6-q4",
+    "c14-m6-q5",
+    "c15-m1-q1",
+    "c15-m1-q2",
+    "c15-m1-q3",
+    "c15-m1-q4",
+    "c15-m1-q5",
+    "c15-m2-q1",
+    "c15-m2-q2",
+    "c15-m2-q3",
+    "c15-m2-q4",
+    "c15-m2-q5",
+    "c15-m3-q1",
+    "c15-m3-q2",
+    "c15-m3-q3",
+    "c15-m3-q4",
+    "c15-m3-q5",
+    "c15-m4-q1",
+    "c15-m4-q2",
+    "c15-m4-q3",
+    "c15-m4-q4",
+    "c15-m4-q5",
+    "c15-m5-q1",
+    "c15-m5-q2",
+    "c15-m5-q3",
+    "c15-m5-q4",
+    "c15-m5-q5",
+    "c15-m6-q1",
+    "c15-m6-q2",
+    "c15-m6-q3",
+    "c15-m6-q4",
+    "c15-m6-q5",
+    "c15-m7-q1",
+    "c15-m7-q2",
+    "c15-m7-q3",
+    "c15-m7-q4",
+    "c15-m7-q5"
+  ],
+  "newMissionsCompleted": 19,
+  "newStoriesOpened": 17,
+  "errorRetryReviewTypes": [
+    "relative",
+    "chain",
+    "balance-bridge",
+    "balance-scale"
+  ],
+  "responsive": [
+    {
+      "id": "c13-m2",
+      "width": 390,
+      "scroll": 375
+    },
+    {
+      "id": "c14-m1",
+      "width": 390,
+      "scroll": 375
+    },
+    {
+      "id": "c15-m1",
+      "width": 390,
+      "scroll": 375
+    },
+    {
+      "id": "c15-m2",
+      "width": 390,
+      "scroll": 375
+    },
+    {
+      "id": "c13-m2",
+      "width": 320,
+      "scroll": 305
+    },
+    {
+      "id": "c14-m1",
+      "width": 320,
+      "scroll": 305
+    },
+    {
+      "id": "c15-m1",
+      "width": 320,
+      "scroll": 305
+    },
+    {
+      "id": "c15-m2",
+      "width": 320,
+      "scroll": 305
+    }
+  ],
+  "legacyQuestionHashesChecked": 344,
+  "legacyTypesPassed": [
+    "pick",
+    "role",
+    "build",
+    "pack",
+    "portrait",
+    "mirror",
+    "director",
+    "camera",
+    "worlds",
+    "conductor",
+    "passive",
+    "treasure",
+    "capsule",
+    "time"
+  ],
+  "comparisonDimensions": [
+    {
+      "metric": "height",
+      "val": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "metric": "books",
+      "val": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "metric": "speed",
+      "val": [
+        "2",
+        "4"
+      ]
+    }
+  ],
+  "keyboard": "Space/Enter completed relative challenge",
+  "motionOff": "computed animation none; static values and wording remain",
+  "reloadProgress": true,
+  "speech": "control invoked; audible quality depends on device",
+  "standalone": [
+    "c13-m1",
+    "c14-m1",
+    "c15-m1",
+    "c15-m2"
+  ],
+  "consoleErrors": []
+}

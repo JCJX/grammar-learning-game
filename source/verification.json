@@ -2,55 +2,151 @@
   "chapters": [
     {
       "id": "c1",
-      "lessons": 4,
-      "missions": 4,
-      "questions": 22
+      "lessons": 6,
+      "missions": 6,
+      "questions": 32
     },
     {
       "id": "c2",
-      "lessons": 3,
-      "missions": 4,
-      "questions": 20
+      "lessons": 5,
+      "missions": 6,
+      "questions": 30
     },
     {
       "id": "c3",
-      "lessons": 3,
-      "missions": 4,
-      "questions": 20
+      "lessons": 5,
+      "missions": 6,
+      "questions": 30
     },
     {
       "id": "c4",
-      "lessons": 4,
-      "missions": 5,
-      "questions": 26
+      "lessons": 6,
+      "missions": 7,
+      "questions": 36
     },
     {
       "id": "c5",
-      "lessons": 4,
-      "missions": 4,
-      "questions": 20
+      "lessons": 6,
+      "missions": 6,
+      "questions": 30
     },
     {
       "id": "be1",
-      "lessons": 4,
-      "missions": 4,
-      "questions": 20
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
     },
     {
       "id": "c6",
-      "lessons": 4,
+      "lessons": 6,
+      "missions": 7,
+      "questions": 36
+    },
+    {
+      "id": "c7",
+      "lessons": 8,
+      "missions": 10,
+      "questions": 50
+    },
+    {
+      "id": "c8",
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
+    },
+    {
+      "id": "c9",
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
+    },
+    {
+      "id": "c10",
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
+    },
+    {
+      "id": "c11",
+      "lessons": 8,
+      "missions": 9,
+      "questions": 45
+    },
+    {
+      "id": "used1",
+      "lessons": 5,
       "missions": 5,
-      "questions": 26
+      "questions": 25
+    },
+    {
+      "id": "c12",
+      "lessons": 8,
+      "missions": 8,
+      "questions": 40
+    },
+    {
+      "id": "it1",
+      "lessons": 5,
+      "missions": 5,
+      "questions": 25
+    },
+    {
+      "id": "c13",
+      "lessons": 8,
+      "missions": 8,
+      "questions": 40
+    },
+    {
+      "id": "c14",
+      "lessons": 7,
+      "missions": 8,
+      "questions": 40
+    },
+    {
+      "id": "c15",
+      "lessons": 8,
+      "missions": 9,
+      "questions": 45
+    },
+    {
+      "id": "c16",
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
+    },
+    {
+      "id": "c17",
+      "lessons": 8,
+      "missions": 11,
+      "questions": 55
+    },
+    {
+      "id": "c18",
+      "lessons": 8,
+      "missions": 9,
+      "questions": 45
+    },
+    {
+      "id": "c19",
+      "lessons": 7,
+      "missions": 7,
+      "questions": 35
     },
     {
       "id": "t1",
       "lessons": 2,
       "missions": 2,
       "questions": 10
+    },
+    {
+      "id": "quest",
+      "lessons": 4,
+      "missions": 8,
+      "questions": 40
     }
   ],
-  "totalQuestions": 164,
+  "totalQuestions": 864,
   "roadmapUnits": 22,
-  "uniqueQuestionIds": 164,
+  "uniqueQuestionIds": 864,
   "result": "passed"
 }
