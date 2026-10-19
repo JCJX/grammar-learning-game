@@ -1,76 +1,35 @@
-# 语法小岛 · GitHub 完整版
+# 语法小岛：GitHub 网页直接托管版
 
-版本：1.7.0 全书版。第 1–19 章、be/used/it 三个附加专题、保留时态样板及跨章庆典：24 区域、172 任务、864 挑战、155 段故事。全书本轮精修已完成，新增 13 组观察实验、8 幕综合冒险与稿件核对编辑台
-## 文件结构
+最外层的 index.html 就是完整网页，已包含所有游戏代码、图形、样式与题目。
+当前版本：1.7.0 全书版；第 1–19 章、be/used/it 三个专题、保留时态样板和跨章庆典；864 个挑战、172 个任务、155 段图解故事。
+本轮完成第 7–19 章精修，新增 13 组观察实验与 8 幕综合冒险。全书内容及软件验收见 source/docs/全书验收报告-v1.7.0.md。
 
-```text
-.github/workflows/pages.yml   自动检查与部署配置
-dist/                        网站完整文件；实际发布目录
-  index.html                 网站入口
-  app.js                     应用与学习记录
-  content.js                 原有章节与全书地图
-  expansion.js               第 4–6 章与 be 拓展内容
-  playgrounds.js             背包、画像、镜屋、导演台机制
-  art.js                     原创 SVG 图形
-  style.css / expansion.css  页面与新玩法样式
-  icon.svg / .nojekyll        网站图标与静态发布标记
-  local-edition.html          可直接双击打开的自包含离线版
-docs/                        全书规划、交付约定与教学核对
-qa/                          旧题兼容校验和浏览器验收记录
-verify.mjs                   内容检查
-build-standalone.mjs         生成自包含离线版
-make-github-package.py       生成完整 GitHub 交付 ZIP（维护时使用）
-package.json                 项目版本与检查入口
-verification.json            当前内容检查结果
-CHANGELOG.md                 版本说明
-SHA256SUMS.txt               本次完整包各文件校验值
-```
+## 最简单的上传方式
 
-## 学习进度迁移
+1. 解压 ZIP。最外层应该直接看到 index.html、README.md、.nojekyll 和 source 文件夹。
+2. 在 GitHub 新建仓库，将这些内容上传到仓库根目录。不要只上传 ZIP，不要多套一层文件夹。
+3. 进入仓库 Settings → Pages。
+4. Source 选择 Deploy from a branch；Branch 选择你上传文件的分支（通常 main）；文件夹选择 / (root)，然后 Save。
+5. 等 GitHub Pages 的部署记录成功后，打开 Settings → Pages 显示的实际网址。
 
-原来的 Sites 网址、本地 HTML 文件与 GitHub Pages 是不同的网站来源，浏览器进度不会自动共享。迁移前在旧版右上角“学习设置”导出进度，到新网址通过“恢复进度”导入。同一 GitHub Pages 网址后续更新沿用原有记录；修改网址或仓库路径前也建议先导出。
+本包不需要手动配置 GitHub Actions，不需要安装依赖，也不需要 API 密钥或 ChatGPT 登录。
+如果这个仓库已经上传过上一版 .github/workflows/pages.yml，而你改用本包的分支发布方式，请先移除仓库根目录的那份旧工作流，避免两种部署方式同时运行。source/.github 下的工作流只是保留的源码，不会自动执行。
 
-## 文件结构
+## HTML 文件在哪里
 
-```text
-.github/workflows/pages.yml   保留的源码工作流，分支发布时不要放到仓库根目录
-dist/                        网站完整文件；实际发布目录
-  index.html                 网站入口
-  app.js                     应用与学习记录
-  content.js                 原有章节与全书地图
-  expansion.js               第 4–6 章与 be 拓展内容
-  playgrounds.js             各章机制公共入口
-  finale.js / finale-labs.js  第 16–19 章内容和独立机制
-  finale.css                 第 16–19 章场景与动画
-  renewal.js                 三个专题与前六章本轮精修
-  renewal-labs.js / renewal.css 新机制、观察实验与动画
-  atlas.js / atlas-labs.js / atlas.css 第 7–19 章精修、跨章庆典与编辑台
-  art.js                     原创 SVG 图形
-  style.css / expansion.css  页面与新玩法样式
-  icon.svg / .nojekyll        网站图标与静态发布标记
-  local-edition.html          可直接双击打开的自包含离线版
-docs/                        全书规划、交付约定与教学核对
-qa/                          旧题兼容校验和浏览器验收记录
-verify.mjs                   内容检查
-build-standalone.mjs         生成自包含离线版
-make-github-package.py       生成完整 GitHub 交付 ZIP（维护时使用）
-package.json                 项目版本与检查入口
-verification.json            当前内容检查结果
-CHANGELOG.md                 版本说明
-SHA256SUMS.txt               本次完整包各文件校验值
-```
+- index.html：最外层，直接托管的完整网页；双击也能本地学习。
+- source/dist/index.html：保留的模块化源码入口；需要通过网站服务器访问。
+- source/dist/local-edition.html：同一应用的自包含版本。
 
-## 本地使用与维护
+source 文件夹保留完整源码、素材、章节文档和检查脚本，方便后续维护。网页运行不依赖 source 文件夹；想最少上传时，只上传根目录 index.html 也能运行。
 
-只想本地学习：直接双击 `dist/local-edition.html`，用 Edge 或 Chrome 打开。
+## 后续更新
 
-需要预览模块源码：在仓库根目录用普通静态文件服务器运行，再打开 `dist/`。不要通过双击 `dist/index.html` 预览 ES 模块源码。
+以后使用同一仓库、同一路径，覆盖根目录 index.html，并同步更新 source 文件夹和版本说明。若你修改过域名 CNAME，保留自己的 CNAME。当前入口与过去的文件在内容上相同，只是改成更直观的根目录入口。
 
-维护者有 Node.js 后可以运行：
+学习进度按浏览器和网站来源分别保存。先在旧网址“学习设置”导出，再到 GitHub 网页恢复；换网址时不会自动同步。朗读使用浏览器或系统语音。
 
-```sh
-node verify.mjs
-node build-standalone.mjs --no-workspace-export
-```
+GitHub Free 的 Pages 支持公开仓库；私有仓库支持取决于账户方案。原书 PDF、个人进度备份、Sites 内部配置与令牌没有放入本包。
 
-有 Python 3 时可运行 `python make-github-package.py` 重新生成 GitHub 完整包。部署本身不需要 Python。
+GitHub 官方部署说明：
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

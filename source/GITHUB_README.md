@@ -1,8 +1,24 @@
 # 语法小岛 · GitHub 完整版
 
-版本：1.1.0。第 1–6 章、be 动词拓展和有限时态样板已开放：8 个区域、32 个任务、164 个互动挑战、28 段图解故事。第 7 章尚未完整制作，其他章节按全书规划继续扩展。
+版本：1.7.0 全书版。第 1–19 章、be/used/it 三个附加专题、保留时态样板及跨章庆典：24 区域、172 任务、864 挑战、155 段故事。全书本轮精修已完成，新增 13 组观察实验、8 幕综合冒险与稿件核对编辑台。软件与内容核对验收见 docs/全书验收报告-v1.7.0.md；真实教学成效仍需用户试用。
+
+日常 GitHub Pages 更新优先使用“GitHub网页托管版”ZIP：根目录 index.html 已包含全部代码，用 Deploy from a branch / main / (root) 发布。source 内为维护源码；不要重新启用旧的根目录 pages.yml。
 
 这是可独立运行的完整静态网站，不依赖原来的 Sites 网址、ChatGPT 登录、API 密钥或服务器。游戏逻辑、原创矢量图、动画、题目和样式均在仓库里。浏览器朗读仍取决于设备提供的声音，部分声音可能需要联网。
+
+## 第一次上传和部署
+
+使用“GitHub网页托管版”ZIP，解压后将最外层 index.html、.nojekyll、README.md 和 source 文件夹上传到仓库根目录。在 Settings → Pages 选择 Deploy from a branch → main → /(root)，保存后等待发布成功。不要只上传 ZIP 或再套一层文件夹。
+
+已有仓库继续覆盖同名文件，保留自己的 .git 和 CNAME。如果根目录还存在旧的 .github/workflows/pages.yml，请移除那份旧工作流，避免两种发布方式同时运行。source/.github 仅为保留源码，不会自动执行。
+
+本“完整包”ZIP是维护源码；其 dist/index.html 是模块入口。日常上传请用同时交付的“网页托管版”，其中根目录 HTML 已合并所有代码，无需安装依赖或设置 API 密钥。
+
+## 以后更新
+
+每次接收新的完整包后，将包内对应文件更新到同一个仓库，保留目录结构并提交。查看包内 CHANGELOG.md；若列出需要删除的旧文件，也按清单处理。不要改站点存储键或已有题目 ID。以后交付继续提供完整包，不仅提供差异补丁。
+
+使用现有自定义域名的仓库，请保留自己的 CNAME 文件与域名设置。请先备份你自行修改的文件，以免更新时覆盖它们。
 
 ## 学习进度迁移
 
@@ -11,13 +27,18 @@
 ## 文件结构
 
 ```text
-.github/workflows/pages.yml   自动检查与部署配置
+.github/workflows/pages.yml   保留的源码工作流，分支发布时不要放到仓库根目录
 dist/                        网站完整文件；实际发布目录
   index.html                 网站入口
   app.js                     应用与学习记录
   content.js                 原有章节与全书地图
   expansion.js               第 4–6 章与 be 拓展内容
-  playgrounds.js             背包、画像、镜屋、导演台机制
+  playgrounds.js             各章机制公共入口
+  finale.js / finale-labs.js  第 16–19 章内容和独立机制
+  finale.css                 第 16–19 章场景与动画
+  renewal.js                 三个专题与前六章本轮精修
+  renewal-labs.js / renewal.css 新机制、观察实验与动画
+  atlas.js / atlas-labs.js / atlas.css 第 7–19 章精修、跨章庆典与编辑台
   art.js                     原创 SVG 图形
   style.css / expansion.css  页面与新玩法样式
   icon.svg / .nojekyll        网站图标与静态发布标记
