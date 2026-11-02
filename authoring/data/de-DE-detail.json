@@ -1,0 +1,3347 @@
+{
+  "locale": "de-DE",
+  "chapters": [
+    {
+      "id": "de-01",
+      "pronunciation": {
+        "focus": "ich 音与礼貌请求",
+        "explanation": "ich 的 ch 是舌面摩擦音；Sie 的 ie 是长 i。",
+        "examples": [
+          {
+            "text": "ich",
+            "zh": "我"
+          },
+          {
+            "text": "Sie",
+            "zh": "您"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "ich 后常用 -e 词尾，如 ich lerne。",
+        "礼貌疑问句用动词＋Sie，Sie 和 Ihr 大写。",
+        "können 变位后，动作原形放句末。"
+      ],
+      "cultureNote": "初次与陌生成年人交流常用 Sie；改用 du 可由双方明确约定。",
+      "vocabularyNotes": [
+        {
+          "head": "Guten Tag",
+          "note": "日间正式问候，可用于商店进门。"
+        },
+        {
+          "head": "heißen",
+          "note": "ich heiße、du heißt、Sie heißen，须随人称变化。"
+        },
+        {
+          "head": "bitte",
+          "note": "请求中用 bitte，回应感谢也可用 Bitte。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-01-transfer-1",
+          "prompt": "在前台说明为材料的事情而来",
+          "text": "Guten Tag, ich bin wegen der Unterlagen hier.",
+          "zh": "您好，我是为材料的事来的。",
+          "explanation": "ich 对应 bin。"
+        },
+        {
+          "id": "de-01-transfer-2",
+          "prompt": "询问如何称呼新同事",
+          "text": "Wie darf ich Sie ansprechen?",
+          "zh": "我该如何称呼您？",
+          "explanation": "darf 后 ansprechen 置末。"
+        },
+        {
+          "id": "de-01-transfer-3",
+          "prompt": "请写下号码",
+          "text": "Schreiben Sie bitte die Nummer auf.",
+          "zh": "请您写下号码。",
+          "explanation": "auf 在句末。"
+        },
+        {
+          "id": "de-01-transfer-4",
+          "prompt": "说明没听懂最后一句",
+          "text": "Den letzten Satz verstehe ich nicht.",
+          "zh": "最后一句我没听懂。",
+          "explanation": "宾语置首后动词仍第二位。"
+        },
+        {
+          "id": "de-01-transfer-5",
+          "prompt": "请解释某词",
+          "text": "Können Sie dieses Wort bitte erklären?",
+          "zh": "您能解释这个词吗？",
+          "explanation": "erklären 是句末原形。"
+        },
+        {
+          "id": "de-01-transfer-6",
+          "prompt": "感谢耐心解释",
+          "text": "Vielen Dank für die Erklärung.",
+          "zh": "非常感谢您的解释。",
+          "explanation": "für 后用宾格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich lerne Deutsch.",
+            "Ich lernen Deutsch.",
+            "Ich Deutsch lerne."
+          ],
+          "answer": 0,
+          "explanation": "ich 用 lerne，主句动词第二位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Sie können mir helfen?",
+            "Können Sie mir helfen?",
+            "Können Sie mir hilft?"
+          ],
+          "answer": 1,
+          "explanation": "标准一般疑问句动词在首，后接原形。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Danke für der Hinweis.",
+            "Danke für dem Hinweis.",
+            "Danke für den Hinweis."
+          ],
+          "answer": 2,
+          "explanation": "für 要求宾格 den Hinweis。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：ich 后常用 -e 词尾，如 ich lerne。",
+        "检查本章表达：礼貌疑问句用动词＋Sie，Sie 和 Ihr 大写。",
+        "写入具体情境细节，并核对：können 变位后，动作原形放句末。"
+      ],
+      "speakingFollowups": [
+        "您能把刚才那个姓拼一遍吗？",
+        "您希望我说得更慢些吗？",
+        "哪一个词需要再解释一下？"
+      ]
+    },
+    {
+      "id": "de-02",
+      "pronunciation": {
+        "focus": "长短元音",
+        "explanation": "wohnen 的 o 长，kommen 的 o 短；复合词可分块练习。",
+        "examples": [
+          {
+            "text": "wohnen",
+            "zh": "居住"
+          },
+          {
+            "text": "kommen",
+            "zh": "来"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "sein 随人称变化：ich bin、du bist、Sie sind。",
+        "wo 问所在地，woher 问来源。",
+        "来源用 aus，住所城市用 in，通常不加冠词。"
+      ],
+      "cultureNote": "交换联系方式可先询问对方愿意提供哪一种。",
+      "vocabularyNotes": [
+        {
+          "head": "kommen",
+          "note": "kommen aus 表示来自，woher 提问来源。"
+        },
+        {
+          "head": "wohnen",
+          "note": "wohnen 指住所，不表示一次到访。"
+        },
+        {
+          "head": "die Adresse",
+          "note": "die Adresse 阴性，您的地址为 Ihre Adresse。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-02-transfer-1",
+          "prompt": "说明来自小城",
+          "text": "Ich komme aus einer kleinen Stadt in China.",
+          "zh": "我来自中国的一座小城市。",
+          "explanation": "aus 后第三格。"
+        },
+        {
+          "id": "de-02-transfer-2",
+          "prompt": "说明住学校旁",
+          "text": "Jetzt wohne ich neben der Sprachschule.",
+          "zh": "我现在住在语言学校旁边。",
+          "explanation": "Jetzt 后动词第二位。"
+        },
+        {
+          "id": "de-02-transfer-3",
+          "prompt": "询问办公室地址",
+          "text": "Unter welcher Adresse finde ich Ihr Büro?",
+          "zh": "我到哪个地址能找到您的办公室？",
+          "explanation": "unter welcher Adresse 用第三格。"
+        },
+        {
+          "id": "de-02-transfer-4",
+          "prompt": "告知邮件联系",
+          "text": "Sie können mich per E-Mail erreichen.",
+          "zh": "您可以通过邮件联系我。",
+          "explanation": "mich 是宾格。"
+        },
+        {
+          "id": "de-02-transfer-5",
+          "prompt": "核对邮箱拼写",
+          "text": "Habe ich Ihre E-Mail-Adresse richtig geschrieben?",
+          "zh": "我把您的邮箱地址写对了吗？",
+          "explanation": "完成时疑问句以 habe 开始。"
+        },
+        {
+          "id": "de-02-transfer-6",
+          "prompt": "介绍刚加入小组",
+          "text": "Ich bin seit heute in der Lesegruppe.",
+          "zh": "我从今天起加入读书小组。",
+          "explanation": "seit 配现在时表示持续状态。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Woher Sie kommen?",
+            "Woher kommen Sie?",
+            "Woher kommt Sie?"
+          ],
+          "answer": 1,
+          "explanation": "礼貌 Sie 配 kommen，疑问词后用变位动词。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich sind aus Österreich.",
+            "Ich sein aus Österreich.",
+            "Ich bin aus Österreich."
+          ],
+          "answer": 2,
+          "explanation": "ich 配 bin。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir wohnen in Dresden.",
+            "Wir wohnt in Dresden.",
+            "Wir in Dresden wohnen."
+          ],
+          "answer": 0,
+          "explanation": "wir 配 wohnen，动词第二位。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：sein 随人称变化：ich bin、du bist、Sie sind。",
+        "检查本章表达：wo 问所在地，woher 问来源。",
+        "写入具体情境细节，并核对：来源用 aus，住所城市用 in，通常不加冠词。"
+      ],
+      "speakingFollowups": [
+        "您目前住在哪个城区？",
+        "您更愿意用邮件还是电话联系？",
+        "这个邮箱地址里的最后一个字母是什么？"
+      ]
+    },
+    {
+      "id": "de-03",
+      "pronunciation": {
+        "focus": "数词与重音",
+        "explanation": "dreizehn 重读 drei，dreißig 的 ß 清晰送气；二十一先说一再说二十。",
+        "examples": [
+          {
+            "text": "dreizehn",
+            "zh": "十三"
+          },
+          {
+            "text": "einundzwanzig",
+            "zh": "二十一"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "halb zehn 是九点半，指距十点差半小时。",
+        "钟点用 um，星期和日期用 am。",
+        "时间短语置首后，先动词再主语。"
+      ],
+      "cultureNote": "约时间可复述完整钟点；不确定地区说法时可用二十四小时制确认。",
+      "vocabularyNotes": [
+        {
+          "head": "die Uhr",
+          "note": "数词报时用 Uhr，不加复数词尾。"
+        },
+        {
+          "head": "halb",
+          "note": "halb 后用下一小时，halb elf 是十点半。"
+        },
+        {
+          "head": "der Montag",
+          "note": "am Montag 指星期一，montags 指每周一。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-03-transfer-1",
+          "prompt": "报当前时间",
+          "text": "Es ist kurz nach sechs.",
+          "zh": "现在刚过六点。",
+          "explanation": "nach 表示几点过后。"
+        },
+        {
+          "id": "de-03-transfer-2",
+          "prompt": "约九点半见",
+          "text": "Wir treffen uns um halb zehn vor dem Eingang.",
+          "zh": "我们九点半在入口前见。",
+          "explanation": "um 引出钟点。"
+        },
+        {
+          "id": "de-03-transfer-3",
+          "prompt": "告知周四下午有空",
+          "text": "Am Donnerstag kann ich nachmittags kommen.",
+          "zh": "周四下午我能来。",
+          "explanation": "kann 位于第二位。"
+        },
+        {
+          "id": "de-03-transfer-4",
+          "prompt": "询问两张票总价",
+          "text": "Wie viel kosten zwei Eintrittskarten?",
+          "zh": "两张门票多少钱？",
+          "explanation": "复数主语配 kosten。"
+        },
+        {
+          "id": "de-03-transfer-5",
+          "prompt": "说明午餐价格",
+          "text": "Das Mittagessen kostet acht Euro fünfzig.",
+          "zh": "午餐八欧元五十分。",
+          "explanation": "金额中 Euro 保持此形式。"
+        },
+        {
+          "id": "de-03-transfer-6",
+          "prompt": "说明公交多久到",
+          "text": "Der nächste Bus kommt in einer Viertelstunde.",
+          "zh": "下一班公交一刻钟后到。",
+          "explanation": "in 加第三格表示多久以后。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir beginnen am neun Uhr.",
+            "Wir um neun Uhr beginnen.",
+            "Wir beginnen um neun Uhr."
+          ],
+          "answer": 2,
+          "explanation": "钟点用 um，主句动词第二位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Am Freitag arbeite ich.",
+            "Am Freitag ich arbeite.",
+            "Am Freitag arbeiten ich."
+          ],
+          "answer": 0,
+          "explanation": "时间置首后动词在第二位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Karten zehn Euro kosten.",
+            "Die Karten kosten zehn Euro.",
+            "Die Karten kostet zehn Euro."
+          ],
+          "answer": 1,
+          "explanation": "复数 Karten 配 kosten。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：halb zehn 是九点半，指距十点差半小时。",
+        "检查本章表达：钟点用 um，星期和日期用 am。",
+        "写入具体情境细节，并核对：时间短语置首后，先动词再主语。"
+      ],
+      "speakingFollowups": [
+        "您说的是上午九点半还是晚上九点半？",
+        "周四下午三点您有空吗？",
+        "两张票一共多少钱？"
+      ]
+    },
+    {
+      "id": "de-04",
+      "pronunciation": {
+        "focus": "ch 的前后音",
+        "explanation": "Kuchen 的 ch 在 u 后较靠后，Milch 的 ch 为舌面音。",
+        "examples": [
+          {
+            "text": "Kuchen",
+            "zh": "蛋糕"
+          },
+          {
+            "text": "Milch",
+            "zh": "牛奶"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "möchte 接动作时，动作原形放末尾。",
+        "阳性宾格 ein 变 einen，中性 ein 不变。",
+        "mit 支配第三格，ohne 支配第四格。"
+      ],
+      "cultureNote": "点餐可用 Ich hätte gern；付款时可说明分开或一起付。",
+      "vocabularyNotes": [
+        {
+          "head": "der Kaffee",
+          "note": "der Kaffee 阳性，一杯说 einen Kaffee。"
+        },
+        {
+          "head": "der Tee",
+          "note": "der Tee 阳性，einen Tee ohne Zucker 是无糖茶。"
+        },
+        {
+          "head": "die Milch",
+          "note": "die Milch 阴性，mit Milch 常不加冠词。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-04-transfer-1",
+          "prompt": "点不加糖的茶",
+          "text": "Ich möchte einen Tee ohne Zucker.",
+          "zh": "我想要一杯无糖茶。",
+          "explanation": "阳性宾格用 einen。"
+        },
+        {
+          "id": "de-04-transfer-2",
+          "prompt": "问无咖啡因咖啡",
+          "text": "Haben Sie auch Kaffee ohne Koffein?",
+          "zh": "您也有无咖啡因咖啡吗？",
+          "explanation": "Haben Sie 是礼貌问句。"
+        },
+        {
+          "id": "de-04-transfer-3",
+          "prompt": "点燕麦饮品拿铁",
+          "text": "Den Cappuccino bitte mit Haferdrink.",
+          "zh": "卡布奇诺请加燕麦饮品。",
+          "explanation": "点餐省略句用宾格 Den。"
+        },
+        {
+          "id": "de-04-transfer-4",
+          "prompt": "选择汤",
+          "text": "Ich nehme heute eine Suppe.",
+          "zh": "我今天要一份汤。",
+          "explanation": "阴性宾格用 eine。"
+        },
+        {
+          "id": "de-04-transfer-5",
+          "prompt": "打包三明治",
+          "text": "Ich möchte das Sandwich für unterwegs mitnehmen.",
+          "zh": "我想把三明治打包路上吃。",
+          "explanation": "mitnehmen 完整置末。"
+        },
+        {
+          "id": "de-04-transfer-6",
+          "prompt": "要求分开付款",
+          "text": "Können wir bitte getrennt bezahlen?",
+          "zh": "我们可以分开付款吗？",
+          "explanation": "getrennt 修饰 bezahlen。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich möchte einen Kakao.",
+            "Ich möchte ein Kakao.",
+            "Ich möchten einen Kakao."
+          ],
+          "answer": 0,
+          "explanation": "Kakao 阳性宾格用 einen，ich 用 möchte。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Mit der Tee bitte.",
+            "Mit dem Tee bitte.",
+            "Mit den Tee bitte."
+          ],
+          "answer": 1,
+          "explanation": "mit 后阳性第三格为 dem。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich möchte mitnehme den Kuchen.",
+            "Ich mitnehmen möchte den Kuchen.",
+            "Ich möchte den Kuchen mitnehmen."
+          ],
+          "answer": 2,
+          "explanation": "原形 mitnehmen 置末。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：möchte 接动作时，动作原形放末尾。",
+        "检查本章表达：阳性宾格 ein 变 einen，中性 ein 不变。",
+        "写入具体情境细节，并核对：mit 支配第三格，ohne 支配第四格。"
+      ],
+      "speakingFollowups": [
+        "这杯茶需要加糖吗？",
+        "您要在这里吃还是带走？",
+        "我们各付各的可以吗？"
+      ]
+    },
+    {
+      "id": "de-05",
+      "pronunciation": {
+        "focus": "变元音 ä",
+        "explanation": "Äpfel 的 ä 与 Apfel 的 a 区别明显，复数词尾轻读。",
+        "examples": [
+          {
+            "text": "Apfel",
+            "zh": "苹果"
+          },
+          {
+            "text": "Äpfel",
+            "zh": "苹果的复数"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "否定冠词随性数格变：kein Brot、keine Milch、keinen Käse。",
+        "重量可用 ein Kilo 加复数物品，如 Tomaten。",
+        "mit Karte 为零冠词表达，mit 仍支配第三格。"
+      ],
+      "cultureNote": "购物袋与支付方式可直接询问，以现场说明为准。",
+      "vocabularyNotes": [
+        {
+          "head": "der Apfel",
+          "note": "Apfel 复数 Äpfel 有变元音。"
+        },
+        {
+          "head": "das Brot",
+          "note": "das Brot；一片面包为 eine Scheibe Brot。"
+        },
+        {
+          "head": "die Tüte",
+          "note": "die Tüte 阴性，否定宾语说 keine Tüte。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-05-transfer-1",
+          "prompt": "买半公斤番茄",
+          "text": "Ich hätte gern ein halbes Kilo Tomaten.",
+          "zh": "我想要半公斤番茄。",
+          "explanation": "halbes 与中性 Kilo 一致。"
+        },
+        {
+          "id": "de-05-transfer-2",
+          "prompt": "找无麸质面包",
+          "text": "Wo steht das glutenfreie Brot?",
+          "zh": "无麸质面包放哪里？",
+          "explanation": "单数 Brot 配 steht。"
+        },
+        {
+          "id": "de-05-transfer-3",
+          "prompt": "不要收据",
+          "text": "Ich brauche keinen Kassenbon.",
+          "zh": "我不需要收据。",
+          "explanation": "阳性宾格用 keinen。"
+        },
+        {
+          "id": "de-05-transfer-4",
+          "prompt": "询问现金支付",
+          "text": "Kann ich hier bar bezahlen?",
+          "zh": "我可以在这里付现金吗？",
+          "explanation": "bar 表支付方式。"
+        },
+        {
+          "id": "de-05-transfer-5",
+          "prompt": "确认开放收银台",
+          "text": "Welche Kasse ist noch geöffnet?",
+          "zh": "哪台收银台还开着？",
+          "explanation": "阴性单数用 welche。"
+        },
+        {
+          "id": "de-05-transfer-6",
+          "prompt": "核实单包价格",
+          "text": "Gilt dieser Preis für eine Packung?",
+          "zh": "这个价格是一包的价格吗？",
+          "explanation": "für 后用宾格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich kaufe keinen Äpfel.",
+            "Ich kaufe keine Äpfel.",
+            "Ich kaufe kein Äpfel."
+          ],
+          "answer": 1,
+          "explanation": "复数宾格否定用 keine。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich brauche ein Beutel.",
+            "Ich brauchen einen Beutel.",
+            "Ich brauche einen Beutel."
+          ],
+          "answer": 2,
+          "explanation": "阳性 Beutel 宾格为 einen。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Kann ich mit der Karte zahlen?",
+            "Kann ich mit die Karte zahlen?",
+            "Kann ich mit den Karte zahlen?"
+          ],
+          "answer": 0,
+          "explanation": "mit 后阴性第三格为 der。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：否定冠词随性数格变：kein Brot、keine Milch、keinen Käse。",
+        "检查本章表达：重量可用 ein Kilo 加复数物品，如 Tomaten。",
+        "写入具体情境细节，并核对：mit Karte 为零冠词表达，mit 仍支配第三格。"
+      ],
+      "speakingFollowups": [
+        "这个标价是一包还是一公斤？",
+        "您需要购物袋吗？",
+        "哪里有不用冷藏的牛奶？"
+      ]
+    },
+    {
+      "id": "de-06",
+      "pronunciation": {
+        "focus": "方向词与前缀重音",
+        "explanation": "Straße 的 str 起首常为 sch 音加 tr；abbiegen 重读 ab。",
+        "examples": [
+          {
+            "text": "Straße",
+            "zh": "街道"
+          },
+          {
+            "text": "abbiegen",
+            "zh": "转弯"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "Sie 祈使句使用动词＋Sie，如 Gehen Sie。",
+        "abbiegen 在主句末尾保留前缀 ab。",
+        "zu 加第三格：zu dem 缩合 zum，zu der 缩合 zur。"
+      ],
+      "cultureNote": "问路先说 Entschuldigung 较自然；站名不清楚可请对方拼写。",
+      "vocabularyNotes": [
+        {
+          "head": "der Bahnhof",
+          "note": "zum Bahnhof 为去车站，Bahnhof 阳性。"
+        },
+        {
+          "head": "geradeaus",
+          "note": "geradeaus 是方向副词，不加介词。"
+        },
+        {
+          "head": "links",
+          "note": "links 指向左；左侧街道可说 die Straße links。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-06-transfer-1",
+          "prompt": "询问到图书馆",
+          "text": "Wie komme ich zur Stadtbibliothek?",
+          "zh": "我怎么去市立图书馆？",
+          "explanation": "Bibliothek 阴性，zu der 缩合 zur。"
+        },
+        {
+          "id": "de-06-transfer-2",
+          "prompt": "指示到红绿灯",
+          "text": "Gehen Sie bis zur Ampel.",
+          "zh": "请走到红绿灯那里。",
+          "explanation": "bis zur 表到达界限。"
+        },
+        {
+          "id": "de-06-transfer-3",
+          "prompt": "指示右转",
+          "text": "Biegen Sie an der nächsten Kreuzung rechts ab.",
+          "zh": "请在下个路口右转。",
+          "explanation": "可分前缀 ab 置末。"
+        },
+        {
+          "id": "de-06-transfer-4",
+          "prompt": "说明桥后车站",
+          "text": "Die Haltestelle liegt hinter der Brücke.",
+          "zh": "车站在桥后面。",
+          "explanation": "静态位置用第三格。"
+        },
+        {
+          "id": "de-06-transfer-5",
+          "prompt": "确认电车去向",
+          "text": "Fährt diese Straßenbahn zum Krankenhaus?",
+          "zh": "这辆有轨电车去医院吗？",
+          "explanation": "zu dem 缩合 zum。"
+        },
+        {
+          "id": "de-06-transfer-6",
+          "prompt": "问能否车上买票",
+          "text": "Kann ich die Fahrkarte im Bus kaufen?",
+          "zh": "我能在公交车上买票吗？",
+          "explanation": "im Bus 表位置，kaufen 在末尾。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Geht Sie geradeaus.",
+            "Sie geradeaus gehen.",
+            "Gehen Sie geradeaus."
+          ],
+          "answer": 2,
+          "explanation": "礼貌祈使为 Gehen Sie。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Biegen Sie rechts ab.",
+            "Biegen Sie ab rechts.",
+            "Biegt Sie rechts ab."
+          ],
+          "answer": 0,
+          "explanation": "前缀 ab 在句末。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich fahre zu die Schule.",
+            "Ich fahre zur Schule.",
+            "Ich fahre zum Schule."
+          ],
+          "answer": 1,
+          "explanation": "Schule 阴性，zu 后 der 缩合 zur。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：Sie 祈使句使用动词＋Sie，如 Gehen Sie。",
+        "检查本章表达：abbiegen 在主句末尾保留前缀 ab。",
+        "写入具体情境细节，并核对：zu 加第三格：zu dem 缩合 zum，zu der 缩合 zur。"
+      ],
+      "speakingFollowups": [
+        "我需要在哪一站换乘？",
+        "从这里步行大概要多久？",
+        "您说的是过桥后第一个路口吗？"
+      ]
+    },
+    {
+      "id": "de-07",
+      "pronunciation": {
+        "focus": "词尾 -ieren",
+        "explanation": "reservieren 重音靠后，分词 reserviert 不加 ge-；Zimmer 的 z 为 ts。",
+        "examples": [
+          {
+            "text": "reserviert",
+            "zh": "预订了"
+          },
+          {
+            "text": "Zimmer",
+            "zh": "房间"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "完成时 haben 变位，过去分词放末尾。",
+        "-ieren 结尾动词的分词不加 ge-。",
+        "fehlen 的主语是缺少的物品，复数配 fehlen。"
+      ],
+      "cultureNote": "入住可先报预订信息；服务和费用须向住宿方逐项确认。",
+      "vocabularyNotes": [
+        {
+          "head": "reservieren",
+          "note": "reservieren 接宾格房间，分词 reserviert。"
+        },
+        {
+          "head": "die Nacht",
+          "note": "die Nacht 复数 Nächte，für drei Nächte 是住三晚。"
+        },
+        {
+          "head": "der Schlüssel",
+          "note": "der Schlüssel 单复数同形，复数冠词 die。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-07-transfer-1",
+          "prompt": "说明网上订房",
+          "text": "Ich habe online ein Doppelzimmer gebucht.",
+          "zh": "我网上订了双人房。",
+          "explanation": "完成时用 habe…gebucht。"
+        },
+        {
+          "id": "de-07-transfer-2",
+          "prompt": "说明住到周日",
+          "text": "Ich bleibe bis Sonntag in Ihrem Hotel.",
+          "zh": "我在贵酒店住到周日。",
+          "explanation": "bis 表截止时间。"
+        },
+        {
+          "id": "de-07-transfer-3",
+          "prompt": "索取第二张房卡",
+          "text": "Könnte ich eine zweite Zimmerkarte bekommen?",
+          "zh": "我能再拿一张房卡吗？",
+          "explanation": "Könnte 表委婉请求。"
+        },
+        {
+          "id": "de-07-transfer-4",
+          "prompt": "询问早餐时间",
+          "text": "Ab wann wird das Frühstück serviert?",
+          "zh": "早餐从几点开始供应？",
+          "explanation": "wird 加分词为被动。"
+        },
+        {
+          "id": "de-07-transfer-5",
+          "prompt": "反映床边缺灯",
+          "text": "Neben dem Bett fehlt eine Lampe.",
+          "zh": "床边缺一盏灯。",
+          "explanation": "Lampe 是主语。"
+        },
+        {
+          "id": "de-07-transfer-6",
+          "prompt": "反映淋浴冷水",
+          "text": "Aus der Dusche kommt nur kaltes Wasser.",
+          "zh": "淋浴只出冷水。",
+          "explanation": "零冠词中性主格用 kaltes。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich habe ein Zimmer reserviert.",
+            "Ich habe ein Zimmer gereserviert.",
+            "Ich bin ein Zimmer reserviert."
+          ],
+          "answer": 0,
+          "explanation": "reservieren 不加 ge-，完成时用 haben。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Es fehlen zwei Kisse.",
+            "Es fehlen zwei Kissen.",
+            "Es fehlt zwei Kissen."
+          ],
+          "answer": 1,
+          "explanation": "复数 Kissen 配 fehlen。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Heizung funktionieren nicht.",
+            "Die Heizung nicht funktioniert.",
+            "Die Heizung funktioniert nicht."
+          ],
+          "answer": 2,
+          "explanation": "单数 Heizung 配 funktioniert。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：完成时 haben 变位，过去分词放末尾。",
+        "检查本章表达：-ieren 结尾动词的分词不加 ge-。",
+        "写入具体情境细节，并核对：fehlen 的主语是缺少的物品，复数配 fehlen。"
+      ],
+      "speakingFollowups": [
+        "早餐在哪一层供应？",
+        "我可以再拿一条毛巾吗？",
+        "退房后可以暂存行李吗？"
+      ]
+    },
+    {
+      "id": "de-08",
+      "pronunciation": {
+        "focus": "可分前缀重音",
+        "explanation": "aufstehen、aufräumen 重读 auf；前缀独立放句末也保留重音。",
+        "examples": [
+          {
+            "text": "aufstehen",
+            "zh": "起床"
+          },
+          {
+            "text": "aufräumen",
+            "zh": "收拾"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "主句可分动词前缀移到末尾：ich räume auf。",
+        "情态动词后用完整原形：ich muss aufräumen。",
+        "反身代词随人称变：ich kümmere mich、wir kümmern uns。"
+      ],
+      "cultureNote": "合住时可具体商量家务和使用时段，各家庭习惯不同。",
+      "vocabularyNotes": [
+        {
+          "head": "aufstehen",
+          "note": "aufstehen 完成时 bin aufgestanden。"
+        },
+        {
+          "head": "aufräumen",
+          "note": "aufräumen 侧重整理，可接 das Zimmer。"
+        },
+        {
+          "head": "waschen",
+          "note": "waschen：du wäschst、er wäscht，有变元音。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-08-transfer-1",
+          "prompt": "说明夜班晚起",
+          "text": "Nach der Nachtschicht stehe ich erst mittags auf.",
+          "zh": "夜班后我中午才起床。",
+          "explanation": "stehe 与 auf 构成句框。"
+        },
+        {
+          "id": "de-08-transfer-2",
+          "prompt": "收早餐餐桌",
+          "text": "Nach dem Frühstück räume ich den Tisch ab.",
+          "zh": "早饭后我收餐桌。",
+          "explanation": "abräumen 的 ab 在末尾。"
+        },
+        {
+          "id": "de-08-transfer-3",
+          "prompt": "洗床单被套",
+          "text": "Am Wochenende wasche ich die Bettwäsche.",
+          "zh": "周末我洗床单被套。",
+          "explanation": "时间置首后 wasche 第二位。"
+        },
+        {
+          "id": "de-08-transfer-4",
+          "prompt": "一起做汤",
+          "text": "Heute kochen wir zusammen eine Gemüsesuppe.",
+          "zh": "今天我们一起做蔬菜汤。",
+          "explanation": "wir 配 kochen。"
+        },
+        {
+          "id": "de-08-transfer-5",
+          "prompt": "请照顾猫",
+          "text": "Kannst du dich morgen um die Katze kümmern?",
+          "zh": "你明天能照顾猫吗？",
+          "explanation": "du 用 dich，um 加宾格。"
+        },
+        {
+          "id": "de-08-transfer-6",
+          "prompt": "轮流打扫",
+          "text": "Wir wechseln uns beim Putzen ab.",
+          "zh": "我们轮流打扫。",
+          "explanation": "反身 uns 与前缀 ab 都不能漏。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich stehen früh auf.",
+            "Ich stehe früh auf.",
+            "Ich aufstehe früh."
+          ],
+          "answer": 1,
+          "explanation": "可分动词在主句分开。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir müssen räumen die Küche auf.",
+            "Wir muss die Küche aufräumen.",
+            "Wir müssen die Küche aufräumen."
+          ],
+          "answer": 2,
+          "explanation": "情态动词后用完整原形。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich kümmere mich um den Hund.",
+            "Ich kümmere sich um den Hund.",
+            "Ich kümmere mich um dem Hund."
+          ],
+          "answer": 0,
+          "explanation": "ich 用 mich，um 支配宾格。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：主句可分动词前缀移到末尾：ich räume auf。",
+        "检查本章表达：情态动词后用完整原形：ich muss aufräumen。",
+        "写入具体情境细节，并核对：反身代词随人称变：ich kümmere mich、wir kümmern uns。"
+      ],
+      "speakingFollowups": [
+        "这周谁负责洗衣服？",
+        "你通常几点起床？",
+        "我们可不可以轮流收拾餐桌？"
+      ]
+    },
+    {
+      "id": "de-09",
+      "pronunciation": {
+        "focus": "h 与长元音",
+        "explanation": "Husten 起首 h 送气；Fieber 的 ie 是长 i。",
+        "examples": [
+          {
+            "text": "Husten",
+            "zh": "咳嗽"
+          },
+          {
+            "text": "Fieber",
+            "zh": "发烧"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "seit 加第三格，状态持续时常用现在时。",
+        "sollen 问他人要求，müssen 表必要性。",
+        "情态动词后 mitbringen 保持完整原形。"
+      ],
+      "cultureNote": "描述症状可给出持续时间；预约、材料和等候安排须向诊所确认。",
+      "vocabularyNotes": [
+        {
+          "head": "der Schmerz",
+          "note": "Schmerzen 常用复数表示疼痛。"
+        },
+        {
+          "head": "der Termin",
+          "note": "einen Termin vereinbaren 为预约，Termin 阳性。"
+        },
+        {
+          "head": "die Versichertenkarte",
+          "note": "Versichertenkarte 阴性，宾语可用 meine Versichertenkarte。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-09-transfer-1",
+          "prompt": "说明咳嗽三天",
+          "text": "Seit drei Tagen habe ich Husten.",
+          "zh": "我咳嗽三天了。",
+          "explanation": "seit 后复数第三格加 n。"
+        },
+        {
+          "id": "de-09-transfer-2",
+          "prompt": "预约检查",
+          "text": "Ich möchte einen Termin zur Untersuchung vereinbaren.",
+          "zh": "我想预约一次检查。",
+          "explanation": "einen Termin 为宾格。"
+        },
+        {
+          "id": "de-09-transfer-3",
+          "prompt": "核对所需材料",
+          "text": "Welche Unterlagen soll ich zur Untersuchung mitbringen?",
+          "zh": "检查时我应带哪些材料？",
+          "explanation": "soll 后原形置末。"
+        },
+        {
+          "id": "de-09-transfer-4",
+          "prompt": "问等待时长",
+          "text": "Muss ich länger als eine halbe Stunde warten?",
+          "zh": "我需要等超过半小时吗？",
+          "explanation": "länger als 比较时长。"
+        },
+        {
+          "id": "de-09-transfer-5",
+          "prompt": "问周五关门时间",
+          "text": "Wann schließt die Praxis am Freitag?",
+          "zh": "诊所周五几点关门？",
+          "explanation": "单数 Praxis 配 schließt。"
+        },
+        {
+          "id": "de-09-transfer-6",
+          "prompt": "说明按要求服药",
+          "text": "Ich nehme die Tabletten nach der vereinbarten Anweisung.",
+          "zh": "我按商定的说明服药。",
+          "explanation": "nach 后第三格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Seit eine Woche habe ich Husten.",
+            "Seit einer Woche ich habe Husten.",
+            "Seit einer Woche habe ich Husten."
+          ],
+          "answer": 2,
+          "explanation": "seit 后第三格，主句动词第二位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Soll ich die Karte mitbringen?",
+            "Soll ich bringe die Karte mit?",
+            "Sollen ich die Karte mitbringen?"
+          ],
+          "answer": 0,
+          "explanation": "ich 配 soll，原形 mitbringen 置末。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Praxis morgen öffnet.",
+            "Die Praxis öffnet morgen.",
+            "Die Praxis öffnen morgen."
+          ],
+          "answer": 1,
+          "explanation": "单数主语配 öffnet。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：seit 加第三格，状态持续时常用现在时。",
+        "检查本章表达：sollen 问他人要求，müssen 表必要性。",
+        "写入具体情境细节，并核对：情态动词后 mitbringen 保持完整原形。"
+      ],
+      "speakingFollowups": [
+        "这个症状持续多久了？",
+        "我去检查前需要带什么材料？",
+        "如果预约时间不合适，我可以怎样联系您？"
+      ]
+    },
+    {
+      "id": "de-10",
+      "pronunciation": {
+        "focus": "双元音与从句停顿",
+        "explanation": "einladen 的 ei 读双元音；weil 后句末动词不要吞音。",
+        "examples": [
+          {
+            "text": "einladen",
+            "zh": "邀请"
+          },
+          {
+            "text": "weil",
+            "zh": "因为"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "weil 从句变位动词末位。",
+        "einladen 分离，ich lade dich ein 中 dich 为宾格。",
+        "passen 接第三格人称，问 Passt dir…?。"
+      ],
+      "cultureNote": "婉拒可先感谢再简述不能参加，原因可以保持简短。",
+      "vocabularyNotes": [
+        {
+          "head": "einladen",
+          "note": "einladen 常接 zu 加第三格，如 zum Essen。"
+        },
+        {
+          "head": "die Einladung",
+          "note": "Danke für die Einladung 用宾格感谢邀请。"
+        },
+        {
+          "head": "leider",
+          "note": "leider 放句首时后接变位动词。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-10-transfer-1",
+          "prompt": "邀请野餐",
+          "text": "Ich lade dich am Sonntag zu einem Picknick ein.",
+          "zh": "我邀请你周日野餐。",
+          "explanation": "zu 后第三格，ein 置末。"
+        },
+        {
+          "id": "de-10-transfer-2",
+          "prompt": "感谢生日邀请",
+          "text": "Vielen Dank für die Einladung zu deinem Geburtstag.",
+          "zh": "谢谢你邀请我过生日。",
+          "explanation": "zu 后第三格 deinem。"
+        },
+        {
+          "id": "de-10-transfer-3",
+          "prompt": "说明已有安排",
+          "text": "Leider habe ich an dem Abend schon etwas vor.",
+          "zh": "很遗憾那晚我已有安排。",
+          "explanation": "vorhaben 分离。"
+        },
+        {
+          "id": "de-10-transfer-4",
+          "prompt": "因照看孩子婉拒",
+          "text": "Ich kann nicht mitkommen, weil ich auf mein Kind aufpassen muss.",
+          "zh": "我不能一起去，因为要照看孩子。",
+          "explanation": "weil 从句以 muss 结尾。"
+        },
+        {
+          "id": "de-10-transfer-5",
+          "prompt": "提议周三午餐",
+          "text": "Würde dir ein Mittagessen am Mittwoch passen?",
+          "zh": "周三午饭适合你吗？",
+          "explanation": "dir 为第三格。"
+        },
+        {
+          "id": "de-10-transfer-6",
+          "prompt": "询问带甜点",
+          "text": "Soll ich einen Nachtisch für alle mitbringen?",
+          "zh": "我要给大家带甜点吗？",
+          "explanation": "mitbringen 原形置末。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich bleibe hier, weil ich arbeiten muss.",
+            "Ich bleibe hier, weil ich muss arbeiten.",
+            "Ich bleibe hier, weil muss ich arbeiten."
+          ],
+          "answer": 0,
+          "explanation": "weil 从句以变位 muss 结尾。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Passen dir der Abend?",
+            "Passt dir der Abend?",
+            "Passt dich der Abend?"
+          ],
+          "answer": 1,
+          "explanation": "passen 接第三格 dir，Abend 单数。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich einlade euch zum Essen.",
+            "Ich lade ihr zum Essen ein.",
+            "Ich lade euch zum Essen ein."
+          ],
+          "answer": 2,
+          "explanation": "邀请对象用宾格 euch，ein 置末。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：weil 从句变位动词末位。",
+        "检查本章表达：einladen 分离，ich lade dich ein 中 dich 为宾格。",
+        "写入具体情境细节，并核对：passen 接第三格人称，问 Passt dir…?。"
+      ],
+      "speakingFollowups": [
+        "周日午餐对你更方便吗？",
+        "我需要带些吃的来吗？",
+        "你希望我们几点离开？"
+      ]
+    },
+    {
+      "id": "de-11",
+      "pronunciation": {
+        "focus": "ö 与 ü",
+        "explanation": "könnten 的 ö 舌位近 e 且圆唇，zurück 的 ü 舌位近 i 且圆唇。",
+        "examples": [
+          {
+            "text": "könnten",
+            "zh": "可以，委婉式"
+          },
+          {
+            "text": "zurück",
+            "zh": "回来"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "Könnten Sie 加句末原形使请求委婉。",
+        "bestätigen 接第三格人和宾格内容。",
+        "zurückrufen 可分，主句 rufe…zurück。"
+      ],
+      "cultureNote": "电话先报姓名与来意，复述日期时间有助减少误会。",
+      "vocabularyNotes": [
+        {
+          "head": "vereinbaren",
+          "note": "einen Termin vereinbaren 是商定预约。"
+        },
+        {
+          "head": "verschieben",
+          "note": "verschieben auf Freitag 是改到周五。"
+        },
+        {
+          "head": "frei",
+          "note": "frei 可表示空闲，etwas frei 问有无空位。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-11-transfer-1",
+          "prompt": "预约演示",
+          "text": "Ich würde gern einen Termin für eine Vorführung vereinbaren.",
+          "zh": "我想预约一次演示。",
+          "explanation": "würde gern 配原形。"
+        },
+        {
+          "id": "de-11-transfer-2",
+          "prompt": "改到下周",
+          "text": "Könnten wir unseren Termin auf nächste Woche verschieben?",
+          "zh": "我们能把预约改到下周吗？",
+          "explanation": "auf 后给出目标时间。"
+        },
+        {
+          "id": "de-11-transfer-3",
+          "prompt": "问周二上午空位",
+          "text": "Wäre am Dienstagvormittag noch ein Termin frei?",
+          "zh": "周二上午还有时段吗？",
+          "explanation": "wäre 为委婉询问。"
+        },
+        {
+          "id": "de-11-transfer-4",
+          "prompt": "请邮件确认地点",
+          "text": "Könnten Sie mir den Ort per E-Mail bestätigen?",
+          "zh": "您能邮件确认地点吗？",
+          "explanation": "mir 第三格，Ort 宾格。"
+        },
+        {
+          "id": "de-11-transfer-5",
+          "prompt": "说明下午可联系",
+          "text": "Am Nachmittag bin ich unter dieser Nummer erreichbar.",
+          "zh": "下午可通过此号码联系我。",
+          "explanation": "时间置首后 bin 第二位。"
+        },
+        {
+          "id": "de-11-transfer-6",
+          "prompt": "午休后回电",
+          "text": "Nach der Mittagspause rufe ich Sie zurück.",
+          "zh": "午休后我给您回电。",
+          "explanation": "zurück 置末，Sie 宾格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Könnten Sie mir hilft?",
+            "Könnten Sie mir helfen?",
+            "Könnten Sie mich helfen?"
+          ],
+          "answer": 1,
+          "explanation": "helfen 接第三格，情态动词后原形。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich zurückrufe morgen.",
+            "Ich rufen morgen zurück.",
+            "Ich rufe morgen zurück."
+          ],
+          "answer": 2,
+          "explanation": "zurückrufen 主句分离，ich 配 rufe。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Bitte bestätigen Sie mir den Termin.",
+            "Bitte bestätigen Sie mich den Termin.",
+            "Bitte bestätigt Sie mir den Termin."
+          ],
+          "answer": 0,
+          "explanation": "接受者 mir 第三格，内容 den Termin 宾格。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：Könnten Sie 加句末原形使请求委婉。",
+        "检查本章表达：bestätigen 接第三格人和宾格内容。",
+        "写入具体情境细节，并核对：zurückrufen 可分，主句 rufe…zurück。"
+      ],
+      "speakingFollowups": [
+        "您下周哪天下午有空？",
+        "您能把新时间发到我的邮箱吗？",
+        "如果没接到电话，我什么时候再打比较合适？"
+      ]
+    },
+    {
+      "id": "de-12",
+      "pronunciation": {
+        "focus": "过去分词长元音",
+        "explanation": "gefahren 的 h 表示前元音长，不另发音；angekommen 保留 an 重音。",
+        "examples": [
+          {
+            "text": "gefahren",
+            "zh": "乘车去了"
+          },
+          {
+            "text": "angekommen",
+            "zh": "到了"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "位移 fahren、ankommen 完成时通常用 sein。",
+        "buchen、verpassen 完成时用 haben。",
+        "过去分词置末，时间置首不改变分词位置。"
+      ],
+      "cultureNote": "谈行程可报具体班次与目的地，延误后选择以实际交通信息为准。",
+      "vocabularyNotes": [
+        {
+          "head": "fahren",
+          "note": "fahren 位移完成时 ist gefahren。"
+        },
+        {
+          "head": "buchen",
+          "note": "buchen 分词 gebucht，接宾格票或住宿。"
+        },
+        {
+          "head": "die Verspätung",
+          "note": "mit einer Verspätung von…表示晚点多久。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-12-transfer-1",
+          "prompt": "叙述海边旅行",
+          "text": "Wir sind am Wochenende an die Ostsee gefahren.",
+          "zh": "周末我们去了波罗的海海边。",
+          "explanation": "位移 fahren 用 sein。"
+        },
+        {
+          "id": "de-12-transfer-2",
+          "prompt": "预订夜车座位",
+          "text": "Ich habe einen Platz im Nachtzug gebucht.",
+          "zh": "我订了夜车座位。",
+          "explanation": "buchen 用 haben。"
+        },
+        {
+          "id": "de-12-transfer-3",
+          "prompt": "说明巴士晚点",
+          "text": "Unser Bus hatte eine halbe Stunde Verspätung.",
+          "zh": "公交晚点半小时。",
+          "explanation": "hatte 是 haben 过去时。"
+        },
+        {
+          "id": "de-12-transfer-4",
+          "prompt": "日落后抵达",
+          "text": "Wir sind erst nach Sonnenuntergang angekommen.",
+          "zh": "我们日落后才到。",
+          "explanation": "ankommen 用 sein。"
+        },
+        {
+          "id": "de-12-transfer-5",
+          "prompt": "错过末班车",
+          "text": "Ich habe den letzten Bus verpasst.",
+          "zh": "我错过末班公交。",
+          "explanation": "verpasst 不加 ge-。"
+        },
+        {
+          "id": "de-12-transfer-6",
+          "prompt": "说明返程时间",
+          "text": "Mit dem Fernbus dauert die Rückfahrt fast vier Stunden.",
+          "zh": "乘长途巴士返程近四小时。",
+          "explanation": "方式置首后 dauert 第二位。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir haben nach Bremen gefahren.",
+            "Wir sind nach Bremen gefahrt.",
+            "Wir sind nach Bremen gefahren."
+          ],
+          "answer": 2,
+          "explanation": "位移用 sein，分词为 gefahren。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Sie hat die Tickets gebucht.",
+            "Sie ist die Tickets gebucht.",
+            "Sie hat die Tickets gebuchen."
+          ],
+          "answer": 0,
+          "explanation": "buchen 用 haben 和 gebucht。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich bin spät ankommen.",
+            "Ich bin spät angekommen.",
+            "Ich habe spät angekommen."
+          ],
+          "answer": 1,
+          "explanation": "ankommen 完成时 bin…angekommen。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：位移 fahren、ankommen 完成时通常用 sein。",
+        "检查本章表达：buchen、verpassen 完成时用 haben。",
+        "写入具体情境细节，并核对：过去分词置末，时间置首不改变分词位置。"
+      ],
+      "speakingFollowups": [
+        "您最后是怎么到达目的地的？",
+        "返程还需要换乘吗？",
+        "您买的是哪一班车的票？"
+      ]
+    },
+    {
+      "id": "de-13",
+      "pronunciation": {
+        "focus": "复合名词分块",
+        "explanation": "Nebenkosten 分 Neben 和 Kosten 练读；möbliert 的 ö 保持圆唇。",
+        "examples": [
+          {
+            "text": "Nebenkosten",
+            "zh": "附加费用"
+          },
+          {
+            "text": "möbliert",
+            "zh": "配家具的"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "间接疑问句变位动词放末尾。",
+        "是否用 ob 引导，不用表示条件的 wenn。",
+        "würde gern 加原形，不与 möchte 叠用。"
+      ],
+      "cultureNote": "看房可分别核对费用、家具与入住时间，合同条件需双方确认。",
+      "vocabularyNotes": [
+        {
+          "head": "die Miete",
+          "note": "Wie hoch ist die Miete? 问租金数额。"
+        },
+        {
+          "head": "die Nebenkosten",
+          "note": "Nebenkosten 通常用复数，动词配 sind。"
+        },
+        {
+          "head": "die Besichtigung",
+          "note": "eine Besichtigung vereinbaren 为约看房。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-13-transfer-1",
+          "prompt": "询问总租金",
+          "text": "Wie hoch ist die Miete einschließlich der Nebenkosten?",
+          "zh": "含附加费用租金是多少？",
+          "explanation": "einschließlich 后第二格。"
+        },
+        {
+          "id": "de-13-transfer-2",
+          "prompt": "核对取暖费",
+          "text": "Können Sie mir sagen, ob die Heizkosten enthalten sind?",
+          "zh": "您能告诉我取暖费是否包含？",
+          "explanation": "ob 从句 sind 置末。"
+        },
+        {
+          "id": "de-13-transfer-3",
+          "prompt": "约周六看房",
+          "text": "Ich würde die Wohnung gern am Samstag besichtigen.",
+          "zh": "我想周六看房。",
+          "explanation": "würde 配 besichtigen。"
+        },
+        {
+          "id": "de-13-transfer-4",
+          "prompt": "问押金截止",
+          "text": "Bis wann muss ich die Kaution überweisen?",
+          "zh": "我最晚何时要转账付押金？",
+          "explanation": "muss 后原形置末。"
+        },
+        {
+          "id": "de-13-transfer-5",
+          "prompt": "问有无书桌",
+          "text": "Ich möchte wissen, ob im Zimmer ein Schreibtisch steht.",
+          "zh": "我想知道房间是否有书桌。",
+          "explanation": "间接疑问用 ob。"
+        },
+        {
+          "id": "de-13-transfer-6",
+          "prompt": "请求带合同回家",
+          "text": "Darf ich den Vertrag mitnehmen und zu Hause lesen?",
+          "zh": "我能把合同带回家读吗？",
+          "explanation": "两个原形共用 darf。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich frage, ob das Zimmer frei ist.",
+            "Ich frage, ob ist das Zimmer frei.",
+            "Ich frage, wenn das Zimmer frei ist."
+          ],
+          "answer": 0,
+          "explanation": "是否用 ob，动词置末。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Können Sie sagen, wann die Besichtigung beginnen?",
+            "Können Sie sagen, wann die Besichtigung beginnt?",
+            "Können Sie sagen, wann beginnt die Besichtigung?"
+          ],
+          "answer": 1,
+          "explanation": "间接疑问末位为 beginnt。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Nebenkosten ist hoch.",
+            "Die Nebenkosten sein hoch.",
+            "Die Nebenkosten sind hoch."
+          ],
+          "answer": 2,
+          "explanation": "复数 Nebenkosten 配 sind。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：间接疑问句变位动词放末尾。",
+        "检查本章表达：是否用 ob 引导，不用表示条件的 wenn。",
+        "写入具体情境细节，并核对：würde gern 加原形，不与 möchte 叠用。"
+      ],
+      "speakingFollowups": [
+        "租金里包含取暖费吗？",
+        "房间里现有哪些家具？",
+        "我能先拿合同回去阅读吗？"
+      ]
+    },
+    {
+      "id": "de-14",
+      "pronunciation": {
+        "focus": "st 辅音连缀",
+        "explanation": "stattfinden 起首 st 常读 sht，Bestätigung 词中 st 通常读 st。",
+        "examples": [
+          {
+            "text": "Bestätigung",
+            "zh": "确认"
+          },
+          {
+            "text": "stattfinden",
+            "zh": "举行"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "obwohl 从句动词置末。",
+        "trotzdem 是主句副词，后接变位动词。",
+        "stattfinden 主句为 findet…statt。"
+      ],
+      "cultureNote": "协调预约宜说明不可用时间并给备选时段，确认函需核对。",
+      "vocabularyNotes": [
+        {
+          "head": "die Überschneidung",
+          "note": "Überschneidung mit 加第三格说明冲突。"
+        },
+        {
+          "head": "verschieben",
+          "note": "einen Termin auf Montag verschieben 为改到周一。"
+        },
+        {
+          "head": "stattfinden",
+          "note": "stattfinden 主语通常为会议、活动。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-14-transfer-1",
+          "prompt": "说明培训冲突",
+          "text": "Die Beratung überschneidet sich mit meiner Schulung.",
+          "zh": "咨询与培训时间重叠。",
+          "explanation": "反身结构加 mit 第三格。"
+        },
+        {
+          "id": "de-14-transfer-2",
+          "prompt": "虽写信仍未确认",
+          "text": "Obwohl ich zweimal geschrieben habe, fehlt mir noch eine Bestätigung.",
+          "zh": "虽然写过两次信，我仍缺确认。",
+          "explanation": "从句 habe 末位。"
+        },
+        {
+          "id": "de-14-transfer-3",
+          "prompt": "改成线上会议",
+          "text": "Die Besprechung findet diesmal online statt.",
+          "zh": "这次讨论在线举行。",
+          "explanation": "findet 与 statt 分离。"
+        },
+        {
+          "id": "de-14-transfer-4",
+          "prompt": "请求确认教室",
+          "text": "Bitte bestätigen Sie mir den neuen Raum schriftlich.",
+          "zh": "请书面确认新教室。",
+          "explanation": "mir 第三格，Raum 宾格。"
+        },
+        {
+          "id": "de-14-transfer-5",
+          "prompt": "提议周四早晨",
+          "text": "Wäre Donnerstagmorgen eine mögliche Alternative?",
+          "zh": "周四早晨能作备选吗？",
+          "explanation": "wäre 委婉询问。"
+        },
+        {
+          "id": "de-14-transfer-6",
+          "prompt": "请提前通知迟到",
+          "text": "Bitte geben Sie mir früh Bescheid, falls Sie sich verspäten.",
+          "zh": "若您迟到请早通知我。",
+          "explanation": "falls 从句动词末位。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Obwohl ich müde bin, ich komme.",
+            "Obwohl ich müde bin, komme ich.",
+            "Obwohl ich bin müde, komme ich."
+          ],
+          "answer": 1,
+          "explanation": "从句末位 bin，主句动词先行。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich bin verhindert. Trotzdem ich antworte.",
+            "Ich bin verhindert. Trotzdem antworten ich.",
+            "Ich bin verhindert. Trotzdem antworte ich."
+          ],
+          "answer": 2,
+          "explanation": "trotzdem 占首位，antworte 第二位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Sitzung findet morgen statt.",
+            "Die Sitzung stattfinden morgen.",
+            "Die Sitzung finden morgen statt."
+          ],
+          "answer": 0,
+          "explanation": "单数 Sitzung 用 findet，statt 置末。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：obwohl 从句动词置末。",
+        "检查本章表达：trotzdem 是主句副词，后接变位动词。",
+        "写入具体情境细节，并核对：stattfinden 主句为 findet…statt。"
+      ],
+      "speakingFollowups": [
+        "这两个预约是否完全重叠？",
+        "周四早晨能作为备选吗？",
+        "您最晚什么时候能确认新的时间？"
+      ]
+    },
+    {
+      "id": "de-15",
+      "pronunciation": {
+        "focus": "词尾清化",
+        "explanation": "Auftrag 词尾 g 常读 k；Gebühr 的 ü 是长圆唇元音。",
+        "examples": [
+          {
+            "text": "Auftrag",
+            "zh": "委托"
+          },
+          {
+            "text": "Gebühr",
+            "zh": "费用"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "过程被动为 werden 加过去分词。",
+        "情态被动结尾是分词＋werden，如 muss geprüft werden。",
+        "情态动词后 abholen 为完整原形。"
+      ],
+      "cultureNote": "描述故障先说观察现象，再问报价和流程，具体费用须确认。",
+      "vocabularyNotes": [
+        {
+          "head": "die Reparatur",
+          "note": "Wie lange dauert die Reparatur? 问维修时间。"
+        },
+        {
+          "head": "der Kostenvoranschlag",
+          "note": "索要报价用 einen Kostenvoranschlag，阳性宾格。"
+        },
+        {
+          "head": "prüfen",
+          "note": "prüfen 接宾格，分词 geprüft。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-15-transfer-1",
+          "prompt": "询问自行车维修",
+          "text": "Wie viele Tage brauchen Sie für die Reparatur des Fahrrads?",
+          "zh": "修自行车需几天？",
+          "explanation": "für 加宾格。"
+        },
+        {
+          "id": "de-15-transfer-2",
+          "prompt": "请求维修前报价",
+          "text": "Bitte schicken Sie mir vor der Reparatur einen Kostenvoranschlag.",
+          "zh": "请维修前发报价。",
+          "explanation": "mir 第三格，报价宾格。"
+        },
+        {
+          "id": "de-15-transfer-3",
+          "prompt": "确认交付前测试",
+          "text": "Die Maschine wird vor der Übergabe getestet.",
+          "zh": "机器交付前会测试。",
+          "explanation": "wird 加 getestet 为被动。"
+        },
+        {
+          "id": "de-15-transfer-4",
+          "prompt": "问是否换电池",
+          "text": "Muss der Akku vollständig ersetzt werden?",
+          "zh": "电池必须整块更换吗？",
+          "explanation": "被动不定式为 ersetzt werden。"
+        },
+        {
+          "id": "de-15-transfer-5",
+          "prompt": "问取件费用",
+          "text": "Fällt bei der Abholung eine zusätzliche Gebühr an?",
+          "zh": "取件时有额外费用吗？",
+          "explanation": "anfallen 分离。"
+        },
+        {
+          "id": "de-15-transfer-6",
+          "prompt": "问周六取自行车",
+          "text": "Kann ich das Fahrrad am Samstag abholen?",
+          "zh": "我周六能取自行车吗？",
+          "explanation": "abholen 完整原形置末。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Das Gerät werden geprüft.",
+            "Das Gerät wird prüfen.",
+            "Das Gerät wird geprüft."
+          ],
+          "answer": 2,
+          "explanation": "单数用 wird，被动用分词。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Das Kabel muss ersetzt werden.",
+            "Das Kabel muss werden ersetzt.",
+            "Das Kabel muss ersetzt wird."
+          ],
+          "answer": 0,
+          "explanation": "情态被动末尾为 ersetzt werden。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich hole dem Drucker morgen ab.",
+            "Ich hole den Drucker morgen ab.",
+            "Ich abhole den Drucker morgen."
+          ],
+          "answer": 1,
+          "explanation": "可分前缀 ab 末位，宾格 den。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：过程被动为 werden 加过去分词。",
+        "检查本章表达：情态被动结尾是分词＋werden，如 muss geprüft werden。",
+        "写入具体情境细节，并核对：情态动词后 abholen 为完整原形。"
+      ],
+      "speakingFollowups": [
+        "检查本身是否收费？",
+        "维修开始前您能先给报价吗？",
+        "设备修好后您会怎样通知我？"
+      ]
+    },
+    {
+      "id": "de-16",
+      "pronunciation": {
+        "focus": "fr 辅音连缀",
+        "explanation": "Frist 的 fr 连读，不在中间加元音；Rückmeldung 保持 ü 圆唇。",
+        "examples": [
+          {
+            "text": "Frist",
+            "zh": "期限"
+          },
+          {
+            "text": "Rückmeldung",
+            "zh": "反馈"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "wenn 从句动词末位，前置时主句动词紧接。",
+        "schicken 接第三格接受者、宾格物品。",
+        "für etwas zuständig sein 用 für 加宾格。"
+      ],
+      "cultureNote": "工作交接可明确责任人、截止时间和缺少信息，称呼依团队约定。",
+      "vocabularyNotes": [
+        {
+          "head": "die Aufgabe",
+          "note": "eine Aufgabe übernehmen 表承担任务。"
+        },
+        {
+          "head": "die Frist",
+          "note": "bis Freitag 表截止，innerhalb der Frist 表期限内。"
+        },
+        {
+          "head": "übernehmen",
+          "note": "übernehmen 不可分，分词 übernommen。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-16-transfer-1",
+          "prompt": "询问衡量标准",
+          "text": "Könnten Sie erklären, woran wir das Ergebnis messen?",
+          "zh": "您能解释如何衡量结果吗？",
+          "explanation": "间接疑问 messen 末位。"
+        },
+        {
+          "id": "de-16-transfer-2",
+          "prompt": "确认完成日期",
+          "text": "Bis zu welchem Datum muss der Bericht fertig sein?",
+          "zh": "报告最晚什么日期完成？",
+          "explanation": "muss 后原形 sein。"
+        },
+        {
+          "id": "de-16-transfer-3",
+          "prompt": "承担核对数字",
+          "text": "Ich kann die Zahlen prüfen und die Tabelle aktualisieren.",
+          "zh": "我能核对数字并更新表格。",
+          "explanation": "两原形共用 kann。"
+        },
+        {
+          "id": "de-16-transfer-4",
+          "prompt": "说明缺附件",
+          "text": "Bei der Übergabe habe ich die Anhänge nicht erhalten.",
+          "zh": "交接时我没收到附件。",
+          "explanation": "erhalten 分词无 ge-。"
+        },
+        {
+          "id": "de-16-transfer-5",
+          "prompt": "问技术责任人",
+          "text": "Wer ist für technische Fragen zuständig?",
+          "zh": "谁负责技术问题？",
+          "explanation": "für 后宾格复数。"
+        },
+        {
+          "id": "de-16-transfer-6",
+          "prompt": "完成检查通知团队",
+          "text": "Wenn die Prüfung abgeschlossen ist, informiere ich das Team.",
+          "zh": "检查完成后我通知团队。",
+          "explanation": "前置从句后动词 informiere 先行。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wenn ich fertig bin, rufe ich an.",
+            "Wenn ich bin fertig, rufe ich an.",
+            "Wenn ich fertig bin, ich rufe an."
+          ],
+          "answer": 0,
+          "explanation": "从句动词末位，主句动词紧接。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich schicke Ihnen der Bericht.",
+            "Ich schicke Ihnen den Bericht.",
+            "Ich schicke Sie den Bericht."
+          ],
+          "answer": 1,
+          "explanation": "接受者第三格 Ihnen，内容宾格。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Sie ist für der Planung zuständig.",
+            "Sie ist für dem Planung zuständig.",
+            "Sie ist für die Planung zuständig."
+          ],
+          "answer": 2,
+          "explanation": "für 支配宾格 die Planung。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：wenn 从句动词末位，前置时主句动词紧接。",
+        "检查本章表达：schicken 接第三格接受者、宾格物品。",
+        "写入具体情境细节，并核对：für etwas zuständig sein 用 für 加宾格。"
+      ],
+      "speakingFollowups": [
+        "这项工作具体由谁负责？",
+        "您最晚什么时候需要初稿？",
+        "交接时还缺少哪些信息？"
+      ]
+    },
+    {
+      "id": "de-17",
+      "pronunciation": {
+        "focus": "词尾 -tion",
+        "explanation": "Präsentation 的 -tion 读 tsion 并重读；Gruppenarbeit 重音靠前。",
+        "examples": [
+          {
+            "text": "Präsentation",
+            "zh": "展示"
+          },
+          {
+            "text": "Gruppenarbeit",
+            "zh": "小组作业"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "关系代词性数由先行词决定，格由从句功能决定。",
+        "die Anmeldung, die ich sende 中 die 是宾格。",
+        "关系从句用逗号分隔，变位动词置末。"
+      ],
+      "cultureNote": "小组合作可明确分工，资料引用按课程具体要求核对。",
+      "vocabularyNotes": [
+        {
+          "head": "die Anmeldung",
+          "note": "sich für einen Kurs anmelden 表报名课程。"
+        },
+        {
+          "head": "die Voraussetzung",
+          "note": "Voraussetzungen 常用复数表示多项条件。"
+        },
+        {
+          "head": "die Abgabe",
+          "note": "Abgabe bis Freitag 表截止周五提交。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-17-transfer-1",
+          "prompt": "说明已填表格",
+          "text": "Das Formular, das ich online ausgefüllt habe, ist noch nicht bearbeitet.",
+          "zh": "我网上填的表尚未处理。",
+          "explanation": "中性宾格关系代词 das。"
+        },
+        {
+          "id": "de-17-transfer-2",
+          "prompt": "问预备知识",
+          "text": "Welche Vorkenntnisse brauche ich für das Seminar?",
+          "zh": "研讨课需要什么预备知识？",
+          "explanation": "brauchen 接宾格。"
+        },
+        {
+          "id": "de-17-transfer-3",
+          "prompt": "申请晚交一天",
+          "text": "Könnte ich den Bericht einen Tag später abgeben?",
+          "zh": "我能晚一天交报告吗？",
+          "explanation": "情态动词后 abgeben 完整。"
+        },
+        {
+          "id": "de-17-transfer-4",
+          "prompt": "分配来源核查",
+          "text": "Wir teilen die Recherche so auf, dass jeder zwei Quellen prüft.",
+          "zh": "我们分配检索任务，每人核查两个来源。",
+          "explanation": "aufteilen 分离，dass 从句 prüft 末位。"
+        },
+        {
+          "id": "de-17-transfer-5",
+          "prompt": "答疑讨论提纲",
+          "text": "Ich möchte in Ihrer Sprechstunde über meine Gliederung sprechen.",
+          "zh": "我想在答疑时间讨论提纲。",
+          "explanation": "in Ihrer Sprechstunde 第三格。"
+        },
+        {
+          "id": "de-17-transfer-6",
+          "prompt": "问错过内容",
+          "text": "Kannst du mir erklären, was wir gestern besprochen haben?",
+          "zh": "你能解释昨天讨论了什么吗？",
+          "explanation": "间接疑问以 haben 结尾。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Der Kurs, den ich besuchen, ist interessant.",
+            "Der Kurs, den ich besuche, ist interessant.",
+            "Der Kurs, der ich besuche, ist interessant."
+          ],
+          "answer": 1,
+          "explanation": "besuchen 宾语阳性宾格 den，ich 配 besuche。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Die Lehrerin, den uns hilft, ist hier.",
+            "Die Lehrerin, die uns helfen, ist hier.",
+            "Die Lehrerin, die uns hilft, ist hier."
+          ],
+          "answer": 2,
+          "explanation": "阴性主格关系代词 die，单数 hilft。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich frage, wann die Abgabe ist.",
+            "Ich frage, wann ist die Abgabe.",
+            "Ich frage, wann die Abgabe sind."
+          ],
+          "answer": 0,
+          "explanation": "间接疑问动词末位，Abgabe 单数。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：关系代词性数由先行词决定，格由从句功能决定。",
+        "检查本章表达：die Anmeldung, die ich sende 中 die 是宾格。",
+        "写入具体情境细节，并核对：关系从句用逗号分隔，变位动词置末。"
+      ],
+      "speakingFollowups": [
+        "这个课程要求哪些预备知识？",
+        "我们各自负责哪两个资料来源？",
+        "错过的内容我可以从哪里补学？"
+      ]
+    },
+    {
+      "id": "de-18",
+      "pronunciation": {
+        "focus": "p 与 b",
+        "explanation": "PIN 的 p 送气；Betrag 起首 b 不读强送气 p，词尾 g 清化。",
+        "examples": [
+          {
+            "text": "PIN",
+            "zh": "个人密码"
+          },
+          {
+            "text": "Betrag",
+            "zh": "金额"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "dass 转述从句动词末位。",
+        "lassen 加原形表示请人办理，如 sperren lassen。",
+        "位置 auf dem Kontoauszug 第三格，金额作宾语用 diesen Betrag。"
+      ],
+      "cultureNote": "沟通不明支付可说明日期金额，再经已知渠道核实，课程句子不构成银行承诺。",
+      "vocabularyNotes": [
+        {
+          "head": "das Konto",
+          "note": "Konto 复数 Konten，auf dem Konto 为账户上。"
+        },
+        {
+          "head": "die Überweisung",
+          "note": "eine Überweisung prüfen lassen 表请人核查转账。"
+        },
+        {
+          "head": "der Betrag",
+          "note": "Betrag 阳性，宾格 diesen Betrag。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-18-transfer-1",
+          "prompt": "问月费",
+          "text": "Welche monatlichen Gebühren fallen bei diesem Konto an?",
+          "zh": "此账户有哪些月费？",
+          "explanation": "anfallen 分离，复数 fallen。"
+        },
+        {
+          "id": "de-18-transfer-2",
+          "prompt": "说明未见转账",
+          "text": "Auf meinem Konto ist die Überweisung noch nicht sichtbar.",
+          "zh": "我账户还看不到转账。",
+          "explanation": "auf 表位置第三格。"
+        },
+        {
+          "id": "de-18-transfer-3",
+          "prompt": "核对重复金额",
+          "text": "Ich sehe denselben Betrag zweimal auf dem Auszug.",
+          "zh": "账单上同一金额出现两次。",
+          "explanation": "sehen 后宾格 denselben。"
+        },
+        {
+          "id": "de-18-transfer-4",
+          "prompt": "问冻结步骤",
+          "text": "Bitte erklären Sie mir, wie ich die Karte sperren lassen kann.",
+          "zh": "请解释如何申请冻结卡片。",
+          "explanation": "间接疑问末尾 sperren lassen kann。"
+        },
+        {
+          "id": "de-18-transfer-5",
+          "prompt": "拒绝消息发密码",
+          "text": "Ich schicke meine PIN nicht in einer Nachricht.",
+          "zh": "我不在消息中发个人密码。",
+          "explanation": "nicht 否定发送行为。"
+        },
+        {
+          "id": "de-18-transfer-6",
+          "prompt": "转述消息待核实",
+          "text": "In der Nachricht steht, dass ich meine Daten bestätigen soll.",
+          "zh": "消息说我应确认资料。",
+          "explanation": "此句仅转述，dass 从句 soll 末位。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Sie sagt, dass fehlt die Zahlung.",
+            "Sie sagt, dass die Zahlung fehlen.",
+            "Sie sagt, dass die Zahlung fehlt."
+          ],
+          "answer": 2,
+          "explanation": "dass 从句动词末位，Zahlung 单数。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich möchte die Karte sperren lassen.",
+            "Ich möchte die Karte sperrt lassen.",
+            "Ich möchte die Karte lassen sperren."
+          ],
+          "answer": 0,
+          "explanation": "lassen 前保留原形 sperren。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Der Betrag stehen auf dem Auszug.",
+            "Der Betrag steht auf dem Auszug.",
+            "Der Betrag steht auf den Auszug."
+          ],
+          "answer": 1,
+          "explanation": "静态位置第三格，单数主语配 steht。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：dass 转述从句动词末位。",
+        "检查本章表达：lassen 加原形表示请人办理，如 sperren lassen。",
+        "写入具体情境细节，并核对：位置 auf dem Kontoauszug 第三格，金额作宾语用 diesen Betrag。"
+      ],
+      "speakingFollowups": [
+        "这笔不明支付是哪天出现的？",
+        "您能解释这项费用对应什么吗？",
+        "我怎样通过熟悉的渠道核实这条消息？"
+      ]
+    },
+    {
+      "id": "de-19",
+      "pronunciation": {
+        "focus": "核实时的信息重音",
+        "explanation": "核实信息时可重读 wer、wann，疑问从句末尾动词仍清楚发音。",
+        "examples": [
+          {
+            "text": "wer",
+            "zh": "谁"
+          },
+          {
+            "text": "wann",
+            "zh": "何时"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "bevor 时间从句中动词末位。",
+        "间接问谁写的，用 wer…geschrieben hat。",
+        "damit 目的从句动词末位，主语可不同。"
+      ],
+      "cultureNote": "不明消息可向熟悉的联系方式核实，转述时区分消息内容与已确认事实。",
+      "vocabularyNotes": [
+        {
+          "head": "die Aufgabe",
+          "note": "Aufgabe 可配 klären，明确核实任务。"
+        },
+        {
+          "head": "die Frist",
+          "note": "Frist 是期限，Welche Frist gilt? 问适用期限。"
+        },
+        {
+          "head": "übernehmen",
+          "note": "übernehmen 不可分，可接 die Prüfung der Angaben。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-19-transfer-1",
+          "prompt": "收到教室变更通知",
+          "text": "Ich habe eine Mitteilung über einen Raumwechsel erhalten.",
+          "zh": "我收到换教室的通知。",
+          "explanation": "erhalten 分词无 ge-。"
+        },
+        {
+          "id": "de-19-transfer-2",
+          "prompt": "指出缺发送日期",
+          "text": "Aus der Mitteilung geht nicht hervor, wann sie verschickt wurde.",
+          "zh": "通知未说明何时发送。",
+          "explanation": "间接疑问 wurde 末位。"
+        },
+        {
+          "id": "de-19-transfer-3",
+          "prompt": "先核实再转发",
+          "text": "Bevor ich die Nachricht weiterleite, frage ich im Sekretariat nach.",
+          "zh": "转发消息前我向办公室询问。",
+          "explanation": "从句 weiterleite 合写，主句 nach 置末。"
+        },
+        {
+          "id": "de-19-transfer-4",
+          "prompt": "拨已存号码",
+          "text": "Ich rufe unter der Nummer an, die ich schon gespeichert habe.",
+          "zh": "我拨打之前保存的号码。",
+          "explanation": "Nummer 阴性，关系代词 die 作宾语。"
+        },
+        {
+          "id": "de-19-transfer-5",
+          "prompt": "确认后通知小组",
+          "text": "Wenn der neue Raum bestätigt ist, informiere ich unsere Gruppe.",
+          "zh": "新教室确认后我通知小组。",
+          "explanation": "前置从句后主句动词先行。"
+        },
+        {
+          "id": "de-19-transfer-6",
+          "prompt": "归档便于查找",
+          "text": "Ich lege die Antwort in einem Ordner ab, damit ich sie später finde.",
+          "zh": "我把答复存进文件夹以便以后找到。",
+          "explanation": "damit 从句 finde 末位。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Bevor ich antworte, prüfe ich die Adresse.",
+            "Bevor ich antworte, ich prüfe die Adresse.",
+            "Bevor ich antworte, prüfen ich die Adresse."
+          ],
+          "answer": 0,
+          "explanation": "前置从句后主句变位动词先行。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich frage, wer die Nachricht geschrieben haben.",
+            "Ich frage, wer die Nachricht geschrieben hat.",
+            "Ich frage, wer hat die Nachricht geschrieben."
+          ],
+          "answer": 1,
+          "explanation": "间接疑问完成时助动词末位。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich speichere sie, damit ich finde sie wieder.",
+            "Ich speichere sie, damit ich sie wiederfinden.",
+            "Ich speichere sie, damit ich sie wiederfinde."
+          ],
+          "answer": 2,
+          "explanation": "从句可分动词合写，ich 配 wiederfinde。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：bevor 时间从句中动词末位。",
+        "检查本章表达：间接问谁写的，用 wer…geschrieben hat。",
+        "写入具体情境细节，并核对：damit 目的从句动词末位，主语可不同。"
+      ],
+      "speakingFollowups": [
+        "这条通知是谁发来的？",
+        "学校确认的是哪个教室？",
+        "您能告诉我哪里能找到最新确认？"
+      ]
+    },
+    {
+      "id": "de-20",
+      "pronunciation": {
+        "focus": "投诉的平稳语调",
+        "explanation": "陈述故障用平稳降调；询问方案突出重点词，避免逐词重读。",
+        "examples": [
+          {
+            "text": "defekt",
+            "zh": "坏的"
+          },
+          {
+            "text": "ersetzen",
+            "zh": "更换"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "发现问题用完成时，dass 内容从句动词末位。",
+        "间接询问为 welche Möglichkeiten es gibt。",
+        "falls 条件从句先行时主句动词仍须紧接。"
+      ],
+      "cultureNote": "投诉时先说明购买信息与现象，再询问可行处理；实际方案依具体情况确定。",
+      "vocabularyNotes": [
+        {
+          "head": "die Reparatur",
+          "note": "eine Reparatur anbieten 表提出维修方案。"
+        },
+        {
+          "head": "der Kostenvoranschlag",
+          "note": "Kostenvoranschlag 是事先估算，不等同最终账单。"
+        },
+        {
+          "head": "prüfen",
+          "note": "prüfen 接宾格对象，可指设备或材料。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-20-transfer-1",
+          "prompt": "说明购壶时间",
+          "text": "Ich habe den Wasserkocher am Montag in Ihrer Filiale gekauft.",
+          "zh": "我周一在贵门店买了电热水壶。",
+          "explanation": "gekauft 置句末。"
+        },
+        {
+          "id": "de-20-transfer-2",
+          "prompt": "发现盖子关不上",
+          "text": "Beim ersten Gebrauch habe ich bemerkt, dass der Deckel nicht schließt.",
+          "zh": "首次使用时发现盖子关不上。",
+          "explanation": "dass 从句 schließt 末位。"
+        },
+        {
+          "id": "de-20-transfer-3",
+          "prompt": "提供凭证照片",
+          "text": "Ich kann Ihnen ein Foto des Belegs zeigen.",
+          "zh": "我能给您看凭证照片。",
+          "explanation": "Ihnen 第三格，Foto 宾格。"
+        },
+        {
+          "id": "de-20-transfer-4",
+          "prompt": "询问下一步",
+          "text": "Könnten Sie mir erklären, wie wir weiter vorgehen können?",
+          "zh": "您能解释下一步怎么处理吗？",
+          "explanation": "间接疑问 können 末位。"
+        },
+        {
+          "id": "de-20-transfer-5",
+          "prompt": "问留件后通知方式",
+          "text": "Falls das Gerät hierbleiben muss, wie informieren Sie mich über das Ergebnis?",
+          "zh": "若设备必须留在这里，您如何通知结果？",
+          "explanation": "falls 从句 muss 末位，后接疑问主句。"
+        },
+        {
+          "id": "de-20-transfer-6",
+          "prompt": "请求处理编号",
+          "text": "Bitte schicken Sie mir eine Bestätigung mit der Vorgangsnummer.",
+          "zh": "请发含处理编号的确认。",
+          "explanation": "mit 后第三格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich habe bemerkt, dass ein Kabel fehlen.",
+            "Ich habe bemerkt, dass ein Kabel fehlt.",
+            "Ich habe bemerkt, dass fehlt ein Kabel."
+          ],
+          "answer": 1,
+          "explanation": "dass 从句动词末位，Kabel 单数。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Welche Möglichkeiten es gibt?",
+            "Welche Möglichkeiten geben es?",
+            "Welche Möglichkeiten gibt es?"
+          ],
+          "answer": 2,
+          "explanation": "独立疑问动词跟在疑问短语后，固定 es gibt。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Falls es länger dauert, rufen Sie mich bitte an.",
+            "Falls es länger dauert, Sie rufen mich bitte an.",
+            "Falls dauert es länger, rufen Sie mich bitte an."
+          ],
+          "answer": 0,
+          "explanation": "条件从句动词末位，主句动词先行。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：发现问题用完成时，dass 内容从句动词末位。",
+        "检查本章表达：间接询问为 welche Möglichkeiten es gibt。",
+        "写入具体情境细节，并核对：falls 条件从句先行时主句动词仍须紧接。"
+      ],
+      "speakingFollowups": [
+        "您第一次使用时发现了什么问题？",
+        "我需要提供哪些购买信息？",
+        "最晚什么时候能收到处理答复？"
+      ]
+    },
+    {
+      "id": "de-21",
+      "pronunciation": {
+        "focus": "叙事停顿",
+        "explanation": "Dann、Später 可作分段重音；gefahren 长 a 与 gebeten 长 e 清楚区分。",
+        "examples": [
+          {
+            "text": "gefahren",
+            "zh": "乘车去了"
+          },
+          {
+            "text": "gebeten",
+            "zh": "请求了"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "单次过去事件常用 als，重复或条件常用 wenn。",
+        "动作可用完成时，背景常用 war、hatte、konnte。",
+        "dass 转述时态随语境，后续安排可用现在时。"
+      ],
+      "cultureNote": "叙事先交代时间地点，再讲问题与解决方式，具体细节便于追问。",
+      "vocabularyNotes": [
+        {
+          "head": "fahren",
+          "note": "fahren 位移用 sein，losfahren 分词 losgefahren。"
+        },
+        {
+          "head": "buchen",
+          "note": "buchen 用 haben，分词 gebucht。"
+        },
+        {
+          "head": "die Verspätung",
+          "note": "wegen der Verspätung 表因为晚点。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-21-transfer-1",
+          "prompt": "讲参观展览",
+          "text": "Letzte Woche habe ich mit meinem Bruder eine Ausstellung besucht.",
+          "zh": "上周我和兄弟看了展览。",
+          "explanation": "besucht 无 ge-。"
+        },
+        {
+          "id": "de-21-transfer-2",
+          "prompt": "说明早出发原因",
+          "text": "Wir sind zeitig losgefahren, weil wir unterwegs frühstücken wollten.",
+          "zh": "我们早出发因为想路上吃早饭。",
+          "explanation": "位移用 sind，weil 后 wollten 末位。"
+        },
+        {
+          "id": "de-21-transfer-3",
+          "prompt": "讲抵达未开门",
+          "text": "Als wir am Museum ankamen, waren die Türen noch geschlossen.",
+          "zh": "我们到博物馆时门还关着。",
+          "explanation": "单次过去用 als。"
+        },
+        {
+          "id": "de-21-transfer-4",
+          "prompt": "向工作人员问咖啡馆",
+          "text": "Wir haben einen Mitarbeiter nach einem offenen Café gefragt.",
+          "zh": "我们向工作人员问营业中的咖啡馆。",
+          "explanation": "人宾格，nach 后第三格。"
+        },
+        {
+          "id": "de-21-transfer-5",
+          "prompt": "转述朋友晚到",
+          "text": "Meine Freundin hat geschrieben, dass sie erst am Nachmittag kommt.",
+          "zh": "朋友写来说下午才到。",
+          "explanation": "dass 从句 kommt 末位。"
+        },
+        {
+          "id": "de-21-transfer-6",
+          "prompt": "讲最终调整行程",
+          "text": "Schließlich konnten wir zuerst spazieren gehen und später die Ausstellung sehen.",
+          "zh": "最后我们得以先散步再看展览。",
+          "explanation": "konnten 后接原形。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Als ich ankam, das Büro war geschlossen.",
+            "Als ich ankam, waren das Büro geschlossen.",
+            "Als ich ankam, war das Büro geschlossen."
+          ],
+          "answer": 2,
+          "explanation": "前置 als 从句后 war 先行，Büro 单数。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir sind früh losgefahren.",
+            "Wir haben früh losgefahren.",
+            "Wir sind früh losgefahrt."
+          ],
+          "answer": 0,
+          "explanation": "位移用 sein，分词 losgefahren。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Sie sagte, dass sie später kommen.",
+            "Sie sagte, dass sie später kommt.",
+            "Sie sagte, dass kommt sie später."
+          ],
+          "answer": 1,
+          "explanation": "从句动词末位，单数 sie 配 kommt。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：单次过去事件常用 als，重复或条件常用 wenn。",
+        "检查本章表达：动作可用完成时，背景常用 war、hatte、konnte。",
+        "写入具体情境细节，并核对：dass 转述时态随语境，后续安排可用现在时。"
+      ],
+      "speakingFollowups": [
+        "当时为什么提前出发？",
+        "错过车后您向谁求助了？",
+        "后来你们怎样改变了原来的计划？"
+      ]
+    },
+    {
+      "id": "de-22",
+      "pronunciation": {
+        "focus": "条件与建议语调",
+        "explanation": "wenn 从句可轻微升调等待主句；sollten 的 o 是短元音。",
+        "examples": [
+          {
+            "text": "sollten",
+            "zh": "应该，建议式"
+          },
+          {
+            "text": "Ausflug",
+            "zh": "郊游"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "wenn 条件从句变位动词末位。",
+        "sich einigen auf 加宾格。",
+        "sollten 加原形提出建议，不表示安排已定。"
+      ],
+      "cultureNote": "共同出行先核对集合点和备选活动，天气或班次改变时重新确认。",
+      "vocabularyNotes": [
+        {
+          "head": "einladen",
+          "note": "jemanden zu einem Ausflug einladen 表邀请郊游。"
+        },
+        {
+          "head": "die Einladung",
+          "note": "Einladung 是邀请本身，不能直接替代活动。"
+        },
+        {
+          "head": "leider",
+          "note": "leider 可说明限制，如 Leider ist das Museum geschlossen。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-22-transfer-1",
+          "prompt": "计划骑车去湖边",
+          "text": "Wir möchten am Samstag mit dem Fahrrad zum See fahren.",
+          "zh": "我们想周六骑车去湖边。",
+          "explanation": "fahren 原形置末。"
+        },
+        {
+          "id": "de-22-transfer-2",
+          "prompt": "协商集合点",
+          "text": "Wir müssen uns noch auf einen Treffpunkt einigen.",
+          "zh": "我们还需商定集合点。",
+          "explanation": "反身 uns，auf 后宾格。"
+        },
+        {
+          "id": "de-22-transfer-3",
+          "prompt": "准备大风方案",
+          "text": "Wenn es zu windig ist, besuchen wir stattdessen die Ausstellung.",
+          "zh": "若风太大就改看展览。",
+          "explanation": "从句 ist 末位，主句 besuchen 紧接。"
+        },
+        {
+          "id": "de-22-transfer-4",
+          "prompt": "订票前核对人数",
+          "text": "Bevor ich die Tickets bestelle, möchte ich die Teilnehmerzahl wissen.",
+          "zh": "订票前我想知道人数。",
+          "explanation": "bevor 从句动词末位。"
+        },
+        {
+          "id": "de-22-transfer-5",
+          "prompt": "建议安排休息",
+          "text": "Wir sollten nach dem Mittagessen eine Pause einplanen.",
+          "zh": "我们应午饭后安排休息。",
+          "explanation": "sollten 后 einplanen 完整。"
+        },
+        {
+          "id": "de-22-transfer-6",
+          "prompt": "说明备用路线用途",
+          "text": "Mit einer zweiten Route können wir auf gesperrte Wege reagieren.",
+          "zh": "有第二路线就能应对封路。",
+          "explanation": "auf etwas reagieren 用宾格。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wenn es regnet, bleiben wir drinnen.",
+            "Wenn es regnet, wir bleiben drinnen.",
+            "Wenn regnet es, bleiben wir drinnen."
+          ],
+          "answer": 0,
+          "explanation": "从句动词末位，主句动词先行。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir einigen uns auf einem Ort.",
+            "Wir einigen uns auf einen Ort.",
+            "Wir einigen sich auf einen Ort."
+          ],
+          "answer": 1,
+          "explanation": "wir 配 uns，einigen auf 支配宾格。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir sollten früher startet.",
+            "Wir sollte früher starten.",
+            "Wir sollten früher starten."
+          ],
+          "answer": 2,
+          "explanation": "wir 用 sollten，后接原形。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：wenn 条件从句变位动词末位。",
+        "检查本章表达：sich einigen auf 加宾格。",
+        "写入具体情境细节，并核对：sollten 加原形提出建议，不表示安排已定。"
+      ],
+      "speakingFollowups": [
+        "大家能接受哪个集合地点？",
+        "如果大雨持续，备选活动是什么？",
+        "我们最晚周几确认人数？"
+      ]
+    },
+    {
+      "id": "de-23",
+      "pronunciation": {
+        "focus": "家务动词的重音",
+        "explanation": "aufräumen、rausbringen 重读前缀；分工时可适度重读人称。",
+        "examples": [
+          {
+            "text": "aufräumen",
+            "zh": "收拾"
+          },
+          {
+            "text": "rausbringen",
+            "zh": "拿出去"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "mit 加第三格，复数 mit zwei Mitbewohnern 加 n。",
+        "wenn 从句中可分动词合写并置末。",
+        "möchten、können 后动作原形保持完整。"
+      ],
+      "cultureNote": "合住者对安静、访客和清洁期待不同，可协商具体约定。",
+      "vocabularyNotes": [
+        {
+          "head": "aufstehen",
+          "note": "aufstehen 完成时用 sein，可配 früh 或 spät。"
+        },
+        {
+          "head": "aufräumen",
+          "note": "aufräumen 侧重整理，putzen 侧重清洁。"
+        },
+        {
+          "head": "waschen",
+          "note": "洗碗通常用 das Geschirr spülen，洗衣服用 Wäsche waschen。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-23-transfer-1",
+          "prompt": "介绍合住安排",
+          "text": "Seit diesem Monat teile ich mir eine Wohnung mit einer Kollegin.",
+          "zh": "从本月起我和一名女同事合住。",
+          "explanation": "mit 后第三格。"
+        },
+        {
+          "id": "de-23-transfer-2",
+          "prompt": "讨论访客留宿",
+          "text": "Wir sollten besprechen, wann Besuch übernachten kann.",
+          "zh": "我们应该讨论访客何时可留宿。",
+          "explanation": "间接疑问 kann 末位。"
+        },
+        {
+          "id": "de-23-transfer-3",
+          "prompt": "说明白天需安静",
+          "text": "Nach meiner Nachtschicht brauche ich vormittags Ruhe.",
+          "zh": "夜班后我上午需要安静。",
+          "explanation": "时间置首后 brauche 第二位。"
+        },
+        {
+          "id": "de-23-transfer-4",
+          "prompt": "交换家务",
+          "text": "Ich übernehme das Bad, wenn du diese Woche den Flur putzt.",
+          "zh": "若你这周打扫走廊，我负责浴室。",
+          "explanation": "从句 du 配 putzt。"
+        },
+        {
+          "id": "de-23-transfer-5",
+          "prompt": "邀请面谈噪音",
+          "text": "Können wir heute Abend in Ruhe über die laute Musik sprechen?",
+          "zh": "我们今晚能平静谈谈音乐太响的问题吗？",
+          "explanation": "über 后宾格。"
+        },
+        {
+          "id": "de-23-transfer-6",
+          "prompt": "月底评估分工",
+          "text": "Am Monatsende schauen wir gemeinsam, ob die Aufteilung funktioniert.",
+          "zh": "月底一起看看分工是否有效。",
+          "explanation": "ob 从句 funktioniert 末位。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich wohne mit zwei Mitbewohners.",
+            "Ich wohne mit zwei Mitbewohnern.",
+            "Ich wohne mit zwei Mitbewohner."
+          ],
+          "answer": 1,
+          "explanation": "mit 后复数第三格加 n。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wenn du räumst auf, spüle ich das Geschirr.",
+            "Wenn du aufräumst, ich spüle das Geschirr.",
+            "Wenn du aufräumst, spüle ich das Geschirr."
+          ],
+          "answer": 2,
+          "explanation": "从句中可分动词合写，主句动词紧接。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Wir können die Aufgaben neu verteilen.",
+            "Wir können die Aufgaben neu verteilt.",
+            "Wir kann die Aufgaben neu verteilen."
+          ],
+          "answer": 0,
+          "explanation": "wir 用 können，后接原形。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：mit 加第三格，复数 mit zwei Mitbewohnern 加 n。",
+        "检查本章表达：wenn 从句中可分动词合写并置末。",
+        "写入具体情境细节，并核对：möchten、können 后动作原形保持完整。"
+      ],
+      "speakingFollowups": [
+        "你在哪些时段需要安静？",
+        "厨房和浴室的清洁如何分配？",
+        "我们什么时候再评估这个家务安排？"
+      ]
+    },
+    {
+      "id": "de-24",
+      "pronunciation": {
+        "focus": "条目式陈述",
+        "explanation": "Terminbestätigung 分块练读；每个事项后自然停顿，保留关键词重音。",
+        "examples": [
+          {
+            "text": "Termin",
+            "zh": "预约"
+          },
+          {
+            "text": "Bestätigung",
+            "zh": "确认"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "用完成时交代已发生变化，再用现在时说明当前任务。",
+        "mit 后第三格，复数 mit den wichtigsten Unterlagen。",
+        "间接疑问动词末位，并按主语数变位。"
+      ],
+      "cultureNote": "处理多项事务可记下答复并复述下一步，各机构要求分别确认。",
+      "vocabularyNotes": [
+        {
+          "head": "die Überschneidung",
+          "note": "Überschneidung mit 加第三格说明安排冲突。"
+        },
+        {
+          "head": "verschieben",
+          "note": "verschieben 分词 verschoben，不加 ge-。"
+        },
+        {
+          "head": "stattfinden",
+          "note": "stattfinden 分词 stattgefunden，完成时用 haben。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "de-24-transfer-1",
+          "prompt": "说明新工作安排",
+          "text": "Ich habe eine neue Stelle angefangen und muss meinen Alltag neu organisieren.",
+          "zh": "我开始新工作，得重新安排生活。",
+          "explanation": "完成时后接当前情态任务。"
+        },
+        {
+          "id": "de-24-transfer-2",
+          "prompt": "列紧急任务",
+          "text": "Zuerst notiere ich, welche Aufgaben diese Woche besonders dringend sind.",
+          "zh": "我先记下这周哪些任务最急。",
+          "explanation": "间接疑问复数 sind 末位。"
+        },
+        {
+          "id": "de-24-transfer-3",
+          "prompt": "核实所需材料",
+          "text": "Ich möchte bestätigen lassen, welche Unterlagen ich zum Gespräch mitbringen soll.",
+          "zh": "我想请对方确认面谈要带哪些材料。",
+          "explanation": "从句以 mitbringen soll 结尾。"
+        },
+        {
+          "id": "de-24-transfer-4",
+          "prompt": "时间冲突及时联系",
+          "text": "Wenn sich zwei Termine überschneiden, melde ich mich sofort bei den Beteiligten.",
+          "zh": "两预约重叠时我立即联系相关人员。",
+          "explanation": "wenn 从句复数动词末位。"
+        },
+        {
+          "id": "de-24-transfer-5",
+          "prompt": "记录答复期限",
+          "text": "Nach dem Telefonat schreibe ich auf, bis wann ich eine Antwort erwarten kann.",
+          "zh": "通话后记下最晚何时能等到答复。",
+          "explanation": "aufschreiben 分离，间接疑问 kann 末位。"
+        },
+        {
+          "id": "de-24-transfer-6",
+          "prompt": "检查缺少的回复",
+          "text": "Zum Schluss kontrolliere ich, ob noch eine Rückmeldung fehlt.",
+          "zh": "最后检查是否还缺回复。",
+          "explanation": "单数 Rückmeldung 配 fehlt。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich bin eine neue Stelle angefangen.",
+            "Ich habe eine neue Stelle angefangt.",
+            "Ich habe eine neue Stelle angefangen."
+          ],
+          "answer": 2,
+          "explanation": "带宾语 anfangen 用 haben，分词 angefangen。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich komme mit den nötigen Unterlagen.",
+            "Ich komme mit die nötigen Unterlagen.",
+            "Ich komme mit der nötigen Unterlagen."
+          ],
+          "answer": 0,
+          "explanation": "mit 后复数第三格 den nötigen Unterlagen。"
+        },
+        {
+          "prompt": "选择语法与词序正确的句子。",
+          "options": [
+            "Ich prüfe, welche Antworten noch fehlt.",
+            "Ich prüfe, welche Antworten noch fehlen.",
+            "Ich prüfe, welche Antworten fehlen noch."
+          ],
+          "answer": 1,
+          "explanation": "间接疑问动词末位，复数配 fehlen。"
+        }
+      ],
+      "writingChecklist": [
+        "逐句核对：用完成时交代已发生变化，再用现在时说明当前任务。",
+        "检查本章表达：mit 后第三格，复数 mit den wichtigsten Unterlagen。",
+        "写入具体情境细节，并核对：间接疑问动词末位，并按主语数变位。"
+      ],
+      "speakingFollowups": [
+        "哪些事情必须这周先办完？",
+        "还有哪份答复尚未收到？",
+        "两个预约冲突时你会先联系谁？"
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "de-stage-1",
+      "afterChapter": 6,
+      "target": "A1",
+      "reading": {
+        "text": "Am Dienstag geht Nora nach dem Kurs in einen kleinen Laden. Sie braucht zwei Hefte und einen Bleistift. Die Hefte kosten zusammen vier Euro. Nora hat nur einen großen Geldschein und fragt nach der Kartenzahlung. Das ist möglich. Danach sucht sie die Bushaltestelle. Eine Frau zeigt ihr den Weg: geradeaus bis zur Ampel und dann rechts. Der nächste Bus fährt um halb fünf. Nora hat noch zehn Minuten Zeit.",
+        "questions": [
+          {
+            "prompt": "诺拉何时去商店？",
+            "options": [
+              "上课前",
+              "上课后",
+              "周末"
+            ],
+            "answer": 1,
+            "explanation": "文中说 nach dem Kurs。"
+          },
+          {
+            "prompt": "两个本子多少钱？",
+            "options": [
+              "四欧元",
+              "两欧元",
+              "十欧元"
+            ],
+            "answer": 0,
+            "explanation": "zusammen vier Euro 是共四欧元。"
+          },
+          {
+            "prompt": "她怎样付款？",
+            "options": [
+              "用卡",
+              "硬币",
+              "没有付款"
+            ],
+            "answer": 0,
+            "explanation": "她询问刷卡并获肯定答复。"
+          },
+          {
+            "prompt": "公交几点开？",
+            "options": [
+              "五点半",
+              "四点整",
+              "四点半"
+            ],
+            "answer": 2,
+            "explanation": "halb fünf 是四点半。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Guten Tag, hier ist die Buchhandlung am Markt. Ihr Wörterbuch ist da. Sie können es heute bis achtzehn Uhr abholen. Morgen öffnen wir erst um zehn Uhr. Bitte bringen Sie die Bestellnummer mit. Das Buch kostet zwölf Euro. Sie können bar oder mit Karte bezahlen. Wenn Sie Fragen haben, rufen Sie uns bitte zurück.",
+        "questions": [
+          {
+            "prompt": "哪里打来的电话？",
+            "options": [
+              "书店",
+              "诊所",
+              "车站"
+            ],
+            "answer": 0,
+            "explanation": "Buchhandlung 是书店。"
+          },
+          {
+            "prompt": "今天最晚几点取？",
+            "options": [
+              "十点",
+              "十八点",
+              "十二点"
+            ],
+            "answer": 1,
+            "explanation": "bis achtzehn Uhr。"
+          },
+          {
+            "prompt": "要带什么？",
+            "options": [
+              "车票",
+              "护照",
+              "订单号"
+            ],
+            "answer": 2,
+            "explanation": "Bestellnummer 是订单号。"
+          },
+          {
+            "prompt": "书价多少？",
+            "options": [
+              "十二欧元",
+              "二十欧元",
+              "十八欧元"
+            ],
+            "answer": 0,
+            "explanation": "zwölf Euro。"
+          }
+        ]
+      },
+      "writing": "给文具店写4—6句德语：说明需要两种物品，询问价格和付款方式，并确认周五取货时间。",
+      "speaking": "你想买词典，伙伴扮演店员。询问库存、价格和取货时间；对方说周五不营业后，提出另一个时间。"
+    },
+    {
+      "id": "de-stage-2",
+      "afterChapter": 12,
+      "target": "A2",
+      "reading": {
+        "text": "Am Wochenende wollte Felix seine Schwester besuchen. Er hatte ein Zimmer in der Nähe ihrer Wohnung reserviert. Am Samstagmorgen bekam er jedoch eine Nachricht: Seine Schwester war krank und brauchte Ruhe. Felix sagte den Besuch ab und rief im Hotel an. Das Zimmer konnte er auf die nächste Woche verschieben. Danach lud er einen Nachbarn zum Abendessen ein. Der Nachbar brachte einen Salat mit. Gemeinsam kochten sie eine Suppe und planten einen Spaziergang für Sonntag.",
+        "questions": [
+          {
+            "prompt": "最初想看谁？",
+            "options": [
+              "姐姐或妹妹",
+              "邻居",
+              "老师"
+            ],
+            "answer": 0,
+            "explanation": "seine Schwester 为姐妹。"
+          },
+          {
+            "prompt": "为何取消探访？",
+            "options": [
+              "没有票",
+              "姐妹生病需休息",
+              "酒店已满"
+            ],
+            "answer": 1,
+            "explanation": "krank und brauchte Ruhe。"
+          },
+          {
+            "prompt": "住宿怎样处理？",
+            "options": [
+              "改到下周",
+              "直接入住",
+              "转给邻居"
+            ],
+            "answer": 0,
+            "explanation": "auf die nächste Woche verschieben。"
+          },
+          {
+            "prompt": "邻居带来什么？",
+            "options": [
+              "面包",
+              "汤",
+              "沙拉"
+            ],
+            "answer": 2,
+            "explanation": "brachte einen Salat mit。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Hallo Eva, ich bin gerade am Bahnhof angekommen. Mein Zug hatte etwas Verspätung, deshalb kann ich nicht um zwei Uhr bei dir sein. Ich nehme jetzt den Bus und komme ungefähr um halb drei. Den Kuchen habe ich schon gekauft. Du musst also keinen Nachtisch vorbereiten. Kannst du mir noch sagen, an welcher Haltestelle ich aussteigen soll?",
+        "questions": [
+          {
+            "prompt": "打电话者在哪里？",
+            "options": [
+              "机场",
+              "火车站",
+              "酒店"
+            ],
+            "answer": 1,
+            "explanation": "am Bahnhof angekommen。"
+          },
+          {
+            "prompt": "为何迟到？",
+            "options": [
+              "列车晚点",
+              "忘带钥匙",
+              "买错车票"
+            ],
+            "answer": 0,
+            "explanation": "Zug hatte Verspätung。"
+          },
+          {
+            "prompt": "大约何时到？",
+            "options": [
+              "两点",
+              "三点半",
+              "两点半"
+            ],
+            "answer": 2,
+            "explanation": "halb drei 为两点半。"
+          },
+          {
+            "prompt": "还需要问什么？",
+            "options": [
+              "下车站名",
+              "蛋糕价格",
+              "电话号码"
+            ],
+            "answer": 0,
+            "explanation": "an welcher Haltestelle…aussteigen。"
+          }
+        ]
+      },
+      "writing": "给朋友写60—80词：说明原定周末计划、无法参加的具体原因、一个新时间，并询问是否要带食物。",
+      "speaking": "你打电话改约，伙伴给出两个可用时间。选一个并说明原因，确认地点，再复述双方最终约定。"
+    },
+    {
+      "id": "de-stage-3",
+      "afterChapter": 18,
+      "target": "B1",
+      "reading": {
+        "text": "Lea arbeitet seit kurzem in einer kleinen Firma. Für eine Besprechung soll sie einen Raum buchen. Obwohl sie früh angefragt hat, ist der gewünschte Raum schon belegt. Sie findet eine Alternative im Nachbargebäude und bittet um eine schriftliche Bestätigung. Bevor sie die Einladung verschickt, prüft sie die Adresse und die technische Ausstattung. Ein Kollege, der die Präsentation vorbereitet, braucht einen Bildschirm. Wenn kein Bildschirm vorhanden ist, möchte er seinen eigenen mitbringen. Lea fragt deshalb noch einmal nach.",
+        "questions": [
+          {
+            "prompt": "莉娅要做什么？",
+            "options": [
+              "订会议室",
+              "开银行账户",
+              "修电脑"
+            ],
+            "answer": 0,
+            "explanation": "einen Raum buchen。"
+          },
+          {
+            "prompt": "原房间怎样？",
+            "options": [
+              "太小",
+              "已占用",
+              "停电"
+            ],
+            "answer": 1,
+            "explanation": "schon belegt。"
+          },
+          {
+            "prompt": "替代房间在哪里？",
+            "options": [
+              "邻栋楼",
+              "火车站",
+              "原楼地下室"
+            ],
+            "answer": 0,
+            "explanation": "im Nachbargebäude。"
+          },
+          {
+            "prompt": "同事需要什么？",
+            "options": [
+              "厨房",
+              "投影布",
+              "屏幕"
+            ],
+            "answer": 2,
+            "explanation": "braucht einen Bildschirm。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Guten Tag, hier spricht Herr Weber aus der Werkstatt. Wir haben Ihren Drucker geprüft. Ein Kabel muss ersetzt werden. Bevor wir die Reparatur beginnen, möchten wir Ihnen die voraussichtlichen Kosten per E-Mail schicken. Bitte antworten Sie auf diese Nachricht, wenn Sie einverstanden sind. Ohne Ihre Rückmeldung warten wir mit der Reparatur. Bei Fragen erreichen Sie mich morgen zwischen neun und elf Uhr.",
+        "questions": [
+          {
+            "prompt": "已做了什么？",
+            "options": [
+              "检查打印机",
+              "寄出设备",
+              "更换所有零件"
+            ],
+            "answer": 0,
+            "explanation": "Drucker geprüft。"
+          },
+          {
+            "prompt": "什么需要更换？",
+            "options": [
+              "屏幕",
+              "电缆",
+              "墨盒"
+            ],
+            "answer": 1,
+            "explanation": "Ein Kabel muss ersetzt werden。"
+          },
+          {
+            "prompt": "开始维修前要做什么？",
+            "options": [
+              "发费用估算并等答复",
+              "直接扣款",
+              "取消订单"
+            ],
+            "answer": 0,
+            "explanation": "先发成本信息，等待同意回复。"
+          },
+          {
+            "prompt": "何时可电话联系？",
+            "options": [
+              "今天下午",
+              "明天九至十一点",
+              "周日全天"
+            ],
+            "answer": 1,
+            "explanation": "morgen zwischen neun und elf Uhr。"
+          }
+        ]
+      },
+      "writing": "写80—100词给会议场地方：说明所需日期人数与设备，询问可用房间和费用；说明若原时间不可用的备选时间，请对方书面确认。",
+      "speaking": "伙伴扮演维修人员。描述设备的具体故障，询问检查、估价和取件时间；听到需更换零件后，先请求费用说明再回应。"
+    },
+    {
+      "id": "de-stage-4",
+      "afterChapter": 24,
+      "target": "B1",
+      "reading": {
+        "text": "Nach ihrem Umzug möchte Mira an einem Kochkurs teilnehmen. In einer Nachricht liest sie, dass der Kurs früher beginnt. Der Absender ist ihr jedoch unbekannt. Deshalb ruft sie die Schule über die bereits gespeicherte Nummer an. Dort erfährt sie, dass die Nachricht veraltet ist. Der Kurs beginnt weiterhin um sieben Uhr. Mira informiert ihre Mitbewohnerin, mit der sie gemeinsam kochen wollte. Beide vereinbaren, das Abendessen auf den nächsten Tag zu verschieben. Mira speichert die aktuelle Kursbestätigung in ihrem Kalender.",
+        "questions": [
+          {
+            "prompt": "米拉想参加什么？",
+            "options": [
+              "烹饪课",
+              "骑车比赛",
+              "维修培训"
+            ],
+            "answer": 0,
+            "explanation": "Kochkurs 为烹饪课。"
+          },
+          {
+            "prompt": "她怎样核实消息？",
+            "options": [
+              "回复陌生发件人",
+              "拨已存学校电话",
+              "询问陌生群友"
+            ],
+            "answer": 1,
+            "explanation": "über die bereits gespeicherte Nummer。"
+          },
+          {
+            "prompt": "消息问题是什么？",
+            "options": [
+              "过时了",
+              "费用太高",
+              "没有日期"
+            ],
+            "answer": 0,
+            "explanation": "Nachricht veraltet。"
+          },
+          {
+            "prompt": "共同晚餐怎样安排？",
+            "options": [
+              "取消不再做",
+              "提前一小时",
+              "改到第二天"
+            ],
+            "answer": 2,
+            "explanation": "auf den nächsten Tag verschieben。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Hallo zusammen, wegen der Baustelle können wir am Samstag nicht den Weg am Fluss nehmen. Ich schlage vor, dass wir uns um zehn Uhr vor der Bibliothek treffen und durch den Park gehen. Falls es stark regnet, könnten wir stattdessen die Fotoausstellung besuchen. Bitte sagt mir bis Freitagabend, ob ihr dabei seid. Danach schicke ich euch den endgültigen Treffpunkt noch einmal schriftlich.",
+        "questions": [
+          {
+            "prompt": "为什么换路线？",
+            "options": [
+              "施工",
+              "涨水",
+              "比赛"
+            ],
+            "answer": 0,
+            "explanation": "wegen der Baustelle。"
+          },
+          {
+            "prompt": "建议在哪里集合？",
+            "options": [
+              "公园门口",
+              "图书馆前",
+              "河边"
+            ],
+            "answer": 1,
+            "explanation": "vor der Bibliothek。"
+          },
+          {
+            "prompt": "大雨时的备选？",
+            "options": [
+              "看摄影展",
+              "去游泳",
+              "改坐船"
+            ],
+            "answer": 0,
+            "explanation": "Fotoausstellung。"
+          },
+          {
+            "prompt": "何时前回复？",
+            "options": [
+              "周六中午",
+              "周五晚上",
+              "周日早晨"
+            ],
+            "answer": 1,
+            "explanation": "bis Freitagabend。"
+          }
+        ]
+      },
+      "writing": "写90—120词说明一项共同计划的变更：交代原安排、已核实的新情况、对其他人的影响、两个可选方案和希望何时收到回复。",
+      "speaking": "你和伙伴协调合住生活与周末出游。解释一个时间冲突，询问对方优先需求，商定备选安排；伙伴再问两条细节，你需回答并最后复述决定。"
+    }
+  ]
+}

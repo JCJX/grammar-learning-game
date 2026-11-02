@@ -1,58 +1,33 @@
-# 语法小岛 · GitHub 完整版
+# 语言大陆 0.11.0 · GitHub 托管完整包
 
-版本：1.7.0 全书版。第 1–19 章、be/used/it 三个附加专题、保留时态样板及跨章庆典：24 区域、172 任务、864 挑战、155 段故事。全书本轮精修已完成，新增 13 组观察实验、8 幕综合冒险与稿件核对编辑台。软件与内容核对验收见 docs/全书验收报告-v1.7.0.md；真实教学成效仍需用户试用。
+包含英语冒险岛、语法小岛、葡萄牙语、西班牙语、德语，全部网页运行文件、本地合成音频、英语离线识别模型及现有第三方许可说明。网页无需安装依赖或编译。课程范围、测评局限见 [COURSE-NOTES.md](COURSE-NOTES.md)。
 
-日常 GitHub Pages 更新优先使用“GitHub网页托管版”ZIP：根目录 index.html 已包含全部代码，用 Deploy from a branch / main / (root) 发布。source 内为维护源码；不要重新启用旧的根目录 pages.yml。
+## 推荐：GitHub Desktop 上传
 
-这是可独立运行的完整静态网站，不依赖原来的 Sites 网址、ChatGPT 登录、API 密钥或服务器。游戏逻辑、原创矢量图、动画、题目和样式均在仓库里。浏览器朗读仍取决于设备提供的声音，部分声音可能需要联网。
+1. 完整解压本包；用 GitHub Desktop 的 File → Add local repository 选择包含本 README 的目录。提示不是仓库时选择 create a repository here，保持此目录作为仓库根目录。
+2. 提交全部文件，Publish repository。默认分支用 main。免费账号建议选择公开仓库；公开后课程与文件可被访问，进度仍只保存在学习者自己的浏览器。
+3. 仓库 Settings → Pages → Build and deployment → Source 选择 GitHub Actions。
+4. Actions 中运行 Deploy language continents（如第一次推送已完成，可点 Run workflow）。成功后进入 Pages 显示的网站地址。
+5. **大陆地图地址：网站地址末尾加 suite.html**，例如 https://你的用户名.github.io/仓库名/suite.html 。根地址是原英语入口，底部也能进入大陆地图。
 
-## 学习进度迁移
+本包有约1.8万个文件，建议用 GitHub Desktop 或 Git 推送，避免逐批网页上传。上传的是解压后的全部目录，**不是将 ZIP 文件上传到仓库**。如不想使用 Actions，也可在 Pages 选择 Deploy from a branch → main → /docs；两种部署方式任选其一。
 
-原来的 Sites 网址、本地 HTML 文件与 GitHub Pages 是不同的网站来源，浏览器进度不会自动共享。迁移前在旧版右上角“学习设置”导出进度，到新网址通过“恢复进度”导入。同一 GitHub Pages 网址后续更新沿用原有记录；修改网址或仓库路径前也建议先导出。
+## 本地预览与修改
 
-## 文件结构
+安装 Node.js 后，在此目录运行 node serve.cjs，访问 http://127.0.0.1:4201/ 。docs 是可直接部署的完整静态网站，英语 JS/CSS、语法 HTML 可直接编辑。
 
-```text
-.github/workflows/pages.yml   保留的源码工作流，分支发布时不要放到仓库根目录
-dist/                        网站完整文件；实际发布目录
-  index.html                 网站入口
-  app.js                     应用与学习记录
-  content.js                 原有章节与全书地图
-  expansion.js               第 4–6 章与 be 拓展内容
-  playgrounds.js             各章机制公共入口
-  finale.js / finale-labs.js  第 16–19 章内容和独立机制
-  finale.css                 第 16–19 章场景与动画
-  renewal.js                 三个专题与前六章本轮精修
-  renewal-labs.js / renewal.css 新机制、观察实验与动画
-  atlas.js / atlas-labs.js / atlas.css 第 7–19 章精修、跨章庆典与编辑台
-  art.js                     原创 SVG 图形
-  style.css / expansion.css  页面与新玩法样式
-  icon.svg / .nojekyll        网站图标与静态发布标记
-  local-edition.html          可直接双击打开的自包含离线版
-docs/                        全书规划、交付约定与教学核对
-qa/                          旧题兼容校验和浏览器验收记录
-verify.mjs                   内容检查
-build-standalone.mjs         生成自包含离线版
-make-github-package.py       生成完整 GitHub 交付 ZIP（维护时使用）
-package.json                 项目版本与检查入口
-verification.json            当前内容检查结果
-CHANGELOG.md                 版本说明
-SHA256SUMS.txt               本次完整包各文件校验值
-```
+authoring 保存三语课程原始数据、教学界面源码与地图源码。修改后运行 node authoring/rebuild.cjs，再提交 docs 和 authoring。此重建不改英语与语法内容；若添加全新朗读文本，还必须生成相应 MP3 并更新 authoring/data/audio.json，不能仅添加音频键名。包内保留现有全部音频，没有附带本地语音合成工具链或安卓签名环境。
 
-## 本地使用与维护
+## 为什么比离线单页小
 
-只想本地学习：直接双击 `dist/local-edition.html`，用 Edge 或 Chrome 打开。
+此包将音频与模型作为独立文件，避免音频在单页里 Base64 膨胀；未包含重复的离线 HTML、APK、历史发布包、临时构建工具、签名私钥或个人进度。它是完整**网页托管包**，不是安卓构建工作区。现有 APK 与离线包可另放 GitHub Releases，勿把它们提交到仓库。
 
-需要预览模块源码：在仓库根目录用普通静态文件服务器运行，再打开 `dist/`。不要通过双击 `dist/index.html` 预览 ES 模块源码。
+## 使用说明
 
-维护者有 Node.js 后可以运行：
+HTTPS 下录音仍需用户授予麦克风权限；浏览器兼容性需实际设备验证。网页首次使用要下载资源，本包未新增 Service Worker 全站离线缓存；断网使用请继续使用另行交付的完整离线包或 APK。英语模型在浏览器本地运行；三门新语言目前没有离线自动转写。
 
-```sh
-node verify.mjs
-node build-standalone.mjs --no-workspace-export
-```
+浏览器网站存档与 APK／本地文件存档不是同一个存储区域，首次迁移请分别导出并导入。更换域名、浏览器或清理网站数据前也应备份。不会上传进度或录音到服务器。
 
-有 Python 3 时可运行 `python make-github-package.py` 重新生成 GitHub 完整包。部署本身不需要 Python。
+现有第三方许可说明位于 docs/vendor 和 docs/models。未额外授予项目统一开源许可证，发布者应确认自己对公开课程与素材具有相应权利。
 
-本包未包含原始书籍 PDF、Sites 内部配置、Git 历史或个人学习备份。游戏中的教学例句和图形为原创改编；具体范围、教学边界与核对资料见 docs。软件检查不代替真实学习者试用。
+GitHub 官方限制说明：https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits 。本次打包检查单文件低于100 MiB，网站总量低于1 GB；未实际发布到你的 GitHub 账号。

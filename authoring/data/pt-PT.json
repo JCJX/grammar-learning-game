@@ -1,0 +1,4958 @@
+{
+  "id": "pt-PT",
+  "name": "葡萄牙语",
+  "nativeName": "Português",
+  "country": "葡萄牙",
+  "chapters": [
+    {
+      "id": "pt-01",
+      "number": 1,
+      "title": "见面与告别",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能问候、自我介绍并礼貌结束短对话。",
+      "grammar": {
+        "title": "ser 的现在时与简单介绍",
+        "explanation": "Sou 表示“我是”，é 可表示“您是／他是／她是”；名字常用 Chamo-me。葡萄牙语通常省略可由动词判断的人称代词。",
+        "examples": [
+          {
+            "text": "Bom dia, sou a Li.",
+            "zh": "早上好，我是小李。"
+          },
+          {
+            "text": "O meu nome é Chen.",
+            "zh": "我的名字是陈。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "bom dia",
+          "zh": "早上好",
+          "example": "Bom dia, Ana.",
+          "exampleZh": "早上好，安娜。",
+          "icon": "talk"
+        },
+        {
+          "head": "boa tarde",
+          "zh": "下午好",
+          "example": "Boa tarde, senhor Silva.",
+          "exampleZh": "下午好，席尔瓦先生。",
+          "icon": "talk"
+        },
+        {
+          "head": "boa noite",
+          "zh": "晚上好；晚安",
+          "example": "Boa noite, até amanhã.",
+          "exampleZh": "晚安，明天见。",
+          "icon": "time"
+        },
+        {
+          "head": "olá",
+          "zh": "你好",
+          "example": "Olá, sou a Li.",
+          "exampleZh": "你好，我是小李。",
+          "icon": "talk"
+        },
+        {
+          "head": "adeus",
+          "zh": "再见",
+          "example": "Adeus, até breve.",
+          "exampleZh": "再见，回头见。",
+          "icon": "talk"
+        },
+        {
+          "head": "até amanhã",
+          "zh": "明天见",
+          "example": "Até amanhã, Rui.",
+          "exampleZh": "鲁伊，明天见。",
+          "icon": "time"
+        },
+        {
+          "head": "nome",
+          "zh": "名字",
+          "example": "O meu nome é Chen.",
+          "exampleZh": "我的名字是陈。",
+          "icon": "person"
+        },
+        {
+          "head": "prazer",
+          "zh": "幸会；高兴",
+          "example": "Muito prazer, Ana.",
+          "exampleZh": "很高兴认识你，安娜。",
+          "icon": "talk"
+        },
+        {
+          "head": "obrigado / obrigada",
+          "zh": "谢谢",
+          "example": "Obrigada pela ajuda.",
+          "exampleZh": "谢谢你的帮助。",
+          "icon": "talk"
+        },
+        {
+          "head": "senhor / senhora",
+          "zh": "先生／女士",
+          "example": "A senhora é a Ana?",
+          "exampleZh": "您是安娜女士吗？",
+          "icon": "person"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-01-1",
+          "text": "Bom dia, sou a Li.",
+          "zh": "早上好，我是小李。",
+          "tip": "sou 来自 ser，用于介绍身份。"
+        },
+        {
+          "id": "pt-01-2",
+          "text": "O meu nome é Chen.",
+          "zh": "我的名字是陈。",
+          "tip": "meu nome 前常用定冠词 o。"
+        },
+        {
+          "id": "pt-01-3",
+          "text": "Olá, chamo-me Ana. E tu?",
+          "zh": "你好，我叫安娜。你呢？",
+          "tip": "tu 适合双方接受的非正式语境。"
+        },
+        {
+          "id": "pt-01-4",
+          "text": "Chamo-me Li. Muito prazer.",
+          "zh": "我叫小李。很高兴认识你。",
+          "tip": "chamo-me 是欧洲葡语常见的自我介绍方式。"
+        },
+        {
+          "id": "pt-01-5",
+          "text": "Muito prazer. Até amanhã!",
+          "zh": "很高兴认识你。明天见！",
+          "tip": "até 加时间表达告别。"
+        },
+        {
+          "id": "pt-01-6",
+          "text": "Até amanhã, Ana!",
+          "zh": "明天见，安娜！",
+          "tip": "与对方呼应即可。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Olá, chamo-me Ana. E tu?",
+          "zh": "你好，我叫安娜。你呢？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Chamo-me Li. Muito prazer.",
+          "zh": "我叫小李。很高兴认识你。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Muito prazer. Até amanhã!",
+          "zh": "很高兴认识你。明天见！"
+        },
+        {
+          "speaker": "乙",
+          "text": "Até amanhã, Ana!",
+          "zh": "明天见，安娜！"
+        }
+      ],
+      "reading": {
+        "title": "第一天的邻居",
+        "text": "A Li chega a uma casa em Coimbra. À porta encontra a vizinha Ana. A Li diz: «Bom dia, sou a Li.» A Ana responde com um sorriso e apresenta o marido, o Rui. Os três falam um pouco no jardim. A Li ainda sabe poucas palavras de português, mas consegue dizer o seu nome e agradecer. Antes de entrar em casa, despede-se dos vizinhos: «Até amanhã!»",
+        "zh": "小李来到科英布拉的一所房子。她在门口遇到邻居安娜。小李说：“早上好，我是小李。”安娜微笑着回应，并介绍她的丈夫鲁伊。三人在花园里聊了一会儿。小李懂的葡语词汇还不多，但能说自己的名字并道谢。进屋前，她向邻居告别：“明天见！”"
+      },
+      "assessment": {
+        "reading": {
+          "title": "图书馆初见",
+          "text": "O Chen vai à biblioteca de manhã. À entrada, uma funcionária diz «Bom dia» e pergunta o nome dele. Ele responde: «Chamo-me Chen.» A funcionária chama-se Marta. Ela apresenta o colega Pedro, que está ao lado da porta. O Chen agradece e vai ler uma revista. Quando sai, ainda antes do almoço, diz «Até breve» aos dois funcionários. No dia seguinte quer voltar à biblioteca."
+        },
+        "questions": [
+          {
+            "prompt": "陈什么时候到图书馆？",
+            "options": [
+              "早上",
+              "下午",
+              "晚上"
+            ],
+            "answer": 0,
+            "explanation": "文中说 de manhã。"
+          },
+          {
+            "prompt": "工作人员玛尔塔介绍了谁？",
+            "options": [
+              "邻居",
+              "同事佩德罗",
+              "老师"
+            ],
+            "answer": 1,
+            "explanation": "文中说 apresenta o colega Pedro。"
+          },
+          {
+            "prompt": "陈读了什么？",
+            "options": [
+              "报纸",
+              "合同",
+              "杂志"
+            ],
+            "answer": 2,
+            "explanation": "文中是 ler uma revista。"
+          },
+          {
+            "prompt": "陈离开时说了什么？",
+            "options": [
+              "Até breve",
+              "Boa noite",
+              "Desculpe"
+            ],
+            "answer": 0,
+            "explanation": "文末明确写出 Até breve。"
+          }
+        ],
+        "writing": "写四句初次见面的介绍，包括名字和告别语。",
+        "speaking": "模拟在上午与新邻居初次见面，问候、报名字并告别。"
+      }
+    },
+    {
+      "id": "pt-02",
+      "number": 2,
+      "title": "听不清时的礼貌求助",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能请对方放慢、重复或写下词语。",
+      "grammar": {
+        "title": "礼貌请求与否定",
+        "explanation": "Pode + 动词原形构成礼貌请求。não 放在变位动词前表示否定。欧洲葡语的词尾元音常较弱，初学时可主动要求书面提示。",
+        "examples": [
+          {
+            "text": "Pode repetir, por favor?",
+            "zh": "请您重复一下好吗？"
+          },
+          {
+            "text": "Não percebi a última palavra.",
+            "zh": "我没听明白最后一个词。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "desculpe",
+          "zh": "劳驾；对不起",
+          "example": "Desculpe, não percebi.",
+          "exampleZh": "不好意思，我没听明白。",
+          "icon": "talk"
+        },
+        {
+          "head": "repetir",
+          "zh": "重复",
+          "example": "Pode repetir?",
+          "exampleZh": "您能重复一下吗？",
+          "icon": "talk"
+        },
+        {
+          "head": "devagar",
+          "zh": "慢慢地",
+          "example": "Fale mais devagar, por favor.",
+          "exampleZh": "请说慢一点。",
+          "icon": "talk"
+        },
+        {
+          "head": "perceber",
+          "zh": "听懂；理解",
+          "example": "Não consigo perceber esta palavra.",
+          "exampleZh": "我听不懂这个词。",
+          "icon": "idea"
+        },
+        {
+          "head": "escrever",
+          "zh": "写",
+          "example": "Pode escrever o nome?",
+          "exampleZh": "您能写下名字吗？",
+          "icon": "study"
+        },
+        {
+          "head": "palavra",
+          "zh": "词",
+          "example": "Esta palavra é nova.",
+          "exampleZh": "这个词是新的。",
+          "icon": "study"
+        },
+        {
+          "head": "letra",
+          "zh": "字母",
+          "example": "Qual é a primeira letra?",
+          "exampleZh": "第一个字母是什么？",
+          "icon": "study"
+        },
+        {
+          "head": "som",
+          "zh": "声音",
+          "example": "Este som é difícil para mim.",
+          "exampleZh": "这个音对我来说很难。",
+          "icon": "study"
+        },
+        {
+          "head": "por favor",
+          "zh": "请",
+          "example": "Uma informação, por favor.",
+          "exampleZh": "请提供一条信息。",
+          "icon": "talk"
+        },
+        {
+          "head": "como",
+          "zh": "如何；怎么",
+          "example": "Como se diz isto?",
+          "exampleZh": "这个怎么说？",
+          "icon": "talk"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-02-1",
+          "text": "Pode repetir, por favor?",
+          "zh": "请您重复一下好吗？",
+          "tip": "pode 后用原形 repetir。"
+        },
+        {
+          "id": "pt-02-2",
+          "text": "Não percebi a última palavra.",
+          "zh": "我没听明白最后一个词。",
+          "tip": "percebi 表示刚才理解了；加 não 否定。"
+        },
+        {
+          "id": "pt-02-3",
+          "text": "Desculpe, como se escreve o seu nome?",
+          "zh": "不好意思，您的名字怎么拼写？",
+          "tip": "seu 可用于礼貌地指对方。"
+        },
+        {
+          "id": "pt-02-4",
+          "text": "Escreve-se Sara, com esse.",
+          "zh": "写作 Sara，用字母 s。",
+          "tip": "esse 是字母 s 的名称。"
+        },
+        {
+          "id": "pt-02-5",
+          "text": "Pode falar mais devagar?",
+          "zh": "您能说慢一点吗？",
+          "tip": "mais devagar 意为更慢一些。"
+        },
+        {
+          "id": "pt-02-6",
+          "text": "Claro. Vou repetir o nome.",
+          "zh": "当然。我会把名字再说一遍。",
+          "tip": "vou + 原形可表达即将做的事。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Desculpe, como se escreve o seu nome?",
+          "zh": "不好意思，您的名字怎么拼写？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Escreve-se Sara, com esse.",
+          "zh": "写作 Sara，用字母 s。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Pode falar mais devagar?",
+          "zh": "您能说慢一点吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Claro. Vou repetir o nome.",
+          "zh": "当然。我会把名字再说一遍。"
+        }
+      ],
+      "reading": {
+        "title": "在接待处",
+        "text": "O Chen está na receção de uma escola. A funcionária diz o nome da professora, mas ele não percebe a última palavra. Pede para ela falar mais devagar. A funcionária repete o nome e escreve-o num papel. O Chen lê o papel e pergunta como se diz uma letra. Depois agradece. Em casa, ouve uma gravação curta e repete as palavras sem tentar falar muito depressa.",
+        "zh": "陈在一所学校的接待处。工作人员说出老师的名字，但他没听懂最后一个词。他请她说慢一点。工作人员重复名字，并把它写在一张纸上。陈看了纸条，问一个字母怎么读。然后他道谢。回家后，他听一段简短录音，重复词语，不急着说得很快。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "确认街道名称",
+          "text": "A Mei procura uma loja numa rua desconhecida. Pergunta o caminho a um senhor, mas o nome da rua é novo para ela. A Mei pede para ele repetir mais devagar. O senhor escreve «Rua da Escola» num papel e aponta para a direita. Ela lê o nome e agradece. Antes de continuar, compara o papel com o mapa do telemóvel. A loja fica perto de uma escola."
+        },
+        "questions": [
+          {
+            "prompt": "梅不熟悉什么？",
+            "options": [
+              "商店营业时间",
+              "街道名称",
+              "手机品牌"
+            ],
+            "answer": 1,
+            "explanation": "文中说 o nome da rua é novo para ela。"
+          },
+          {
+            "prompt": "那位先生把什么写在纸上？",
+            "options": [
+              "姓名",
+              "电话号码",
+              "Rua da Escola"
+            ],
+            "answer": 2,
+            "explanation": "纸上写的是 Rua da Escola。"
+          },
+          {
+            "prompt": "他指向哪个方向？",
+            "options": [
+              "右边",
+              "左边",
+              "后面"
+            ],
+            "answer": 0,
+            "explanation": "aponta para a direita 表示指向右边。"
+          },
+          {
+            "prompt": "梅用什么核对纸条？",
+            "options": [
+              "课本",
+              "手机地图",
+              "收据"
+            ],
+            "answer": 1,
+            "explanation": "文中说 compara o papel com o mapa do telemóvel。"
+          }
+        ],
+        "writing": "写一段三句的求助信息：说明没听懂，请求慢说并请对方写下名称。",
+        "speaking": "模拟询问陌生词语的拼写，并重复确认你听到的内容。"
+      }
+    },
+    {
+      "id": "pt-03",
+      "number": 3,
+      "title": "个人资料与联系方式",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能提供国籍、居住地和联系方式。",
+      "grammar": {
+        "title": "ser、morar 和 ter",
+        "explanation": "ser 说明身份，morar em 说明居住地点，ter 可表达年龄。em 与定冠词合成 no、na，例如 no Porto。",
+        "examples": [
+          {
+            "text": "Sou chinesa e moro em Lisboa.",
+            "zh": "我是中国人，住在里斯本。"
+          },
+          {
+            "text": "Tenho vinte e oito anos.",
+            "zh": "我二十八岁。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "nacionalidade",
+          "zh": "国籍",
+          "example": "Qual é a sua nacionalidade?",
+          "exampleZh": "您的国籍是什么？",
+          "icon": "person"
+        },
+        {
+          "head": "chinês / chinesa",
+          "zh": "中国人；中国的",
+          "example": "Sou chinesa.",
+          "exampleZh": "我是中国人。",
+          "icon": "person"
+        },
+        {
+          "head": "morar",
+          "zh": "居住",
+          "example": "Moro em Lisboa.",
+          "exampleZh": "我住在里斯本。",
+          "icon": "home"
+        },
+        {
+          "head": "idade",
+          "zh": "年龄",
+          "example": "Qual é a sua idade?",
+          "exampleZh": "您的年龄是多少？",
+          "icon": "person"
+        },
+        {
+          "head": "anos",
+          "zh": "岁；年",
+          "example": "Tenho vinte anos.",
+          "exampleZh": "我二十岁。",
+          "icon": "time"
+        },
+        {
+          "head": "morada",
+          "zh": "住址",
+          "example": "Esta é a minha morada.",
+          "exampleZh": "这是我的住址。",
+          "icon": "home"
+        },
+        {
+          "head": "telemóvel",
+          "zh": "手机",
+          "example": "O meu telemóvel está aqui.",
+          "exampleZh": "我的手机在这里。",
+          "icon": "talk"
+        },
+        {
+          "head": "correio eletrónico",
+          "zh": "电子邮件",
+          "example": "Qual é o seu correio eletrónico?",
+          "exampleZh": "您的电子邮箱是什么？",
+          "icon": "talk"
+        },
+        {
+          "head": "apelido",
+          "zh": "姓氏",
+          "example": "O meu apelido é Wang.",
+          "exampleZh": "我姓王。",
+          "icon": "person"
+        },
+        {
+          "head": "país",
+          "zh": "国家",
+          "example": "De que país é?",
+          "exampleZh": "您来自哪个国家？",
+          "icon": "travel"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-03-1",
+          "text": "Sou chinesa e moro em Lisboa.",
+          "zh": "我是中国人，住在里斯本。",
+          "tip": "女性可用 chinesa，男性可用 chinês。"
+        },
+        {
+          "id": "pt-03-2",
+          "text": "Tenho vinte e oito anos.",
+          "zh": "我二十八岁。",
+          "tip": "年龄用 ter，不用 ser。"
+        },
+        {
+          "id": "pt-03-3",
+          "text": "Qual é o seu apelido?",
+          "zh": "您的姓是什么？",
+          "tip": "葡萄牙语的 apelido 指姓氏。"
+        },
+        {
+          "id": "pt-03-4",
+          "text": "O meu apelido é Wang.",
+          "zh": "我姓王。",
+          "tip": "回答可以保留自己的姓名顺序并解释。"
+        },
+        {
+          "id": "pt-03-5",
+          "text": "E qual é a sua morada?",
+          "zh": "那您的住址是什么？",
+          "tip": "morada 表示通讯或居住地址。"
+        },
+        {
+          "id": "pt-03-6",
+          "text": "Moro na Rua Nova, no número dez.",
+          "zh": "我住在新街十号。",
+          "tip": "na = em + a；no = em + o。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Qual é o seu apelido?",
+          "zh": "您的姓是什么？"
+        },
+        {
+          "speaker": "乙",
+          "text": "O meu apelido é Wang.",
+          "zh": "我姓王。"
+        },
+        {
+          "speaker": "甲",
+          "text": "E qual é a sua morada?",
+          "zh": "那您的住址是什么？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Moro na Rua Nova, no número dez.",
+          "zh": "我住在新街十号。"
+        }
+      ],
+      "reading": {
+        "title": "填写报名资料",
+        "text": "A Wang vai a um curso de português no Porto. Na ficha escreve o nome completo, a nacionalidade e a morada. Tem vinte e oito anos e mora com uma amiga numa rua perto da escola. A professora pede também um contacto para enviar informações sobre as aulas. A Wang prefere dar o correio eletrónico. Antes de entregar a ficha, confirma todas as letras do apelido e verifica o endereço.",
+        "zh": "王去波尔图参加葡语课程。她在表格上填写全名、国籍和住址。她二十八岁，与一位朋友住在学校附近的一条街上。老师还要一个联系方式，以便发送课程信息。王更愿意提供电子邮箱。交表前，她确认姓氏的所有字母，并检查地址。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "新同学的资料",
+          "text": "O Liu inscreve-se num curso de desenho em Braga. Tem trinta anos e é chinês. Na ficha escreve o nome e a morada da casa onde vive com o irmão. Para receber os horários, deixa o endereço de correio eletrónico. Não escreve o número de telemóvel porque prefere mensagens por email. A funcionária pede-lhe que confirme o apelido. O Liu verifica a ficha e entrega-a no balcão."
+        },
+        "questions": [
+          {
+            "prompt": "刘报名学习什么？",
+            "options": [
+              "葡语",
+              "音乐",
+              "绘画"
+            ],
+            "answer": 2,
+            "explanation": "curso de desenho 指绘画课程。"
+          },
+          {
+            "prompt": "刘与谁同住？",
+            "options": [
+              "兄弟",
+              "老师",
+              "同事"
+            ],
+            "answer": 0,
+            "explanation": "vive com o irmão 表示与兄弟同住。"
+          },
+          {
+            "prompt": "他希望如何收到课表？",
+            "options": [
+              "电话",
+              "电子邮件",
+              "纸质信件"
+            ],
+            "answer": 1,
+            "explanation": "他留下邮箱以接收 horários。"
+          },
+          {
+            "prompt": "工作人员请他确认什么？",
+            "options": [
+              "年龄",
+              "房租",
+              "姓氏"
+            ],
+            "answer": 2,
+            "explanation": "文中为 confirme o apelido。"
+          }
+        ],
+        "writing": "用虚构资料填写六行信息：姓名、国籍、年龄、城市、住址和邮箱。",
+        "speaking": "用五句话介绍自己，再询问对方的居住城市与联系方式。"
+      }
+    },
+    {
+      "id": "pt-04",
+      "number": 4,
+      "title": "数字、日期与时间",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能听懂简单价格、预约日期和钟点。",
+      "grammar": {
+        "title": "钟点表达与疑问词",
+        "explanation": "问时间用 Que horas são?；一点用 É uma hora，其余通常用 São。活动发生在某时用 à / às，例如 às duas。",
+        "examples": [
+          {
+            "text": "São nove horas e dez minutos.",
+            "zh": "现在是九点十分。"
+          },
+          {
+            "text": "A aula começa à uma da tarde.",
+            "zh": "课在下午一点开始。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "hora",
+          "zh": "小时；钟点",
+          "example": "A que hora começa?",
+          "exampleZh": "几点开始？",
+          "icon": "time"
+        },
+        {
+          "head": "hoje",
+          "zh": "今天",
+          "example": "Hoje tenho uma aula.",
+          "exampleZh": "今天我有一节课。",
+          "icon": "time"
+        },
+        {
+          "head": "amanhã",
+          "zh": "明天",
+          "example": "Amanhã é sábado.",
+          "exampleZh": "明天是星期六。",
+          "icon": "time"
+        },
+        {
+          "head": "segunda-feira",
+          "zh": "星期一",
+          "example": "A aula é na segunda-feira.",
+          "exampleZh": "课在星期一。",
+          "icon": "time"
+        },
+        {
+          "head": "manhã",
+          "zh": "上午",
+          "example": "Trabalho de manhã.",
+          "exampleZh": "我上午工作。",
+          "icon": "time"
+        },
+        {
+          "head": "tarde",
+          "zh": "下午",
+          "example": "Estudo à tarde.",
+          "exampleZh": "我下午学习。",
+          "icon": "time"
+        },
+        {
+          "head": "minuto",
+          "zh": "分钟",
+          "example": "Espere um minuto.",
+          "exampleZh": "请等一分钟。",
+          "icon": "time"
+        },
+        {
+          "head": "meia",
+          "zh": "半点",
+          "example": "São duas e meia.",
+          "exampleZh": "现在两点半。",
+          "icon": "time"
+        },
+        {
+          "head": "quanto",
+          "zh": "多少",
+          "example": "Quanto custa o bilhete?",
+          "exampleZh": "票多少钱？",
+          "icon": "money"
+        },
+        {
+          "head": "data",
+          "zh": "日期",
+          "example": "Qual é a data da visita?",
+          "exampleZh": "参观日期是哪天？",
+          "icon": "time"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-04-1",
+          "text": "São nove horas e dez minutos.",
+          "zh": "现在是九点十分。",
+          "tip": "复数钟点使用 são。"
+        },
+        {
+          "id": "pt-04-2",
+          "text": "A aula começa à uma da tarde.",
+          "zh": "课在下午一点开始。",
+          "tip": "à uma 表示在一点。"
+        },
+        {
+          "id": "pt-04-3",
+          "text": "A visita é amanhã?",
+          "zh": "参观是在明天吗？",
+          "tip": "语调可将陈述句变为问句。"
+        },
+        {
+          "id": "pt-04-4",
+          "text": "Sim, às dez e meia.",
+          "zh": "是的，十点半。",
+          "tip": "meia 在这里省略了 hora。"
+        },
+        {
+          "id": "pt-04-5",
+          "text": "Quanto custa o bilhete?",
+          "zh": "票多少钱？",
+          "tip": "quanto custa 用来问单件物品的价格。"
+        },
+        {
+          "id": "pt-04-6",
+          "text": "Custa oito euros.",
+          "zh": "八欧元。",
+          "tip": "欧元复数为 euros。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "A visita é amanhã?",
+          "zh": "参观是在明天吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, às dez e meia.",
+          "zh": "是的，十点半。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Quanto custa o bilhete?",
+          "zh": "票多少钱？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Custa oito euros.",
+          "zh": "八欧元。"
+        }
+      ],
+      "reading": {
+        "title": "周六的安排",
+        "text": "É sexta-feira e a Li organiza o dia seguinte. De manhã quer visitar um museu com o Rui. A visita começa às dez e meia e o bilhete custa oito euros. Combinam encontrar-se à porta às dez e vinte. Depois do almoço, a Li tem uma aula às três da tarde. Escreve as horas no caderno para não se esquecer e prepara o dinheiro para o bilhete do museu.",
+        "zh": "星期五，小李在安排第二天的活动。上午她想和鲁伊参观博物馆。参观十点半开始，门票八欧元。他们约好十点二十分在门口见面。午饭后，小李下午三点有课。她把时间写在笔记本上，以免忘记，并准备好买博物馆门票的钱。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "周日的音乐活动",
+          "text": "No domingo, o Chen quer ouvir música num jardim. O concerto começa às quatro da tarde e termina às cinco e meia. A entrada custa seis euros. Ele combina encontrar-se com a Marta às três e quarenta, junto ao café do jardim. De manhã fica em casa a estudar. Antes de sair, consulta a hora no telemóvel e leva uma garrafa de água. Não precisa de levar uma cadeira."
+        },
+        "questions": [
+          {
+            "prompt": "音乐会几点开始？",
+            "options": [
+              "下午四点",
+              "下午三点四十分",
+              "下午五点半"
+            ],
+            "answer": 0,
+            "explanation": "开始时间为 às quatro da tarde。"
+          },
+          {
+            "prompt": "门票多少钱？",
+            "options": [
+              "八欧元",
+              "六欧元",
+              "十欧元"
+            ],
+            "answer": 1,
+            "explanation": "entrada custa seis euros。"
+          },
+          {
+            "prompt": "他们在哪里见面？",
+            "options": [
+              "车站门口",
+              "陈家里",
+              "花园咖啡馆旁"
+            ],
+            "answer": 2,
+            "explanation": "junto ao café do jardim 指花园咖啡馆旁。"
+          },
+          {
+            "prompt": "陈上午做什么？",
+            "options": [
+              "在家学习",
+              "买椅子",
+              "听音乐会"
+            ],
+            "answer": 0,
+            "explanation": "De manhã fica em casa a estudar。"
+          }
+        ],
+        "writing": "写明天的三项安排，每项包括时间；再写一个虚构票价。",
+        "speaking": "询问一场活动的日期、开始时间、会面时间和价格。"
+      }
+    },
+    {
+      "id": "pt-05",
+      "number": 5,
+      "title": "在咖啡馆点单",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能点简单饮食并核对账单。",
+      "grammar": {
+        "title": "querer 与礼貌点单",
+        "explanation": "Queria… 常用于较委婉的点单；Quero… 也能表达想要。数量加名词，um café、duas águas；带气或不带气可用 com gás / sem gás。",
+        "examples": [
+          {
+            "text": "Queria um café e uma tosta.",
+            "zh": "我想要一杯咖啡和一份烤三明治。"
+          },
+          {
+            "text": "Tem água sem gás?",
+            "zh": "有不带气的水吗？"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "café",
+          "zh": "咖啡",
+          "example": "Queria um café.",
+          "exampleZh": "我想要一杯咖啡。",
+          "icon": "food"
+        },
+        {
+          "head": "água",
+          "zh": "水",
+          "example": "Uma água sem gás, por favor.",
+          "exampleZh": "请给我一瓶不带气的水。",
+          "icon": "food"
+        },
+        {
+          "head": "chá",
+          "zh": "茶",
+          "example": "Tem chá de limão?",
+          "exampleZh": "有柠檬茶吗？",
+          "icon": "food"
+        },
+        {
+          "head": "pão",
+          "zh": "面包",
+          "example": "Queria pão com queijo.",
+          "exampleZh": "我想要夹奶酪的面包。",
+          "icon": "food"
+        },
+        {
+          "head": "queijo",
+          "zh": "奶酪",
+          "example": "Este queijo é suave.",
+          "exampleZh": "这种奶酪味道温和。",
+          "icon": "food"
+        },
+        {
+          "head": "tosta",
+          "zh": "烤三明治",
+          "example": "A tosta está quente.",
+          "exampleZh": "烤三明治是热的。",
+          "icon": "food"
+        },
+        {
+          "head": "leite",
+          "zh": "牛奶",
+          "example": "O café leva leite?",
+          "exampleZh": "咖啡里有牛奶吗？",
+          "icon": "food"
+        },
+        {
+          "head": "conta",
+          "zh": "账单",
+          "example": "A conta, por favor.",
+          "exampleZh": "请结账。",
+          "icon": "money"
+        },
+        {
+          "head": "sem gás",
+          "zh": "不带气",
+          "example": "Prefiro água sem gás.",
+          "exampleZh": "我更喜欢不带气的水。",
+          "icon": "food"
+        },
+        {
+          "head": "esplanada",
+          "zh": "露天座位区",
+          "example": "Há lugar na esplanada?",
+          "exampleZh": "露天座位区有位置吗？",
+          "icon": "home"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-05-1",
+          "text": "Queria um café e uma tosta.",
+          "zh": "我想要一杯咖啡和一份烤三明治。",
+          "tip": "queria 可让点单更委婉。"
+        },
+        {
+          "id": "pt-05-2",
+          "text": "Tem água sem gás?",
+          "zh": "有不带气的水吗？",
+          "tip": "tem 可用于问店里是否供应。"
+        },
+        {
+          "id": "pt-05-3",
+          "text": "Bom dia. O que deseja?",
+          "zh": "早上好。您想要什么？",
+          "tip": "des ejar 的变位 deseja 用于询问需求。"
+        },
+        {
+          "id": "pt-05-4",
+          "text": "Queria um chá e pão com queijo.",
+          "zh": "我想要一杯茶和夹奶酪的面包。",
+          "tip": "com 表示搭配或含有。"
+        },
+        {
+          "id": "pt-05-5",
+          "text": "É para aqui ou para levar?",
+          "zh": "在这里吃还是带走？",
+          "tip": "para levar 是外带的常见表达。"
+        },
+        {
+          "id": "pt-05-6",
+          "text": "É para aqui, obrigada.",
+          "zh": "在这里吃，谢谢。",
+          "tip": "说话者为女性时通常用 obrigada。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Bom dia. O que deseja?",
+          "zh": "早上好。您想要什么？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Queria um chá e pão com queijo.",
+          "zh": "我想要一杯茶和夹奶酪的面包。"
+        },
+        {
+          "speaker": "甲",
+          "text": "É para aqui ou para levar?",
+          "zh": "在这里吃还是带走？"
+        },
+        {
+          "speaker": "乙",
+          "text": "É para aqui, obrigada.",
+          "zh": "在这里吃，谢谢。"
+        }
+      ],
+      "reading": {
+        "title": "露台上的早餐",
+        "text": "A Mei toma o pequeno-almoço num café perto de casa. Escolhe uma mesa na esplanada e pede um chá e pão com queijo. O empregado pergunta se quer mais alguma coisa. Ela pede também uma água sem gás. Enquanto espera, lê a ementa e aprende duas palavras novas. No fim, pede a conta e confirma os três produtos. Paga e agradece antes de voltar para casa a pé.",
+        "zh": "梅在家附近的一家咖啡馆吃早餐。她选了露天座位区的一张桌子，点了一杯茶和夹奶酪的面包。服务员问她还要别的东西吗。她又要了一瓶不带气的水。等待时，她看菜单，学了两个新词。最后她要账单，核对了三样东西。她付款并道谢，然后步行回家。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "外带午点",
+          "text": "O Rui entra num café depois do trabalho. Pede uma tosta e um café para levar, porque vai encontrar a irmã no parque. A empregada pergunta se ele quer uma bebida fria. O Rui escolhe uma água com gás. Quando recebe o saco, verifica que falta a tosta e avisa a empregada. Ela traz a tosta e pede desculpa. O Rui paga e segue para o parque."
+        },
+        "questions": [
+          {
+            "prompt": "鲁伊为什么选择外带？",
+            "options": [
+              "要回办公室",
+              "要去公园见姐妹",
+              "店里没有座位"
+            ],
+            "answer": 1,
+            "explanation": "他要在公园见 irmã。"
+          },
+          {
+            "prompt": "他点了哪种水？",
+            "options": [
+              "热水",
+              "不带气的水",
+              "带气的水"
+            ],
+            "answer": 2,
+            "explanation": "文中说 água com gás。"
+          },
+          {
+            "prompt": "袋子里最初少了什么？",
+            "options": [
+              "烤三明治",
+              "咖啡",
+              "水"
+            ],
+            "answer": 0,
+            "explanation": "falta a tosta 表示缺少烤三明治。"
+          },
+          {
+            "prompt": "服务员随后怎么做？",
+            "options": [
+              "让他重新点单",
+              "补上食物并道歉",
+              "关店"
+            ],
+            "answer": 1,
+            "explanation": "她拿来 tosta 并 pede desculpa。"
+          }
+        ],
+        "writing": "写一份三样物品的点单，并注明堂食或外带。",
+        "speaking": "模拟点一杯饮品和一份食物，询问是否含奶，最后要账单。"
+      }
+    },
+    {
+      "id": "pt-06",
+      "number": 6,
+      "title": "超市购物",
+      "level": "A1",
+      "stage": "beginner",
+      "goal": "能找商品、问数量和确认付款方式。",
+      "grammar": {
+        "title": "数量表达与指示词",
+        "explanation": "um quilo de… 表示一公斤；este/esta 指较近的单数事物，estes/estas 为复数。名词与形容词通常保持性数一致。",
+        "examples": [
+          {
+            "text": "Queria um quilo de maçãs.",
+            "zh": "我想要一公斤苹果。"
+          },
+          {
+            "text": "Estas maçãs são portuguesas.",
+            "zh": "这些苹果是葡萄牙产的。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "supermercado",
+          "zh": "超市",
+          "example": "Vou ao supermercado.",
+          "exampleZh": "我要去超市。",
+          "icon": "food"
+        },
+        {
+          "head": "fruta",
+          "zh": "水果",
+          "example": "A fruta fica ali.",
+          "exampleZh": "水果在那边。",
+          "icon": "food"
+        },
+        {
+          "head": "maçã",
+          "zh": "苹果",
+          "example": "Queria duas maçãs.",
+          "exampleZh": "我想要两个苹果。",
+          "icon": "food"
+        },
+        {
+          "head": "arroz",
+          "zh": "大米",
+          "example": "Este arroz é barato.",
+          "exampleZh": "这种大米便宜。",
+          "icon": "food"
+        },
+        {
+          "head": "quilo",
+          "zh": "公斤",
+          "example": "Quero um quilo de batatas.",
+          "exampleZh": "我要一公斤土豆。",
+          "icon": "food"
+        },
+        {
+          "head": "saco",
+          "zh": "袋子",
+          "example": "Preciso de um saco.",
+          "exampleZh": "我需要一个袋子。",
+          "icon": "home"
+        },
+        {
+          "head": "caixa",
+          "zh": "收银台；箱子",
+          "example": "A caixa está aberta.",
+          "exampleZh": "收银台开放着。",
+          "icon": "money"
+        },
+        {
+          "head": "cartão",
+          "zh": "卡",
+          "example": "Posso pagar com cartão?",
+          "exampleZh": "我能用卡付款吗？",
+          "icon": "money"
+        },
+        {
+          "head": "dinheiro",
+          "zh": "现金；钱",
+          "example": "Vou pagar em dinheiro.",
+          "exampleZh": "我要用现金付款。",
+          "icon": "money"
+        },
+        {
+          "head": "talão",
+          "zh": "小票",
+          "example": "Pode dar-me o talão?",
+          "exampleZh": "能给我小票吗？",
+          "icon": "money"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-06-1",
+          "text": "Queria um quilo de maçãs.",
+          "zh": "我想要一公斤苹果。",
+          "tip": "重量后接 de 加商品名。"
+        },
+        {
+          "id": "pt-06-2",
+          "text": "Estas maçãs são portuguesas.",
+          "zh": "这些苹果是葡萄牙产的。",
+          "tip": "estas、maçãs、portuguesas 都为阴性复数。"
+        },
+        {
+          "id": "pt-06-3",
+          "text": "Desculpe, onde está o arroz?",
+          "zh": "劳驾，大米在哪里？",
+          "tip": "onde está 用于寻找位置。"
+        },
+        {
+          "id": "pt-06-4",
+          "text": "Está ao lado da massa.",
+          "zh": "在意大利面旁边。",
+          "tip": "ao lado de 表示在旁边。"
+        },
+        {
+          "id": "pt-06-5",
+          "text": "Posso pagar com cartão?",
+          "zh": "我可以用卡付款吗？",
+          "tip": "posso + 原形询问能否做某事。"
+        },
+        {
+          "id": "pt-06-6",
+          "text": "Sim. Quer um saco?",
+          "zh": "可以。您要袋子吗？",
+          "tip": "购物时可直接用 quer 询问需求。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Desculpe, onde está o arroz?",
+          "zh": "劳驾，大米在哪里？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Está ao lado da massa.",
+          "zh": "在意大利面旁边。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Posso pagar com cartão?",
+          "zh": "我可以用卡付款吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim. Quer um saco?",
+          "zh": "可以。您要袋子吗？"
+        }
+      ],
+      "reading": {
+        "title": "带着清单购物",
+        "text": "A Li leva uma lista para o supermercado: arroz, leite, maçãs e pão. Primeiro procura a fruta e escolhe um quilo de maçãs portuguesas. Não encontra o arroz e pede ajuda a uma funcionária. Depois vai à caixa com os quatro produtos. Traz um saco de casa e paga com cartão. Guarda o talão na carteira para poder conferir a compra quando chegar a casa depois das aulas.",
+        "zh": "小李带着清单去超市：大米、牛奶、苹果和面包。她先找到水果，选了一公斤葡萄牙产苹果。她没找到大米，向一位工作人员求助。然后她带着四样商品去收银台。她自己带了袋子，用卡付款。她把小票放进钱包，准备上完课到家后核对购物情况。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "一次晚间购物",
+          "text": "A Sara vai ao supermercado à noite. Quer comprar batatas, queijo e água. As batatas estão perto dos legumes, mas ela não encontra o queijo. Um funcionário mostra-lhe a zona dos produtos frescos. Na caixa, a Sara pede um saco porque deixou o seu em casa. Paga em dinheiro e guarda o talão. Ao sair, confirma que comprou os três produtos da lista e telefona ao irmão."
+        },
+        "questions": [
+          {
+            "prompt": "萨拉找不到哪样商品？",
+            "options": [
+              "土豆",
+              "水",
+              "奶酪"
+            ],
+            "answer": 2,
+            "explanation": "文中为 não encontra o queijo。"
+          },
+          {
+            "prompt": "奶酪位于哪个区域？",
+            "options": [
+              "生鲜区",
+              "收银台旁",
+              "面包区"
+            ],
+            "answer": 0,
+            "explanation": "工作人员指给她 zona dos produtos frescos。"
+          },
+          {
+            "prompt": "她为什么要袋子？",
+            "options": [
+              "买了太多水果",
+              "自己的袋子忘在家",
+              "袋子坏了"
+            ],
+            "answer": 1,
+            "explanation": "deixou o seu em casa 表示忘在家里。"
+          },
+          {
+            "prompt": "她如何付款？",
+            "options": [
+              "银行卡",
+              "手机",
+              "现金"
+            ],
+            "answer": 2,
+            "explanation": "Paga em dinheiro。"
+          }
+        ],
+        "writing": "写一份五样商品的清单，其中两样带数量，再写两句结账用语。",
+        "speaking": "向店员询问商品位置，购买一定重量的水果，并询问能否刷卡。"
+      }
+    },
+    {
+      "id": "pt-07",
+      "number": 7,
+      "title": "问路与方位",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能询问附近地点并确认步行路线。",
+      "grammar": {
+        "title": "位置介词与 ir",
+        "explanation": "perto de、longe de 表示远近；à direita、à esquerda 表示左右。到某地点常用 ir a，a 与 o/a 可合成 ao/à。",
+        "examples": [
+          {
+            "text": "A farmácia fica perto da praça.",
+            "zh": "药房在广场附近。"
+          },
+          {
+            "text": "Vou ao mercado a pé.",
+            "zh": "我步行去市场。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "rua",
+          "zh": "街道",
+          "example": "Esta rua é estreita.",
+          "exampleZh": "这条街很窄。",
+          "icon": "travel"
+        },
+        {
+          "head": "praça",
+          "zh": "广场",
+          "example": "A praça fica perto.",
+          "exampleZh": "广场很近。",
+          "icon": "travel"
+        },
+        {
+          "head": "ponte",
+          "zh": "桥",
+          "example": "A ponte está à esquerda.",
+          "exampleZh": "桥在左边。",
+          "icon": "travel"
+        },
+        {
+          "head": "à direita",
+          "zh": "向右；在右边",
+          "example": "Vire à direita.",
+          "exampleZh": "请右转。",
+          "icon": "travel"
+        },
+        {
+          "head": "à esquerda",
+          "zh": "向左；在左边",
+          "example": "Vire à esquerda.",
+          "exampleZh": "请左转。",
+          "icon": "travel"
+        },
+        {
+          "head": "em frente",
+          "zh": "向前；前面",
+          "example": "Siga em frente.",
+          "exampleZh": "请一直向前走。",
+          "icon": "travel"
+        },
+        {
+          "head": "perto",
+          "zh": "近",
+          "example": "O banco fica perto.",
+          "exampleZh": "银行很近。",
+          "icon": "travel"
+        },
+        {
+          "head": "longe",
+          "zh": "远",
+          "example": "A estação fica longe.",
+          "exampleZh": "车站很远。",
+          "icon": "travel"
+        },
+        {
+          "head": "mapa",
+          "zh": "地图",
+          "example": "Pode mostrar no mapa?",
+          "exampleZh": "能在地图上指出来吗？",
+          "icon": "travel"
+        },
+        {
+          "head": "a pé",
+          "zh": "步行",
+          "example": "Vou a pé.",
+          "exampleZh": "我步行去。",
+          "icon": "travel"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-07-1",
+          "text": "A farmácia fica perto da praça.",
+          "zh": "药房在广场附近。",
+          "tip": "de 与 a 合成 da。"
+        },
+        {
+          "id": "pt-07-2",
+          "text": "Vou ao mercado a pé.",
+          "zh": "我步行去市场。",
+          "tip": "ao = a + o。"
+        },
+        {
+          "id": "pt-07-3",
+          "text": "Desculpe, como vou para a biblioteca?",
+          "zh": "劳驾，去图书馆怎么走？",
+          "tip": "como vou para 用于问路线。"
+        },
+        {
+          "id": "pt-07-4",
+          "text": "Siga em frente até à praça.",
+          "zh": "一直向前走到广场。",
+          "tip": "até à 表示到达某处为止。"
+        },
+        {
+          "id": "pt-07-5",
+          "text": "Depois viro à direita?",
+          "zh": "然后我右转吗？",
+          "tip": "可复述路线确认理解。"
+        },
+        {
+          "id": "pt-07-6",
+          "text": "Sim, a biblioteca fica ao lado do café.",
+          "zh": "对，图书馆在咖啡馆旁边。",
+          "tip": "ao lado do = ao lado de + o。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Desculpe, como vou para a biblioteca?",
+          "zh": "劳驾，去图书馆怎么走？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Siga em frente até à praça.",
+          "zh": "一直向前走到广场。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Depois viro à direita?",
+          "zh": "然后我右转吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, a biblioteca fica ao lado do café.",
+          "zh": "对，图书馆在咖啡馆旁边。"
+        }
+      ],
+      "reading": {
+        "title": "走到市场",
+        "text": "O Chen quer ir ao mercado, mas ainda não conhece bem o bairro. Na rua pergunta o caminho a uma senhora. Ela diz para seguir em frente até à praça e depois virar à esquerda. O mercado fica ao lado de uma padaria. O Chen repete as indicações para confirmar e mostra o mapa. Como o caminho é curto, decide ir a pé e guardar o telemóvel no bolso.",
+        "zh": "陈想去市场，但还不熟悉这个街区。他在街上向一位女士问路。她说一直走到广场，然后左转。市场在一家面包店旁边。陈复述路线以确认，并拿出地图。因为路很短，他决定步行，把手机放进口袋。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "去邮局的路线",
+          "text": "A Mei precisa de encontrar os correios. Um rapaz explica que deve seguir pela rua principal até à ponte. Depois da ponte, tem de virar à direita. Os correios ficam em frente a um jardim, entre uma papelaria e um café. A Mei confirma a direção e pergunta se pode ir a pé. O rapaz diz que o caminho demora cerca de dez minutos. Ela agradece e continua."
+        },
+        "questions": [
+          {
+            "prompt": "梅首先要走到哪里？",
+            "options": [
+              "桥",
+              "公园",
+              "咖啡馆"
+            ],
+            "answer": 0,
+            "explanation": "先沿主街走到桥。"
+          },
+          {
+            "prompt": "过桥后往哪边转？",
+            "options": [
+              "左边",
+              "右边",
+              "回头"
+            ],
+            "answer": 1,
+            "explanation": "Depois da ponte… virar à direita。"
+          },
+          {
+            "prompt": "邮局对面是什么？",
+            "options": [
+              "文具店",
+              "车站",
+              "花园"
+            ],
+            "answer": 2,
+            "explanation": "em frente a um jardim 表示在花园对面。"
+          },
+          {
+            "prompt": "步行大约多久？",
+            "options": [
+              "十分钟",
+              "半小时",
+              "一小时"
+            ],
+            "answer": 0,
+            "explanation": "cerca de dez minutos。"
+          }
+        ],
+        "writing": "写四步从一个虚构广场到图书馆的路线，包括左右和地标。",
+        "speaking": "模拟问路，并用自己的话重复路线以确认。"
+      }
+    },
+    {
+      "id": "pt-08",
+      "number": 8,
+      "title": "公交与火车",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能查询车次、购票并核对站台。",
+      "grammar": {
+        "title": "ter de 与时间范围",
+        "explanation": "ter de + 动词原形表示需要做某事。de… a… 表示起终点；交通方式常用 de autocarro、de comboio。不同运营方规则需现场核对。",
+        "examples": [
+          {
+            "text": "Tenho de mudar de comboio?",
+            "zh": "我需要换乘火车吗？"
+          },
+          {
+            "text": "Vou de autocarro até à estação.",
+            "zh": "我乘公交车到火车站。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "autocarro",
+          "zh": "公交车；长途客车",
+          "example": "Vou de autocarro.",
+          "exampleZh": "我乘公交车去。",
+          "icon": "travel"
+        },
+        {
+          "head": "comboio",
+          "zh": "火车",
+          "example": "O comboio chega cedo.",
+          "exampleZh": "火车很早到。",
+          "icon": "travel"
+        },
+        {
+          "head": "bilhete",
+          "zh": "票",
+          "example": "Preciso de um bilhete.",
+          "exampleZh": "我需要一张票。",
+          "icon": "travel"
+        },
+        {
+          "head": "ida",
+          "zh": "去程",
+          "example": "Queria um bilhete de ida.",
+          "exampleZh": "我想要一张单程票。",
+          "icon": "travel"
+        },
+        {
+          "head": "volta",
+          "zh": "回程",
+          "example": "A volta é amanhã.",
+          "exampleZh": "回程是明天。",
+          "icon": "travel"
+        },
+        {
+          "head": "paragem",
+          "zh": "公交站",
+          "example": "Onde fica a paragem?",
+          "exampleZh": "公交站在哪里？",
+          "icon": "travel"
+        },
+        {
+          "head": "estação",
+          "zh": "火车站；站",
+          "example": "A estação está aberta.",
+          "exampleZh": "车站开着。",
+          "icon": "travel"
+        },
+        {
+          "head": "linha",
+          "zh": "线路；股道",
+          "example": "Qual é a linha?",
+          "exampleZh": "是哪条线路／股道？",
+          "icon": "travel"
+        },
+        {
+          "head": "atraso",
+          "zh": "延误",
+          "example": "Há um atraso de dez minutos.",
+          "exampleZh": "延误十分钟。",
+          "icon": "time"
+        },
+        {
+          "head": "validar",
+          "zh": "验票；使票生效",
+          "example": "Onde tenho de validar o bilhete?",
+          "exampleZh": "我要在哪里验票？",
+          "icon": "travel"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-08-1",
+          "text": "Tenho de mudar de comboio?",
+          "zh": "我需要换乘火车吗？",
+          "tip": "ter de 表示有必要。"
+        },
+        {
+          "id": "pt-08-2",
+          "text": "Vou de autocarro até à estação.",
+          "zh": "我乘公交车到火车站。",
+          "tip": "交通工具前通常不用冠词。"
+        },
+        {
+          "id": "pt-08-3",
+          "text": "Queria um bilhete para Coimbra.",
+          "zh": "我想买一张去科英布拉的票。",
+          "tip": "para 引出目的地。"
+        },
+        {
+          "id": "pt-08-4",
+          "text": "Só de ida ou de ida e volta?",
+          "zh": "单程还是往返？",
+          "tip": "ida e volta 是往返。"
+        },
+        {
+          "id": "pt-08-5",
+          "text": "Só de ida. De que linha sai?",
+          "zh": "单程。从哪条股道出发？",
+          "tip": "按现场用词核对股道或站台。"
+        },
+        {
+          "id": "pt-08-6",
+          "text": "Sai da linha três; confirme no painel.",
+          "zh": "从三号股道出发；请在显示屏上确认。",
+          "tip": "出发信息可能变化，需再次核对。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Queria um bilhete para Coimbra.",
+          "zh": "我想买一张去科英布拉的票。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Só de ida ou de ida e volta?",
+          "zh": "单程还是往返？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Só de ida. De que linha sai?",
+          "zh": "单程。从哪条股道出发？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sai da linha três; confirme no painel.",
+          "zh": "从三号股道出发；请在显示屏上确认。"
+        }
+      ],
+      "reading": {
+        "title": "去邻城",
+        "text": "A Li vai visitar uma amiga em Aveiro. Na estação compra um bilhete de ida e volta e pergunta se tem de mudar de comboio. O funcionário explica o percurso e pede que confirme a linha no painel. A Li consulta também a hora da volta. Antes de entrar, pergunta onde deve validar o bilhete. Guarda o bilhete durante a viagem e envia uma mensagem à amiga quando chega.",
+        "zh": "小李要去阿威罗看朋友。她在车站买了一张往返票，询问是否需要换乘火车。工作人员说明路线，让她在显示屏上确认股道。小李还查询回程时间。上车前，她询问应在哪里验票。旅途中她保管好票，到达后给朋友发消息。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "出发时间变化",
+          "text": "O Rui quer ir de Braga ao Porto de comboio. Compra apenas a ida, pois ainda não sabe quando volta. O painel indica um atraso de quinze minutos. Ele pergunta a uma funcionária se a linha continua a ser a mesma. Ela confirma a linha dois e pede-lhe que acompanhe as informações no painel. O Rui avisa o colega de que vai chegar mais tarde e espera junto à linha indicada."
+        },
+        "questions": [
+          {
+            "prompt": "鲁伊买了什么票？",
+            "options": [
+              "往返票",
+              "单程票",
+              "月票"
+            ],
+            "answer": 1,
+            "explanation": "compra apenas a ida 表示只买去程。"
+          },
+          {
+            "prompt": "延误多久？",
+            "options": [
+              "五分钟",
+              "半小时",
+              "十五分钟"
+            ],
+            "answer": 2,
+            "explanation": "atraso de quinze minutos。"
+          },
+          {
+            "prompt": "工作人员确认哪条股道？",
+            "options": [
+              "二号",
+              "三号",
+              "一号"
+            ],
+            "answer": 0,
+            "explanation": "文中为 linha dois。"
+          },
+          {
+            "prompt": "鲁伊通知了谁？",
+            "options": [
+              "医生",
+              "同事",
+              "房东"
+            ],
+            "answer": 1,
+            "explanation": "avisa o colega。"
+          }
+        ],
+        "writing": "写一条给朋友的信息：交通方式、目的地、出发时间及延误情况。",
+        "speaking": "模拟购票，询问是否换乘、去程或往返以及股道信息。"
+      }
+    },
+    {
+      "id": "pt-09",
+      "number": 9,
+      "title": "住宿与入住",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能核对预订、说明基本需求并询问设施。",
+      "grammar": {
+        "title": "há 与 estar",
+        "explanation": "há 表示存在，不随后面名词的复数变化；estar 表示某人或物目前的位置和状态。预订条件以住宿方确认为准。",
+        "examples": [
+          {
+            "text": "Há uma toalha no quarto.",
+            "zh": "房间里有一条毛巾。"
+          },
+          {
+            "text": "A chave está na receção.",
+            "zh": "钥匙在接待处。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "reserva",
+          "zh": "预订",
+          "example": "Tenho uma reserva.",
+          "exampleZh": "我有预订。",
+          "icon": "home"
+        },
+        {
+          "head": "quarto",
+          "zh": "房间",
+          "example": "O quarto fica no segundo andar.",
+          "exampleZh": "房间在三楼。",
+          "icon": "home"
+        },
+        {
+          "head": "chave",
+          "zh": "钥匙",
+          "example": "Aqui está a chave.",
+          "exampleZh": "钥匙在这里。",
+          "icon": "home"
+        },
+        {
+          "head": "casa de banho",
+          "zh": "卫生间",
+          "example": "Há casa de banho no quarto?",
+          "exampleZh": "房间里有卫生间吗？",
+          "icon": "home"
+        },
+        {
+          "head": "pequeno-almoço",
+          "zh": "早餐",
+          "example": "O pequeno-almoço está incluído?",
+          "exampleZh": "包含早餐吗？",
+          "icon": "food"
+        },
+        {
+          "head": "andar",
+          "zh": "楼层",
+          "example": "Em que andar fica?",
+          "exampleZh": "在第几层？",
+          "icon": "home"
+        },
+        {
+          "head": "receção",
+          "zh": "接待处",
+          "example": "A receção fica à entrada.",
+          "exampleZh": "接待处在入口处。",
+          "icon": "home"
+        },
+        {
+          "head": "mala",
+          "zh": "行李箱",
+          "example": "Posso deixar a mala aqui?",
+          "exampleZh": "我能把行李箱留在这里吗？",
+          "icon": "travel"
+        },
+        {
+          "head": "incluído",
+          "zh": "包含在内的",
+          "example": "O jantar não está incluído.",
+          "exampleZh": "晚餐不包含在内。",
+          "icon": "money"
+        },
+        {
+          "head": "saída",
+          "zh": "离开；退房",
+          "example": "A saída é às onze.",
+          "exampleZh": "退房时间是十一点。",
+          "icon": "time"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-09-1",
+          "text": "Há uma toalha no quarto.",
+          "zh": "房间里有一条毛巾。",
+          "tip": "há 用于说明存在。"
+        },
+        {
+          "id": "pt-09-2",
+          "text": "A chave está na receção.",
+          "zh": "钥匙在接待处。",
+          "tip": "estar 用于说明位置。"
+        },
+        {
+          "id": "pt-09-3",
+          "text": "Boa tarde, tenho uma reserva em nome de Li.",
+          "zh": "下午好，我有一个以李为名的预订。",
+          "tip": "em nome de 指以某人的名义。"
+        },
+        {
+          "id": "pt-09-4",
+          "text": "Sim, são duas noites, certo?",
+          "zh": "是的，住两晚，对吗？",
+          "tip": "用 certo 请求核对。"
+        },
+        {
+          "id": "pt-09-5",
+          "text": "Sim. O pequeno-almoço está incluído?",
+          "zh": "对。包含早餐吗？",
+          "tip": "incluído 随被修饰名词变化。"
+        },
+        {
+          "id": "pt-09-6",
+          "text": "Está incluído e começa às oito.",
+          "zh": "包含，八点开始。",
+          "tip": "省略上下文已明确的主语。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Boa tarde, tenho uma reserva em nome de Li.",
+          "zh": "下午好，我有一个以李为名的预订。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, são duas noites, certo?",
+          "zh": "是的，住两晚，对吗？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Sim. O pequeno-almoço está incluído?",
+          "zh": "对。包含早餐吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Está incluído e começa às oito.",
+          "zh": "包含，八点开始。"
+        }
+      ],
+      "reading": {
+        "title": "两晚短住",
+        "text": "A Mei chega a um alojamento em Évora ao fim da tarde. Na receção confirma uma reserva de duas noites. O quarto fica no primeiro andar e tem uma casa de banho pequena. O funcionário entrega a chave e explica o horário do pequeno-almoço. A Mei pergunta a que horas deve sair no último dia. Depois pede para deixar a mala na receção durante algumas horas, se houver espaço disponível.",
+        "zh": "梅傍晚到达埃武拉的一处住宿。她在接待处确认住两晚的预订。房间在二楼，有一个小卫生间。工作人员交给她钥匙，说明早餐时间。梅询问最后一天应几点退房。随后她问，如果有空余地方，能否把行李箱寄放在接待处几个小时。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "住宿信息确认",
+          "text": "O Chen chega a uma pensão em Viseu com uma reserva para três noites. A rececionista informa que o quarto fica no rés do chão. O pequeno-almoço não está incluído no preço, mas pode ser pedido no café ao lado. O Chen pergunta pela ligação à internet e recebe um papel com a palavra-passe. Antes de ir descansar, confirma que a saída está prevista para as dez da manhã."
+        },
+        "questions": [
+          {
+            "prompt": "陈住几晚？",
+            "options": [
+              "一晚",
+              "两晚",
+              "三晚"
+            ],
+            "answer": 2,
+            "explanation": "reserva para três noites。"
+          },
+          {
+            "prompt": "房间在哪层？",
+            "options": [
+              "底层",
+              "二楼",
+              "三楼"
+            ],
+            "answer": 0,
+            "explanation": "rés do chão 指底层。"
+          },
+          {
+            "prompt": "早餐在哪里可以点？",
+            "options": [
+              "房间里",
+              "旁边的咖啡馆",
+              "车站"
+            ],
+            "answer": 1,
+            "explanation": "no café ao lado。"
+          },
+          {
+            "prompt": "陈拿到的纸条上有什么？",
+            "options": [
+              "火车时刻",
+              "菜单",
+              "网络密码"
+            ],
+            "answer": 2,
+            "explanation": "papel com a palavra-passe。"
+          }
+        ],
+        "writing": "写一封简短住宿询问信，询问房间、早餐、退房时间及行李寄存。",
+        "speaking": "模拟到达接待处，报预订姓名并确认两项住宿服务。"
+      }
+    },
+    {
+      "id": "pt-10",
+      "number": 10,
+      "title": "家居与日常作息",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能描述住处、家务及日常时间安排。",
+      "grammar": {
+        "title": "现在时与频率",
+        "explanation": "规则 -ar 动词第一人称单数通常以 -o 结尾，如 trabalho。todos os dias 表示每天；às vezes 表示有时。levantar-se 等反身动词在肯定句中常后接代词。",
+        "examples": [
+          {
+            "text": "Levanto-me às sete todos os dias.",
+            "zh": "我每天七点起床。"
+          },
+          {
+            "text": "Às vezes cozinho com uma amiga.",
+            "zh": "我有时和一位朋友做饭。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "cozinha",
+          "zh": "厨房",
+          "example": "A cozinha é pequena.",
+          "exampleZh": "厨房很小。",
+          "icon": "home"
+        },
+        {
+          "head": "sala",
+          "zh": "客厅",
+          "example": "Estudo na sala.",
+          "exampleZh": "我在客厅学习。",
+          "icon": "home"
+        },
+        {
+          "head": "janela",
+          "zh": "窗户",
+          "example": "Abro a janela.",
+          "exampleZh": "我打开窗户。",
+          "icon": "home"
+        },
+        {
+          "head": "limpar",
+          "zh": "打扫",
+          "example": "Vou limpar a cozinha.",
+          "exampleZh": "我要打扫厨房。",
+          "icon": "home"
+        },
+        {
+          "head": "lavar",
+          "zh": "洗",
+          "example": "Preciso de lavar a roupa.",
+          "exampleZh": "我需要洗衣服。",
+          "icon": "home"
+        },
+        {
+          "head": "cozinhar",
+          "zh": "做饭",
+          "example": "Gosto de cozinhar.",
+          "exampleZh": "我喜欢做饭。",
+          "icon": "food"
+        },
+        {
+          "head": "levantar-se",
+          "zh": "起床",
+          "example": "Levanto-me às sete.",
+          "exampleZh": "我七点起床。",
+          "icon": "time"
+        },
+        {
+          "head": "deitar-se",
+          "zh": "上床睡觉",
+          "example": "Deito-me cedo.",
+          "exampleZh": "我很早上床睡觉。",
+          "icon": "time"
+        },
+        {
+          "head": "às vezes",
+          "zh": "有时",
+          "example": "Às vezes almoço em casa.",
+          "exampleZh": "我有时在家吃午饭。",
+          "icon": "time"
+        },
+        {
+          "head": "todos os dias",
+          "zh": "每天",
+          "example": "Leio todos os dias.",
+          "exampleZh": "我每天读书。",
+          "icon": "study"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-10-1",
+          "text": "Levanto-me às sete todos os dias.",
+          "zh": "我每天七点起床。",
+          "tip": "肯定句中 me 接在变位动词后。"
+        },
+        {
+          "id": "pt-10-2",
+          "text": "Às vezes cozinho com uma amiga.",
+          "zh": "我有时和一位朋友做饭。",
+          "tip": "às vezes 表示不固定的频率。"
+        },
+        {
+          "id": "pt-10-3",
+          "text": "A que horas usas a cozinha?",
+          "zh": "你几点用厨房？",
+          "tip": "usar 的 tu 形式为 usas。"
+        },
+        {
+          "id": "pt-10-4",
+          "text": "Costumo cozinhar às sete da noite.",
+          "zh": "我通常晚上七点做饭。",
+          "tip": "costumar + 原形表示习惯。"
+        },
+        {
+          "id": "pt-10-5",
+          "text": "Posso lavar a roupa depois do jantar?",
+          "zh": "我能晚饭后洗衣服吗？",
+          "tip": "depois de 表示在某事之后。"
+        },
+        {
+          "id": "pt-10-6",
+          "text": "Sim, eu limpo a cozinha entretanto.",
+          "zh": "可以，我同时打扫厨房。",
+          "tip": "entretanto 在这里表示在这期间。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "A que horas usas a cozinha?",
+          "zh": "你几点用厨房？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Costumo cozinhar às sete da noite.",
+          "zh": "我通常晚上七点做饭。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Posso lavar a roupa depois do jantar?",
+          "zh": "我能晚饭后洗衣服吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, eu limpo a cozinha entretanto.",
+          "zh": "可以，我同时打扫厨房。"
+        }
+      ],
+      "reading": {
+        "title": "合住的一天",
+        "text": "A Li e a Ana partilham uma casa em Setúbal. A Li levanta-se cedo e toma o pequeno-almoço na cozinha. A Ana trabalha à tarde e costuma estudar de manhã na sala. Para organizarem a casa, escrevem uma lista de tarefas. A Li lava a roupa à quarta-feira e a Ana limpa a cozinha ao sábado. Às vezes cozinham juntas ao domingo e abrem as janelas depois do almoço.",
+        "zh": "小李和安娜在塞图巴尔合住一所房子。小李很早起床，在厨房吃早餐。安娜下午工作，通常上午在客厅学习。为了安排家务，她们列出任务清单。小李周三洗衣服，安娜周六打扫厨房。她们有时周日一起做饭，午饭后开窗。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "不同的作息",
+          "text": "O Liu vive com o Pedro num apartamento pequeno. O Liu trabalha de manhã e sai de casa às oito. O Pedro tem aulas à noite e costuma levantar-se às nove. Durante a semana, cada um prepara o seu almoço. Ao sábado, fazem as compras juntos. O Liu limpa a sala enquanto o Pedro lava a roupa. Depois combinam cozinhar uma sopa para o jantar e deixam a cozinha arrumada."
+        },
+        "questions": [
+          {
+            "prompt": "刘几点出门？",
+            "options": [
+              "八点",
+              "九点",
+              "晚上"
+            ],
+            "answer": 0,
+            "explanation": "sai de casa às oito。"
+          },
+          {
+            "prompt": "佩德罗什么时候上课？",
+            "options": [
+              "上午",
+              "晚上",
+              "周日中午"
+            ],
+            "answer": 1,
+            "explanation": "tem aulas à noite。"
+          },
+          {
+            "prompt": "谁洗衣服？",
+            "options": [
+              "刘",
+              "邻居",
+              "佩德罗"
+            ],
+            "answer": 2,
+            "explanation": "Pedro lava a roupa。"
+          },
+          {
+            "prompt": "两人准备晚饭做什么？",
+            "options": [
+              "汤",
+              "烤鱼",
+              "三明治"
+            ],
+            "answer": 0,
+            "explanation": "cozinhar uma sopa para o jantar。"
+          }
+        ],
+        "writing": "写六句你的虚构日常作息，至少用两个频率表达和两项家务。",
+        "speaking": "与室友商量厨房和洗衣时间，并分配两项家务。"
+      }
+    },
+    {
+      "id": "pt-11",
+      "number": 11,
+      "title": "药房与就医求助",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能简述不适并询问适当的服务途径。",
+      "grammar": {
+        "title": "doer 与 há 表示持续时间",
+        "explanation": "Dói-me a cabeça 表示“我头痛”，复数部位用 doem。há dois dias 表示已持续两天。本课练习表达与求助，不提供诊断、用药方案或固定服务资格判断。",
+        "examples": [
+          {
+            "text": "Dói-me a garganta há dois dias.",
+            "zh": "我喉咙痛两天了。"
+          },
+          {
+            "text": "Tenho uma alergia a este medicamento.",
+            "zh": "我对这种药过敏。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "farmácia",
+          "zh": "药房",
+          "example": "Onde fica a farmácia?",
+          "exampleZh": "药房在哪里？",
+          "icon": "health"
+        },
+        {
+          "head": "dor",
+          "zh": "疼痛",
+          "example": "Tenho uma dor no braço.",
+          "exampleZh": "我手臂疼。",
+          "icon": "health"
+        },
+        {
+          "head": "cabeça",
+          "zh": "头",
+          "example": "Dói-me a cabeça.",
+          "exampleZh": "我头疼。",
+          "icon": "health"
+        },
+        {
+          "head": "febre",
+          "zh": "发热",
+          "example": "Tenho febre desde ontem.",
+          "exampleZh": "我从昨天开始发热。",
+          "icon": "health"
+        },
+        {
+          "head": "tosse",
+          "zh": "咳嗽",
+          "example": "Tenho tosse.",
+          "exampleZh": "我咳嗽。",
+          "icon": "health"
+        },
+        {
+          "head": "alergia",
+          "zh": "过敏",
+          "example": "Tenho uma alergia conhecida.",
+          "exampleZh": "我有已知的过敏情况。",
+          "icon": "health"
+        },
+        {
+          "head": "medicamento",
+          "zh": "药物",
+          "example": "Tomo este medicamento.",
+          "exampleZh": "我在服用这个药。",
+          "icon": "health"
+        },
+        {
+          "head": "consulta",
+          "zh": "就诊；咨询",
+          "example": "Queria marcar uma consulta.",
+          "exampleZh": "我想预约就诊。",
+          "icon": "health"
+        },
+        {
+          "head": "ajuda",
+          "zh": "帮助",
+          "example": "Preciso de ajuda.",
+          "exampleZh": "我需要帮助。",
+          "icon": "health"
+        },
+        {
+          "head": "urgente",
+          "zh": "紧急的",
+          "example": "Preciso de ajuda urgente.",
+          "exampleZh": "我需要紧急帮助。",
+          "icon": "health"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-11-1",
+          "text": "Dói-me a garganta há dois dias.",
+          "zh": "我喉咙痛两天了。",
+          "tip": "há 加时长说明持续时间。"
+        },
+        {
+          "id": "pt-11-2",
+          "text": "Tenho uma alergia a este medicamento.",
+          "zh": "我对这种药过敏。",
+          "tip": "已知过敏情况应清楚表达。"
+        },
+        {
+          "id": "pt-11-3",
+          "text": "Bom dia, precisava de uma informação.",
+          "zh": "早上好，我想咨询一下。",
+          "tip": "precisava 可用于委婉请求。"
+        },
+        {
+          "id": "pt-11-4",
+          "text": "Diga, em que posso ajudar?",
+          "zh": "请说，我能怎样帮您？",
+          "tip": "固定问句用于邀请说明需求。"
+        },
+        {
+          "id": "pt-11-5",
+          "text": "Tenho tosse e queria saber onde posso pedir orientação.",
+          "zh": "我咳嗽，想知道可以在哪里寻求指导。",
+          "tip": "说明需求并寻求专业人员指引。"
+        },
+        {
+          "id": "pt-11-6",
+          "text": "Podemos falar com a farmacêutica.",
+          "zh": "我们可以跟药剂师谈谈。",
+          "tip": "本句是对话安排，不是治疗建议。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Bom dia, precisava de uma informação.",
+          "zh": "早上好，我想咨询一下。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Diga, em que posso ajudar?",
+          "zh": "请说，我能怎样帮您？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Tenho tosse e queria saber onde posso pedir orientação.",
+          "zh": "我咳嗽，想知道可以在哪里寻求指导。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Podemos falar com a farmacêutica.",
+          "zh": "我们可以跟药剂师谈谈。"
+        }
+      ],
+      "reading": {
+        "title": "先说明情况",
+        "text": "O Chen entra numa farmácia porque tem uma dúvida sobre um medicamento que já toma. Leva a embalagem e uma lista das suas alergias conhecidas. Diz à farmacêutica há quanto tempo sente desconforto e pergunta onde pode obter orientação adequada. Não compreende uma palavra e pede que a escrevam. Antes de sair, confirma o que foi explicado. Se precisar de outra avaliação, quer saber como contactar um serviço de saúde.",
+        "zh": "陈走进药房，因为他对正在服用的一种药有疑问。他带着包装和已知过敏清单。他告诉药剂师不适持续了多久，并询问在哪里能得到适当指导。有一个词他没听懂，请对方写下来。离开前，他确认了刚才的说明。如果需要进一步评估，他想知道怎样联系医疗服务。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "打电话询问预约",
+          "text": "A Mei telefona para uma clínica para perguntar como pode marcar uma consulta. Diz que tem uma dor no ombro há três dias. A rececionista pergunta o nome e explica que precisa de confirmar os horários disponíveis. A Mei pede que enviem a informação por escrito, porque não percebeu tudo ao telefone. Ela tem consigo uma lista dos medicamentos que toma. A conversa termina com a confirmação do seu endereço de email."
+        },
+        "questions": [
+          {
+            "prompt": "梅哪里痛？",
+            "options": [
+              "头部",
+              "肩膀",
+              "喉咙"
+            ],
+            "answer": 1,
+            "explanation": "dor no ombro 为肩膀痛。"
+          },
+          {
+            "prompt": "症状持续多久？",
+            "options": [
+              "一天",
+              "一周",
+              "三天"
+            ],
+            "answer": 2,
+            "explanation": "há três dias。"
+          },
+          {
+            "prompt": "她为什么要求书面信息？",
+            "options": [
+              "电话里未全听懂",
+              "不愿提供姓名",
+              "没有手机"
+            ],
+            "answer": 0,
+            "explanation": "文中为 não percebeu tudo ao telefone。"
+          },
+          {
+            "prompt": "通话最后确认什么？",
+            "options": [
+              "付款金额",
+              "电子邮箱",
+              "检查结果"
+            ],
+            "answer": 1,
+            "explanation": "confirmação do seu endereço de email。"
+          }
+        ],
+        "writing": "写一段向专业人员说明不适的文字，含部位、开始时间、已知过敏及求助问题；不要自行给出诊断。",
+        "speaking": "模拟致电询问就诊预约方式，并要求重复或书面确认信息。"
+      }
+    },
+    {
+      "id": "pt-12",
+      "number": 12,
+      "title": "朋友、邀请与婉拒",
+      "level": "A2",
+      "stage": "beginner",
+      "goal": "能提出邀请、协商时间并礼貌拒绝。",
+      "grammar": {
+        "title": "gostar de 与 poder",
+        "explanation": "gostar de 后接名词或动词原形；podes / pode 表示能否。Gostava de… 可委婉表达愿望。拒绝时可先感谢，再简述原因并提出其他时间。",
+        "examples": [
+          {
+            "text": "Gosto de passear junto ao rio.",
+            "zh": "我喜欢在河边散步。"
+          },
+          {
+            "text": "Gostava de te convidar para jantar.",
+            "zh": "我想邀请你吃晚饭。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "amigo / amiga",
+          "zh": "朋友",
+          "example": "A Ana é minha amiga.",
+          "exampleZh": "安娜是我的朋友。",
+          "icon": "person"
+        },
+        {
+          "head": "convidar",
+          "zh": "邀请",
+          "example": "Quero convidar o Rui.",
+          "exampleZh": "我想邀请鲁伊。",
+          "icon": "talk"
+        },
+        {
+          "head": "jantar",
+          "zh": "晚餐；吃晚饭",
+          "example": "Vamos jantar juntos?",
+          "exampleZh": "我们一起吃晚饭好吗？",
+          "icon": "food"
+        },
+        {
+          "head": "passear",
+          "zh": "散步；逛",
+          "example": "Gosto de passear.",
+          "exampleZh": "我喜欢散步。",
+          "icon": "nature"
+        },
+        {
+          "head": "livre",
+          "zh": "有空的",
+          "example": "Estás livre amanhã?",
+          "exampleZh": "你明天有空吗？",
+          "icon": "time"
+        },
+        {
+          "head": "ocupado / ocupada",
+          "zh": "忙的",
+          "example": "Estou ocupada hoje.",
+          "exampleZh": "我今天很忙。",
+          "icon": "work"
+        },
+        {
+          "head": "combinar",
+          "zh": "约定",
+          "example": "Podemos combinar outra hora.",
+          "exampleZh": "我们可以另约时间。",
+          "icon": "talk"
+        },
+        {
+          "head": "talvez",
+          "zh": "也许",
+          "example": "Talvez no domingo.",
+          "exampleZh": "也许周日。",
+          "icon": "idea"
+        },
+        {
+          "head": "pena",
+          "zh": "遗憾",
+          "example": "Que pena!",
+          "exampleZh": "真遗憾！",
+          "icon": "talk"
+        },
+        {
+          "head": "aceitar",
+          "zh": "接受",
+          "example": "Obrigada por aceitar o convite.",
+          "exampleZh": "谢谢您接受邀请。",
+          "icon": "talk"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-12-1",
+          "text": "Gosto de passear junto ao rio.",
+          "zh": "我喜欢在河边散步。",
+          "tip": "gostar 后保留介词 de。"
+        },
+        {
+          "id": "pt-12-2",
+          "text": "Gostava de te convidar para jantar.",
+          "zh": "我想邀请你吃晚饭。",
+          "tip": "gostava de 使语气更委婉。"
+        },
+        {
+          "id": "pt-12-3",
+          "text": "Queres ir ao cinema no sábado?",
+          "zh": "你想周六去看电影吗？",
+          "tip": "queres 是 tu 的变位形式。"
+        },
+        {
+          "id": "pt-12-4",
+          "text": "Obrigada, mas no sábado trabalho.",
+          "zh": "谢谢，但周六我工作。",
+          "tip": "先感谢，再说明不方便的原因。"
+        },
+        {
+          "id": "pt-12-5",
+          "text": "E no domingo, estás livre?",
+          "zh": "那周日呢，你有空吗？",
+          "tip": "可提出具体的替代时间。"
+        },
+        {
+          "id": "pt-12-6",
+          "text": "Sim, podemos combinar às cinco.",
+          "zh": "有空，我们可以约五点。",
+          "tip": "用具体时间确认邀请。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Queres ir ao cinema no sábado?",
+          "zh": "你想周六去看电影吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Obrigada, mas no sábado trabalho.",
+          "zh": "谢谢，但周六我工作。"
+        },
+        {
+          "speaker": "甲",
+          "text": "E no domingo, estás livre?",
+          "zh": "那周日呢，你有空吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, podemos combinar às cinco.",
+          "zh": "有空，我们可以约五点。"
+        }
+      ],
+      "reading": {
+        "title": "改到星期日",
+        "text": "A Li quer convidar a Ana para um passeio junto ao rio no sábado. A Ana agradece, mas nesse dia tem de trabalhar até tarde. Propõe o domingo à tarde. A Li aceita e sugere que se encontrem às quatro, perto da ponte. As duas combinam levar água e fazer um passeio curto. Se estiver a chover, preferem encontrar-se num café e conversar um pouco antes de voltar para casa.",
+        "zh": "小李想邀请安娜周六沿河散步。安娜感谢她，但那天要工作到很晚。她提议周日下午。小李同意，建议四点在桥附近见面。两人约定带水，散步一小段。如果下雨，她们更愿意在咖啡馆见面，聊一会儿再回家。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "晚餐邀请",
+          "text": "O Pedro convida o Liu para jantar em sua casa na sexta-feira. O Liu agradece, mas explica que tem uma aula nesse dia. Pergunta se o jantar pode ser no sábado. O Pedro concorda e propõe as oito da noite. O Liu aceita e pergunta se deve levar alguma coisa. O Pedro pede apenas fruta. Antes de terminar a conversa, envia a morada por mensagem para facilitar a chegada."
+        },
+        "questions": [
+          {
+            "prompt": "刘为什么不能周五去？",
+            "options": [
+              "要旅行",
+              "有工作会议",
+              "有课"
+            ],
+            "answer": 2,
+            "explanation": "tem uma aula nesse dia。"
+          },
+          {
+            "prompt": "最后约在何时？",
+            "options": [
+              "周六晚八点",
+              "周五晚八点",
+              "周日下午四点"
+            ],
+            "answer": 0,
+            "explanation": "sábado… oito da noite。"
+          },
+          {
+            "prompt": "佩德罗请刘带什么？",
+            "options": [
+              "面包",
+              "水果",
+              "饮料"
+            ],
+            "answer": 1,
+            "explanation": "pede apenas fruta。"
+          },
+          {
+            "prompt": "佩德罗最后发送什么？",
+            "options": [
+              "账单",
+              "菜单",
+              "地址"
+            ],
+            "answer": 2,
+            "explanation": "envia a morada por mensagem。"
+          }
+        ],
+        "writing": "写一条婉拒邀请的信息：感谢、简述原因并提出一个替代时间。",
+        "speaking": "邀请朋友参加活动；听到对方拒绝后，协商新的日期和时间。"
+      }
+    },
+    {
+      "id": "pt-13",
+      "number": 13,
+      "title": "租房与合同问题",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能询问租金、费用、期限及需进一步确认的条款。",
+      "grammar": {
+        "title": "间接疑问句",
+        "explanation": "Pode explicar se… / Gostava de saber quando… 可把问题嵌入请求中。使用陈述语序。租约词语用于理解和提问，不构成法律意见；具体义务应查阅实际文件并寻求合适的专业解释。",
+        "examples": [
+          {
+            "text": "Gostava de saber se a água está incluída.",
+            "zh": "我想知道是否包含水费。"
+          },
+          {
+            "text": "Pode explicar quando termina o contrato?",
+            "zh": "您能解释合同何时结束吗？"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "renda",
+          "zh": "租金",
+          "example": "A renda inclui água?",
+          "exampleZh": "租金包含水费吗？",
+          "icon": "money"
+        },
+        {
+          "head": "contrato",
+          "zh": "合同",
+          "example": "Quero ler o contrato.",
+          "exampleZh": "我想阅读合同。",
+          "icon": "home"
+        },
+        {
+          "head": "caução",
+          "zh": "押金",
+          "example": "Qual é o valor da caução?",
+          "exampleZh": "押金金额是多少？",
+          "icon": "money"
+        },
+        {
+          "head": "prazo",
+          "zh": "期限",
+          "example": "O prazo está escrito aqui.",
+          "exampleZh": "期限写在这里。",
+          "icon": "time"
+        },
+        {
+          "head": "senhorio / senhoria",
+          "zh": "房东",
+          "example": "Vou falar com a senhoria.",
+          "exampleZh": "我要和女房东谈谈。",
+          "icon": "person"
+        },
+        {
+          "head": "inquilino / inquilina",
+          "zh": "租客",
+          "example": "O inquilino pediu uma cópia.",
+          "exampleZh": "租客要了一份副本。",
+          "icon": "person"
+        },
+        {
+          "head": "despesa",
+          "zh": "费用；开支",
+          "example": "Que despesas estão incluídas?",
+          "exampleZh": "包含哪些费用？",
+          "icon": "money"
+        },
+        {
+          "head": "reparação",
+          "zh": "维修",
+          "example": "Quem trata desta reparação?",
+          "exampleZh": "谁负责这项维修？",
+          "icon": "home"
+        },
+        {
+          "head": "cláusula",
+          "zh": "条款",
+          "example": "Não percebo esta cláusula.",
+          "exampleZh": "我不理解这一条款。",
+          "icon": "study"
+        },
+        {
+          "head": "cópia",
+          "zh": "副本",
+          "example": "Posso ficar com uma cópia?",
+          "exampleZh": "我能留一份副本吗？",
+          "icon": "home"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-13-1",
+          "text": "Gostava de saber se a água está incluída.",
+          "zh": "我想知道是否包含水费。",
+          "tip": "se 引出是否的问题。"
+        },
+        {
+          "id": "pt-13-2",
+          "text": "Pode explicar quando termina o contrato?",
+          "zh": "您能解释合同何时结束吗？",
+          "tip": "间接问句保持通常语序。"
+        },
+        {
+          "id": "pt-13-3",
+          "text": "Antes de decidir, queria esclarecer as despesas.",
+          "zh": "决定前，我想弄清费用。",
+          "tip": "antes de 加原形说明先后顺序。"
+        },
+        {
+          "id": "pt-13-4",
+          "text": "A eletricidade é paga à parte.",
+          "zh": "电费另付。",
+          "tip": "à parte 表示另外计算。"
+        },
+        {
+          "id": "pt-13-5",
+          "text": "Pode enviar-me essa informação por escrito?",
+          "zh": "您能把这项信息以书面形式发给我吗？",
+          "tip": "请求留存可复核的信息。"
+        },
+        {
+          "id": "pt-13-6",
+          "text": "Sim, envio uma proposta para poder ler com calma.",
+          "zh": "可以，我发一份方案，让您从容阅读。",
+          "tip": "para poder 说明目的。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Antes de decidir, queria esclarecer as despesas.",
+          "zh": "决定前，我想弄清费用。"
+        },
+        {
+          "speaker": "乙",
+          "text": "A eletricidade é paga à parte.",
+          "zh": "电费另付。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Pode enviar-me essa informação por escrito?",
+          "zh": "您能把这项信息以书面形式发给我吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Sim, envio uma proposta para poder ler com calma.",
+          "zh": "可以，我发一份方案，让您从容阅读。"
+        }
+      ],
+      "reading": {
+        "title": "看房之后",
+        "text": "Depois de visitar um apartamento, a Mei recebe uma proposta de arrendamento. A casa parece adequada, mas ela tem dúvidas sobre as despesas e o prazo. Envia perguntas à senhoria e pede uma cópia do documento para ler com calma. Quer também saber como são comunicados os problemas da casa. Uma amiga ajuda-a com o vocabulário. Se uma cláusula continuar pouco clara, a Mei pretende pedir esclarecimento profissional antes de tomar uma decisão.",
+        "zh": "看过一套公寓后，梅收到一份租赁方案。房子看起来合适，但她对费用和期限有疑问。她给房东发问题，并要一份文件副本，以便从容阅读。她还想知道如何报告房屋问题。一位朋友帮她理解词汇。如果某项条款仍不清楚，梅打算在作决定前寻求专业解释。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "比较两份方案",
+          "text": "O Chen compara dois quartos. O primeiro tem uma renda mais baixa, mas a proposta não esclarece as despesas da internet. O segundo inclui internet e fica mais perto do trabalho. O Chen pede ao primeiro senhorio informação por escrito sobre os custos e o prazo. Ainda não escolheu nenhum quarto. Quer ler os documentos completos e esclarecer uma cláusula sobre reparações antes de decidir qual proposta corresponde melhor às suas necessidades."
+        },
+        "questions": [
+          {
+            "prompt": "第一间房的方案有什么不清楚？",
+            "options": [
+              "网络费用",
+              "房屋位置",
+              "家具颜色"
+            ],
+            "answer": 0,
+            "explanation": "方案未说明 despesas da internet。"
+          },
+          {
+            "prompt": "第二间房有什么位置优势？",
+            "options": [
+              "靠近机场",
+              "靠近工作地点",
+              "靠近海边"
+            ],
+            "answer": 1,
+            "explanation": "fica mais perto do trabalho。"
+          },
+          {
+            "prompt": "陈目前决定了吗？",
+            "options": [
+              "已选第一间",
+              "已选第二间",
+              "尚未选择"
+            ],
+            "answer": 2,
+            "explanation": "Ainda não escolheu nenhum quarto。"
+          },
+          {
+            "prompt": "他还想弄清哪类条款？",
+            "options": [
+              "维修",
+              "宠物食品",
+              "火车票"
+            ],
+            "answer": 0,
+            "explanation": "cláusula sobre reparações。"
+          }
+        ],
+        "writing": "写一封租房询问信，询问四项具体条件；对不理解的条款请求解释。",
+        "speaking": "模拟看房后与房东核对费用、期限和维修沟通方式，最后请求书面说明。"
+      }
+    },
+    {
+      "id": "pt-14",
+      "number": 14,
+      "title": "预约与公共服务沟通",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能说明办理目的、确认材料并更改预约。",
+      "grammar": {
+        "title": "条件句 se 与将来虚拟式",
+        "explanation": "Se faltar um documento, contacto o serviço 表达未来可能发生的条件；faltar 在这里是将来虚拟式，与该动词不定式同形，并不是现在时 falta。请求中可用 seria possível…；服务流程与所需文件应向具体机构核对。",
+        "examples": [
+          {
+            "text": "Se faltar algum documento, volto a contactar o serviço.",
+            "zh": "如果缺文件，我会再次联系该机构。"
+          },
+          {
+            "text": "Seria possível alterar a marcação?",
+            "zh": "可以更改预约吗？"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "marcação",
+          "zh": "预约",
+          "example": "Tenho uma marcação para amanhã.",
+          "exampleZh": "我预约了明天。",
+          "icon": "time"
+        },
+        {
+          "head": "atendimento",
+          "zh": "接待；办事服务",
+          "example": "O atendimento começa às nove.",
+          "exampleZh": "办事服务九点开始。",
+          "icon": "work"
+        },
+        {
+          "head": "documento",
+          "zh": "文件；证件",
+          "example": "Que documento devo levar?",
+          "exampleZh": "我应带什么文件？",
+          "icon": "study"
+        },
+        {
+          "head": "formulário",
+          "zh": "表格",
+          "example": "Preciso de preencher o formulário.",
+          "exampleZh": "我需要填写表格。",
+          "icon": "work"
+        },
+        {
+          "head": "comprovativo",
+          "zh": "证明材料",
+          "example": "Este comprovativo é suficiente?",
+          "exampleZh": "这份证明材料足够吗？",
+          "icon": "study"
+        },
+        {
+          "head": "disponível",
+          "zh": "可用的；有空的",
+          "example": "Há uma hora disponível?",
+          "exampleZh": "有可预约的时间吗？",
+          "icon": "time"
+        },
+        {
+          "head": "adiar",
+          "zh": "推迟",
+          "example": "Preciso de adiar a marcação.",
+          "exampleZh": "我需要推迟预约。",
+          "icon": "time"
+        },
+        {
+          "head": "cancelar",
+          "zh": "取消",
+          "example": "Posso cancelar pela internet?",
+          "exampleZh": "我能在线取消吗？",
+          "icon": "time"
+        },
+        {
+          "head": "confirmar",
+          "zh": "确认",
+          "example": "Quero confirmar o horário.",
+          "exampleZh": "我想确认时间。",
+          "icon": "talk"
+        },
+        {
+          "head": "balcão",
+          "zh": "柜台",
+          "example": "Onde fica o balcão de informações?",
+          "exampleZh": "咨询柜台在哪里？",
+          "icon": "work"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-14-1",
+          "text": "Se faltar algum documento, volto a contactar o serviço.",
+          "zh": "如果缺文件，我会再次联系该机构。",
+          "tip": "se 引出未来可能条件，faltar 为将来虚拟式。"
+        },
+        {
+          "id": "pt-14-2",
+          "text": "Seria possível alterar a marcação?",
+          "zh": "可以更改预约吗？",
+          "tip": "seria possível 是委婉询问。"
+        },
+        {
+          "id": "pt-14-3",
+          "text": "Tenho uma marcação, mas não posso ir nessa data.",
+          "zh": "我有预约，但那个日期不能去。",
+          "tip": "nessa data 指前述日期。"
+        },
+        {
+          "id": "pt-14-4",
+          "text": "Pode indicar outra data disponível?",
+          "zh": "您能提供另一个可预约日期吗？",
+          "tip": "indicar 表示告知或指出。"
+        },
+        {
+          "id": "pt-14-5",
+          "text": "Há algum documento que deva preparar?",
+          "zh": "有什么文件是我应该准备的吗？",
+          "tip": "deva 表达尚待确认的要求。"
+        },
+        {
+          "id": "pt-14-6",
+          "text": "Consulte a lista enviada com a confirmação.",
+          "zh": "请查看随确认信息发出的清单。",
+          "tip": "以本次确认资料核实要求。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Tenho uma marcação, mas não posso ir nessa data.",
+          "zh": "我有预约，但那个日期不能去。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Pode indicar outra data disponível?",
+          "zh": "您能提供另一个可预约日期吗？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Há algum documento que deva preparar?",
+          "zh": "有什么文件是我应该准备的吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Consulte a lista enviada com a confirmação.",
+          "zh": "请查看随确认信息发出的清单。"
+        }
+      ],
+      "reading": {
+        "title": "更改办事时间",
+        "text": "A Li tinha uma marcação num serviço municipal, mas recebeu um novo horário de trabalho. Como as horas coincidem, contacta o serviço para pedir outra data. Explica o motivo de forma breve e pergunta se pode manter os documentos já preparados. A funcionária envia uma nova confirmação e uma lista para consultar. A Li guarda a mensagem e verifica a morada do balcão, pois o atendimento pode ser num edifício diferente.",
+        "zh": "小李原本预约了市政服务，但收到了新的工作时间。由于时间冲突，她联系机构申请另一个日期。她简短说明原因，询问已准备的文件是否仍可使用。工作人员发送新的确认信息和供查看的清单。小李保存消息，并核对柜台地址，因为办事地点可能在另一栋楼。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "确认所需材料",
+          "text": "O Liu marcou um atendimento para sexta-feira de manhã. Ao ler a confirmação, percebe que não sabe qual comprovativo de morada deve apresentar. Em vez de adivinhar, envia uma pergunta ao serviço e pede exemplos dos documentos aceites para o seu caso. A resposta chega na quinta-feira e indica também um novo balcão no mesmo edifício. O Liu prepara os documentos, guarda a resposta e confirma a hora antes de sair de casa."
+        },
+        "questions": [
+          {
+            "prompt": "刘预约在何时？",
+            "options": [
+              "周四下午",
+              "周五上午",
+              "周六晚上"
+            ],
+            "answer": 1,
+            "explanation": "sexta-feira de manhã。"
+          },
+          {
+            "prompt": "他对什么有疑问？",
+            "options": [
+              "车票价格",
+              "午餐地点",
+              "住址证明材料"
+            ],
+            "answer": 2,
+            "explanation": "qual comprovativo de morada deve apresentar。"
+          },
+          {
+            "prompt": "回复还说明什么变化？",
+            "options": [
+              "同楼内更换柜台",
+              "改到另一个城市",
+              "预约取消"
+            ],
+            "answer": 0,
+            "explanation": "novo balcão no mesmo edifício。"
+          },
+          {
+            "prompt": "刘如何处理疑问？",
+            "options": [
+              "自行猜测",
+              "向机构询问",
+              "让邻居代签"
+            ],
+            "answer": 1,
+            "explanation": "他发送问题并要求适用于自身情况的例子。"
+          }
+        ],
+        "writing": "写一封更改预约邮件，说明原时间、简短原因、两个可行时间并请求确认。",
+        "speaking": "模拟致电办事机构，确认目的、地点和针对本人的材料要求。"
+      }
+    },
+    {
+      "id": "pt-15",
+      "number": 15,
+      "title": "工作请求与协作",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能说明任务、请求协助并协商截止时间。",
+      "grammar": {
+        "title": "条件式礼貌请求与目的",
+        "explanation": "Poderia ajudar-me… 比直接命令更委婉。para + 原形表达目的；当动作主体不同时，可用 para que 并搭配虚拟式。本章先练常用请求。",
+        "examples": [
+          {
+            "text": "Poderia rever este ficheiro antes da reunião?",
+            "zh": "您能在开会前复核这个文件吗？"
+          },
+          {
+            "text": "Envio o rascunho para receber os teus comentários.",
+            "zh": "我发送草稿，以便收到你的意见。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "tarefa",
+          "zh": "任务",
+          "example": "Esta tarefa demora uma hora.",
+          "exampleZh": "这项任务需要一小时。",
+          "icon": "work"
+        },
+        {
+          "head": "prazo de entrega",
+          "zh": "交付期限",
+          "example": "Qual é o prazo de entrega?",
+          "exampleZh": "交付期限是什么时候？",
+          "icon": "work"
+        },
+        {
+          "head": "reunião",
+          "zh": "会议",
+          "example": "A reunião começa às dez.",
+          "exampleZh": "会议十点开始。",
+          "icon": "work"
+        },
+        {
+          "head": "ficheiro",
+          "zh": "文件",
+          "example": "Enviei o ficheiro correto.",
+          "exampleZh": "我发了正确的文件。",
+          "icon": "work"
+        },
+        {
+          "head": "anexo",
+          "zh": "附件",
+          "example": "O relatório segue em anexo.",
+          "exampleZh": "报告随信附上。",
+          "icon": "work"
+        },
+        {
+          "head": "equipa",
+          "zh": "团队",
+          "example": "A equipa precisa de ajuda.",
+          "exampleZh": "团队需要帮助。",
+          "icon": "work"
+        },
+        {
+          "head": "prioridade",
+          "zh": "优先事项",
+          "example": "Esta tarefa é a prioridade?",
+          "exampleZh": "这项任务是优先事项吗？",
+          "icon": "work"
+        },
+        {
+          "head": "rever",
+          "zh": "复核；修订",
+          "example": "Pode rever o texto?",
+          "exampleZh": "您能复核文字吗？",
+          "icon": "work"
+        },
+        {
+          "head": "partilhar",
+          "zh": "分享；共享",
+          "example": "Vou partilhar a pasta.",
+          "exampleZh": "我要共享文件夹。",
+          "icon": "work"
+        },
+        {
+          "head": "concluir",
+          "zh": "完成",
+          "example": "Espero concluir hoje.",
+          "exampleZh": "我希望今天完成。",
+          "icon": "work"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-15-1",
+          "text": "Poderia rever este ficheiro antes da reunião?",
+          "zh": "您能在开会前复核这个文件吗？",
+          "tip": "poderia 让请求更委婉。"
+        },
+        {
+          "id": "pt-15-2",
+          "text": "Envio o rascunho para receber os teus comentários.",
+          "zh": "我发送草稿，以便收到你的意见。",
+          "tip": "para + 原形表示目的。"
+        },
+        {
+          "id": "pt-15-3",
+          "text": "Consigo terminar amanhã, mas preciso dos dados de hoje.",
+          "zh": "我能明天完成，但需要今天的数据。",
+          "tip": "先说明可交付时间，再提出依赖条件。"
+        },
+        {
+          "id": "pt-15-4",
+          "text": "Eu envio os dados até às quatro.",
+          "zh": "我会在四点前发送数据。",
+          "tip": "até às 表示最晚时间。"
+        },
+        {
+          "id": "pt-15-5",
+          "text": "Se houver alterações, podes avisar-me?",
+          "zh": "如果有变化，你能通知我吗？",
+          "tip": "houver 为 haver 的将来虚拟式，指可能发生的变化。"
+        },
+        {
+          "id": "pt-15-6",
+          "text": "Claro, deixo uma mensagem na pasta da equipa.",
+          "zh": "当然，我会在团队文件夹里留一条消息。",
+          "tip": "明确协作信息放在哪里。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Consigo terminar amanhã, mas preciso dos dados de hoje.",
+          "zh": "我能明天完成，但需要今天的数据。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Eu envio os dados até às quatro.",
+          "zh": "我会在四点前发送数据。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Se houver alterações, podes avisar-me?",
+          "zh": "如果有变化，你能通知我吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Claro, deixo uma mensagem na pasta da equipa.",
+          "zh": "当然，我会在团队文件夹里留一条消息。"
+        }
+      ],
+      "reading": {
+        "title": "重新安排任务",
+        "text": "A Mei prepara uma apresentação com a equipa. Precisa de dados que ainda não recebeu, por isso avisa o colega antes do prazo. Explica o que já concluiu e pede que ele envie a tabela até ao fim da tarde. Propõe entregar um rascunho no dia seguinte, para haver tempo de revisão. O colega aceita e confirma quais são os números mais recentes. A Mei regista o acordo numa mensagem curta.",
+        "zh": "梅正在和团队准备演示文稿。她还没收到所需数据，因此在截止时间前通知同事。她说明已完成的部分，请他在下午结束前发送表格。她提议第二天提交草稿，好留出复核时间。同事同意，并确认哪些数字是最新的。梅用一条简短消息记录了约定。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "核对文件版本",
+          "text": "O Chen recebe dois ficheiros com nomes parecidos antes de uma reunião. Não sabe qual contém os valores corrigidos. Pergunta à colega qual deve usar e explica que a apresentação depende dessa confirmação. A colega responde que a versão com a data de terça-feira é a mais recente. Pede ainda que ele retire um gráfico antigo. O Chen faz a alteração, envia o rascunho e solicita comentários até ao meio-dia seguinte."
+        },
+        "questions": [
+          {
+            "prompt": "陈最初遇到什么问题？",
+            "options": [
+              "电脑断电",
+              "数据全丢了",
+              "无法确认文件版本"
+            ],
+            "answer": 2,
+            "explanation": "两个名称相近的文件让他不知用哪份。"
+          },
+          {
+            "prompt": "最新版本带什么日期？",
+            "options": [
+              "周二",
+              "周一",
+              "周五"
+            ],
+            "answer": 0,
+            "explanation": "versão com a data de terça-feira。"
+          },
+          {
+            "prompt": "同事要求删去什么？",
+            "options": [
+              "整份报告",
+              "旧图表",
+              "会议日期"
+            ],
+            "answer": 1,
+            "explanation": "retire um gráfico antigo。"
+          },
+          {
+            "prompt": "他希望何时前收到意见？",
+            "options": [
+              "当天四点",
+              "下周五",
+              "次日中午"
+            ],
+            "answer": 2,
+            "explanation": "até ao meio-dia seguinte。"
+          }
+        ],
+        "writing": "写一条工作请求：说明任务、所需帮助、截止时间及无法按时完成时的沟通安排。",
+        "speaking": "与同事协商一项有依赖条件的任务，确认分工及时间。"
+      }
+    },
+    {
+      "id": "pt-16",
+      "number": 16,
+      "title": "学校与持续学习",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能询问课程要求、解释学习困难并商量改进。",
+      "grammar": {
+        "title": "比较级与学习目标",
+        "explanation": "mais… do que… 表示比……更……；tão… como… 表示与……一样……。为了表达学习目标，可用 quero conseguir + 原形，避免把进步等同于正式等级认证。",
+        "examples": [
+          {
+            "text": "Ler é mais fácil para mim do que ouvir.",
+            "zh": "对我来说，阅读比听力容易。"
+          },
+          {
+            "text": "Este exercício é tão útil como o anterior.",
+            "zh": "这个练习和上一个一样有用。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "inscrição",
+          "zh": "报名",
+          "example": "A inscrição termina amanhã.",
+          "exampleZh": "报名明天截止。",
+          "icon": "study"
+        },
+        {
+          "head": "propina",
+          "zh": "学费",
+          "example": "Qual é o valor da propina?",
+          "exampleZh": "学费是多少？",
+          "icon": "money"
+        },
+        {
+          "head": "horário",
+          "zh": "时间表",
+          "example": "Este horário é melhor para mim.",
+          "exampleZh": "这个时间表更适合我。",
+          "icon": "time"
+        },
+        {
+          "head": "exercício",
+          "zh": "练习",
+          "example": "Preciso de repetir o exercício.",
+          "exampleZh": "我需要重做练习。",
+          "icon": "study"
+        },
+        {
+          "head": "dúvida",
+          "zh": "疑问",
+          "example": "Tenho uma dúvida sobre o texto.",
+          "exampleZh": "我对文章有一个疑问。",
+          "icon": "study"
+        },
+        {
+          "head": "avaliação",
+          "zh": "评估",
+          "example": "Como funciona a avaliação?",
+          "exampleZh": "评估如何进行？",
+          "icon": "study"
+        },
+        {
+          "head": "melhorar",
+          "zh": "改进；提高",
+          "example": "Quero melhorar a pronúncia.",
+          "exampleZh": "我想改善发音。",
+          "icon": "study"
+        },
+        {
+          "head": "pronúncia",
+          "zh": "发音",
+          "example": "A pronúncia exige prática.",
+          "exampleZh": "发音需要练习。",
+          "icon": "study"
+        },
+        {
+          "head": "faltar",
+          "zh": "缺席；缺少",
+          "example": "Vou faltar à aula de hoje.",
+          "exampleZh": "我今天要缺课。",
+          "icon": "study"
+        },
+        {
+          "head": "apoio",
+          "zh": "支持；辅导",
+          "example": "Existe apoio para esta atividade?",
+          "exampleZh": "这项活动有辅导吗？",
+          "icon": "study"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-16-1",
+          "text": "Ler é mais fácil para mim do que ouvir.",
+          "zh": "对我来说，阅读比听力容易。",
+          "tip": "mais… do que… 构成比较。"
+        },
+        {
+          "id": "pt-16-2",
+          "text": "Este exercício é tão útil como o anterior.",
+          "zh": "这个练习和上一个一样有用。",
+          "tip": "tão… como… 表示同等程度。"
+        },
+        {
+          "id": "pt-16-3",
+          "text": "Tenho dificuldade em perceber conversas rápidas.",
+          "zh": "我难以听懂快速的对话。",
+          "tip": "ter dificuldade em 加原形描述困难。"
+        },
+        {
+          "id": "pt-16-4",
+          "text": "Podemos praticar com gravações mais curtas.",
+          "zh": "我们可以用更短的录音练习。",
+          "tip": "提出具体、可执行的练习调整。"
+        },
+        {
+          "id": "pt-16-5",
+          "text": "Quanto tempo devo estudar entre as aulas?",
+          "zh": "两次课之间我应学习多久？",
+          "tip": "devo 表示询问合适安排。"
+        },
+        {
+          "id": "pt-16-6",
+          "text": "Começa com períodos curtos e regista as tuas dúvidas.",
+          "zh": "先从短时间学习开始，并记下疑问。",
+          "tip": "本句是学习安排建议。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Tenho dificuldade em perceber conversas rápidas.",
+          "zh": "我难以听懂快速的对话。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Podemos praticar com gravações mais curtas.",
+          "zh": "我们可以用更短的录音练习。"
+        },
+        {
+          "speaker": "甲",
+          "text": "Quanto tempo devo estudar entre as aulas?",
+          "zh": "两次课之间我应学习多久？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Começa com períodos curtos e regista as tuas dúvidas.",
+          "zh": "先从短时间学习开始，并记下疑问。"
+        }
+      ],
+      "reading": {
+        "title": "调整学习方法",
+        "text": "O Liu frequenta um curso à noite. Lê os textos com alguma facilidade, mas perde informação quando várias pessoas falam depressa. Na aula pede à professora uma estratégia para praticar em casa. Ela sugere ouvir um excerto curto, anotar palavras importantes e voltar a ouvir. O Liu decide experimentar durante uma semana. Depois quer comparar o que percebeu na primeira e na última tentativa, sem esperar compreender tudo imediatamente.",
+        "zh": "刘在上夜课。他阅读文章较为轻松，但多人快速说话时会漏掉信息。课堂上，他请老师提供在家练习的方法。老师建议听一小段录音，记下关键词，再听一遍。刘决定试一周。之后他想比较第一次与最后一次听懂的内容，不期待立刻全部听懂。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "选课前询问",
+          "text": "A Li procura um curso de fotografia. Encontra duas opções: uma tem aulas de manhã e outra funciona ao sábado. Como trabalha durante a semana, prefere a segunda. Antes de se inscrever, pergunta se precisa de levar uma máquina própria e como são avaliados os trabalhos. A escola responde que pode começar com o equipamento disponível nas aulas, mas deve confirmar a reserva. A Li pede também informação sobre o custo total."
+        },
+        "questions": [
+          {
+            "prompt": "小李偏好哪种上课时间？",
+            "options": [
+              "周六",
+              "工作日上午",
+              "每天晚上"
+            ],
+            "answer": 0,
+            "explanation": "prefere a segunda，即周六课程。"
+          },
+          {
+            "prompt": "她问了哪项评估问题？",
+            "options": [
+              "老师国籍",
+              "作品如何评估",
+              "考试地点"
+            ],
+            "answer": 1,
+            "explanation": "como são avaliados os trabalhos。"
+          },
+          {
+            "prompt": "开始时可以使用什么？",
+            "options": [
+              "必须新买相机",
+              "只能手机",
+              "课堂可用设备"
+            ],
+            "answer": 2,
+            "explanation": "equipamento disponível nas aulas。"
+          },
+          {
+            "prompt": "她还询问什么？",
+            "options": [
+              "总费用",
+              "周末天气",
+              "住址证明"
+            ],
+            "answer": 0,
+            "explanation": "informação sobre o custo total。"
+          }
+        ],
+        "writing": "写一封课程询问信，说明时间限制，询问设备、费用与评估方式。",
+        "speaking": "向老师描述一项学习困难，协商一周练习计划并约定如何观察进步。"
+      }
+    },
+    {
+      "id": "pt-17",
+      "number": 17,
+      "title": "银行与日常付款",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能核对费用、说明支付问题并保护敏感信息。",
+      "grammar": {
+        "title": "直接宾语代词与否定位置",
+        "explanation": "o/a/os/as 可代替已提及的物品。肯定句常后置，如 recebi-o；带 não 时通常前置，如 não o recebi。涉及费用和账户条件时应向具体机构核实。",
+        "examples": [
+          {
+            "text": "Recebi o recibo e guardei-o.",
+            "zh": "我收到收据并把它保存了。"
+          },
+          {
+            "text": "Pedi o comprovativo, mas não o recebi.",
+            "zh": "我要求了凭证，但没收到。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "conta bancária",
+          "zh": "银行账户",
+          "example": "Quero informação sobre uma conta bancária.",
+          "exampleZh": "我想了解银行账户。",
+          "icon": "money"
+        },
+        {
+          "head": "transferência",
+          "zh": "转账",
+          "example": "A transferência ainda não chegou.",
+          "exampleZh": "转账还没到账。",
+          "icon": "money"
+        },
+        {
+          "head": "saldo",
+          "zh": "余额",
+          "example": "Preciso de consultar o saldo.",
+          "exampleZh": "我需要查询余额。",
+          "icon": "money"
+        },
+        {
+          "head": "comissão",
+          "zh": "手续费",
+          "example": "Esta operação tem comissão?",
+          "exampleZh": "这项操作收手续费吗？",
+          "icon": "money"
+        },
+        {
+          "head": "pagamento",
+          "zh": "付款",
+          "example": "O pagamento foi recusado.",
+          "exampleZh": "付款被拒绝了。",
+          "icon": "money"
+        },
+        {
+          "head": "levantamento",
+          "zh": "取款",
+          "example": "Quero confirmar o limite de levantamento.",
+          "exampleZh": "我想确认取款限额。",
+          "icon": "money"
+        },
+        {
+          "head": "recibo",
+          "zh": "收据",
+          "example": "Preciso de um recibo.",
+          "exampleZh": "我需要收据。",
+          "icon": "money"
+        },
+        {
+          "head": "montante",
+          "zh": "金额",
+          "example": "O montante está correto.",
+          "exampleZh": "金额正确。",
+          "icon": "money"
+        },
+        {
+          "head": "código",
+          "zh": "代码；密码",
+          "example": "Não vou partilhar o código.",
+          "exampleZh": "我不会分享验证码／密码。",
+          "icon": "money"
+        },
+        {
+          "head": "movimento",
+          "zh": "账户交易记录",
+          "example": "Não reconheço este movimento.",
+          "exampleZh": "我不认识这笔交易。",
+          "icon": "money"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-17-1",
+          "text": "Recebi o recibo e guardei-o.",
+          "zh": "我收到收据并把它保存了。",
+          "tip": "o 代替阳性单数 recibo，肯定句后置。"
+        },
+        {
+          "id": "pt-17-2",
+          "text": "Pedi o comprovativo, mas não o recebi.",
+          "zh": "我要求了凭证，但没收到。",
+          "tip": "não 使代词位于动词前。"
+        },
+        {
+          "id": "pt-17-3",
+          "text": "O cartão foi recusado, mas o valor aparece na aplicação.",
+          "zh": "卡付款被拒绝，但应用里显示了这笔金额。",
+          "tip": "陈述看到的情况，避免自行断言扣款状态。"
+        },
+        {
+          "id": "pt-17-4",
+          "text": "Tem o comprovativo da tentativa de pagamento?",
+          "zh": "您有付款尝试的凭证吗？",
+          "tip": "tentativa 区别于已确认完成的付款。"
+        },
+        {
+          "id": "pt-17-5",
+          "text": "Sim. Pode explicar o estado desta operação?",
+          "zh": "有。您能解释这项操作的状态吗？",
+          "tip": "询问具体状态。"
+        },
+        {
+          "id": "pt-17-6",
+          "text": "Vamos verificar a informação pelo canal oficial.",
+          "zh": "我们通过官方渠道核实信息。",
+          "tip": "渠道应独立核实，避免传递敏感代码。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "O cartão foi recusado, mas o valor aparece na aplicação.",
+          "zh": "卡付款被拒绝，但应用里显示了这笔金额。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Tem o comprovativo da tentativa de pagamento?",
+          "zh": "您有付款尝试的凭证吗？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Sim. Pode explicar o estado desta operação?",
+          "zh": "有。您能解释这项操作的状态吗？"
+        },
+        {
+          "speaker": "乙",
+          "text": "Vamos verificar a informação pelo canal oficial.",
+          "zh": "我们通过官方渠道核实信息。"
+        }
+      ],
+      "reading": {
+        "title": "核对一笔付款",
+        "text": "A Mei tenta pagar uma compra com cartão, mas o terminal apresenta uma mensagem de erro. Na aplicação do banco aparece um valor relacionado com a tentativa. Ela guarda o talão e pergunta à loja se a compra ficou registada. Depois contacta o banco pelo canal oficial para perceber o estado da operação. Descreve a hora e o montante, sem enviar códigos de segurança por mensagem. Quer uma explicação antes de repetir o pagamento.",
+        "zh": "梅尝试刷卡购物，但终端显示错误消息。银行应用中出现了与此次尝试有关的一笔金额。她保存小票，询问商店购物是否已记录。随后她通过官方渠道联系银行，了解操作状态。她说明时间和金额，不通过消息发送安全代码。她想先得到解释再重新付款。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "一笔不认识的记录",
+          "text": "O Rui consulta os movimentos da conta e encontra um nome que não reconhece. Antes de concluir que existe um erro, compara o montante e a data com os recibos guardados. Um recibo tem o mesmo valor, mas apresenta outro nome comercial. O Rui continua com dúvidas e contacta o apoio do banco através da aplicação habitual. Pede informação sobre a operação e anota a referência do contacto para acompanhar a resposta."
+        },
+        "questions": [
+          {
+            "prompt": "鲁伊发现了什么？",
+            "options": [
+              "余额为零",
+              "不认识的交易名称",
+              "丢失的银行卡"
+            ],
+            "answer": 1,
+            "explanation": "encontra um nome que não reconhece。"
+          },
+          {
+            "prompt": "他首先做什么？",
+            "options": [
+              "再次付款",
+              "删除应用",
+              "核对收据金额与日期"
+            ],
+            "answer": 2,
+            "explanation": "compara o montante e a data com os recibos。"
+          },
+          {
+            "prompt": "他用什么渠道联系银行？",
+            "options": [
+              "平时使用的应用",
+              "陌生链接",
+              "社交媒体评论"
+            ],
+            "answer": 0,
+            "explanation": "através da aplicação habitual。"
+          },
+          {
+            "prompt": "他记下什么以跟进？",
+            "options": [
+              "商店菜单",
+              "联系参考编号",
+              "朋友密码"
+            ],
+            "answer": 1,
+            "explanation": "anota a referência do contacto。"
+          }
+        ],
+        "writing": "写一条向银行查询交易状态的信息，使用虚构日期与金额，避免包含账户密码或验证码。",
+        "speaking": "模拟向客服说明一次付款问题，询问状态、可能费用及后续联系参考号。"
+      }
+    },
+    {
+      "id": "pt-18",
+      "number": 18,
+      "title": "数字消息与沟通语气",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "能写清晰消息、区分语气并核实可疑请求。",
+      "grammar": {
+        "title": "口语与书面语体",
+        "explanation": "对熟悉的人可用 Olá 和 tu；较正式消息可用 Bom dia 与礼貌请求。间接引语可用 diz que…；消息中先说明事项，再写需要对方做什么。",
+        "examples": [
+          {
+            "text": "A mensagem diz que a reunião mudou de sala.",
+            "zh": "消息说会议换了房间。"
+          },
+          {
+            "text": "Bom dia, poderia confirmar a receção deste email?",
+            "zh": "您好，您能确认收到这封邮件吗？"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "mensagem",
+          "zh": "消息",
+          "example": "Recebi a tua mensagem.",
+          "exampleZh": "我收到你的消息了。",
+          "icon": "talk"
+        },
+        {
+          "head": "assunto",
+          "zh": "主题",
+          "example": "O assunto está no início.",
+          "exampleZh": "主题在开头。",
+          "icon": "talk"
+        },
+        {
+          "head": "ligação",
+          "zh": "链接；连接",
+          "example": "Não abri a ligação.",
+          "exampleZh": "我没有打开链接。",
+          "icon": "talk"
+        },
+        {
+          "head": "palavra-passe",
+          "zh": "密码",
+          "example": "Esqueci-me da palavra-passe.",
+          "exampleZh": "我忘记密码了。",
+          "icon": "talk"
+        },
+        {
+          "head": "remetente",
+          "zh": "发件人",
+          "example": "Conheces o remetente?",
+          "exampleZh": "你认识发件人吗？",
+          "icon": "person"
+        },
+        {
+          "head": "destinatário",
+          "zh": "收件人",
+          "example": "Confirma o destinatário.",
+          "exampleZh": "请确认收件人。",
+          "icon": "person"
+        },
+        {
+          "head": "rascunho",
+          "zh": "草稿",
+          "example": "Guardei um rascunho.",
+          "exampleZh": "我保存了一份草稿。",
+          "icon": "study"
+        },
+        {
+          "head": "responder",
+          "zh": "回复",
+          "example": "Vou responder amanhã.",
+          "exampleZh": "我会明天回复。",
+          "icon": "talk"
+        },
+        {
+          "head": "encaminhar",
+          "zh": "转发",
+          "example": "Posso encaminhar esta informação?",
+          "exampleZh": "我能转发这项信息吗？",
+          "icon": "talk"
+        },
+        {
+          "head": "verificar",
+          "zh": "核实",
+          "example": "É melhor verificar a origem.",
+          "exampleZh": "最好核实来源。",
+          "icon": "idea"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-18-1",
+          "text": "A mensagem diz que a reunião mudou de sala.",
+          "zh": "消息说会议换了房间。",
+          "tip": "diz que 引出间接转述。"
+        },
+        {
+          "id": "pt-18-2",
+          "text": "Bom dia, poderia confirmar a receção deste email?",
+          "zh": "您好，您能确认收到这封邮件吗？",
+          "tip": "用于较正式的书面请求。"
+        },
+        {
+          "id": "pt-18-3",
+          "text": "Recebi uma ligação, mas não reconheço o remetente.",
+          "zh": "我收到一个链接，但不认识发件人。",
+          "tip": "先说明不确定之处。"
+        },
+        {
+          "id": "pt-18-4",
+          "text": "A mensagem pede alguma informação pessoal?",
+          "zh": "消息要求提供个人信息吗？",
+          "tip": "alguma 在问句中表示某些。"
+        },
+        {
+          "id": "pt-18-5",
+          "text": "Sim, pede uma palavra-passe e cria muita urgência.",
+          "zh": "是的，要求密码，还催得很急。",
+          "tip": "说明消息的具体特征。"
+        },
+        {
+          "id": "pt-18-6",
+          "text": "Vou contactar o serviço através do endereço que já conheço.",
+          "zh": "我会通过已知地址联系该服务。",
+          "tip": "独立核实渠道，不依赖消息提供的链接。"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "甲",
+          "text": "Recebi uma ligação, mas não reconheço o remetente.",
+          "zh": "我收到一个链接，但不认识发件人。"
+        },
+        {
+          "speaker": "乙",
+          "text": "A mensagem pede alguma informação pessoal?",
+          "zh": "消息要求提供个人信息吗？"
+        },
+        {
+          "speaker": "甲",
+          "text": "Sim, pede uma palavra-passe e cria muita urgência.",
+          "zh": "是的，要求密码，还催得很急。"
+        },
+        {
+          "speaker": "乙",
+          "text": "Vou contactar o serviço através do endereço que já conheço.",
+          "zh": "我会通过已知地址联系该服务。"
+        }
+      ],
+      "reading": {
+        "title": "发送前检查",
+        "text": "A Li escreve uma mensagem à escola para perguntar sobre uma aula. Coloca um assunto claro e explica a dúvida em poucas frases. Antes de enviar, confirma o destinatário e verifica se o anexo está correto. Mais tarde recebe uma mensagem inesperada que pede a palavra-passe da conta. Como não reconhece o remetente, não responde com dados pessoais. Prefere contactar a escola através do endereço que utiliza habitualmente para esclarecer a situação.",
+        "zh": "小李写消息给学校，询问一节课。她填写清晰主题，用几句话说明疑问。发送前，她确认收件人，检查附件是否正确。后来她收到一条意外消息，要求账户密码。因为不认识发件人，她不回复个人数据。她选择通过平时使用的地址联系学校，以弄清情况。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "确认活动变动",
+          "text": "O Chen recebe no grupo uma mensagem a dizer que a visita de sábado foi cancelada. A mensagem foi encaminhada e não indica quem tomou a decisão. Antes de alterar os planos, o Chen consulta o email enviado pela organização. Não encontra qualquer aviso novo, por isso escreve diretamente para o contacto habitual. A organização responde que a visita se mantém, mas começa meia hora mais tarde. O Chen partilha a confirmação com o grupo."
+        },
+        "questions": [
+          {
+            "prompt": "群里最初的消息声称什么？",
+            "options": [
+              "活动提前",
+              "集合地点变更",
+              "参观取消"
+            ],
+            "answer": 2,
+            "explanation": "a visita… foi cancelada。"
+          },
+          {
+            "prompt": "陈为什么核实？",
+            "options": [
+              "消息是转发且未注明决定者",
+              "他丢了票",
+              "他想换城市"
+            ],
+            "answer": 0,
+            "explanation": "foi encaminhada e não indica quem tomou a decisão。"
+          },
+          {
+            "prompt": "组织方确认什么？",
+            "options": [
+              "活动取消",
+              "照常但晚半小时开始",
+              "推迟一个月"
+            ],
+            "answer": 1,
+            "explanation": "se mantém, mas começa meia hora mais tarde。"
+          },
+          {
+            "prompt": "陈最后做什么？",
+            "options": [
+              "删除群聊",
+              "再买一张票",
+              "向群里分享确认信息"
+            ],
+            "answer": 2,
+            "explanation": "partilha a confirmação com o grupo。"
+          }
+        ],
+        "writing": "分别给朋友和办事机构写一条同主题消息，注意称呼与请求语气。",
+        "speaking": "复述一条尚未核实的活动消息，说明不确定点并商量核实方法。"
+      }
+    },
+    {
+      "id": "pt-19",
+      "number": 19,
+      "title": "消息与信息核实",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到消息与信息核实，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "Recebi uma mensagem sobre uma reunião.",
+            "zh": "我收到一条关于会议的消息。"
+          },
+          {
+            "text": "A mensagem não indica quem a escreveu.",
+            "zh": "消息没有注明是谁写的。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "mensagem",
+          "zh": "消息",
+          "example": "Recebi a tua mensagem.",
+          "exampleZh": "我收到你的消息了。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "assunto",
+          "zh": "主题",
+          "example": "O assunto está no início.",
+          "exampleZh": "主题在开头。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "ligação",
+          "zh": "链接；连接",
+          "example": "Não abri a ligação.",
+          "exampleZh": "我没有打开链接。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "palavra-passe",
+          "zh": "密码",
+          "example": "Esqueci-me da palavra-passe.",
+          "exampleZh": "我忘记密码了。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "remetente",
+          "zh": "发件人",
+          "example": "Conheces o remetente?",
+          "exampleZh": "你认识发件人吗？",
+          "icon": "person",
+          "review": true
+        },
+        {
+          "head": "destinatário",
+          "zh": "收件人",
+          "example": "Confirma o destinatário.",
+          "exampleZh": "请确认收件人。",
+          "icon": "person",
+          "review": true
+        },
+        {
+          "head": "rascunho",
+          "zh": "草稿",
+          "example": "Guardei um rascunho.",
+          "exampleZh": "我保存了一份草稿。",
+          "icon": "study",
+          "review": true
+        },
+        {
+          "head": "responder",
+          "zh": "回复",
+          "example": "Vou responder amanhã.",
+          "exampleZh": "我会明天回复。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "encaminhar",
+          "zh": "转发",
+          "example": "Posso encaminhar esta informação?",
+          "exampleZh": "我能转发这项信息吗？",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "verificar",
+          "zh": "核实",
+          "example": "É melhor verificar a origem.",
+          "exampleZh": "最好核实来源。",
+          "icon": "idea",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-19-1",
+          "text": "Recebi uma mensagem sobre uma reunião.",
+          "zh": "我收到一条关于会议的消息。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-19-2",
+          "text": "A mensagem não indica quem a escreveu.",
+          "zh": "消息没有注明是谁写的。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-19-3",
+          "text": "Antes de mudar os planos, vou confirmar a informação.",
+          "zh": "改变计划前，我会确认信息。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-19-4",
+          "text": "Prefiro contactar a organização pelo endereço habitual.",
+          "zh": "我更愿意通过常用地址联系组织方。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-19-5",
+          "text": "Se a hora mudar, aviso também os meus colegas.",
+          "zh": "如果时间改变，我也会通知同事。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-19-6",
+          "text": "Depois guardo a resposta para a poder consultar.",
+          "zh": "随后我保存答复，以便查询。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "Recebi uma mensagem sobre uma reunião. A mensagem não indica quem a escreveu. Antes de mudar os planos, vou confirmar a informação. Prefiro contactar a organização pelo endereço habitual. Se a hora mudar, aviso também os meus colegas. Depois guardo a resposta para a poder consultar.",
+        "zh": "我收到一条关于会议的消息。消息没有注明是谁写的。改变计划前，我会确认信息。我更愿意通过常用地址联系组织方。如果时间改变，我也会通知同事。随后我保存答复，以便查询。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "A Ana recebe uma mensagem encaminhada sobre um curso. Segundo a mensagem, a aula de terça-feira passou para quinta-feira. A Ana não encontra o nome de quem enviou o aviso original. Por isso, escreve ao contacto habitual da escola antes de alterar a sua agenda. A escola responde que a aula continua na terça-feira, mas será noutra sala. A Ana guarda a confirmação e informa o colega que lhe enviou a mensagem."
+        },
+        "questions": [
+          {
+            "prompt": "原消息说改到哪天？",
+            "options": [
+              "周一",
+              "周四",
+              "周日"
+            ],
+            "answer": 1,
+            "explanation": "passou para quinta-feira。"
+          },
+          {
+            "prompt": "为什么要核实？",
+            "options": [
+              "不知道原发送者",
+              "课程结束",
+              "丢了手机"
+            ],
+            "answer": 0,
+            "explanation": "não encontra o nome… aviso original。"
+          },
+          {
+            "prompt": "实际改变了什么？",
+            "options": [
+              "日期",
+              "教师",
+              "教室"
+            ],
+            "answer": 2,
+            "explanation": "será noutra sala。"
+          },
+          {
+            "prompt": "她最后通知谁？",
+            "options": [
+              "医生",
+              "发消息的同学",
+              "房东"
+            ],
+            "answer": 1,
+            "explanation": "informa o colega… enviou a mensagem。"
+          }
+        ],
+        "writing": "围绕“消息与信息核实”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“消息与信息核实”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    },
+    {
+      "id": "pt-20",
+      "number": 20,
+      "title": "投诉与协商解决",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到投诉与协商解决，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "Comprei este produto ontem e guardei o recibo.",
+            "zh": "我昨天买了这件商品并保留了收据。"
+          },
+          {
+            "text": "Quando cheguei a casa, reparei num problema.",
+            "zh": "到家时，我发现了一个问题。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "supermercado",
+          "zh": "超市",
+          "example": "Vou ao supermercado.",
+          "exampleZh": "我要去超市。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "fruta",
+          "zh": "水果",
+          "example": "A fruta fica ali.",
+          "exampleZh": "水果在那边。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "maçã",
+          "zh": "苹果",
+          "example": "Queria duas maçãs.",
+          "exampleZh": "我想要两个苹果。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "arroz",
+          "zh": "大米",
+          "example": "Este arroz é barato.",
+          "exampleZh": "这种大米便宜。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "quilo",
+          "zh": "公斤",
+          "example": "Quero um quilo de batatas.",
+          "exampleZh": "我要一公斤土豆。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "saco",
+          "zh": "袋子",
+          "example": "Preciso de um saco.",
+          "exampleZh": "我需要一个袋子。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "caixa",
+          "zh": "收银台；箱子",
+          "example": "A caixa está aberta.",
+          "exampleZh": "收银台开放着。",
+          "icon": "money",
+          "review": true
+        },
+        {
+          "head": "cartão",
+          "zh": "卡",
+          "example": "Posso pagar com cartão?",
+          "exampleZh": "我能用卡付款吗？",
+          "icon": "money",
+          "review": true
+        },
+        {
+          "head": "dinheiro",
+          "zh": "现金；钱",
+          "example": "Vou pagar em dinheiro.",
+          "exampleZh": "我要用现金付款。",
+          "icon": "money",
+          "review": true
+        },
+        {
+          "head": "talão",
+          "zh": "小票",
+          "example": "Pode dar-me o talão?",
+          "exampleZh": "能给我小票吗？",
+          "icon": "money",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-20-1",
+          "text": "Comprei este produto ontem e guardei o recibo.",
+          "zh": "我昨天买了这件商品并保留了收据。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-20-2",
+          "text": "Quando cheguei a casa, reparei num problema.",
+          "zh": "到家时，我发现了一个问题。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-20-3",
+          "text": "Gostava de explicar o que aconteceu com calma.",
+          "zh": "我想平静地说明发生的情况。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-20-4",
+          "text": "Pode dizer-me quais são as opções neste caso?",
+          "zh": "您能告诉我这种情况下有哪些选项吗？",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-20-5",
+          "text": "Se não for possível resolver hoje, quando devo voltar?",
+          "zh": "如果今天不能解决，我应该什么时候再来？",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-20-6",
+          "text": "Vou guardar a resposta e o número do pedido.",
+          "zh": "我会保存答复和申请编号。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "Comprei este produto ontem e guardei o recibo. Quando cheguei a casa, reparei num problema. Gostava de explicar o que aconteceu com calma. Pode dizer-me quais são as opções neste caso? Se não for possível resolver hoje, quando devo voltar? Vou guardar a resposta e o número do pedido.",
+        "zh": "我昨天买了这件商品并保留了收据。到家时，我发现了一个问题。我想平静地说明发生的情况。您能告诉我这种情况下有哪些选项吗？如果今天不能解决，我应该什么时候再来？我会保存答复和申请编号。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "O Rui comprou uma mochila numa loja na segunda-feira. Ao chegar a casa, viu que uma das alças estava solta. Na quarta-feira voltou à loja com a mochila e o recibo. A funcionária ouviu a explicação e disse que precisava de consultar a responsável antes de indicar uma solução. Pediu um contacto e entregou ao Rui um número de pedido. Ele perguntou quando poderia esperar uma resposta e anotou a informação."
+        },
+        "questions": [
+          {
+            "prompt": "商品是什么？",
+            "options": [
+              "背包",
+              "杯子",
+              "桌子"
+            ],
+            "answer": 0,
+            "explanation": "uma mochila。"
+          },
+          {
+            "prompt": "发现什么问题？",
+            "options": [
+              "颜色太深",
+              "肩带松脱",
+              "没有口袋"
+            ],
+            "answer": 1,
+            "explanation": "uma das alças estava solta。"
+          },
+          {
+            "prompt": "店员立刻承诺退款了吗？",
+            "options": [
+              "是",
+              "承诺换新",
+              "没有，要先咨询负责人"
+            ],
+            "answer": 2,
+            "explanation": "precisava de consultar a responsável。"
+          },
+          {
+            "prompt": "Rui 拿到了什么？",
+            "options": [
+              "申请编号",
+              "免费车票",
+              "密码"
+            ],
+            "answer": 0,
+            "explanation": "um número de pedido。"
+          }
+        ],
+        "writing": "围绕“投诉与协商解决”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“投诉与协商解决”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    },
+    {
+      "id": "pt-21",
+      "number": 21,
+      "title": "讲述过去的经历",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到讲述过去的经历，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "No mês passado fui visitar uma amiga.",
+            "zh": "上个月我去看了一位朋友。"
+          },
+          {
+            "text": "Saí cedo porque não conhecia bem o caminho.",
+            "zh": "我很早出发，因为不熟悉路线。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "autocarro",
+          "zh": "公交车；长途客车",
+          "example": "Vou de autocarro.",
+          "exampleZh": "我乘公交车去。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "comboio",
+          "zh": "火车",
+          "example": "O comboio chega cedo.",
+          "exampleZh": "火车很早到。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "bilhete",
+          "zh": "票",
+          "example": "Preciso de um bilhete.",
+          "exampleZh": "我需要一张票。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "ida",
+          "zh": "去程",
+          "example": "Queria um bilhete de ida.",
+          "exampleZh": "我想要一张单程票。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "volta",
+          "zh": "回程",
+          "example": "A volta é amanhã.",
+          "exampleZh": "回程是明天。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "paragem",
+          "zh": "公交站",
+          "example": "Onde fica a paragem?",
+          "exampleZh": "公交站在哪里？",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "estação",
+          "zh": "火车站；站",
+          "example": "A estação está aberta.",
+          "exampleZh": "车站开着。",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "linha",
+          "zh": "线路；股道",
+          "example": "Qual é a linha?",
+          "exampleZh": "是哪条线路／股道？",
+          "icon": "travel",
+          "review": true
+        },
+        {
+          "head": "atraso",
+          "zh": "延误",
+          "example": "Há um atraso de dez minutos.",
+          "exampleZh": "延误十分钟。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "validar",
+          "zh": "验票；使票生效",
+          "example": "Onde tenho de validar o bilhete?",
+          "exampleZh": "我要在哪里验票？",
+          "icon": "travel",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-21-1",
+          "text": "No mês passado fui visitar uma amiga.",
+          "zh": "上个月我去看了一位朋友。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-21-2",
+          "text": "Saí cedo porque não conhecia bem o caminho.",
+          "zh": "我很早出发，因为不熟悉路线。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-21-3",
+          "text": "Quando cheguei à estação, o comboio já tinha partido.",
+          "zh": "我到车站时，火车已经开走了。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-21-4",
+          "text": "Pedi ajuda e procurei outra ligação.",
+          "zh": "我求助并寻找另一个接驳方案。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-21-5",
+          "text": "Avisei a minha amiga de que chegaria mais tarde.",
+          "zh": "我告诉朋友自己会晚到。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-21-6",
+          "text": "No fim correu tudo bem e aprendi a verificar o horário.",
+          "zh": "最后一切顺利，我学会了核对时刻表。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "No mês passado fui visitar uma amiga. Saí cedo porque não conhecia bem o caminho. Quando cheguei à estação, o comboio já tinha partido. Pedi ajuda e procurei outra ligação. Avisei a minha amiga de que chegaria mais tarde. No fim correu tudo bem e aprendi a verificar o horário.",
+        "zh": "上个月我去看了一位朋友。我很早出发，因为不熟悉路线。我到车站时，火车已经开走了。我求助并寻找另一个接驳方案。我告诉朋友自己会晚到。最后一切顺利，我学会了核对时刻表。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "No sábado, a Mei planeava visitar um museu com o Chen. Estava a chover quando saiu de casa e demorou mais tempo a chegar à paragem. Perdeu o primeiro autocarro, mas não quis desistir do passeio. Telefonou ao Chen para avisar do atraso e consultou outra ligação. Encontraram-se meia hora depois do previsto. Como já tinham pouco tempo antes do almoço, decidiram visitar apenas uma exposição e deixar as outras para outra ocasião."
+        },
+        "questions": [
+          {
+            "prompt": "天气如何？",
+            "options": [
+              "下雪",
+              "晴朗",
+              "下雨"
+            ],
+            "answer": 2,
+            "explanation": "Estava a chover。"
+          },
+          {
+            "prompt": "Mei 为何打电话？",
+            "options": [
+              "取消房间",
+              "告知迟到",
+              "买午餐"
+            ],
+            "answer": 1,
+            "explanation": "avisar do atraso。"
+          },
+          {
+            "prompt": "他们晚了多久见面？",
+            "options": [
+              "半小时",
+              "一天",
+              "五分钟"
+            ],
+            "answer": 0,
+            "explanation": "meia hora depois。"
+          },
+          {
+            "prompt": "最后怎样安排？",
+            "options": [
+              "参观所有展览",
+              "只看一项展览",
+              "回家不去"
+            ],
+            "answer": 1,
+            "explanation": "apenas uma exposição。"
+          }
+        ],
+        "writing": "围绕“讲述过去的经历”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“讲述过去的经历”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    },
+    {
+      "id": "pt-22",
+      "number": 22,
+      "title": "计划与备选方案",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到计划与备选方案，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "Gostava de organizar um passeio no próximo fim de semana.",
+            "zh": "我想在下周末组织一次出游。"
+          },
+          {
+            "text": "Primeiro precisamos de combinar a hora e o lugar.",
+            "zh": "首先我们需要商量时间和地点。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "amigo / amiga",
+          "zh": "朋友",
+          "example": "A Ana é minha amiga.",
+          "exampleZh": "安娜是我的朋友。",
+          "icon": "person",
+          "review": true
+        },
+        {
+          "head": "convidar",
+          "zh": "邀请",
+          "example": "Quero convidar o Rui.",
+          "exampleZh": "我想邀请鲁伊。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "jantar",
+          "zh": "晚餐；吃晚饭",
+          "example": "Vamos jantar juntos?",
+          "exampleZh": "我们一起吃晚饭好吗？",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "passear",
+          "zh": "散步；逛",
+          "example": "Gosto de passear.",
+          "exampleZh": "我喜欢散步。",
+          "icon": "nature",
+          "review": true
+        },
+        {
+          "head": "livre",
+          "zh": "有空的",
+          "example": "Estás livre amanhã?",
+          "exampleZh": "你明天有空吗？",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "ocupado / ocupada",
+          "zh": "忙的",
+          "example": "Estou ocupada hoje.",
+          "exampleZh": "我今天很忙。",
+          "icon": "work",
+          "review": true
+        },
+        {
+          "head": "combinar",
+          "zh": "约定",
+          "example": "Podemos combinar outra hora.",
+          "exampleZh": "我们可以另约时间。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "talvez",
+          "zh": "也许",
+          "example": "Talvez no domingo.",
+          "exampleZh": "也许周日。",
+          "icon": "idea",
+          "review": true
+        },
+        {
+          "head": "pena",
+          "zh": "遗憾",
+          "example": "Que pena!",
+          "exampleZh": "真遗憾！",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "aceitar",
+          "zh": "接受",
+          "example": "Obrigada por aceitar o convite.",
+          "exampleZh": "谢谢您接受邀请。",
+          "icon": "talk",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-22-1",
+          "text": "Gostava de organizar um passeio no próximo fim de semana.",
+          "zh": "我想在下周末组织一次出游。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-22-2",
+          "text": "Primeiro precisamos de combinar a hora e o lugar.",
+          "zh": "首先我们需要商量时间和地点。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-22-3",
+          "text": "Se chover, podemos escolher uma atividade dentro de casa.",
+          "zh": "如果下雨，我们可以选择室内活动。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-22-4",
+          "text": "Prefiro confirmar o plano com todos antes de reservar.",
+          "zh": "我更愿意预订前和所有人确认计划。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-22-5",
+          "text": "Talvez seja melhor deixar algum tempo livre.",
+          "zh": "也许最好留出一些空闲时间。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-22-6",
+          "text": "Assim podemos adaptar o passeio sem pressa.",
+          "zh": "这样我们能从容调整行程。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "Gostava de organizar um passeio no próximo fim de semana. Primeiro precisamos de combinar a hora e o lugar. Se chover, podemos escolher uma atividade dentro de casa. Prefiro confirmar o plano com todos antes de reservar. Talvez seja melhor deixar algum tempo livre. Assim podemos adaptar o passeio sem pressa.",
+        "zh": "我想在下周末组织一次出游。首先我们需要商量时间和地点。如果下雨，我们可以选择室内活动。我更愿意预订前和所有人确认计划。也许最好留出一些空闲时间。这样我们能从容调整行程。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "A Inês e dois amigos querem passar o domingo fora da cidade. Pensam ir de comboio, mas ainda não compraram os bilhetes. Antes de decidir, comparam o preço e o tempo de viagem de duas localidades. Uma delas tem um parque; a outra tem um museu perto da estação. Se a previsão indicar chuva, vão escolher o museu. Combinam voltar antes das oito da noite porque um dos amigos trabalha cedo na segunda-feira."
+        },
+        "questions": [
+          {
+            "prompt": "他们打算哪天出游？",
+            "options": [
+              "周日",
+              "周三",
+              "周五"
+            ],
+            "answer": 0,
+            "explanation": "passar o domingo。"
+          },
+          {
+            "prompt": "车票买了吗？",
+            "options": [
+              "买了",
+              "还没有",
+              "已经退票"
+            ],
+            "answer": 1,
+            "explanation": "ainda não compraram。"
+          },
+          {
+            "prompt": "下雨会选哪里？",
+            "options": [
+              "海滩",
+              "公园",
+              "博物馆"
+            ],
+            "answer": 2,
+            "explanation": "vão escolher o museu。"
+          },
+          {
+            "prompt": "为何八点前返回？",
+            "options": [
+              "朋友周一早上工作",
+              "车站关闭",
+              "没有饭店"
+            ],
+            "answer": 0,
+            "explanation": "trabalha cedo na segunda-feira。"
+          }
+        ],
+        "writing": "围绕“计划与备选方案”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“计划与备选方案”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    },
+    {
+      "id": "pt-23",
+      "number": 23,
+      "title": "邻里与共同生活",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到邻里与共同生活，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "Partilho a casa com duas pessoas.",
+            "zh": "我和两个人合住。"
+          },
+          {
+            "text": "Queremos combinar algumas regras para os espaços comuns.",
+            "zh": "我们想商量公共空间的一些规则。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "cozinha",
+          "zh": "厨房",
+          "example": "A cozinha é pequena.",
+          "exampleZh": "厨房很小。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "sala",
+          "zh": "客厅",
+          "example": "Estudo na sala.",
+          "exampleZh": "我在客厅学习。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "janela",
+          "zh": "窗户",
+          "example": "Abro a janela.",
+          "exampleZh": "我打开窗户。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "limpar",
+          "zh": "打扫",
+          "example": "Vou limpar a cozinha.",
+          "exampleZh": "我要打扫厨房。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "lavar",
+          "zh": "洗",
+          "example": "Preciso de lavar a roupa.",
+          "exampleZh": "我需要洗衣服。",
+          "icon": "home",
+          "review": true
+        },
+        {
+          "head": "cozinhar",
+          "zh": "做饭",
+          "example": "Gosto de cozinhar.",
+          "exampleZh": "我喜欢做饭。",
+          "icon": "food",
+          "review": true
+        },
+        {
+          "head": "levantar-se",
+          "zh": "起床",
+          "example": "Levanto-me às sete.",
+          "exampleZh": "我七点起床。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "deitar-se",
+          "zh": "上床睡觉",
+          "example": "Deito-me cedo.",
+          "exampleZh": "我很早上床睡觉。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "às vezes",
+          "zh": "有时",
+          "example": "Às vezes almoço em casa.",
+          "exampleZh": "我有时在家吃午饭。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "todos os dias",
+          "zh": "每天",
+          "example": "Leio todos os dias.",
+          "exampleZh": "我每天读书。",
+          "icon": "study",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-23-1",
+          "text": "Partilho a casa com duas pessoas.",
+          "zh": "我和两个人合住。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-23-2",
+          "text": "Queremos combinar algumas regras para os espaços comuns.",
+          "zh": "我们想商量公共空间的一些规则。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-23-3",
+          "text": "Durante a semana preciso de descansar mais cedo.",
+          "zh": "工作日我需要早点休息。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-23-4",
+          "text": "Posso limpar a cozinha se alguém tratar do lixo.",
+          "zh": "如果有人处理垃圾，我可以清洁厨房。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-23-5",
+          "text": "Quando houver um problema, prefiro falar diretamente.",
+          "zh": "出现问题时，我更愿意直接交谈。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-23-6",
+          "text": "Podemos rever o acordo daqui a duas semanas.",
+          "zh": "我们可以两周后重新讨论约定。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "Partilho a casa com duas pessoas. Queremos combinar algumas regras para os espaços comuns. Durante a semana preciso de descansar mais cedo. Posso limpar a cozinha se alguém tratar do lixo. Quando houver um problema, prefiro falar diretamente. Podemos rever o acordo daqui a duas semanas.",
+        "zh": "我和两个人合住。我们想商量公共空间的一些规则。工作日我需要早点休息。如果有人处理垃圾，我可以清洁厨房。出现问题时，我更愿意直接交谈。我们可以两周后重新讨论约定。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "O Luís partilha um apartamento com a Sara e o Pedro. Nas últimas semanas, tem sido difícil encontrar a cozinha limpa à noite. Em vez de deixar uma mensagem zangada, o Luís pede uma conversa no domingo. Os três combinam uma lista simples de tarefas e decidem não deixar loiça no lava-loiça até ao dia seguinte. A Sara trabalha por turnos, por isso pede alguma flexibilidade no horário. Concordam em experimentar o plano durante duas semanas."
+        },
+        "questions": [
+          {
+            "prompt": "他们讨论什么？",
+            "options": [
+              "车票",
+              "厨房清洁",
+              "学校课程"
+            ],
+            "answer": 1,
+            "explanation": "cozinha limpa。"
+          },
+          {
+            "prompt": "何时交谈？",
+            "options": [
+              "周日",
+              "周二",
+              "每天中午"
+            ],
+            "answer": 0,
+            "explanation": "uma conversa no domingo。"
+          },
+          {
+            "prompt": "Sara 为什么需要灵活时间？",
+            "options": [
+              "要旅游",
+              "不住那里",
+              "轮班工作"
+            ],
+            "answer": 2,
+            "explanation": "trabalha por turnos。"
+          },
+          {
+            "prompt": "先试多久？",
+            "options": [
+              "一年",
+              "两周",
+              "一个月"
+            ],
+            "answer": 1,
+            "explanation": "durante duas semanas。"
+          }
+        ],
+        "writing": "围绕“邻里与共同生活”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“邻里与共同生活”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    },
+    {
+      "id": "pt-24",
+      "number": 24,
+      "title": "综合生活任务",
+      "level": "B1",
+      "stage": "intermediate",
+      "goal": "将已学表达迁移到综合生活任务，说明细节、请求澄清并记录后续行动。",
+      "grammar": {
+        "title": "综合运用与迁移",
+        "explanation": "复用已学句式处理新情境。本章重点是把信息说清楚、按时间顺序说明，并在不确定时请求确认。请对照前章规则，保留重音、名词大小写和礼貌形式。",
+        "examples": [
+          {
+            "text": "Mudei de casa e tenho vários assuntos para organizar.",
+            "zh": "我搬家了，有几件事需要安排。"
+          },
+          {
+            "text": "Vou fazer uma lista e escolher o que é mais urgente.",
+            "zh": "我会列清单并选出最紧急的事情。"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "head": "marcação",
+          "zh": "预约",
+          "example": "Tenho uma marcação para amanhã.",
+          "exampleZh": "我预约了明天。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "atendimento",
+          "zh": "接待；办事服务",
+          "example": "O atendimento começa às nove.",
+          "exampleZh": "办事服务九点开始。",
+          "icon": "work",
+          "review": true
+        },
+        {
+          "head": "documento",
+          "zh": "文件；证件",
+          "example": "Que documento devo levar?",
+          "exampleZh": "我应带什么文件？",
+          "icon": "study",
+          "review": true
+        },
+        {
+          "head": "formulário",
+          "zh": "表格",
+          "example": "Preciso de preencher o formulário.",
+          "exampleZh": "我需要填写表格。",
+          "icon": "work",
+          "review": true
+        },
+        {
+          "head": "comprovativo",
+          "zh": "证明材料",
+          "example": "Este comprovativo é suficiente?",
+          "exampleZh": "这份证明材料足够吗？",
+          "icon": "study",
+          "review": true
+        },
+        {
+          "head": "disponível",
+          "zh": "可用的；有空的",
+          "example": "Há uma hora disponível?",
+          "exampleZh": "有可预约的时间吗？",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "adiar",
+          "zh": "推迟",
+          "example": "Preciso de adiar a marcação.",
+          "exampleZh": "我需要推迟预约。",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "cancelar",
+          "zh": "取消",
+          "example": "Posso cancelar pela internet?",
+          "exampleZh": "我能在线取消吗？",
+          "icon": "time",
+          "review": true
+        },
+        {
+          "head": "confirmar",
+          "zh": "确认",
+          "example": "Quero confirmar o horário.",
+          "exampleZh": "我想确认时间。",
+          "icon": "talk",
+          "review": true
+        },
+        {
+          "head": "balcão",
+          "zh": "柜台",
+          "example": "Onde fica o balcão de informações?",
+          "exampleZh": "咨询柜台在哪里？",
+          "icon": "work",
+          "review": true
+        }
+      ],
+      "lessons": [
+        {
+          "id": "pt-24-1",
+          "text": "Mudei de casa e tenho vários assuntos para organizar.",
+          "zh": "我搬家了，有几件事需要安排。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-24-2",
+          "text": "Vou fazer uma lista e escolher o que é mais urgente.",
+          "zh": "我会列清单并选出最紧急的事情。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-24-3",
+          "text": "Preciso de confirmar a morada e a hora da marcação.",
+          "zh": "我需要确认地址和预约时间。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-24-4",
+          "text": "Se não conseguir ir, aviso o serviço com antecedência.",
+          "zh": "如果不能去，我会提前通知机构。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-24-5",
+          "text": "Depois de cada contacto guardo uma nota com a resposta.",
+          "zh": "每次联系后，我都记下答复。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        },
+        {
+          "id": "pt-24-6",
+          "text": "No fim verifico o que ficou por resolver.",
+          "zh": "最后我检查还有什么没有解决。",
+          "tip": "先理解整句，再替换人物、时间和地点。请用新细节复述，不要只背原句。"
+        }
+      ],
+      "dialogue": [],
+      "reading": {
+        "title": "生活表达示范",
+        "text": "Mudei de casa e tenho vários assuntos para organizar. Vou fazer uma lista e escolher o que é mais urgente. Preciso de confirmar a morada e a hora da marcação. Se não conseguir ir, aviso o serviço com antecedência. Depois de cada contacto guardo uma nota com a resposta. No fim verifico o que ficou por resolver.",
+        "zh": "我搬家了，有几件事需要安排。我会列清单并选出最紧急的事情。我需要确认地址和预约时间。如果不能去，我会提前通知机构。每次联系后，我都记下答复。最后我检查还有什么没有解决。"
+      },
+      "assessment": {
+        "reading": {
+          "title": "陌生情境验收",
+          "text": "A Li mudou-se para um bairro novo. Tem uma marcação para entregar documentos na quarta-feira e quer também procurar um curso perto de casa. Ao consultar a confirmação, descobre que o atendimento será num edifício diferente do habitual. Envia uma pergunta sobre a morada e prepara os documentos indicados na mensagem. Depois contacta uma escola, mas a turma que prefere está completa. Pede informação sobre outra turma e anota que ainda está à espera dessa resposta."
+        },
+        "questions": [
+          {
+            "prompt": "办事预约在哪天？",
+            "options": [
+              "周四",
+              "周一",
+              "周三"
+            ],
+            "answer": 2,
+            "explanation": "na quarta-feira。"
+          },
+          {
+            "prompt": "确认消息有何变化？",
+            "options": [
+              "另一栋楼",
+              "改成电话",
+              "已取消"
+            ],
+            "answer": 0,
+            "explanation": "num edifício diferente。"
+          },
+          {
+            "prompt": "课程遇到什么问题？",
+            "options": [
+              "没有教材",
+              "想去的班已满",
+              "学校搬走"
+            ],
+            "answer": 1,
+            "explanation": "a turma… está completa。"
+          },
+          {
+            "prompt": "她还在等待什么？",
+            "options": [
+              "房租",
+              "另一班的信息",
+              "银行密码"
+            ],
+            "answer": 1,
+            "explanation": "informação sobre outra turma。"
+          }
+        ],
+        "writing": "围绕“综合生活任务”，写80–100个目标语言词，包含背景、两个具体细节、请求和后续行动。写完检查时态、称呼与衔接，保存后修改一次。",
+        "speaking": "用目标语言模拟“综合生活任务”，持续约一分钟，再让伙伴提出两个追问。说明一个备选方案；没听懂时请求重复或改述。口语需自行或由合适的评阅者核对，系统不据此自动授予等级。"
+      }
+    }
+  ]
+}

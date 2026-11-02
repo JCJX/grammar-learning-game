@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.resolve(root,'../docs');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const script=s=>'<script>'+s.replace(/<\/script/gi,'<\\/script')+'</script>';
+const themeHead='<style data-suite-theme>'+fs.readFileSync(path.join(dist,'theme.css'),'utf8')+'</style>'+script(fs.readFileSync(path.join(dist,'theme.js'),'utf8'));
+const nav=['suite-nav.js','suite-progress.js','hub-runtime.js'].map(read).join('\n');
+const inject=html=>html.replace('</body>',script(nav)+'</body>');
+require('./build-languages.cjs')({dist,themeHead,inject});
+fs.writeFileSync(path.join(dist,'suite.html'),read('suite.html').replace('</head>',themeHead+'</head>').replace('</body>',script(read('suite-progress.js')+'\n'+read('hub-runtime.js'))+'</body>'));
+console.log('已重建地图和三语页面；英语及语法运行文件保持原样。');

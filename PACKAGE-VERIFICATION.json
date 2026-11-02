@@ -1,0 +1,15 @@
+{
+  "version": "0.11.0",
+  "webFiles": 17725,
+  "webBytes": 386689462,
+  "allWebFilesByteIdentical": true,
+  "largestFileBytes": 41160778,
+  "excluded": [
+    "APK",
+    "offline monoliths",
+    "signing keys",
+    "progress",
+    "temporary build toolchains"
+  ],
+  "githubPublished": false
+}

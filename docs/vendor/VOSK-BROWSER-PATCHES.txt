@@ -1,0 +1,19 @@
+English Quest local compatibility modifications, 2026-10-21:
+
+1. Resolve absolute model URLs before attempting a relative URL base. This fixes
+   blob:null model URLs in file-origin and opaque-origin contexts, where stripping
+   blob: from the worker URL yields an invalid base such as null/worker-id.
+2. For blob: and data: bundled models, use the in-memory filesystem without an
+   IndexedDB mount or persistent sync. The model already ships with the app;
+   persistent storage must not be a prerequisite for offline operation.
+
+3. Version 0.2.2 adds optional transferable modelData to Model and the worker load
+   message. Embedded models are written straight to the worker memory filesystem
+   and extracted with ArchiveHelper. No fetch of page-created Blob URLs is needed.
+   Load errors include the initialization stage (engine, extraction, or model).
+4. Decode the embedded WASM data URI directly rather than fetching it. The
+   single-file loader and its audio self-test can now run with fetch disabled.
+
+Original project: https://github.com/ccoreilly/vosk-browser
+Original npm version: 0.0.8. Original licenses and NOTICE are preserved.
+Patch helper: patch-vosk.cjs. Reapplying the helper is idempotent.

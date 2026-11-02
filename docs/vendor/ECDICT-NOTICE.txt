@@ -1,0 +1,6 @@
+ECDICT subset
+Source: https://github.com/skywind3000/ECDICT
+Downloaded 2026-10-25. Original repository declares MIT License; see ECDICT-LICENSE.txt.
+Modifications: lowercase/frequency/definition filters; first 12000 selected entries; shortened definitions; project-specific study groups.
+English/Chinese definitions, phonetics, frequency and inflections are imported reference data, not professionally reviewed course items. Frequency groups do not establish CEFR level. Source data may contain inaccuracies.
+Source CSV SHA256: d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc

@@ -1,0 +1,1 @@
+(()=>{const extra=QuestFinalModules.flatMap(m=>[m.sourceA.text,m.listening.teaching,m.listening.test,...(m.listening.delayed?[m.listening.delayed]:[]),...m.vocab.flatMap(v=>[v.head,v.example])]).concat(QuestFinalCapstones.map(c=>c.listening.test),QuestReferenceLexicon.map(v=>v.head));for(const text of extra)if(!audioTexts.includes(text))audioTexts.push(text)})();

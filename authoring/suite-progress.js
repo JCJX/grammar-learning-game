@@ -1,0 +1,8 @@
+(function(){'use strict';const KEY='twin-islands-grammar-summary-v1';let carried=null;
+function valid(x){if(!x||typeof x!=='object')return null;for(const k of ['chapters','completedChapters','missions','completedMissions','questions','solvedQuestions','independentQuestions','wrong'])if(!Number.isInteger(x[k])||x[k]<0||x[k]>100000)return null;if(x.completedChapters>x.chapters||x.completedMissions>x.missions||x.solvedQuestions>x.questions||x.independentQuestions>x.solvedQuestions)return null;return x}
+try{carried=valid(JSON.parse(localStorage.getItem(KEY)||'null'))}catch{}
+if(location.hash.startsWith('#grammar-summary='))try{const x=valid(JSON.parse(decodeURIComponent(location.hash.slice(17))));if(x&&(!carried||Number(x.updated)>=Number(carried.updated))){carried=x;try{localStorage.setItem(KEY,JSON.stringify(x))}catch{}}}catch{}
+function update(){if(typeof window.QuestGrammarProgress==='function'){const x=valid(window.QuestGrammarProgress());if(x){carried=x;try{localStorage.setItem(KEY,JSON.stringify(x))}catch{}}}return carried}
+document.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const x=update();if(!x)return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&!url.pathname.includes('/grammar/')&&(/\/(index|suite|先打开双岛英语)\.html$/.test(decodeURIComponent(url.pathname)))){x.theme=window.QuestTheme?.get();url.hash='grammar-summary='+encodeURIComponent(JSON.stringify(x));a.href=url.href}},true);
+window.addEventListener('pagehide',update);document.addEventListener('visibilitychange',()=>{if(document.hidden)update()});window.QuestSuiteGrammar=update;
+})();

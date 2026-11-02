@@ -1,0 +1,3347 @@
+{
+  "locale": "es-ES",
+  "chapters": [
+    {
+      "id": "es-01",
+      "pronunciation": {
+        "focus": "不发音的 h 与五个元音",
+        "explanation": "hola 的 h 不发音；a、e、i、o、u 保持清晰，避免把 hola 读成英语式双元音。",
+        "examples": [
+          {
+            "text": "Hola, ¿eres el nuevo vecino?",
+            "zh": "你好，你是新邻居吗？"
+          },
+          {
+            "text": "Hasta el viernes.",
+            "zh": "周五见。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "介绍身份用 ser：soy 是第一人称，eres 是 tú 的形式；不能直接用 yo 后接名字而省略动词。",
+        "me llamo 已包含第一人称信息，通常不必再说 yo；询问对方用 te llamas，不能照搬 me。",
+        "encantado/encantada 随说话者的性别变化，不随听话者变化；来源用 ser de，而不是 estar de。"
+      ],
+      "cultureNote": "西班牙日常初见常用 hola；是否握手或贴面礼取决于关系和场合，先观察对方，不把某种礼节当作所有人的习惯。",
+      "vocabularyNotes": [
+        {
+          "head": "buenos días",
+          "note": "días 为阳性复数，固定说 buenos días；不要按中文“好”统一换成 buenas。"
+        },
+        {
+          "head": "nombre",
+          "note": "问名字用 ¿Cómo te llamas? 或 ¿Cuál es tu nombre?；nombre 与 apellido（姓）区分。"
+        },
+        {
+          "head": "encantado",
+          "note": "女性说话者常说 encantada；可单独回应，也可接 de conocerte。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-01-transfer-1",
+          "prompt": "在合唱团首次见面，介绍自己和身份",
+          "text": "Buenas tardes, soy la nueva cantante del grupo.",
+          "zh": "下午好，我是团里新来的歌手。",
+          "explanation": "soy 说明身份，la nueva cantante 明确是新来的女歌手。"
+        },
+        {
+          "id": "es-01-transfer-2",
+          "prompt": "想在名单上登记新同伴的名字",
+          "text": "Perdona, ¿cómo te llamas para apuntarte en la lista?",
+          "zh": "不好意思，你叫什么名字？我要把你记在名单上。",
+          "explanation": "te llamas 对应 tú；para 加不定式说明询问目的。"
+        },
+        {
+          "id": "es-01-transfer-3",
+          "prompt": "说明出生地与当前居住地不同",
+          "text": "Soy de Pekín, pero ahora vivo en Sevilla.",
+          "zh": "我来自北京，但现在住在塞维利亚。",
+          "explanation": "ser de 表示来源，vivo en 表示居住，不能互换介词。"
+        },
+        {
+          "id": "es-01-transfer-4",
+          "prompt": "女性向新同事表达认识后的愉快",
+          "text": "Encantada de trabajar contigo en este proyecto.",
+          "zh": "很高兴在这个项目中与你共事。",
+          "explanation": "说话者为女性用 encantada；contigo 是“与你”。"
+        },
+        {
+          "id": "es-01-transfer-5",
+          "prompt": "确认参观者是不是本地人",
+          "text": "¿Sois de este barrio o estáis de visita?",
+          "zh": "你们是这个街区的人，还是来参观的？",
+          "explanation": "西班牙非正式复数用 sois；estar de visita 表示临时来访。"
+        },
+        {
+          "id": "es-01-transfer-6",
+          "prompt": "周五活动结束时约定周一再见",
+          "text": "Que pases un buen fin de semana; nos vemos el lunes.",
+          "zh": "祝你周末愉快；我们周一见。",
+          "explanation": "nos vemos 可用于道别，具体某天前用 el。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "女性向别人介绍自己来自北京，哪句正确？",
+          "options": [
+            "Soy de Pekín.",
+            "Estoy de Pekín.",
+            "Soy en Pekín."
+          ],
+          "answer": 0,
+          "explanation": "来源用 ser de；estar 不表示籍贯，en 不表示来自。"
+        },
+        {
+          "prompt": "询问一位同龄人的名字，哪句正确？",
+          "options": [
+            "¿Cómo me llamas?",
+            "¿Cómo te llamas?",
+            "¿Cómo tú llama?"
+          ],
+          "answer": 1,
+          "explanation": "询问对方自身名字用 te llamas；me llamas 是“你叫我”。"
+        },
+        {
+          "prompt": "男性说很高兴认识对方，哪句正确？",
+          "options": [
+            "Soy encantada.",
+            "Encantada de conocerte.",
+            "Encantado de conocerte."
+          ],
+          "answer": 2,
+          "explanation": "此处省略完整主句的固定表达，男性说话者用 encantado。"
+        }
+      ],
+      "writingChecklist": [
+        "检查 ser 是否随主语变为 soy/eres/es/sois。",
+        "来源前是否用了 de，居住地前是否用了 en。",
+        "问句是否有双问号，encantado 是否符合说话者。"
+      ],
+      "speakingFollowups": [
+        "你怎么介绍自己正在这里做的事情？",
+        "对方说自己来自另一座城市，你会怎么继续聊？",
+        "如果周末后才见面，你会怎么道别？"
+      ]
+    },
+    {
+      "id": "es-02",
+      "pronunciation": {
+        "focus": "重音与问句节奏",
+        "explanation": "repetir 重读最后一节，despacio 重读 pa；请求句保持完整节奏，不要每个词都同样用力。",
+        "examples": [
+          {
+            "text": "¿Puedes repetir el número?",
+            "zh": "你能重复号码吗？"
+          },
+          {
+            "text": "No entiendo la última parte.",
+            "zh": "我不明白最后一部分。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "puedes 对应 tú，puede 对应 usted；即使省略 usted，动词仍用第三人称形式。",
+        "poder 后的第二个动词保持不定式，如 puede escribir；不要写 puede escribe。",
+        "lo 可以放在变位动词前，也可连在不定式后：lo puedes escribir / puedes escribirlo；不要放在两动词之间。"
+      ],
+      "cultureNote": "西班牙许多日常服务场合使用 tú，但不确定时可用 usted；por favor 和感谢能自然表达礼貌，无须把所有请求都升级为正式称呼。",
+      "vocabularyNotes": [
+        {
+          "head": "repetir",
+          "note": "不定式以 -ir 结尾；请求用 puedes repetir，单独变位则是 repites。"
+        },
+        {
+          "head": "despacio",
+          "note": "副词不随人物性数改变；más despacio 是“更慢一点”。"
+        },
+        {
+          "head": "significar",
+          "note": "问单个词用 ¿Qué significa…?；问多个词可用 ¿Qué significan estas palabras?。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-02-transfer-1",
+          "prompt": "车站广播末尾没听懂，指出范围",
+          "text": "Perdón, no entiendo el nombre de la estación.",
+          "zh": "不好意思，我没听懂车站的名字。",
+          "explanation": "no 在 entiendo 前；补出具体信息比只说“不懂”更明确。"
+        },
+        {
+          "id": "es-02-transfer-2",
+          "prompt": "请同伴重报集合地点",
+          "text": "¿Puedes repetir dónde nos encontramos?",
+          "zh": "你能重复一下我们在哪里碰面吗？",
+          "explanation": "puedes 后接 repetir；间接问句 dónde 保留重音。"
+        },
+        {
+          "id": "es-02-transfer-3",
+          "prompt": "请工作人员逐位念号码",
+          "text": "¿Puede decir los números uno a uno, por favor?",
+          "zh": "请您逐个说这些数字，好吗？",
+          "explanation": "正式单数用 puede；uno a uno 表示逐个。"
+        },
+        {
+          "id": "es-02-transfer-4",
+          "prompt": "询问菜单上复数词的意思",
+          "text": "¿Qué significan estas palabras del menú?",
+          "zh": "菜单上的这些词是什么意思？",
+          "explanation": "主语 estas palabras 为复数，因此用 significan。"
+        },
+        {
+          "id": "es-02-transfer-5",
+          "prompt": "请朋友把门禁码发成文字",
+          "text": "¿Puedes escribirme el código en un mensaje?",
+          "zh": "你能在消息里把代码写给我吗？",
+          "explanation": "me 连在不定式后，表示写给我；código 是直接宾语。"
+        },
+        {
+          "id": "es-02-transfer-6",
+          "prompt": "复述后确认自己已经理解集合安排",
+          "text": "Gracias, ahora sé que tenemos que esperar fuera.",
+          "zh": "谢谢，现在我知道我们必须在外面等。",
+          "explanation": "sé que 引出已理解的信息；tener que 后接 esperar。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "向一位工作人员请求写地址，哪句正确？",
+          "options": [
+            "¿Puede escribir la dirección?",
+            "¿Puede escribe la dirección?",
+            "¿Puede escribes la dirección?"
+          ],
+          "answer": 0,
+          "explanation": "poder 后接不定式 escribir，不再按人称变位。"
+        },
+        {
+          "prompt": "请求朋友把信息写下来，哪句正确？",
+          "options": [
+            "¿Puedes lo escribir?",
+            "¿Puedes escribirlo?",
+            "¿Puedes escribir él?"
+          ],
+          "answer": 1,
+          "explanation": "宾语代词可连在不定式末尾；不能夹在 puedes 与 escribir 中间。"
+        },
+        {
+          "prompt": "说自己没听懂，哪句正确？",
+          "options": [
+            "Entiendo no el número.",
+            "No entender el número.",
+            "No entiendo el número."
+          ],
+          "answer": 2,
+          "explanation": "否定词放在变位动词前；第一人称用 entiendo。"
+        }
+      ],
+      "writingChecklist": [
+        "检查 tú/usted 与 puedes/puede 是否一致。",
+        "第二个动词是否保留不定式。",
+        "写明没有听懂的具体词、号码或步骤。"
+      ],
+      "speakingFollowups": [
+        "若对方重复后你仍没懂，你会请求哪种帮助？",
+        "你会如何复述地址来核对？",
+        "你想请对方把哪个信息写下来？"
+      ]
+    },
+    {
+      "id": "es-03",
+      "pronunciation": {
+        "focus": "ñ 与 n 的区别",
+        "explanation": "año 中 ñ 是一个腭鼻音，不等于 n；años 表示岁数，拼写和发音都不能遗漏波浪号。",
+        "examples": [
+          {
+            "text": "Tengo treinta y dos años.",
+            "zh": "我三十二岁。"
+          },
+          {
+            "text": "Mi apellido lleva una eñe.",
+            "zh": "我的姓里有一个 ñ。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "年龄用 tener：tengo…años，不能按中文“我是三十岁”翻译成 soy treinta años。",
+        "职业在 ser 后无修饰时通常不用不定冠词，如 soy ingeniera；国籍和职业名通常小写。",
+        "询问拼写用 ¿Cómo se escribe…?；姓氏为复数时要说 ¿Cómo se escriben tus apellidos?。"
+      ],
+      "cultureNote": "西班牙表格可能分别询问 nombre 与 apellidos；按表格实际栏位填写自己的姓名，不要为了套用习惯而自行增加姓氏。",
+      "vocabularyNotes": [
+        {
+          "head": "apellido",
+          "note": "常见复数 apellidos 指姓氏部分；mi apellido es… 用单数，mis apellidos son… 用复数。"
+        },
+        {
+          "head": "estudiante",
+          "note": "男女均可用 estudiante，通过 el/la 或其他搭配体现；不要自行造 estudianta。"
+        },
+        {
+          "head": "móvil",
+          "note": "西班牙常用 móvil 表示手机，重音在 mó；número de móvil 指手机号。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-03-transfer-1",
+          "prompt": "报名表把姓和名弄反了，请纠正",
+          "text": "Liu es mi apellido y Wen es mi nombre.",
+          "zh": "刘是我的姓，文是我的名字。",
+          "explanation": "两个信息分别用 es；用 y 清晰区分姓名栏。"
+        },
+        {
+          "id": "es-03-transfer-2",
+          "prompt": "为成人课程说明自己已满四十岁",
+          "text": "Tengo cuarenta años y busco un curso para adultos.",
+          "zh": "我四十岁，想找一个成人课程。",
+          "explanation": "年龄用 tengo；para adultos 说明课程对象。"
+        },
+        {
+          "id": "es-03-transfer-3",
+          "prompt": "介绍自己的工作和学习状态",
+          "text": "Soy arquitecta y estudio español por las tardes.",
+          "zh": "我是建筑师，下午学习西班牙语。",
+          "explanation": "职业前省略冠词；por las tardes 表示经常在下午。"
+        },
+        {
+          "id": "es-03-transfer-4",
+          "prompt": "问前台应填写哪一个联系电话",
+          "text": "¿Qué número de teléfono debo poner en el formulario?",
+          "zh": "我应该在表格上填哪个电话号码？",
+          "explanation": "qué 直接修饰 número；debo 后接不定式 poner。"
+        },
+        {
+          "id": "es-03-transfer-5",
+          "prompt": "核对姓中是否有双字母",
+          "text": "¿Tu apellido se escribe con dos eles?",
+          "zh": "你的姓拼写时有两个 l 吗？",
+          "explanation": "con 表示包含某字母；eles 是字母 ele 的复数。"
+        },
+        {
+          "id": "es-03-transfer-6",
+          "prompt": "解释为何只提供工作邮箱",
+          "text": "Para esta actividad prefiero usar mi correo del trabajo.",
+          "zh": "这项活动我更愿意使用工作邮箱。",
+          "explanation": "prefiero 后接 usar，del 是 de el 的缩合。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达三十一岁，哪句正确？",
+          "options": [
+            "Tengo treinta y un años.",
+            "Soy treinta y un años.",
+            "Tengo treinta y uno años."
+          ],
+          "answer": 0,
+          "explanation": "年龄用 tener；uno 在阳性复数名词 años 前变为 un。"
+        },
+        {
+          "prompt": "女性介绍自己是学生，哪句正确？",
+          "options": [
+            "Soy estudianta.",
+            "Soy estudiante.",
+            "Estoy estudiante."
+          ],
+          "answer": 1,
+          "explanation": "estudiante 通用于男女；身份用 ser。"
+        },
+        {
+          "prompt": "问两个姓怎么拼，哪句正确？",
+          "options": [
+            "¿Cómo se escribe tus apellidos?",
+            "¿Cómo te escribe tus apellidos?",
+            "¿Cómo se escriben tus apellidos?"
+          ],
+          "answer": 2,
+          "explanation": "apellidos 为复数，搭配 se escriben；不是第二人称 te。"
+        }
+      ],
+      "writingChecklist": [
+        "年龄句是否用了 tener 并写出 años。",
+        "职业与国籍是否小写，职业性别形式是否合适。",
+        "姓名与联系方式是否分清，数字和字母是否核对。"
+      ],
+      "speakingFollowups": [
+        "你的名字中哪个字母最需要解释？",
+        "你希望在什么场合提供工作邮箱？",
+        "除了职业，你还想向新同伴介绍哪一点？"
+      ]
+    },
+    {
+      "id": "es-04",
+      "pronunciation": {
+        "focus": "重音符号区分疑问词",
+        "explanation": "qué、cuánto 在直接和间接疑问中带重音；hora 的 h 不发音，避免读出额外辅音。",
+        "examples": [
+          {
+            "text": "¿A qué hora termina?",
+            "zh": "几点结束？"
+          },
+          {
+            "text": "Son las dos y veinte.",
+            "zh": "现在两点二十分。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "一点用 es la una，其他点钟用 son las…；预约时间前用 a la una / a las dos。",
+        "menos 表示距下一整点还差多少：las diez menos cuarto 是九点四十五，不是十点十五。",
+        "具体某一天常用 el martes；每周二用 los martes；月份通常小写，日期用 el cinco de mayo。"
+      ],
+      "cultureNote": "西班牙书面日程常见24小时制，口语也常用12小时制；预约时补充 de la mañana/tarde/noche 或复述数字能减少误会。",
+      "vocabularyNotes": [
+        {
+          "head": "cuarto",
+          "note": "时间里 un cuarto 指十五分钟；y cuarto 加一刻，menos cuarto 差一刻。"
+        },
+        {
+          "head": "mañana",
+          "note": "mañana 可表示明天；la mañana 是早晨，mañana por la mañana 是明天早上。"
+        },
+        {
+          "head": "euro",
+          "note": "复数 euros；un euro 不用 uno euro，价格可说 dos euros con cincuenta。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-04-transfer-1",
+          "prompt": "看展前询问闭馆时间",
+          "text": "¿A qué hora cierra el museo los domingos?",
+          "zh": "博物馆周日几点关门？",
+          "explanation": "询问事件时间用 a qué hora；los domingos 表示每个周日。"
+        },
+        {
+          "id": "es-04-transfer-2",
+          "prompt": "告诉同伴现在十二点半",
+          "text": "Son las doce y media; aún tenemos tiempo.",
+          "zh": "现在十二点半，我们还有时间。",
+          "explanation": "十二点用 son las；media 表示半小时。"
+        },
+        {
+          "id": "es-04-transfer-3",
+          "prompt": "说明离七点还有一刻钟",
+          "text": "Son las siete menos cuarto y la tienda sigue abierta.",
+          "zh": "现在六点四十五分，店还开着。",
+          "explanation": "以接近的七点为基准减去十五分钟。"
+        },
+        {
+          "id": "es-04-transfer-4",
+          "prompt": "通知一项活动一点开始",
+          "text": "La visita empieza a la una de la tarde.",
+          "zh": "参观下午一点开始。",
+          "explanation": "一点是单数 a la una，不能写 a las una。"
+        },
+        {
+          "id": "es-04-transfer-5",
+          "prompt": "问两张票总价",
+          "text": "¿Cuánto cuestan dos entradas para hoy?",
+          "zh": "今天的两张门票多少钱？",
+          "explanation": "主语 dos entradas 为复数，动词用 cuestan。"
+        },
+        {
+          "id": "es-04-transfer-6",
+          "prompt": "约定月初某日午间取书",
+          "text": "Recojo el libro el tres de junio a las doce.",
+          "zh": "我六月三日十二点取书。",
+          "explanation": "日期前用 el，月份前用 de，点钟前用 a las。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说活动一点开始，哪句正确？",
+          "options": [
+            "Empieza a la una.",
+            "Empieza a las una.",
+            "Empieza en la una."
+          ],
+          "answer": 0,
+          "explanation": "钟点前用 a；una 按单数搭配 la。"
+        },
+        {
+          "prompt": "表示九点四十五，哪句正确？",
+          "options": [
+            "Son las nueve y cuarto.",
+            "Son las diez menos cuarto.",
+            "Es las diez menos cuarto."
+          ],
+          "answer": 1,
+          "explanation": "十点差一刻即九点四十五；多于一点用 son。"
+        },
+        {
+          "prompt": "表示每周一上课，哪句正确？",
+          "options": [
+            "Tengo clase en lunes.",
+            "Tengo clase el luneses.",
+            "Tengo clase los lunes."
+          ],
+          "answer": 2,
+          "explanation": "规律性的星期用复数定冠词 los，lunes 本身不再加 -es。"
+        }
+      ],
+      "writingChecklist": [
+        "现在几点与几点开始是否分别用了 es/son 和 a。",
+        "一刻、半小时及 menos 的换算是否正确。",
+        "单次日期与每周安排是否分别用了 el 和 los。"
+      ],
+      "speakingFollowups": [
+        "如果只听见“六点”，你会怎么确认早晚？",
+        "你会怎样报出自己的下一次预约日期？",
+        "两项活动时间冲突时你会提出哪个新时间？"
+      ]
+    },
+    {
+      "id": "es-05",
+      "pronunciation": {
+        "focus": "c 的地区读音与清楚点单",
+        "explanation": "在西班牙许多地区，café 的 c 发 /k/，azúcar 中 z 发近似英语 th 的清辅音；部分地区不作此区分也很自然。",
+        "examples": [
+          {
+            "text": "Un café sin leche, por favor.",
+            "zh": "请来一杯不加奶的咖啡。"
+          },
+          {
+            "text": "¿Es para llevar?",
+            "zh": "是打包的吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "quería 在点单时可柔和地表达“我想要”；不用再在后面加变位动词，如 quería tomar 中 tomar 保持不定式。",
+        "询问店家多人或店面整体在西班牙可用 tenéis；正式单数用 tiene，不能混用 tenéis 与 usted。",
+        "para llevar 是带走，para tomar aquí 是在这里喝；sin 后直接接名词，表示不加某物。"
+      ],
+      "cultureNote": "café con leche、cortado 的奶量和杯型可能因店而异；有饮食需求时说明具体成分并向店员确认。",
+      "vocabularyNotes": [
+        {
+          "head": "cortado",
+          "note": "阳性：un cortado，通常指加少量奶的浓缩咖啡；并不是所有店都使用相同比例。"
+        },
+        {
+          "head": "agua",
+          "note": "阴性名词，但重读 a 开头，单数说 el agua fría、un agua；形容词仍用阴性。"
+        },
+        {
+          "head": "cuenta",
+          "note": "la cuenta 是账单，常说 pedir la cuenta；不要与 cuento（故事）混淆。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-05-transfer-1",
+          "prompt": "点两份早餐并说明咖啡种类",
+          "text": "Quería dos cafés solos y una tostada para compartir.",
+          "zh": "我想要两杯黑咖啡和一份吐司一起分着吃。",
+          "explanation": "数量大于一时 cafés 变复数；para compartir 表示共享。"
+        },
+        {
+          "id": "es-05-transfer-2",
+          "prompt": "询问是否有植物奶",
+          "text": "¿Tenéis bebida de avena para el café?",
+          "zh": "你们有可以加到咖啡里的燕麦饮品吗？",
+          "explanation": "西班牙对店方可用 tenéis；para el café 说明用途。"
+        },
+        {
+          "id": "es-05-transfer-3",
+          "prompt": "点一份不含火腿的三明治",
+          "text": "Un bocadillo de queso sin jamón, por favor.",
+          "zh": "请来一个不加火腿的奶酪三明治。",
+          "explanation": "de 指主要配料，sin 明确排除配料。"
+        },
+        {
+          "id": "es-05-transfer-4",
+          "prompt": "说明茶里不加糖和奶",
+          "text": "El té, sin azúcar ni leche, por favor.",
+          "zh": "这杯茶请不要加糖，也不要加奶。",
+          "explanation": "sin…ni… 连接两个均不添加的成分。"
+        },
+        {
+          "id": "es-05-transfer-5",
+          "prompt": "告诉店员全部打包",
+          "text": "Todo es para llevar; no vamos a sentarnos.",
+          "zh": "全部打包，我们不坐下来。",
+          "explanation": "todo 作整体单数用 es；para llevar 为固定用途表达。"
+        },
+        {
+          "id": "es-05-transfer-6",
+          "prompt": "付款前询问能否分开结账",
+          "text": "¿Podemos pagar por separado?",
+          "zh": "我们可以分开付吗？",
+          "explanation": "主语是我们，poder 用 podemos；por separado 是分别地。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "点一杯冷水，哪句正确？",
+          "options": [
+            "Un agua fría, por favor.",
+            "Una agua frío, por favor.",
+            "Un agua frío, por favor."
+          ],
+          "answer": 0,
+          "explanation": "agua 阴性，重读 a 前用 un，但形容词必须是 fría。"
+        },
+        {
+          "prompt": "说不加糖也不加奶，哪句正确？",
+          "options": [
+            "Sin azúcar no leche.",
+            "Sin azúcar ni leche.",
+            "Sin azúcar y no sin leche."
+          ],
+          "answer": 1,
+          "explanation": "sin 下并列排除项用 ni 连接最自然清楚。"
+        },
+        {
+          "prompt": "表示两杯咖啡打包，哪句正确？",
+          "options": [
+            "Dos café por llevar.",
+            "Dos cafés para llevamos.",
+            "Dos cafés para llevar."
+          ],
+          "answer": 2,
+          "explanation": "cafés 复数；para 后接不定式 llevar。"
+        }
+      ],
+      "writingChecklist": [
+        "数量、冠词和饮品名是否配合。",
+        "把不要的成分写在 sin 后，多个成分用 ni。",
+        "明确写出堂食、打包或付款方式。"
+      ],
+      "speakingFollowups": [
+        "店里没有你要的奶时，你会怎么改点？",
+        "店员问堂食还是外带，你会怎么回答？",
+        "你会怎样确认是否含某种食材？"
+      ]
+    },
+    {
+      "id": "es-06",
+      "pronunciation": {
+        "focus": "j 与 g 的摩擦音",
+        "explanation": "caja 的 j 与 gente 的 ge 在西班牙常读喉部摩擦音；不要读成英语 j。kilo 的 k 保持清晰。",
+        "examples": [
+          {
+            "text": "La caja está al fondo.",
+            "zh": "收银台在里面。"
+          },
+          {
+            "text": "Un kilo de naranjas.",
+            "zh": "一公斤橙子。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "hay 介绍是否存在某物，不随单复数变：hay una bolsa / hay dos bolsas；已知物品的位置用 está/están。",
+        "数量单位与商品间用 de：medio kilo de peras；medio 随 kilo 为阳性，media 随 docena 为阴性。",
+        "询问总价用 ¿Cuánto es?，询问复数商品单价可用 ¿Cuánto cuestan…?；不要把所有“多少”都写成 cuánto cuesta。"
+      ],
+      "cultureNote": "西班牙市场可按重量或个数购买；部分超市需自己称重，部分由员工操作，观察标识或询问店员。",
+      "vocabularyNotes": [
+        {
+          "head": "kilo",
+          "note": "un kilo de 后接商品，半公斤是 medio kilo；不是 un medio kilos。"
+        },
+        {
+          "head": "caja",
+          "note": "在商店可指收银台，也可指盒子；pasar por caja 是到收银台结账。"
+        },
+        {
+          "head": "recibo",
+          "note": "el recibo 可指收据；购物中也常听到 tique，索取时可说 ¿Me da el tique?。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-06-transfer-1",
+          "prompt": "寻找已在购物单上的鸡蛋",
+          "text": "¿Dónde están los huevos de esta oferta?",
+          "zh": "这次特价的鸡蛋在哪里？",
+          "explanation": "明确的一批复数鸡蛋用 están，不用 hay 来问其位置。"
+        },
+        {
+          "id": "es-06-transfer-2",
+          "prompt": "询问是否供应无盐面包",
+          "text": "¿Hay pan sin sal en esta tienda?",
+          "zh": "这家店有无盐面包吗？",
+          "explanation": "hay 询问存在；pan 作物质名词，此处不加 un。"
+        },
+        {
+          "id": "es-06-transfer-3",
+          "prompt": "在果摊买四分之一公斤樱桃",
+          "text": "Quería un cuarto de kilo de cerezas.",
+          "zh": "我想买四分之一公斤樱桃。",
+          "explanation": "un cuarto de kilo 为四分之一公斤，再用 de 连接商品。"
+        },
+        {
+          "id": "es-06-transfer-4",
+          "prompt": "核实三个商品的合计",
+          "text": "¿Cuánto es todo junto, incluidas las bolsas?",
+          "zh": "包括袋子在内，全部合计多少钱？",
+          "explanation": "todo junto 作整体用 es；incluidas 随 bolsas 用阴性复数。"
+        },
+        {
+          "id": "es-06-transfer-5",
+          "prompt": "拒绝新袋子并说明已带背包",
+          "text": "No necesito bolsa; puedo guardarlo todo en mi mochila.",
+          "zh": "我不需要袋子，可以把所有东西放进背包。",
+          "explanation": "no 在 necesito 前；guardarlo 中 lo 指采购物品这一整体。"
+        },
+        {
+          "id": "es-06-transfer-6",
+          "prompt": "请给能显示商品明细的购物凭条",
+          "text": "¿Me puede dar un tique con el detalle de la compra?",
+          "zh": "您能给我一张列出购物明细的凭条吗？",
+          "explanation": "me 是受益者；puede 后接不定式 dar。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说有三台收银机，哪句正确？",
+          "options": [
+            "Hay tres cajas.",
+            "Hayan tres cajas.",
+            "Está tres cajas."
+          ],
+          "answer": 0,
+          "explanation": "存在用固定形式 hay；不因三台变成其他形式。"
+        },
+        {
+          "prompt": "问这些苹果在哪，哪句正确？",
+          "options": [
+            "¿Dónde está estas manzanas?",
+            "¿Dónde están estas manzanas?",
+            "¿Dónde hay están estas manzanas?"
+          ],
+          "answer": 1,
+          "explanation": "具体复数物品的位置用 están，不同时加 hay。"
+        },
+        {
+          "prompt": "买半公斤梨，哪句正确？",
+          "options": [
+            "Media kilo peras.",
+            "Medio kilos de peras.",
+            "Medio kilo de peras."
+          ],
+          "answer": 2,
+          "explanation": "kilo 单数阳性，用 medio，并以 de 连接商品。"
+        }
+      ],
+      "writingChecklist": [
+        "是否区分 hay 的存在与 está/están 的位置。",
+        "重量单位后是否加 de，单位是否用正确单复数。",
+        "说明数量与商品，并核对合计是否包含袋子等项目。"
+      ],
+      "speakingFollowups": [
+        "如果商品售罄，你会询问哪种替代品？",
+        "你会如何要求少买一点？",
+        "你怎样确认价格是每公斤还是每件？"
+      ]
+    },
+    {
+      "id": "es-07",
+      "pronunciation": {
+        "focus": "单 r 与双 rr",
+        "explanation": "pero 的单 r 通常短促，perro 的 rr 为颤音；recto 词首 r 较强，不要额外加元音。",
+        "examples": [
+          {
+            "text": "Gira a la derecha.",
+            "zh": "向右转。"
+          },
+          {
+            "text": "El parque está cerca.",
+            "zh": "公园在附近。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "去某处用 ir a；a el 缩合成 al，如 al museo，但 a la plaza 不缩合。",
+        "方位结构是 enfrente de / cerca de / lejos de；后接 el 时 de el 合为 del。",
+        "对 tú 指路用 sigue、gira、cruza；对 usted 用 siga、gire、cruce，不把不同称呼混在同一组指令里。"
+      ],
+      "cultureNote": "西班牙一些街道门牌按奇偶分侧，但现场布局会不同；问路时用街名和地标确认，不仅依赖“第二个路口”。",
+      "vocabularyNotes": [
+        {
+          "head": "derecha",
+          "note": "向右用 a la derecha；在右边可说 a la derecha de la farmacia。"
+        },
+        {
+          "head": "recto",
+          "note": "seguir todo recto 是一直直走；此处 recto 作方向表达，不随听话者性别改变。"
+        },
+        {
+          "head": "enfrente",
+          "note": "通常搭配 de：enfrente del mercado；不能直接接市场名而省去 de。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-07-transfer-1",
+          "prompt": "从广场询问去邮局的路线",
+          "text": "¿Cómo puedo llegar a Correos desde esta plaza?",
+          "zh": "我从这个广场怎么去邮局？",
+          "explanation": "llegar a 表示到达；desde 标出起点。"
+        },
+        {
+          "id": "es-07-transfer-2",
+          "prompt": "让朋友沿河一直走到桥边",
+          "text": "Sigue junto al río hasta el puente.",
+          "zh": "沿着河一直走到桥边。",
+          "explanation": "sigue 对应 tú；hasta 指路线终点。"
+        },
+        {
+          "id": "es-07-transfer-3",
+          "prompt": "向游客礼貌说明在第二条街右转",
+          "text": "Gire a la derecha en la segunda calle.",
+          "zh": "请在第二条街向右转。",
+          "explanation": "正式称呼用 gire；a la derecha 是转弯方向。"
+        },
+        {
+          "id": "es-07-transfer-4",
+          "prompt": "用面包店定位诊所",
+          "text": "La clínica está al lado de la panadería.",
+          "zh": "诊所在面包店旁边。",
+          "explanation": "al lado de 是完整方位短语，已知地点用 está。"
+        },
+        {
+          "id": "es-07-transfer-5",
+          "prompt": "确认步行距离是否很近",
+          "text": "¿Se puede ir andando o queda demasiado lejos?",
+          "zh": "可以走过去，还是太远了？",
+          "explanation": "ir andando 表示步行；queda 可说明距离状态。"
+        },
+        {
+          "id": "es-07-transfer-6",
+          "prompt": "复述先过桥再左转的路线",
+          "text": "Entonces cruzo el puente y después giro a la izquierda, ¿verdad?",
+          "zh": "那么我先过桥，然后左转，对吗？",
+          "explanation": "cruzo/giro 是第一人称复述，不是向对方发命令。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达在银行对面，哪句正确？",
+          "options": [
+            "Está enfrente del banco.",
+            "Está enfrente el banco.",
+            "Está enfrente de el banco."
+          ],
+          "answer": 0,
+          "explanation": "enfrente de 不能省 de；de el 必须缩合为 del。"
+        },
+        {
+          "prompt": "向一位陌生人用 usted 指路，哪句正确？",
+          "options": [
+            "Sigue y gira a la derecha.",
+            "Siga y gire a la derecha.",
+            "Sigas y giras a la derecha."
+          ],
+          "answer": 1,
+          "explanation": "正式单数肯定命令为 siga、gire。"
+        },
+        {
+          "prompt": "表示去博物馆，哪句正确？",
+          "options": [
+            "Voy a el museo.",
+            "Voy en el museo.",
+            "Voy al museo."
+          ],
+          "answer": 2,
+          "explanation": "目的地用 a，a el 缩合成 al。"
+        }
+      ],
+      "writingChecklist": [
+        "起点、终点是否分别用 desde 与 a/hasta。",
+        "cerca/enfrente 等方位词后是否补 de。",
+        "整段指令是否使用同一称呼形式。"
+      ],
+      "speakingFollowups": [
+        "如果对方说得太快，你会怎样确认第二个转弯？",
+        "你会用哪个明显地标描述你现在的位置？",
+        "路线中哪一段你想请对方画出来？"
+      ]
+    },
+    {
+      "id": "es-08",
+      "pronunciation": {
+        "focus": "重音落在末节的交通词",
+        "explanation": "andén、estación 中重音符号提示末节重读；autobús 也重读末节，复数 autobuses 不带重音符号。",
+        "examples": [
+          {
+            "text": "El autobús llega en diez minutos.",
+            "zh": "公交车十分钟后到。"
+          },
+          {
+            "text": "¿Cuál es el andén?",
+            "zh": "是哪个站台？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "目的地用 a，交通方式通常用 en：voy al centro en metro；步行是 a pie，不说 en pie。",
+        "tener que 表示某人必须做，按人称变位；hay que 是无人称的一般要求，始终保持 hay。",
+        "salir de 表示从某站台出发；问站台可说 ¿De qué andén sale…?，不要受中文“在哪”影响只用 en。"
+      ],
+      "cultureNote": "公交和铁路的票制、换乘与验票方式依城市和运营方而异；使用 billete、validar 等词提问，再确认现场信息。",
+      "vocabularyNotes": [
+        {
+          "head": "billete",
+          "note": "西班牙常用 billete 指交通票；un billete de ida 是单程，de ida y vuelta 是往返。"
+        },
+        {
+          "head": "parada",
+          "note": "多用于公交站或地铁停靠站；铁路车站通常用 estación，站台是 andén。"
+        },
+        {
+          "head": "transbordo",
+          "note": "hacer transbordo 是换乘，重音在 bor；不要直接说 cambiar transbordo。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-08-transfer-1",
+          "prompt": "确认这班地铁是否经过大学",
+          "text": "¿Esta línea de metro pasa por la universidad?",
+          "zh": "这条地铁线经过大学吗？",
+          "explanation": "pasar por 强调途经，不等同于最终目的地。"
+        },
+        {
+          "id": "es-08-transfer-2",
+          "prompt": "买周六去周日回的票",
+          "text": "Quería ir el sábado y volver el domingo; ¿hay billete de ida y vuelta?",
+          "zh": "我想周六去、周日回，有往返票吗？",
+          "explanation": "ir 与 volver 配合两个时间；hay 不随 billete 改变。"
+        },
+        {
+          "id": "es-08-transfer-3",
+          "prompt": "问去医院应在哪站下车",
+          "text": "¿En qué parada tengo que bajarme para ir al hospital?",
+          "zh": "去医院我该在哪一站下车？",
+          "explanation": "bajarse 的 me 可接不定式后；para ir 表目的。"
+        },
+        {
+          "id": "es-08-transfer-4",
+          "prompt": "确认直达还是在中途换乘",
+          "text": "¿El tren es directo o hay que cambiar en Valladolid?",
+          "zh": "这趟列车是直达，还是需要在巴利亚多利德换乘？",
+          "explanation": "无人称要求用 hay que；两种选择以 o 连接。"
+        },
+        {
+          "id": "es-08-transfer-5",
+          "prompt": "询问去机场的列车出发站台",
+          "text": "¿De qué andén sale el tren del aeropuerto?",
+          "zh": "机场列车从哪个站台出发？",
+          "explanation": "出发点用 de；del aeropuerto 修饰列车。"
+        },
+        {
+          "id": "es-08-transfer-6",
+          "prompt": "首次乘车请人示范验票",
+          "text": "Es mi primer viaje aquí; ¿me puede enseñar a validar el billete?",
+          "zh": "这是我第一次在这里乘车，您能教我验票吗？",
+          "explanation": "enseñar a 加不定式说明教某人做什么，不假定所有票都同样操作。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说乘公交去车站，哪句正确？",
+          "options": [
+            "Voy a la estación en autobús.",
+            "Voy en la estación a autobús.",
+            "Voy a estación con autobús."
+          ],
+          "answer": 0,
+          "explanation": "目的地用 a la，交通工具用 en。"
+        },
+        {
+          "prompt": "一般规定需要换乘，哪句正确？",
+          "options": [
+            "Hay que hacer transborda.",
+            "Hay que hacer transbordo.",
+            "Hay hacer transbordo."
+          ],
+          "answer": 1,
+          "explanation": "hay que 后接不定式 hacer，hacer transbordo 为固定搭配。"
+        },
+        {
+          "prompt": "问列车从哪个站台发车，哪句最准确？",
+          "options": [
+            "¿A qué andén sale el tren?",
+            "¿Con qué andén sale el tren?",
+            "¿De qué andén sale el tren?"
+          ],
+          "answer": 2,
+          "explanation": "从某处出发用 salir de，a 指去向。"
+        }
+      ],
+      "writingChecklist": [
+        "写明线路、方向与上下车地点。",
+        "检查目的地 a、工具 en、出发地 de。",
+        "把需要确认的票种、换乘或验票方式写成具体问题。"
+      ],
+      "speakingFollowups": [
+        "如果列车取消，你会问什么替代路线？",
+        "你如何确认自己上的是正确方向？",
+        "工作人员说必须换乘，你会追问哪两条信息？"
+      ]
+    },
+    {
+      "id": "es-09",
+      "pronunciation": {
+        "focus": "ll 与 y 的常见合流",
+        "explanation": "llave 的 ll 在西班牙多数口音中与 y 相近；habitación 的 h 不发音，ción 末节重读。",
+        "examples": [
+          {
+            "text": "La habitación está lista.",
+            "zh": "房间准备好了。"
+          },
+          {
+            "text": "Necesito otra llave.",
+            "zh": "我需要另一把钥匙。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "房间状态用 estar 加形容词：está limpia；形容词随名词变为 limpia/limpias，不随住客变。",
+        "a nombre de 表示以某人名义预订；不能按中文说 en nombre de 来替换所有预订场合。",
+        "询问是否有设施用 hay；问已有设施在哪里用 está/están，如 ¿Dónde están las toallas?。"
+      ],
+      "cultureNote": "酒店早餐时间、行李寄存与入住安排各不相同；用问句确认是否提供以及具体条件，不把表达范例当成服务保证。",
+      "vocabularyNotes": [
+        {
+          "head": "habitación",
+          "note": "阴性：la habitación；复数 habitaciones 去掉原重音符号，定冠词 las。"
+        },
+        {
+          "head": "equipaje",
+          "note": "阳性集合名词，通常说 el equipaje 或 dos maletas，不按行李件数说 dos equipajes。"
+        },
+        {
+          "head": "reserva",
+          "note": "tener una reserva a nombre de…；reserva 也可作动词形式，须看句子位置。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-09-transfer-1",
+          "prompt": "说明两晚的预订并出示邮件",
+          "text": "He reservado dos noches y tengo aquí el correo de confirmación.",
+          "zh": "我预订了两晚，确认邮件在这里。",
+          "explanation": "he reservado 说明已完成的预订；dos noches 直接表示时长。"
+        },
+        {
+          "id": "es-09-transfer-2",
+          "prompt": "询问早班车前能否吃早餐",
+          "text": "Salimos a las siete; ¿el desayuno empieza antes?",
+          "zh": "我们七点出发，早餐在那之前开始吗？",
+          "explanation": "salimos 为我们；antes 回指七点之前。"
+        },
+        {
+          "id": "es-09-transfer-3",
+          "prompt": "担心爬楼梯，询问房间所在楼层",
+          "text": "¿En qué planta está la habitación y hay ascensor?",
+          "zh": "房间在几层？有电梯吗？",
+          "explanation": "具体房间位置用 está；设施存在用 hay。"
+        },
+        {
+          "id": "es-09-transfer-4",
+          "prompt": "说明门卡能开外门却开不了房门",
+          "text": "La tarjeta abre la entrada, pero no abre mi habitación.",
+          "zh": "这张卡能打开入口的门，却打不开我的房间。",
+          "explanation": "两个并列谓语用 pero 表转折；no 放在第二个 abre 前。"
+        },
+        {
+          "id": "es-09-transfer-5",
+          "prompt": "报告浴室没有热水",
+          "text": "La ducha está fría; ¿podéis comprobar el agua caliente?",
+          "zh": "淋浴水是冷的，你们能检查一下热水吗？",
+          "explanation": "fría 随 ducha；podéis 对应西班牙非正式复数。"
+        },
+        {
+          "id": "es-09-transfer-6",
+          "prompt": "退房后请求短时寄存并问取件时间",
+          "text": "¿Puedo dejar una maleta hasta las tres y recogerla después?",
+          "zh": "我能把一只行李箱放到三点，之后再取吗？",
+          "explanation": "recogerla 的 la 回指阴性 maleta；hasta 表截止时间。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说两间房都干净，哪句正确？",
+          "options": [
+            "Las habitaciones están limpias.",
+            "Las habitaciones está limpia.",
+            "Las habitaciones son limpio."
+          ],
+          "answer": 0,
+          "explanation": "复数主语用 están，形容词阴性复数 limpias。"
+        },
+        {
+          "prompt": "问有无电梯，哪句正确？",
+          "options": [
+            "¿Está un ascensor?",
+            "¿Hay ascensor?",
+            "¿Es ascensor?"
+          ],
+          "answer": 1,
+          "explanation": "是否提供设施用 hay，不是确定设施的位置。"
+        },
+        {
+          "prompt": "说钥匙以外的行李在这里，哪句正确？",
+          "options": [
+            "Los equipajes está aquí.",
+            "La equipaje está aquí.",
+            "El equipaje está aquí."
+          ],
+          "answer": 2,
+          "explanation": "equipaje 是阳性集合名词，常用单数 el equipaje。"
+        }
+      ],
+      "writingChecklist": [
+        "房间和设施的性数是否与形容词、动词一致。",
+        "区分预订信息、设施存在和设施位置。",
+        "请求写清日期、时间、物品及需要确认的条件。"
+      ],
+      "speakingFollowups": [
+        "如果房间尚未准备好，你会怎样询问安排？",
+        "你会怎么描述一种具体的设施故障？",
+        "寄存行李前你还想核对什么？"
+      ]
+    },
+    {
+      "id": "es-10",
+      "pronunciation": {
+        "focus": "重读元音与反身词尾",
+        "explanation": "levántate 中重音符号保持重读位置；acostarse 重读 tar，变位 me acuesto 时出现 ue。",
+        "examples": [
+          {
+            "text": "Me acuesto temprano.",
+            "zh": "我很早上床睡觉。"
+          },
+          {
+            "text": "¿Os levantáis a las ocho?",
+            "zh": "你们八点起床吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "反身代词随主语变化：me levanto、te levantas、nos levantamos、os levantáis；不能一律用 se。",
+        "acostarse 在现在时部分人称变为 ue：me acuesto，但 nosotros nos acostamos、vosotros os acostáis。",
+        "习惯用 normalmente、siempre 等词与现在时；me toca limpiar 表示轮到我，后接不定式。"
+      ],
+      "cultureNote": "合租生活中的吃饭与安静时间应共同商量；西班牙常见较晚用餐并不代表每个人的作息一致。",
+      "vocabularyNotes": [
+        {
+          "head": "piso",
+          "note": "西班牙常指一套公寓；compartir piso 是合租，住几层则用 en el segundo piso 等。"
+        },
+        {
+          "head": "lavadora",
+          "note": "poner la lavadora 是开洗衣机洗衣服，不是把机器摆到某处；一轮洗衣可说 una lavadora。"
+        },
+        {
+          "head": "basura",
+          "note": "通常用单数 la basura；sacar la basura 指把垃圾拿到外面丢弃。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-10-transfer-1",
+          "prompt": "说明独居但偶尔接待朋友",
+          "text": "Vivo solo, aunque algunos fines de semana vienen amigos.",
+          "zh": "我独自居住，不过有些周末朋友会来。",
+          "explanation": "solo 随男性说话者；aunque 衔接不同情况。"
+        },
+        {
+          "id": "es-10-transfer-2",
+          "prompt": "对比上班日与周末起床时间",
+          "text": "Entre semana me levanto temprano, pero los domingos duermo más.",
+          "zh": "工作日我起得早，但周日睡得久一些。",
+          "explanation": "me levanto 为第一人称反身；los domingos 表规律。"
+        },
+        {
+          "id": "es-10-transfer-3",
+          "prompt": "描述自己不常在家吃晚饭",
+          "text": "Casi nunca ceno en casa porque salgo tarde del trabajo.",
+          "zh": "我几乎从不在家吃晚饭，因为下班很晚。",
+          "explanation": "casi nunca 放动词前时无需另加 no。"
+        },
+        {
+          "id": "es-10-transfer-4",
+          "prompt": "与室友商量避开休息时间洗衣",
+          "text": "¿Ponemos la lavadora antes de cenar para no molestar por la noche?",
+          "zh": "我们晚饭前洗衣服，好避免晚上打扰别人，怎么样？",
+          "explanation": "antes de 后接 cenar；para no molestar 的 no 在不定式前。"
+        },
+        {
+          "id": "es-10-transfer-5",
+          "prompt": "说明这周的轮值并提出交换",
+          "text": "Esta semana me toca sacar la basura; ¿puedo cambiar el turno contigo?",
+          "zh": "这周轮到我倒垃圾，我能和你换班吗？",
+          "explanation": "me toca 后接不定式；contigo 表“与你”。"
+        },
+        {
+          "id": "es-10-transfer-6",
+          "prompt": "询问几位室友的共同作息",
+          "text": "¿Os acostáis todos a la misma hora o tenéis horarios distintos?",
+          "zh": "你们都是同一时间睡觉，还是作息不同？",
+          "explanation": "vosotros 反身代词用 os，acostáis 不发生 ue 变化。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说我们七点起床，哪句正确？",
+          "options": [
+            "Nos levantamos a las siete.",
+            "Me levantamos a las siete.",
+            "Nos levantan a las siete."
+          ],
+          "answer": 0,
+          "explanation": "第一人称复数需 nos 与 levantamos 配合。"
+        },
+        {
+          "prompt": "问你们几点睡觉，哪句正确？",
+          "options": [
+            "¿A qué hora os acuestáis?",
+            "¿A qué hora os acostáis?",
+            "¿A qué hora se acostáis?"
+          ],
+          "answer": 1,
+          "explanation": "vosotros 形式为 acostáis，不变 ue；反身代词是 os。"
+        },
+        {
+          "prompt": "表达几乎从不在家吃饭，哪句正确？",
+          "options": [
+            "Casi no nunca como en casa.",
+            "Casi nunca no como en casa.",
+            "Casi nunca como en casa."
+          ],
+          "answer": 2,
+          "explanation": "nunca 在动词前已使句子否定，不重复加 no。"
+        }
+      ],
+      "writingChecklist": [
+        "反身代词和变位是否属于同一人称。",
+        "是否准确区分工作日、每周某天与今天。",
+        "家务分工是否说明谁做、何时做及是否需要协商。"
+      ],
+      "speakingFollowups": [
+        "如果洗衣时间影响室友休息，你会怎么提出新安排？",
+        "你和室友哪种作息差异最大？",
+        "轮到你打扫但临时忙碌时你会怎么说？"
+      ]
+    },
+    {
+      "id": "es-11",
+      "pronunciation": {
+        "focus": "gue 与 gui 中的 u",
+        "explanation": "garganta 的 ga 发硬音；guerra 的 gue 中 u 通常不发音，而 lingüística 的 ü 提示发出 u 音。",
+        "examples": [
+          {
+            "text": "Me duele la garganta.",
+            "zh": "我喉咙疼。"
+          },
+          {
+            "text": "¿Hay apoyo lingüístico?",
+            "zh": "有语言协助吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "doler 的主语是疼痛部位：me duele el brazo / me duelen los brazos；不能按“我痛”用 yo duelo。",
+        "身体部位通常用定冠词，并以 me/te 等表示感受者，如 me duele la espalda，不必写 mi espalda。",
+        "持续到现在的症状可用 desde 加起点，desde hace 加时长：desde el lunes / desde hace dos días。"
+      ],
+      "cultureNote": "求助时简明说明症状、持续时间和语言需要；能否获得口译或预约取决于具体机构，需要现场确认。",
+      "vocabularyNotes": [
+        {
+          "head": "dolor",
+          "note": "名词用 tener dolor de…；动词结构用 me duele…，两者不要混成 tengo duele。"
+        },
+        {
+          "head": "alergia",
+          "note": "搭配 tener alergia a；若信息尚未核实，应说明自己不确定，而不把猜测说成既定事实。"
+        },
+        {
+          "head": "intérprete",
+          "note": "重读 tér；可说 un intérprete / una intérprete，职业名的词尾不随男女改变。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-11-transfer-1",
+          "prompt": "想预约咨询并询问可用时间",
+          "text": "Necesito una cita para consultar un problema; ¿qué horas hay disponibles?",
+          "zh": "我需要预约咨询一个问题，有哪些可用时间？",
+          "explanation": "necesito 后接名词；horas 复数用 disponibles。"
+        },
+        {
+          "id": "es-11-transfer-2",
+          "prompt": "描述肩部不适的起始时间",
+          "text": "Me duele el hombro desde el domingo por la tarde.",
+          "zh": "我从周日下午开始肩膀疼。",
+          "explanation": "单数 hombro 用 duele；desde 加具体起点。"
+        },
+        {
+          "id": "es-11-transfer-3",
+          "prompt": "说明双眼疼痛持续两天",
+          "text": "Me duelen los ojos desde hace dos días.",
+          "zh": "我眼睛疼已经两天了。",
+          "explanation": "复数 ojos 决定 duelen；时长用 desde hace。"
+        },
+        {
+          "id": "es-11-transfer-4",
+          "prompt": "告知曾有过敏反应但不清楚药名",
+          "text": "He tenido una reacción alérgica, pero no recuerdo el nombre del medicamento.",
+          "zh": "我曾出现过过敏反应，但不记得药的名字。",
+          "explanation": "he tenido 表经历；明确不知道名称，避免添加未核实信息。"
+        },
+        {
+          "id": "es-11-transfer-5",
+          "prompt": "请工作人员写明复诊日期",
+          "text": "¿Puede apuntar la fecha de la próxima visita para que no la confunda?",
+          "zh": "您能写下下次就诊日期，以免我弄错吗？",
+          "explanation": "la 回指 fecha；此处请求的是书面日期。"
+        },
+        {
+          "id": "es-11-transfer-6",
+          "prompt": "说明需要帮助理解表格",
+          "text": "Me cuesta entender este formulario; ¿hay alguien que pueda ayudarme?",
+          "zh": "我理解这份表格有困难，有人能帮我吗？",
+          "explanation": "me cuesta 加不定式表示做某事困难；询问有无可提供帮助的人。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说双腿疼，哪句正确？",
+          "options": [
+            "Me duelen las piernas.",
+            "Yo duele las piernas.",
+            "Me duele las piernas."
+          ],
+          "answer": 0,
+          "explanation": "疼痛部位为复数，动词用 duelen，me 是感受者。"
+        },
+        {
+          "prompt": "说从昨天起喉咙疼，哪句正确？",
+          "options": [
+            "Me duele la garganta desde hace ayer.",
+            "Me duele la garganta desde ayer.",
+            "Me duele la garganta por ayer."
+          ],
+          "answer": 1,
+          "explanation": "ayer 是起点，用 desde；desde hace 后接时长。"
+        },
+        {
+          "prompt": "表达对某种药过敏，哪句正确？",
+          "options": [
+            "Tengo alergia de este medicamento.",
+            "Soy alergia a este medicamento.",
+            "Tengo alergia a este medicamento."
+          ],
+          "answer": 2,
+          "explanation": "固定搭配为 tener alergia a，不用 ser 或介词 de。"
+        }
+      ],
+      "writingChecklist": [
+        "疼痛部位的单复数是否决定了 duele/duelen。",
+        "明确写出症状开始时间或持续时长。",
+        "把已知事实、不确定信息与需要的语言帮助说清楚。"
+      ],
+      "speakingFollowups": [
+        "如果不记得药名，你会怎样说明？",
+        "工作人员问何时开始不适，你会怎么回答？",
+        "你需要对方写下哪项信息以便核对？"
+      ]
+    },
+    {
+      "id": "es-12",
+      "pronunciation": {
+        "focus": "重音区分单复数邀请",
+        "explanation": "venís 的 í 重读，区别于 vienes；quizá 重读末节，可与 quizás 交替使用。",
+        "examples": [
+          {
+            "text": "¿Venís a cenar?",
+            "zh": "你们来吃晚饭吗？"
+          },
+          {
+            "text": "¿Te apetece un paseo?",
+            "zh": "你想散步吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "apetecer 的事物作主语：me apetece un café / me apetecen unas tapas；不定式活动用单数 apetece。",
+        "gustar 同样以活动或事物为主语：me gusta pasear，不说 yo gusto pasear。",
+        "接受邀请可用 me encantaría；拒绝时说明已有安排并提出替代时间，比只说 no 更便于继续协商。"
+      ],
+      "cultureNote": "quedar 在西班牙常指约好碰面；邀请有时只是先提出意向，最好继续确认日期、地点和人数。",
+      "vocabularyNotes": [
+        {
+          "head": "quedar",
+          "note": "quedar con alguien 是与某人见面；quedar en un sitio 是约在某地，介词承担不同信息。"
+        },
+        {
+          "head": "entrada",
+          "note": "la entrada 可指门票或入口；comprar entradas 指买票，en la entrada 指在入口处。"
+        },
+        {
+          "head": "juntos",
+          "note": "随参与者变化：全女性可说 juntas；不是表示固定时间的副词“同时”。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-12-transfer-1",
+          "prompt": "邀请朋友在天气好时骑车",
+          "text": "¿Te apetece ir en bici por el parque esta tarde?",
+          "zh": "你今天下午想在公园骑车吗？",
+          "explanation": "活动 ir en bici 作整体主语，因此用 apetece。"
+        },
+        {
+          "id": "es-12-transfer-2",
+          "prompt": "接受野餐邀请并提出带食物",
+          "text": "Me encantaría ir; puedo llevar fruta para todos.",
+          "zh": "我很想去，可以给大家带水果。",
+          "explanation": "encantaría 用条件式柔和接受；llevar 指带去。"
+        },
+        {
+          "id": "es-12-transfer-3",
+          "prompt": "婉拒当天但保留另约可能",
+          "text": "Hoy no puedo porque trabajo, pero el viernes estoy libre.",
+          "zh": "今天不行，因为我要工作，不过周五我有空。",
+          "explanation": "porque 说明原因，pero 引出可行的替代时间。"
+        },
+        {
+          "id": "es-12-transfer-4",
+          "prompt": "提出把聚会换到下周",
+          "text": "¿Y si lo dejamos para la semana que viene?",
+          "zh": "要不我们留到下周，怎么样？",
+          "explanation": "¿Y si…? 后可用现在时提出建议；lo 指这次安排。"
+        },
+        {
+          "id": "es-12-transfer-5",
+          "prompt": "询问邀请对象是否带孩子来",
+          "text": "¿Venís con los niños o vais a venir solos?",
+          "zh": "你们带孩子一起来，还是自己来？",
+          "explanation": "非正式复数 venís/vais；solos 表示无其他人陪同。"
+        },
+        {
+          "id": "es-12-transfer-6",
+          "prompt": "承诺核对工作安排后当天答复",
+          "text": "Miro mi horario y te digo algo esta noche.",
+          "zh": "我看看自己的日程，今晚给你答复。",
+          "explanation": "现在时可表达近期已打算的行动；te 表答复对象。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达想吃几份小吃，哪句正确？",
+          "options": [
+            "Me apetecen unas tapas.",
+            "Me apetece unas tapas.",
+            "Yo apetezco unas tapas."
+          ],
+          "answer": 0,
+          "explanation": "复数 tapas 作主语，使用 apetecen；me 是感受者。"
+        },
+        {
+          "prompt": "表达喜欢散步，哪句正确？",
+          "options": [
+            "Yo gusto pasear.",
+            "Me gusta pasear.",
+            "Me gustan pasear."
+          ],
+          "answer": 1,
+          "explanation": "不定式活动作单数主语用 gusta。"
+        },
+        {
+          "prompt": "表达与同事约在广场见，哪句正确？",
+          "options": [
+            "Quedo en mis compañeros con la plaza.",
+            "Quedo a mis compañeros de la plaza.",
+            "Quedo con mis compañeros en la plaza."
+          ],
+          "answer": 2,
+          "explanation": "与人用 con，约定地点用 en。"
+        }
+      ],
+      "writingChecklist": [
+        "gustar/apetecer 的动词是否与事物或活动一致。",
+        "邀请是否说明时间、地点和活动。",
+        "不能参加时是否给出原因或可行替代时间。"
+      ],
+      "speakingFollowups": [
+        "如果朋友还没确定人数，你会怎么追问？",
+        "你会提出什么不用提前买票的备选活动？",
+        "接受邀请后，你还需要核实哪项安排？"
+      ]
+    },
+    {
+      "id": "es-13",
+      "pronunciation": {
+        "focus": "重音词与连读",
+        "explanation": "alquiler 重读 ler，calefacción 重读 ción；gastos incluidos 连读时仍要保留两词边界。",
+        "examples": [
+          {
+            "text": "¿Está amueblado?",
+            "zh": "带家具吗？"
+          },
+          {
+            "text": "¿Qué gastos incluye?",
+            "zh": "包含哪些费用？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "间接问句用陈述结构：Quería saber qué gastos incluye el alquiler；qué、cuánto、cuándo 在间接疑问中仍带重音。",
+        "saber si 表示想知道是否，si 不带重音；sí 带重音表示肯定“是”。",
+        "piso amueblado、habitaciones amuebladas 的性数跟名词一致；estar disponible 表目前可用状态。"
+      ],
+      "cultureNote": "询价时区分 alquiler、gastos、fianza 等项目，要求书面说明；这些词本身不代表任何费用、合同条件或办理结果必然适用。",
+      "vocabularyNotes": [
+        {
+          "head": "alquiler",
+          "note": "el alquiler 指租金或租赁；preguntar por el alquiler 是问租金，piso de alquiler 是出租公寓。"
+        },
+        {
+          "head": "gastos",
+          "note": "常用复数 los gastos；gastos incluidos 表费用已包含，但具体包括哪些仍应逐项询问。"
+        },
+        {
+          "head": "amueblado",
+          "note": "来自 amueblar，随房屋名词变化：piso amueblado / habitación amueblada。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-13-transfer-1",
+          "prompt": "咨询广告中的房间是否仍可看房",
+          "text": "He visto el anuncio de una habitación; ¿todavía se puede visitar?",
+          "zh": "我看到了一个房间的广告，现在还可以看房吗？",
+          "explanation": "todavía 询问当前状态；se puede 加不定式为一般可能性。"
+        },
+        {
+          "id": "es-13-transfer-2",
+          "prompt": "询问水电是否包含在租金里",
+          "text": "Quisiera saber si el precio incluye el agua y la electricidad.",
+          "zh": "我想知道价格是否包含水费和电费。",
+          "explanation": "间接的是非问句用 si，不写 sí。"
+        },
+        {
+          "id": "es-13-transfer-3",
+          "prompt": "因上班提出周末看房",
+          "text": "Trabajo por las tardes; ¿podríamos verla el sábado por la mañana?",
+          "zh": "我下午上班，我们能周六上午去看吗？",
+          "explanation": "podríamos 为我们能否；verla 的 la 指 habitación。"
+        },
+        {
+          "id": "es-13-transfer-4",
+          "prompt": "具体问卧室窗边是否潮湿",
+          "text": "¿Hay humedad cerca de la ventana del dormitorio?",
+          "zh": "卧室窗户附近有潮湿现象吗？",
+          "explanation": "hay 询问有无；cerca de 标出具体位置。"
+        },
+        {
+          "id": "es-13-transfer-5",
+          "prompt": "签字前要求时间比较条款",
+          "text": "Antes de firmar, quiero comparar las condiciones con las del anuncio.",
+          "zh": "签字前，我想把条件和广告中的条件比较一下。",
+          "explanation": "antes de 后接 firmar；las del anuncio 省略重复的 condiciones。"
+        },
+        {
+          "id": "es-13-transfer-6",
+          "prompt": "请对方邮件列明押金和额外费用",
+          "text": "¿Podéis enviarme por correo el importe de la fianza y los gastos aparte?",
+          "zh": "你们能邮件告知押金金额和另外的费用吗？",
+          "explanation": "enviarme 表发给我；明确要的是项目和金额。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "间接问是否带家具，哪句正确？",
+          "options": [
+            "Quería saber si está amueblado.",
+            "Quería saber sí está amueblado.",
+            "Quería saber que si es amueblada el piso."
+          ],
+          "answer": 0,
+          "explanation": "是否用不带重音的 si；piso 搭配 amueblado。"
+        },
+        {
+          "prompt": "间接问含哪些费用，哪句正确？",
+          "options": [
+            "No sé que gastos incluye.",
+            "No sé qué gastos incluye.",
+            "No sé qué gastos incluyen el precio."
+          ],
+          "answer": 1,
+          "explanation": "疑问限定词 qué 保留重音；若主语是价格，动词用单数 incluye。"
+        },
+        {
+          "prompt": "描述两间带家具的房间，哪句正确？",
+          "options": [
+            "Dos habitaciones amueblado.",
+            "Dos habitaciones amueblados.",
+            "Dos habitaciones amuebladas."
+          ],
+          "answer": 2,
+          "explanation": "habitaciones 为阴性复数，形容词用 amuebladas。"
+        }
+      ],
+      "writingChecklist": [
+        "间接疑问词是否保留必要重音，si/sí 是否区分。",
+        "房间与公寓对应的形容词性数是否一致。",
+        "明确询问价格所含项目和希望获得的书面信息。"
+      ],
+      "speakingFollowups": [
+        "如果广告与看房情况不同，你会怎么询问？",
+        "你会先核实哪三项费用？",
+        "对方不能周末看房时你有什么备选时间？"
+      ]
+    },
+    {
+      "id": "es-14",
+      "pronunciation": {
+        "focus": "ía 与元音分节",
+        "explanation": "sería、vendría、podría 中 í 与 a 分成两节，重音在 í；避免把 ía 吞成一个轻弱音。",
+        "examples": [
+          {
+            "text": "¿Sería posible cambiar la hora?",
+            "zh": "可以改时间吗？"
+          },
+          {
+            "text": "Me vendría bien el viernes.",
+            "zh": "周五对我合适。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "条件式可柔和提出请求：sería posible、podría；tener 的条件式词干为 tendr-，venir 为 vendr-。",
+        "venir bien 的人称代词表示谁觉得方便：me vendría bien / os vendría bien，不是只按日期变动代词。",
+        "现实条件句用 si 加现在时，如 si no hay hueco；不能把礼貌条件式机械放入 si 从句。"
+      ],
+      "cultureNote": "改期时先说明原预约，再提供可选时间并等待明确确认；提出新时间不等于预约已自动更改。",
+      "vocabularyNotes": [
+        {
+          "head": "aplazar",
+          "note": "指推迟到更晚；aplazar la cita al viernes，若提早则用 adelantar。"
+        },
+        {
+          "head": "hueco",
+          "note": "日程里的空档常用 tener un hueco；不是字面上的物理洞口。"
+        },
+        {
+          "head": "disponibilidad",
+          "note": "阴性抽象名词 la disponibilidad；tener disponibilidad el lunes 表周一可安排。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-14-transfer-1",
+          "prompt": "突发加班后说明无法赴约",
+          "text": "Me han cambiado el turno y no puedo acudir a la hora prevista.",
+          "zh": "我的班次被调整了，无法按原定时间前来。",
+          "explanation": "me han cambiado 表别人改了我的安排；no puedo 后接 acudir。"
+        },
+        {
+          "id": "es-14-transfer-2",
+          "prompt": "请求将下午预约提前到上午",
+          "text": "¿Sería posible adelantar la visita a la mañana?",
+          "zh": "可以把上门时间提前到上午吗？",
+          "explanation": "adelantar 是提前，与 aplazar 相反。"
+        },
+        {
+          "id": "es-14-transfer-3",
+          "prompt": "提供两段可安排时间",
+          "text": "Estoy disponible el martes después de las cinco o el miércoles antes de comer.",
+          "zh": "我周二五点后或周三午饭前有空。",
+          "explanation": "disponible 表状态；después de 与 antes de 标出范围。"
+        },
+        {
+          "id": "es-14-transfer-4",
+          "prompt": "询问对方整个团队是否方便",
+          "text": "¿Os vendría bien que nos reuniéramos a mediodía?",
+          "zh": "我们中午见面，你们方便吗？",
+          "explanation": "os 指你们；vendría 与作为整体的从句配合，礼貌假设用 reuniéramos。"
+        },
+        {
+          "id": "es-14-transfer-5",
+          "prompt": "说明若本周约满则选下周",
+          "text": "Si esta semana está completa, prefiero reservar para la siguiente.",
+          "zh": "如果本周排满了，我更愿意预约下一周。",
+          "explanation": "现实条件 si 后用现在时 está；la siguiente 省略 semana。"
+        },
+        {
+          "id": "es-14-transfer-6",
+          "prompt": "要求确认新的时间和地点",
+          "text": "Cuando tengáis la nueva hora, enviadme también la dirección.",
+          "zh": "你们确定新时间后，也请把地址发给我。",
+          "explanation": "未来待发生时间用 cuando tengáis；复数命令 enviadme。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "礼貌地问能否改期，哪句正确？",
+          "options": [
+            "¿Podría cambiar la cita?",
+            "¿Podería cambiar la cita?",
+            "¿Podría cambio la cita?"
+          ],
+          "answer": 0,
+          "explanation": "poder 条件式不规则词干 podr-；后接不定式 cambiar。"
+        },
+        {
+          "prompt": "表达周四对我方便，哪句正确？",
+          "options": [
+            "Yo vendría bien el jueves.",
+            "Me vendría bien el jueves.",
+            "Mi vendría bien el jueves."
+          ],
+          "answer": 1,
+          "explanation": "venir bien 用 me 表受益者或感受者，不能用主格 yo 或物主词 mi 替换。"
+        },
+        {
+          "prompt": "表达如果没有空档就等，哪句正确？",
+          "options": [
+            "Si no habría hueco, espero.",
+            "Si no hay un huecos, espero.",
+            "Si no hay hueco, espero."
+          ],
+          "answer": 2,
+          "explanation": "现实条件 si 后用现在时 hay；hueco 单数无需不协调的 un huecos。"
+        }
+      ],
+      "writingChecklist": [
+        "写明原预约与希望提前或推迟的方向。",
+        "条件式词干及其后不定式是否正确。",
+        "列出可用时间，并明确需要收到确认。"
+      ],
+      "speakingFollowups": [
+        "对方只提供一个不方便的时间，你会怎样协商？",
+        "怎样确认改期后地点有没有变化？",
+        "如果尚未收到确认，你会怎样追问？"
+      ]
+    },
+    {
+      "id": "es-15",
+      "pronunciation": {
+        "focus": "辅音组合 gr 与 pr",
+        "explanation": "grifo 的 gr、presupuesto 的 pr 连续发出，不在辅音之间插入“呃”；avería 重读 rí。",
+        "examples": [
+          {
+            "text": "El grifo no cierra bien.",
+            "zh": "水龙头关不严。"
+          },
+          {
+            "text": "Necesito un presupuesto.",
+            "zh": "我需要一份报价。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "llevar 加时长加副动词表示持续：lleva dos días fallando；副动词不按主语改变词尾。",
+        "现在完成时用 haber 加过去分词：ha dejado de funcionar；haber 不能按中文“有”误换成 tener。",
+        "给你们的命令可用 avisadme；双宾语发送照片为 os la envío，la 指 foto，os 在前。"
+      ],
+      "cultureNote": "维修咨询中区分检查、上门、零件和施工等费用，询问是否包括在报价里；表达范例不保证任何项目免费或一定可修。",
+      "vocabularyNotes": [
+        {
+          "head": "avería",
+          "note": "阴性 la avería，重音形成分节 a-ve-rí-a；tener una avería 表发生故障。"
+        },
+        {
+          "head": "presupuesto",
+          "note": "pedir un presupuesto 是索取报价，不等于已经接受施工；aceptar el presupuesto 才表示接受报价。"
+        },
+        {
+          "head": "desplazamiento",
+          "note": "常指人员上门或路程相关费用；可问 si está incluido，不直接假设它属于维修价。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-15-transfer-1",
+          "prompt": "报告插座一周来时好时坏",
+          "text": "El enchufe lleva una semana fallando de vez en cuando.",
+          "zh": "这个插座一周来时不时出问题。",
+          "explanation": "lleva 加时长再加 fallando；de vez en cuando 表间歇发生。"
+        },
+        {
+          "id": "es-15-transfer-2",
+          "prompt": "说明洗衣机今天不再排水",
+          "text": "La lavadora ha dejado de desaguar esta mañana.",
+          "zh": "洗衣机今天早上开始不排水了。",
+          "explanation": "ha dejado de 加不定式说明停止原有功能。"
+        },
+        {
+          "id": "es-15-transfer-3",
+          "prompt": "核实报价是否含上门和人工",
+          "text": "¿El presupuesto incluye el desplazamiento y la mano de obra?",
+          "zh": "报价包含上门费和人工费吗？",
+          "explanation": "单数 presupuesto 作主语，动词 incluye；列出具体两项。"
+        },
+        {
+          "id": "es-15-transfer-4",
+          "prompt": "要求更换前先告知零件价格",
+          "text": "Antes de cambiar ninguna pieza, decidme cuánto cuesta.",
+          "zh": "更换任何零件之前，请先告诉我它多少钱。",
+          "explanation": "antes de 后接不定式；decidme 是对 vosotros 的命令。"
+        },
+        {
+          "id": "es-15-transfer-5",
+          "prompt": "约定可在家等待的时间范围",
+          "text": "El jueves puedo estar en casa de diez a dos.",
+          "zh": "周四十点到两点我可以在家。",
+          "explanation": "de…a… 标出起止范围；puedo 后接 estar。"
+        },
+        {
+          "id": "es-15-transfer-6",
+          "prompt": "答应提供故障录像而非照片",
+          "text": "Si os sirve un vídeo del ruido, os lo mando esta tarde.",
+          "zh": "如果噪声的视频对你们有帮助，我今天下午发给你们。",
+          "explanation": "vídeo 阳性用 lo；os lo 的顺序为间接宾语在前。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说水龙头漏水两天，哪句正确？",
+          "options": [
+            "Lleva dos días goteando.",
+            "Lleva dos días gotea.",
+            "Ha dos días goteando."
+          ],
+          "answer": 0,
+          "explanation": "llevar 加时间与副动词 goteando 表持续。"
+        },
+        {
+          "prompt": "说冰箱停止工作了，哪句正确？",
+          "options": [
+            "La nevera tiene dejado de funcionar.",
+            "La nevera ha dejado de funcionar.",
+            "La nevera ha dejó de funcionar."
+          ],
+          "answer": 1,
+          "explanation": "完成时用 ha 加过去分词 dejado，后接 de funcionar。"
+        },
+        {
+          "prompt": "把照片发给你们，哪句正确？",
+          "options": [
+            "La os envío.",
+            "Os le envío la foto a vosotros.",
+            "Os la envío."
+          ],
+          "answer": 2,
+          "explanation": "间接宾语 os 在直接宾语 la 前；foto 阴性用 la。"
+        }
+      ],
+      "writingChecklist": [
+        "区分故障持续多久与何时停止工作。",
+        "报价问题是否点明零件、上门或人工项目。",
+        "照片/视频的代词是否与名词性别匹配。"
+      ],
+      "speakingFollowups": [
+        "维修方只报总价时你还想核实什么？",
+        "如果需要改上门时间，你会怎么说明？",
+        "怎样描述故障出现的频率而不自行下诊断？"
+      ]
+    },
+    {
+      "id": "es-16",
+      "pronunciation": {
+        "focus": "ado 在正式与日常语速中",
+        "explanation": "actualizado、revisado 的 -ado 在部分日常口音中 d 较弱；初学时保留清楚的 d，有助于听者辨认完成时。",
+        "examples": [
+          {
+            "text": "Ya hemos revisado las cifras.",
+            "zh": "我们已经核对了数字。"
+          },
+          {
+            "text": "Todavía falta una tabla.",
+            "zh": "还缺一张表。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "ya 常表示已经完成，todavía no 表尚未完成；todavía falta 加待办事项，不把 falta 与 no 重复造成相反意思。",
+        "现在完成时助动词随主语变：he/has/ha/hemos/habéis/han；分词通常不随宾语性数变化。",
+        "antes de + 时间点强调提前完成；hasta + 时间点可表示截止或持续，需说明具体“发送”还是“等待”。"
+      ],
+      "cultureNote": "工作消息中明确版本、截止时间和责任人很有帮助；西班牙团队可能使用 vosotros，但对外邮件需根据关系选择称呼。",
+      "vocabularyNotes": [
+        {
+          "head": "plazo",
+          "note": "el plazo 指期限；cumplir el plazo 是按期完成，ampliar el plazo 是延长期限。"
+        },
+        {
+          "head": "adjunto",
+          "note": "作动词可说 os adjunto el archivo；作形容词需配合名词，如 la tabla adjunta。"
+        },
+        {
+          "head": "duda",
+          "note": "tener una duda 常指有一个问题或不确定点；resolver una duda 表解答，不等于怀疑他人诚信。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-16-transfer-1",
+          "prompt": "报告已经核对完预算数字",
+          "text": "Ya hemos comprobado las cifras del presupuesto.",
+          "zh": "我们已经核对了预算数字。",
+          "explanation": "主语我们用 hemos；comprobado 不随 cifras 变成 comprobadas。"
+        },
+        {
+          "id": "es-16-transfer-2",
+          "prompt": "指出还缺客户确认",
+          "text": "Todavía no hemos recibido la confirmación del cliente.",
+          "zh": "我们还没有收到客户的确认。",
+          "explanation": "todavía no 加完成时，明确未完成事项。"
+        },
+        {
+          "id": "es-16-transfer-3",
+          "prompt": "请同事在会议前提供图表",
+          "text": "¿Podéis compartir la tabla antes de la reunión de mañana?",
+          "zh": "你们能在明天开会前分享那张表吗？",
+          "explanation": "podéis 加 compartir；antes de 说明行动截止点。"
+        },
+        {
+          "id": "es-16-transfer-4",
+          "prompt": "解释依赖材料会影响交付",
+          "text": "Sin las cifras definitivas no puedo cerrar el informe a tiempo.",
+          "zh": "没有最终数字，我无法按时完成报告。",
+          "explanation": "sin 表缺少前提；a tiempo 指按时。"
+        },
+        {
+          "id": "es-16-transfer-5",
+          "prompt": "提出重新分工并具体落实",
+          "text": "Propongo que yo revise el texto y que vosotros preparéis los gráficos.",
+          "zh": "我建议由我审阅文字，你们准备图表。",
+          "explanation": "proponer que 引出建议，用 revise、preparéis 虚拟式。"
+        },
+        {
+          "id": "es-16-transfer-6",
+          "prompt": "发送附件并说明修订位置",
+          "text": "Os envío el archivo corregido; los cambios están marcados en azul.",
+          "zh": "我把改正后的文件发给你们，改动已用蓝色标出。",
+          "explanation": "os 指收件人；marcados 随 cambios 为阳性复数。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说我们已更新表格，哪句正确？",
+          "options": [
+            "Hemos actualizado la tabla.",
+            "Hemos actualizada la tabla.",
+            "Tenemos actualizado la tabla."
+          ],
+          "answer": 0,
+          "explanation": "完成时用 hemos，分词不随 tabla 变为 actualizada。"
+        },
+        {
+          "prompt": "表示还没发送，哪句正确？",
+          "options": [
+            "Todavía hemos enviado no el archivo.",
+            "Todavía no hemos enviado el archivo.",
+            "Ya todavía enviado el archivo."
+          ],
+          "answer": 1,
+          "explanation": "否定 no 在助动词前，todavía 表尚未。"
+        },
+        {
+          "prompt": "形容两张附上的表，哪句正确？",
+          "options": [
+            "Las tablas adjunto.",
+            "Las tablas adjuntos.",
+            "Las tablas adjuntas."
+          ],
+          "answer": 2,
+          "explanation": "adjunto 作形容词时与阴性复数 tablas 一致。"
+        }
+      ],
+      "writingChecklist": [
+        "用 ya 或 todavía no 清楚区分已完成和待完成。",
+        "完成时助动词是否随主语变化，分词是否保持正确形式。",
+        "具体写出附件版本、下一步和截止时间。"
+      ],
+      "speakingFollowups": [
+        "如果数据仍未收到，你会给出什么可行时间？",
+        "同事问哪一版是最新版，你会怎么回答？",
+        "你会怎样提出更公平的任务分工？"
+      ]
+    },
+    {
+      "id": "es-17",
+      "pronunciation": {
+        "focus": "词尾 d 与重音",
+        "explanation": "matrícula 重读 trí，tutoría 重读 rí；universidad 末尾 d 在不同口音中可能较弱，学习时不要因此省略拼写。",
+        "examples": [
+          {
+            "text": "Tengo que entregar los apuntes.",
+            "zh": "我必须交笔记。"
+          },
+          {
+            "text": "¿Hay tutoría esta semana?",
+            "zh": "本周有辅导答疑吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "tener que 与 deber 后都接不定式；tengo que entregar，不说 tengo que entrego。",
+        "未来无法参加可用 no podré asistir；asistir a clase 表出席，不能按英语 assist 理解为帮助。",
+        "截止前疑问用 ¿Hasta cuándo…?；询问起始时间用 ¿Desde cuándo…?，两者方向相反。"
+      ],
+      "cultureNote": "课程补课、注册与辅导要求由学校和课程具体规定；表达重点是询问要求与截止时间，不把例句当作普遍规则。",
+      "vocabularyNotes": [
+        {
+          "head": "asistir",
+          "note": "搭配 asistir a una clase / a una reunión，表示参加；帮助某人通常用 ayudar。"
+        },
+        {
+          "head": "matrícula",
+          "note": "la matrícula 可指注册手续或相关费用；plazo de matrícula 是注册期限。"
+        },
+        {
+          "head": "apuntes",
+          "note": "课堂笔记常用复数 los apuntes；tomar apuntes 是做笔记，pedir los apuntes 是借看笔记。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-17-transfer-1",
+          "prompt": "因实习缺席并提前通知",
+          "text": "El jueves tengo prácticas y no podré ir al seminario.",
+          "zh": "周四我有实习，无法参加研讨课。",
+          "explanation": "podré 是 poder 将来时，后接 ir；al 缩合 a el。"
+        },
+        {
+          "id": "es-17-transfer-2",
+          "prompt": "询问是否可看课堂录制",
+          "text": "¿Puedo consultar una grabación para ponerme al día?",
+          "zh": "我能查看一份录制内容以赶上进度吗？",
+          "explanation": "ponerme al día 表补上进度；me 连在不定式后。"
+        },
+        {
+          "id": "es-17-transfer-3",
+          "prompt": "核实作业是否必须线上提交",
+          "text": "¿Tenemos que subir el trabajo a la plataforma o se entrega en papel?",
+          "zh": "我们必须把作业上传平台，还是交纸质版？",
+          "explanation": "tenemos que 加 subir；se entrega 用一般提交方式。"
+        },
+        {
+          "id": "es-17-transfer-4",
+          "prompt": "安排考前复习并标明重点",
+          "text": "Debo repasar los verbos antes de hacer los ejercicios del examen.",
+          "zh": "做考试练习前，我应该复习动词。",
+          "explanation": "debo 后接 repasar；antes de hacer 的 hacer 不变位。"
+        },
+        {
+          "id": "es-17-transfer-5",
+          "prompt": "约辅导讨论反馈",
+          "text": "Me gustaría concertar una tutoría para comentar la corrección del trabajo.",
+          "zh": "我想约一次辅导，讨论作业的批改意见。",
+          "explanation": "me gustaría 加不定式 concertar，para 加 comentar 表目的。"
+        },
+        {
+          "id": "es-17-transfer-6",
+          "prompt": "询问晚报名是否还有名额",
+          "text": "Quería saber si aún quedan plazas y cuándo termina la matrícula.",
+          "zh": "我想知道是否还有名额，以及注册何时结束。",
+          "explanation": "si 引出是否；cuándo 在间接问句中保留重音。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达必须交作业，哪句正确？",
+          "options": [
+            "Tengo que entregar el trabajo.",
+            "Tengo entregar el trabajo.",
+            "Tengo que entrego el trabajo."
+          ],
+          "answer": 0,
+          "explanation": "tener que 的 que 不能省，后接不定式。"
+        },
+        {
+          "prompt": "表达参加课程，哪句正确？",
+          "options": [
+            "Asisto la clase.",
+            "Asisto a clase.",
+            "Ayudo a clase."
+          ],
+          "answer": 1,
+          "explanation": "出席用 asistir a；ayudar 表帮助，不是参加。"
+        },
+        {
+          "prompt": "询问注册到何时截止，哪句正确？",
+          "options": [
+            "¿Desde cuándo termina la matrícula?",
+            "¿Cuánto termina la matrícula?",
+            "¿Hasta cuándo está abierta la matrícula?"
+          ],
+          "answer": 2,
+          "explanation": "hasta cuándo 询问开放持续到何时，即截止时间。"
+        }
+      ],
+      "writingChecklist": [
+        "deber/tener que 后是否为不定式。",
+        "说明缺席原因，并问清补上内容的方法。",
+        "区分注册截止、作业提交期限和辅导预约时间。"
+      ],
+      "speakingFollowups": [
+        "如果录制内容不可用，你会提出什么替代方式？",
+        "老师问你对哪部分反馈有疑问，你会如何具体回答？",
+        "你会怎样核实提交成功而不是只确认文件已上传？"
+      ]
+    },
+    {
+      "id": "es-18",
+      "pronunciation": {
+        "focus": "c 与 qu 的硬音",
+        "explanation": "cuenta 的 cu 与 clave 的 cl 保持辅音组合，qué 中 qu 只发 /k/；comisión 重读末节。",
+        "examples": [
+          {
+            "text": "No reconozco este pago.",
+            "zh": "我不认识这笔付款。"
+          },
+          {
+            "text": "He guardado el justificante.",
+            "zh": "我保存了凭证。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "否定词通常在变位动词前：no reconozco；nunca 位于动词后需搭配 no，如 no he enviado nunca esa clave。",
+        "经历可用 he recibido、he guardado；已结束的具体过去时段如 ayer 常用简单过去时 recibí。",
+        "疑问词带重音：qué comisión、qué pasos；间接问句解释内容也保留 qué。"
+      ],
+      "cultureNote": "咨询支付问题时先描述记录与需要核对的项目；银行渠道、手续和处理结果需向相应机构确认，语言例句不构成操作保证。",
+      "vocabularyNotes": [
+        {
+          "head": "cargo",
+          "note": "el cargo 在账务中指扣款；也可指职位，需依据 en la cuenta 等上下文判断。"
+        },
+        {
+          "head": "justificante",
+          "note": "阳性 el justificante，常搭配 guardar / solicitar；justificante de pago 是付款凭证。"
+        },
+        {
+          "head": "clave",
+          "note": "阴性 la clave，可能指密码或访问码；区分询问流程与向他人透露具体秘密信息。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-18-transfer-1",
+          "prompt": "说明同一日期有两笔疑似重复扣款",
+          "text": "Veo dos cargos con el mismo importe y quiero comprobar si están duplicados.",
+          "zh": "我看到两笔金额相同的扣款，想核实是否重复。",
+          "explanation": "dos cargos 复数，对应 están duplicados；si 表是否。"
+        },
+        {
+          "id": "es-18-transfer-2",
+          "prompt": "说明已经保存转账编号",
+          "text": "He anotado la referencia de la transferencia para poder consultarla.",
+          "zh": "我已记下转账编号，以便查询这笔转账。",
+          "explanation": "he anotado 是完成动作；consultarla 的 la 指 transferencia。"
+        },
+        {
+          "id": "es-18-transfer-3",
+          "prompt": "问国际转账费用由哪些部分组成",
+          "text": "¿Podéis detallar qué gastos tendría esta transferencia?",
+          "zh": "你们能详细说明这笔转账会有哪些费用吗？",
+          "explanation": "qué 修饰 gastos；tendría 表拟议交易的可能费用。"
+        },
+        {
+          "id": "es-18-transfer-4",
+          "prompt": "要求先核对网站是否为惯用入口",
+          "text": "Antes de introducir datos, voy a comprobar que estoy en la web habitual.",
+          "zh": "输入资料前，我会核实自己是否在平常使用的网站上。",
+          "explanation": "antes de 加 introducir；voy a comprobar 表近期打算。"
+        },
+        {
+          "id": "es-18-transfer-5",
+          "prompt": "只问冻结流程而不假定立即完成",
+          "text": "¿Dónde puedo consultar el procedimiento para bloquear la tarjeta?",
+          "zh": "我在哪里可以查询停用银行卡的流程？",
+          "explanation": "para bloquear 表流程目的；只询问获取流程的位置。"
+        },
+        {
+          "id": "es-18-transfer-6",
+          "prompt": "拒绝在聊天中发送验证码并改用惯用渠道",
+          "text": "No comparto códigos por este chat; consultaré la solicitud en mi aplicación habitual.",
+          "zh": "我不通过这个聊天发送验证码，会在惯用应用里核实这项请求。",
+          "explanation": "no 放变位动词前；consultaré 表后续行动。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达从未发送这项代码，哪句正确？",
+          "options": [
+            "Nunca he enviado ese código.",
+            "Nunca no he enviado ese código.",
+            "He nunca enviado ese código."
+          ],
+          "answer": 0,
+          "explanation": "nunca 在动词前已否定；正常位置在助动词前。"
+        },
+        {
+          "prompt": "表示昨天收到转账，哪句正确？",
+          "options": [
+            "Ayer recibo una transferencia.",
+            "Ayer recibí una transferencia.",
+            "Ayer he recibida una transferencia."
+          ],
+          "answer": 1,
+          "explanation": "ayer 是已结束的过去时间，使用 recibí；完成时分词也不能写 recibida。"
+        },
+        {
+          "prompt": "间接问收取哪项费用，哪句正确？",
+          "options": [
+            "No sé que comisión se aplica.",
+            "No sé cuál comisión aplicarse.",
+            "No sé qué comisión se aplica."
+          ],
+          "answer": 2,
+          "explanation": "间接疑问 qué 保留重音，后接完整变位谓语。"
+        }
+      ],
+      "writingChecklist": [
+        "明确区分已看到的账务记录与尚未证实的推测。",
+        "否定词的位置与过去时态是否符合时间范围。",
+        "问题是否指向费用、凭证或流程等具体项目。"
+      ],
+      "speakingFollowups": [
+        "如果两笔金额相同，你会提供哪些非敏感线索以便核查？",
+        "对方答复不清楚时，你会怎样要求书面说明？",
+        "你会如何描述自己已保存的凭证而不读出完整私密信息？"
+      ]
+    },
+    {
+      "id": "es-19",
+      "pronunciation": {
+        "focus": "b 与 v 的发音",
+        "explanation": "aviso、válida 中 v 与 b 在西班牙语中通常不形成英语式的音位区别；不要为了字母不同刻意咬唇发 v。",
+        "examples": [
+          {
+            "text": "Voy a verificar el aviso.",
+            "zh": "我去核实这条通知。"
+          },
+          {
+            "text": "¿Sigue siendo válido?",
+            "zh": "它仍然有效吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "no sé si 后接陈述信息，si 不带重音；sé 是 saber 第一人称，需要重音以区别 se。",
+        "直接宾语代词按所指名词变化：la información→reenviarla，el aviso→reenviarlo。",
+        "现实未来条件用 si + 现在时，主句可用将来时：si cambia, avisaré；si 从句不用 cambiará。"
+      ],
+      "cultureNote": "邻里群聊中的转发不等于来源已核实；可用 contacto habitual、fuente 等词说明核查对象，避免把群消息当作机构确认。",
+      "vocabularyNotes": [
+        {
+          "head": "escribir",
+          "note": "escribir a alguien 是写信给某人，escribir algo 是写某内容；两个宾语可说 escribirle un mensaje。"
+        },
+        {
+          "head": "palabra",
+          "note": "dar mi palabra 是作承诺，与“一个词”不同；信息核实时不应把口头承诺直接说成书面确认。"
+        },
+        {
+          "head": "entender",
+          "note": "entiendo 有 e→ie 变化，entendemos 不变化；entender el aviso 比只说 entender 更清楚。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-19-transfer-1",
+          "prompt": "说明收到的是旧活动的提醒",
+          "text": "Me ha llegado un recordatorio de un taller que ya terminó.",
+          "zh": "我收到了一项已经结束的工作坊的提醒。",
+          "explanation": "ha llegado 表近期收到；terminó 指已结束的活动。"
+        },
+        {
+          "id": "es-19-transfer-2",
+          "prompt": "怀疑地点可能有变但不确定",
+          "text": "No sé si el lugar sigue siendo el mismo que en el cartel.",
+          "zh": "我不知道地点是否仍与海报上相同。",
+          "explanation": "sigue siendo 表持续状态；si 引出不确定的是非问题。"
+        },
+        {
+          "id": "es-19-transfer-3",
+          "prompt": "决定转发前先查发布日期",
+          "text": "Voy a mirar la fecha de publicación antes de compartir el enlace.",
+          "zh": "分享链接前，我会先看发布日期。",
+          "explanation": "antes de 加 compartir；先后顺序由时间短语明确。"
+        },
+        {
+          "id": "es-19-transfer-4",
+          "prompt": "选择用之前联系过的邮箱核实",
+          "text": "Escribiré a la dirección que usamos la última vez para confirmar los detalles.",
+          "zh": "我会写信到我们上次使用的邮箱地址核实细节。",
+          "explanation": "escribir a 标出对象；que 引导已知地址的说明。"
+        },
+        {
+          "id": "es-19-transfer-5",
+          "prompt": "承诺确认更换地点后通知参与者",
+          "text": "Si trasladan la actividad, enviaré la nueva dirección a quienes se han apuntado.",
+          "zh": "如果活动换地点，我会把新地址发给已报名的人。",
+          "explanation": "条件从句 trasladan 用现在时，主句 enviaré 表未来。"
+        },
+        {
+          "id": "es-19-transfer-6",
+          "prompt": "整理截图与答复便于再次核对",
+          "text": "Guardaré el mensaje y la respuesta en la misma carpeta para encontrarlos después.",
+          "zh": "我会把消息和答复保存在同一文件夹，以便之后找到它们。",
+          "explanation": "两个阳性名词作为整体用 los，附在 encontrar 后。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达不知道通知是否有效，哪句正确？",
+          "options": [
+            "No sé si el aviso es válido.",
+            "No se sí el aviso es válido.",
+            "No sé si es válida el aviso."
+          ],
+          "answer": 0,
+          "explanation": "sé 带重音，是否 si 不带重音；aviso 阳性用 válido。"
+        },
+        {
+          "prompt": "用代词指代 información，哪句正确？",
+          "options": [
+            "Voy a reenviarlo.",
+            "Voy a reenviarla.",
+            "Voy a reenviarle ella."
+          ],
+          "answer": 1,
+          "explanation": "información 阴性单数，直接宾语用 la。"
+        },
+        {
+          "prompt": "表示如果时间改变就通知，哪句正确？",
+          "options": [
+            "Si cambiará la hora, avisaré.",
+            "Si cambia la hora, avisar yo.",
+            "Si cambia la hora, avisaré."
+          ],
+          "answer": 2,
+          "explanation": "现实未来条件 si 从句用现在时，主句使用将来时。"
+        }
+      ],
+      "writingChecklist": [
+        "把收到的信息、来源和不确定之处分开说明。",
+        "宾语代词是否对应 aviso/información 等名词。",
+        "写出核实后准备采取的行动与通知对象。"
+      ],
+      "speakingFollowups": [
+        "你会怎样追问这条消息的发布时间？",
+        "两条通知时间不一致时你会向谁核实？",
+        "确认后你会怎样向群里简明解释改动？"
+      ]
+    },
+    {
+      "id": "es-20",
+      "pronunciation": {
+        "focus": "过去式的末节重音",
+        "explanation": "compré、probé 的 é 明确提示过去时第一人称末节重读；compre 无重音是另一种形式，书写不能随意省略。",
+        "examples": [
+          {
+            "text": "Ayer probé el aparato.",
+            "zh": "我昨天试了这个设备。"
+          },
+          {
+            "text": "¿Podría revisarlo?",
+            "zh": "您能检查一下吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "投诉先区分时间：ayer compré 是已结束过去，hoy he notado 是与今天相关的完成时。",
+        "正式请求用 podría + 不定式；对工作人员单数可用 indique/anote，复数用 indiquen/anoten。",
+        "sin 后接不定式表示未做某事：sin entender las condiciones；直接宾语代词 revisar + lo 对应 aparato。"
+      ],
+      "cultureNote": "协商时描述具体故障、购买时间与希望了解的选项，保留书面记录；处理方案和权益应依据具体情况确认。",
+      "vocabularyNotes": [
+        {
+          "head": "reparación",
+          "note": "阴性 la reparación；solicitar una reparación 是提出维修请求，不代表已获同意。"
+        },
+        {
+          "head": "pieza",
+          "note": "una pieza 指一个零件；cambiar una pieza 与 cambiar el aparato 不是同一种解决方案。"
+        },
+        {
+          "head": "presupuesto",
+          "note": "presupuesto por escrito 指书面报价；可询问有效期和所含项目，不自行理解为最终账单。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-20-transfer-1",
+          "prompt": "说明网购灯昨天到货但今天无法打开",
+          "text": "La lámpara llegó ayer y esta mañana no he conseguido encenderla.",
+          "zh": "台灯昨天到货，今天早上我没能把它打开。",
+          "explanation": "llegó 指昨天；encenderla 的 la 指 lámpara。"
+        },
+        {
+          "id": "es-20-transfer-2",
+          "prompt": "出示订单和故障照片而非仅口头描述",
+          "text": "He guardado el pedido y unas fotos para mostrar lo que ocurre.",
+          "zh": "我保存了订单和一些照片，以展示发生的问题。",
+          "explanation": "he guardado 表当前持有的记录；lo que ocurre 指具体情况。"
+        },
+        {
+          "id": "es-20-transfer-3",
+          "prompt": "询问检测与更换各需什么步骤",
+          "text": "¿Podría explicarme cómo se tramita una revisión y qué alternativas hay?",
+          "zh": "您能向我解释检测如何办理，以及有哪些替代方案吗？",
+          "explanation": "间接疑问 cómo、qué 均保留重音。"
+        },
+        {
+          "id": "es-20-transfer-4",
+          "prompt": "表示先读报价再决定是否接受维修",
+          "text": "Prefiero leer el presupuesto antes de autorizar la reparación.",
+          "zh": "我更愿意先阅读报价，再授权维修。",
+          "explanation": "antes de autorizar 说明先后，不把询价等同于授权。"
+        },
+        {
+          "id": "es-20-transfer-5",
+          "prompt": "问何时会得到检测结果",
+          "text": "Si dejo aquí la lámpara, ¿cuándo me comunicarán el resultado?",
+          "zh": "如果把台灯留在这里，你们什么时候会告知我结果？",
+          "explanation": "si dejo 用现在时；comunicarán 是正式复数未来时。"
+        },
+        {
+          "id": "es-20-transfer-6",
+          "prompt": "请写下咨询编号及联系方式",
+          "text": "Por favor, anote la referencia y el teléfono de contacto en este papel.",
+          "zh": "请在这张纸上写下编号和联系电话。",
+          "explanation": "正式单数肯定命令用 anote；两个宾语并列。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "描述昨天买了台灯，哪句正确？",
+          "options": [
+            "Ayer compré una lámpara.",
+            "Ayer compro una lámpara.",
+            "Ayer comprado una lámpara."
+          ],
+          "answer": 0,
+          "explanation": "已结束的昨天用简单过去时 compré，不能只有分词。"
+        },
+        {
+          "prompt": "请求对方解释，哪句正确？",
+          "options": [
+            "¿Podría me explica las opciones?",
+            "¿Podría explicarme las opciones?",
+            "¿Podría explico las opciones?"
+          ],
+          "answer": 1,
+          "explanation": "podría 后接不定式 explicar，me 可附其后。"
+        },
+        {
+          "prompt": "正式请一位工作人员写编号，哪句正确？",
+          "options": [
+            "Escribes la referencia, por favor.",
+            "Anota usted la referencia.",
+            "Anote la referencia, por favor."
+          ],
+          "answer": 2,
+          "explanation": "usted 的肯定命令为 anote；anota 是 tú 的形式，不能搭配 usted。"
+        }
+      ],
+      "writingChecklist": [
+        "按时间顺序说明购买、发现故障和已采取的行动。",
+        "语气是否礼貌，单复数称呼是否一致。",
+        "列明希望获知的选项、答复时间及咨询编号。"
+      ],
+      "speakingFollowups": [
+        "如果对方提出收费检测，你会先核实什么？",
+        "你会怎样说明问题偶尔出现而不是一直发生？",
+        "得到口头方案后，你会请求哪项书面记录？"
+      ]
+    },
+    {
+      "id": "es-21",
+      "pronunciation": {
+        "focus": "简单过去式的重音对比",
+        "explanation": "llegué 重读末节，llegue 的重音不同；salí 的 í 也必须写出，以清楚区分过去叙述。",
+        "examples": [
+          {
+            "text": "Cuando llegué, ya había cerrado.",
+            "zh": "我到的时候，它已经关门了。"
+          },
+          {
+            "text": "No conocía el barrio.",
+            "zh": "我当时不熟悉这个街区。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "简单过去时推动事件：salí、llegué、pedí；未完成过去时交代背景：llovía、no conocía。",
+        "过去某时之前已发生的事用过去完成时：había salido；不能把两个动作都写成现在完成时而丢失先后。",
+        "从过去看将来的转述可用条件式：dije que llegaría tarde；不是直接把所有将来时照抄进过去叙事。"
+      ],
+      "cultureNote": "叙述旅行经历时说明票、车站和换乘即可，不必为所有交通延误寻找文化原因；具体原因以当时获得的信息为准。",
+      "vocabularyNotes": [
+        {
+          "head": "ida",
+          "note": "la ida 指去程，与 la vuelta 回程成对；a la ida 是在去程中。"
+        },
+        {
+          "head": "andén",
+          "note": "阳性 el andén，复数 los andenes 去掉重音；不要与 estación（车站整体）混淆。"
+        },
+        {
+          "head": "transbordo",
+          "note": "hacer un transbordo 是进行一次换乘；perder la conexión 指没赶上接续班次，侧重点不同。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-21-transfer-1",
+          "prompt": "叙述去年为参加展览出行",
+          "text": "El otoño pasado viajé a Bilbao para ver una exposición.",
+          "zh": "去年秋天我去了毕尔巴鄂看一场展览。",
+          "explanation": "明确结束时间 el otoño pasado，使用 viajé。"
+        },
+        {
+          "id": "es-21-transfer-2",
+          "prompt": "解释当时雨很大所以叫了出租车",
+          "text": "Llovía mucho y no sabía dónde estaba la parada, así que pedí un taxi.",
+          "zh": "当时雨很大，我不知道车站在哪里，所以叫了出租车。",
+          "explanation": "llovía/sabía/estaba 作背景，pedí 为发生的事件。"
+        },
+        {
+          "id": "es-21-transfer-3",
+          "prompt": "到达展馆时最后入场时间已过",
+          "text": "Cuando llegué al museo, ya había terminado el horario de entrada.",
+          "zh": "我到博物馆时，入场时段已经结束了。",
+          "explanation": "había terminado 先于 llegué，清楚体现过去先后。"
+        },
+        {
+          "id": "es-21-transfer-4",
+          "prompt": "向工作人员寻求另一种参观安排",
+          "text": "Pregunté en recepción si podía volver a la mañana siguiente.",
+          "zh": "我在前台问能否第二天早上再来。",
+          "explanation": "pregunté 是动作，podía 表当时的可能性；si 为是否。"
+        },
+        {
+          "id": "es-21-transfer-5",
+          "prompt": "告诉同行者自己会晚些会合",
+          "text": "Llamé a mis compañeros y les dije que me reuniría con ellos más tarde.",
+          "zh": "我打电话给同伴，告诉他们我会晚些与他们会合。",
+          "explanation": "过去转述未来用 reuniría；les 指复数同伴。"
+        },
+        {
+          "id": "es-21-transfer-6",
+          "prompt": "总结当天改去散步后的体验",
+          "text": "Al final paseamos por la ría y descubrimos un mercado que no conocíamos.",
+          "zh": "最后我们沿河口散步，发现了一个之前不知道的市场。",
+          "explanation": "paseamos/descubrimos 推动叙事，no conocíamos 交代此前背景。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "说明过去天气背景，哪句正确？",
+          "options": [
+            "Llovía cuando salí.",
+            "Llueve cuando salí.",
+            "Llovió cuando salía siempre ayer."
+          ],
+          "answer": 0,
+          "explanation": "未完成过去时 llovía 表当时背景，salí 为一次出门动作。"
+        },
+        {
+          "prompt": "说到车站前列车已走，哪句正确？",
+          "options": [
+            "Cuando llegué, el tren ya ha salido.",
+            "Cuando llegué, el tren ya había salido.",
+            "Cuando llegué, el tren ya había salí."
+          ],
+          "answer": 1,
+          "explanation": "更早的过去用 había 加过去分词 salido。"
+        },
+        {
+          "prompt": "转述当时说自己将晚到，哪句正确？",
+          "options": [
+            "Dije que llegaré ayer.",
+            "Dije que llegaba mañana ayer.",
+            "Dije que llegaría más tarde."
+          ],
+          "answer": 2,
+          "explanation": "从过去视角谈后续行动用条件式 llegaría，时间表达也需一致。"
+        }
+      ],
+      "writingChecklist": [
+        "用过去时区分背景和关键动作。",
+        "较早发生的过去事件是否使用 había 加分词。",
+        "转述中的人称、时间词和未来视角是否调整。"
+      ],
+      "speakingFollowups": [
+        "旅途中哪个背景情况影响了你的决定？",
+        "哪件事在你到达之前就发生了？",
+        "如果再次遇到同样情况，你会怎样安排？"
+      ]
+    },
+    {
+      "id": "es-22",
+      "pronunciation": {
+        "focus": "词重音与停顿表达备选",
+        "explanation": "próximo、sábado 的重音在倒数第三节；条件部分后稍停顿，有助于听者区分条件与结果。",
+        "examples": [
+          {
+            "text": "Si llueve, iremos al cine.",
+            "zh": "如果下雨，我们就去电影院。"
+          },
+          {
+            "text": "Quizá podamos cambiarlo.",
+            "zh": "也许我们可以改一下。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "现实条件用 si + 现在时，结果可用将来时或 poder：si llueve, iremos；不说 si lloverá。",
+        "quizá 可与虚拟式表达不确定：quizá sea、quizá podamos；不要把 sea 当作 ser 的一般现在时形式。",
+        "antes de 后接不定式用于同一主体行动；antes de que 后接从句，未来待发生时用虚拟式。"
+      ],
+      "cultureNote": "集体出行时确认预算、出发时间与返程要求比假定大家整天有空更有效；天气备选可先讨论，再据具体信息决定。",
+      "vocabularyNotes": [
+        {
+          "head": "plan",
+          "note": "复数 planes，不是 plans；cambiar de plan 指改换计划，hacer planes 指做安排。"
+        },
+        {
+          "head": "libre",
+          "note": "tener tiempo libre 是有空闲时间，entrada libre 则可指自由入场，语境不同。"
+        },
+        {
+          "head": "quizá",
+          "note": "也可写 quizás；用于保留可能性，并非已确定承诺，后续需明确谁何时确认。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-22-transfer-1",
+          "prompt": "为预算有限的团队提议近郊游",
+          "text": "Nos gustaría hacer una salida de un día sin gastar demasiado.",
+          "zh": "我们想安排一次不花太多钱的一日游。",
+          "explanation": "nos gustaría 的主语是后面的活动整体，动词用单数。"
+        },
+        {
+          "id": "es-22-transfer-2",
+          "prompt": "先核对所有人的返程需求",
+          "text": "Antes de elegir destino, tenemos que saber a qué hora necesita volver cada uno.",
+          "zh": "选目的地之前，我们必须知道每个人需要几点返回。",
+          "explanation": "antes de elegir 为先后；间接疑问 a qué hora 带重音。"
+        },
+        {
+          "id": "es-22-transfer-3",
+          "prompt": "提出高温时改为室内参观",
+          "text": "Si hace demasiado calor, visitaremos una exposición en lugar de caminar.",
+          "zh": "如果太热，我们就参观展览，而不是步行。",
+          "explanation": "si 从句用 hace，主句 visitaremos；en lugar de 加不定式。"
+        },
+        {
+          "id": "es-22-transfer-4",
+          "prompt": "决定核对是否开门后再付票款",
+          "text": "Prefiero comprobar el horario antes de pagar las entradas.",
+          "zh": "我更愿意付门票前先核实开放时间。",
+          "explanation": "prefiero 加 comprobar；antes de pagar 不变位。"
+        },
+        {
+          "id": "es-22-transfer-5",
+          "prompt": "建议给午饭留有余量",
+          "text": "Quizá convenga reservar más tiempo para comer sin prisas.",
+          "zh": "也许最好留更多时间从容吃饭。",
+          "explanation": "convenga 是 convenir 虚拟式，用于不确定建议。"
+        },
+        {
+          "id": "es-22-transfer-6",
+          "prompt": "说明多留时间能应对交通延误",
+          "text": "Con ese margen podremos esperar al siguiente autobús si perdemos el primero.",
+          "zh": "有这段余量，如果错过第一班公交，我们就能等下一班。",
+          "explanation": "podremos 为 poder 将来时；si perdemos 仍用现在时。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达如果下雨就换活动，哪句正确？",
+          "options": [
+            "Si llueve, cambiaremos de actividad.",
+            "Si lloverá, cambiaremos de actividad.",
+            "Si llueve, cambiar de actividad nosotros."
+          ],
+          "answer": 0,
+          "explanation": "现实未来条件从句用现在时，结果可用将来时。"
+        },
+        {
+          "prompt": "表达也许最好早点出发，哪句正确？",
+          "options": [
+            "Quizá es mejor que salimos temprano.",
+            "Quizá sea mejor salir temprano.",
+            "Quizá sea mejor salimos temprano."
+          ],
+          "answer": 1,
+          "explanation": "不确定建议可用 sea；mejor 后的活动用不定式 salir。"
+        },
+        {
+          "prompt": "表达买票前确认，哪句正确？",
+          "options": [
+            "Confirmamos antes comprar.",
+            "Confirmamos antes de compramos.",
+            "Confirmamos antes de comprar."
+          ],
+          "answer": 2,
+          "explanation": "antes de 是完整结构，后接不定式 comprar。"
+        }
+      ],
+      "writingChecklist": [
+        "每个条件是否有明确结果与备选方案。",
+        "si 从句、quizá 建议与将来时是否分别用对。",
+        "买票或付款之前是否说明要先确认哪些信息。"
+      ],
+      "speakingFollowups": [
+        "同行者必须提早回家时你会怎么调整？",
+        "坏天气下你会选什么具体备选活动？",
+        "计划还未确定时你会怎样说明而不误导同伴？"
+      ]
+    },
+    {
+      "id": "es-23",
+      "pronunciation": {
+        "focus": "s 与词边界",
+        "explanation": "zonas comunes 中 s 清楚标出复数；部分西班牙口音会弱化词尾 s，阅读与写作仍须保留性数一致。",
+        "examples": [
+          {
+            "text": "Las zonas comunes están limpias.",
+            "zh": "公共区域很干净。"
+          },
+          {
+            "text": "¿Lo hablamos esta tarde?",
+            "zh": "我们今天下午谈谈这件事吗？"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "necesitar + 反身不定式时可说 necesito acostarme，也可说 me necesito acostar，但前一种在此更自然清楚。",
+        "条件分工用 si + 现在时：limpio si tú cocinas；不把所有协商都写成单向命令。",
+        "hablarlo 的 lo 指整件事；如果具体指 las normas，应使用 hablar de las normas，不能机械把任何宾语直接接 hablar。"
+      ],
+      "cultureNote": "合租规则应由相关住户协商；用具体行为、频率和时间描述问题，避免用国籍或地区习惯概括某位室友。",
+      "vocabularyNotes": [
+        {
+          "head": "compañero de piso",
+          "note": "指室友，女性可说 compañera de piso；与同房间的 compañero de habitación 不完全相同。"
+        },
+        {
+          "head": "limpiar",
+          "note": "limpiar la cocina 是打扫厨房；fregar los platos 是洗碗，任务划分时可更具体。"
+        },
+        {
+          "head": "acostarse",
+          "note": "表示上床睡觉，不保证立即睡着；dormirse 表入睡，协商安静时间时可区分。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-23-transfer-1",
+          "prompt": "说明与室友作息不同但愿意协商",
+          "text": "Vivo con una compañera que trabaja de noche y tenemos horarios distintos.",
+          "zh": "我与一位上夜班的女室友同住，我们的作息不同。",
+          "explanation": "compañera 阴性；que 引导说明其工作安排。"
+        },
+        {
+          "id": "es-23-transfer-2",
+          "prompt": "建议为厨房使用写一份共同清单",
+          "text": "Podemos preparar juntos una lista para organizar el uso de la cocina.",
+          "zh": "我们可以一起列一份清单，安排厨房的使用。",
+          "explanation": "podemos 加 preparar 表共同提议，不直接替别人决定。"
+        },
+        {
+          "id": "es-23-transfer-3",
+          "prompt": "解释自己早起，提出安静请求",
+          "text": "Como madrugo, os agradecería que bajarais la música después de las diez.",
+          "zh": "因为我早起，希望你们十点后把音乐调低一些。",
+          "explanation": "como 置句首说明原因；agradecería que 后用虚拟式 bajarais。"
+        },
+        {
+          "id": "es-23-transfer-4",
+          "prompt": "提出家务互换的具体方案",
+          "text": "Yo friego los platos si tú tiendes la ropa después de poner la lavadora.",
+          "zh": "如果你洗衣后晾衣服，我就洗碗。",
+          "explanation": "si 从句用现在时 tiendes；poner 不定式跟在 después de 后。"
+        },
+        {
+          "id": "es-23-transfer-5",
+          "prompt": "选择先了解原因再讨论噪声问题",
+          "text": "Antes de dejar una nota, prefiero preguntar qué ha pasado esta noche.",
+          "zh": "留纸条之前，我更愿意先问昨晚发生了什么。",
+          "explanation": "qué ha pasado 是间接疑问；prefiero 加 preguntar。"
+        },
+        {
+          "id": "es-23-transfer-6",
+          "prompt": "设定试行期限并约定复议",
+          "text": "Probamos este reparto hasta el domingo y luego vemos si hace falta cambiar algo.",
+          "zh": "我们把这套分工试行到周日，然后看看是否需要改动。",
+          "explanation": "hasta 表试行截止；si 引出是否需要调整。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达我需要早睡，哪句正确？",
+          "options": [
+            "Necesito acostarme temprano.",
+            "Necesito me acostar temprano.",
+            "Necesito acostarse temprano."
+          ],
+          "answer": 0,
+          "explanation": "第一人称反身代词 me 连在不定式后；不能夹在 necesito 与 acostar 中间。"
+        },
+        {
+          "prompt": "表达讨论厨房规则，哪句正确？",
+          "options": [
+            "Hablamos las normas en ellas.",
+            "Hablamos de las normas de la cocina.",
+            "Hablamos a las normas de la cocina."
+          ],
+          "answer": 1,
+          "explanation": "谈论某话题常用 hablar de；规则不是谈话对象，不用 a。"
+        },
+        {
+          "prompt": "表达如果你做饭我洗碗，哪句正确？",
+          "options": [
+            "Si cocinarás, friego los platos.",
+            "Si cocinas, friegan yo los platos.",
+            "Si cocinas, friego los platos."
+          ],
+          "answer": 2,
+          "explanation": "现实条件用现在时 cocinas，主句第一人称为 friego。"
+        }
+      ],
+      "writingChecklist": [
+        "请求是否指向具体行为与时间而非笼统指责。",
+        "反身代词、条件句和话题介词是否正确。",
+        "分工是否包含双方任务、试行期限与再次商量的时间。"
+      ],
+      "speakingFollowups": [
+        "室友解释自己轮班时，你会怎么调整提议？",
+        "你最希望先商量哪一项公共区域安排？",
+        "试行后有人觉得不公平，你会怎样开启讨论？"
+      ]
+    },
+    {
+      "id": "es-24",
+      "pronunciation": {
+        "focus": "疑问词在复句中的重读",
+        "explanation": "qué、cuándo 即使不带问号也可能是间接疑问词，应保留重音；comprobaré 的 é 提示将来时第一人称重读。",
+        "examples": [
+          {
+            "text": "Comprobaré qué falta.",
+            "zh": "我会核实还缺什么。"
+          },
+          {
+            "text": "Acabo de llegar al barrio.",
+            "zh": "我刚到这个街区。"
+          }
+        ]
+      },
+      "grammarNotes": [
+        "acabar de + 不定式表示刚刚完成：acabo de enviar；反身词可说 acabo de mudarme，不能用 acabo de me mudar。",
+        "lo más + 形容词把性质名词化：lo más urgente 指最紧急的事，不与后面事项的性别配成 la más urgente。",
+        "al + 不定式表示做某事时/之后：al terminar；seguir sin + 不定式表示仍未做，如 sigue sin responder。"
+      ],
+      "cultureNote": "搬家后的待办事务因个人与机构而异；先核对具体要求、地点和时间，再记录完成状态，不把学习例句当作通用手续清单。",
+      "vocabularyNotes": [
+        {
+          "head": "confirmación",
+          "note": "la confirmación 指确认信息；recibir una confirmación 才表示收到确认，solicitarla 只表示提出请求。"
+        },
+        {
+          "head": "aviso",
+          "note": "dar aviso / avisar 指通知；通知内容需要说明对象和事项，仅说 he avisado 可能不够具体。"
+        },
+        {
+          "head": "franja horaria",
+          "note": "阴性 la franja horaria，复数 franjas horarias；表示一段时间而非精确的单个钟点。"
+        }
+      ],
+      "transfer": [
+        {
+          "id": "es-24-transfer-1",
+          "prompt": "说明刚换工作地点有多项待办",
+          "text": "Acabo de empezar en otra oficina y aún tengo varios asuntos por organizar.",
+          "zh": "我刚到另一间办公室开始工作，还有几件事要安排。",
+          "explanation": "acabo de 加 empezar 表刚开始；por organizar 表待安排。"
+        },
+        {
+          "id": "es-24-transfer-2",
+          "prompt": "按期限给事项排序",
+          "text": "Voy a ordenar las tareas por fecha y resolver primero las que vencen antes.",
+          "zh": "我会按日期排列任务，先解决那些最早到期的。",
+          "explanation": "las que 指 tareas；primero 明确优先次序。"
+        },
+        {
+          "id": "es-24-transfer-3",
+          "prompt": "核实预约是否在线上以及应准备什么",
+          "text": "Necesito saber si la reunión es en línea y qué documentos debo tener preparados.",
+          "zh": "我需要知道会议是否在线，以及应该准备哪些文件。",
+          "explanation": "si 引出是否，qué 引出具体内容；preparados 随 documentos。"
+        },
+        {
+          "id": "es-24-transfer-4",
+          "prompt": "承诺不能到场会请求新时段",
+          "text": "Si me coincide con el trabajo, pediré otra franja horaria cuanto antes.",
+          "zh": "如果与工作时间冲突，我会尽早请求另一个时间段。",
+          "explanation": "si coincide 现在时，pediré 将来时；otra 随 franja 为阴性。"
+        },
+        {
+          "id": "es-24-transfer-5",
+          "prompt": "每次处理后记录负责人和下一步",
+          "text": "Después de hablar con cada persona, anotaré su nombre y el siguiente paso.",
+          "zh": "与每个人谈过后，我会记下其姓名和下一步。",
+          "explanation": "después de hablar 不定式，anotaré 明确未来记录行为。"
+        },
+        {
+          "id": "es-24-transfer-6",
+          "prompt": "结束时核对未回复项目并安排跟进",
+          "text": "Al acabar, revisaré qué solicitudes siguen sin respuesta y cuándo debo volver a preguntar.",
+          "zh": "结束时，我会查看哪些申请仍未收到回复，以及何时应再询问。",
+          "explanation": "间接疑问 qué/cuándo 保留重音；siguen 对应复数 solicitudes。"
+        }
+      ],
+      "grammarCheck": [
+        {
+          "prompt": "表达刚发送邮件，哪句正确？",
+          "options": [
+            "Acabo de enviar el correo.",
+            "Acabo enviar el correo.",
+            "Acabo de enviado el correo."
+          ],
+          "answer": 0,
+          "explanation": "acabar de 后接不定式 enviar，de 不可省。"
+        },
+        {
+          "prompt": "表达先做最紧急的事，哪句正确？",
+          "options": [
+            "Empiezo por la más urgente todo.",
+            "Empiezo por lo más urgente.",
+            "Empiezo por el más urgentemente."
+          ],
+          "answer": 1,
+          "explanation": "lo más urgente 把形容词名词化，泛指最紧急的事情。"
+        },
+        {
+          "prompt": "表达结束时检查未回复事项，哪句正确？",
+          "options": [
+            "Al termino reviso qué solicitudes sigue sin responder.",
+            "Al terminar reviso que solicitudes siguen sin respondido.",
+            "Al terminar reviso qué solicitudes siguen sin respuesta."
+          ],
+          "answer": 2,
+          "explanation": "al 后接不定式；qué 是疑问限定词；复数 solicitudes 用 siguen。"
+        }
+      ],
+      "writingChecklist": [
+        "区分刚完成、将执行和仍待解决的事项。",
+        "间接疑问词重音及 al/antes de/seguir sin 结构是否正确。",
+        "记录每项事务的联系人、确认信息与下一次跟进时间。"
+      ],
+      "speakingFollowups": [
+        "如果两件急事时间冲突，你会按什么信息排序？",
+        "对方没有答复时，你会怎样礼貌追问？",
+        "你会怎样向别人简要汇报已完成和待完成的事项？"
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "es-stage-1",
+      "afterChapter": 6,
+      "target": "A1",
+      "reading": {
+        "text": "El sábado por la mañana, Clara entra en una tienda de su barrio. Busca fruta para una merienda con cuatro amigos. Compra seis manzanas y un kilo de naranjas, pero no compra pan porque ya tiene en casa. Las manzanas cuestan dos euros y las naranjas, tres. Clara lleva una bolsa grande. Paga con tarjeta y pide el tique. Después va a casa para preparar la mesa.",
+        "questions": [
+          {
+            "prompt": "Clara 为什么买水果？",
+            "options": [
+              "为朋友聚会准备点心",
+              "为上班准备午饭",
+              "为旅行准备早餐"
+            ],
+            "answer": 0,
+            "explanation": "para una merienda con cuatro amigos 说明为与四位朋友的点心聚会采购。"
+          },
+          {
+            "prompt": "她没有买什么？",
+            "options": [
+              "苹果",
+              "面包",
+              "橙子"
+            ],
+            "answer": 1,
+            "explanation": "no compra pan porque ya tiene en casa：家里已有面包，因此没有买。"
+          },
+          {
+            "prompt": "水果共花多少钱？",
+            "options": [
+              "三欧元",
+              "四欧元",
+              "五欧元"
+            ],
+            "answer": 2,
+            "explanation": "苹果两欧元加橙子三欧元，合计五欧元。"
+          },
+          {
+            "prompt": "她怎样付款？",
+            "options": [
+              "银行卡",
+              "现金",
+              "朋友代付"
+            ],
+            "answer": 0,
+            "explanation": "Paga con tarjeta 明确为银行卡付款。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Hola, soy Raquel, de la clase de español. Hoy quedamos en la cafetería Azul a las cinco y media. Está en la calle Norte, número ocho. Quiero tomar un té y una tostada. Si no encuentras la cafetería, puedes escribir a mi móvil. Mi amiga llega a las seis. Hasta luego.",
+        "questions": [
+          {
+            "prompt": "Raquel 与听者是什么关系？",
+            "options": [
+              "旅馆员工与客人",
+              "西班牙语班同学",
+              "店员与顾客"
+            ],
+            "answer": 1,
+            "explanation": "de la clase de español 表明她来自西班牙语班。"
+          },
+          {
+            "prompt": "约定几点见面？",
+            "options": [
+              "五点",
+              "六点",
+              "五点半"
+            ],
+            "answer": 2,
+            "explanation": "a las cinco y media 是五点半。"
+          },
+          {
+            "prompt": "咖啡馆门牌号是多少？",
+            "options": [
+              "八号",
+              "十八号",
+              "六号"
+            ],
+            "answer": 0,
+            "explanation": "número ocho 是八号。"
+          },
+          {
+            "prompt": "找不到咖啡馆时怎么办？",
+            "options": [
+              "在学校等",
+              "发消息到她手机",
+              "直接回家"
+            ],
+            "answer": 1,
+            "explanation": "puedes escribir a mi móvil 表示可以给她手机发消息。"
+          }
+        ]
+      },
+      "writing": "写40–55个西班牙语词，给新同学留一条见面消息：介绍自己、约定咖啡馆和具体时间、说想点什么，再问对方是否方便。",
+      "speaking": "与伙伴模拟咖啡馆初次见面：交换名字和来源，询问一种饮品价格；伙伴报一个时间后，你复述核对并约定下次见面。"
+    },
+    {
+      "id": "es-stage-2",
+      "afterChapter": 12,
+      "target": "A2",
+      "reading": {
+        "text": "Diego pasa dos noches en un alojamiento de Zaragoza. El domingo quiere visitar a una amiga al otro lado de la ciudad. En recepción le explican que el autobús habitual no pasa por su calle esa mañana. Puede caminar diez minutos hasta otra parada o tomar el tranvía cerca del mercado. Diego elige caminar porque hace buen tiempo. Antes de salir, deja una mochila en recepción y pregunta hasta qué hora puede recogerla.",
+        "questions": [
+          {
+            "prompt": "Diego 周日打算做什么？",
+            "options": [
+              "买早餐",
+              "拜访朋友",
+              "更换旅馆"
+            ],
+            "answer": 1,
+            "explanation": "quiere visitar a una amiga 说明要拜访朋友。"
+          },
+          {
+            "prompt": "平常的公交有何变化？",
+            "options": [
+              "当天完全停运",
+              "票价上涨",
+              "那天早上不经过他所在的街道"
+            ],
+            "answer": 2,
+            "explanation": "no pasa por su calle esa mañana 只说明那天早上的线路情况。"
+          },
+          {
+            "prompt": "他选择哪种方式？",
+            "options": [
+              "步行到另一个站点",
+              "在市场乘电车",
+              "请朋友来接"
+            ],
+            "answer": 0,
+            "explanation": "Diego elige caminar，选择步行十分钟到另一站。"
+          },
+          {
+            "prompt": "离开前他向前台询问什么？",
+            "options": [
+              "房间何时打扫",
+              "背包最晚几点能取",
+              "哪里可以买手机"
+            ],
+            "answer": 1,
+            "explanation": "pregunta hasta qué hora puede recogerla，la 指留下的 mochila。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Hola, Julia. Esta tarde no puedo ir al concierto contigo porque tengo que terminar un trabajo. Lo siento mucho. Mi entrada está en el correo que te envié ayer; puedes invitar a otra persona. ¿Te apetece que nos veamos el domingo para pasear? Estoy libre después de comer. Dime si prefieres ir al parque o al río.",
+        "questions": [
+          {
+            "prompt": "说话者为何不能去音乐会？",
+            "options": [
+              "身体不适",
+              "没买到门票",
+              "必须完成工作"
+            ],
+            "answer": 2,
+            "explanation": "tengo que terminar un trabajo 明确说明原因。"
+          },
+          {
+            "prompt": "门票在哪里？",
+            "options": [
+              "昨天发给 Julia 的邮件里",
+              "公园售票处",
+              "说话者的包里"
+            ],
+            "answer": 0,
+            "explanation": "Mi entrada está en el correo que te envié ayer。"
+          },
+          {
+            "prompt": "说话者周日何时有空？",
+            "options": [
+              "早餐前",
+              "午饭后",
+              "深夜"
+            ],
+            "answer": 1,
+            "explanation": "después de comer 在此表示午饭后。"
+          },
+          {
+            "prompt": "Julia 需要回答什么？",
+            "options": [
+              "需要几张门票",
+              "音乐会几点开始",
+              "更愿去公园还是河边"
+            ],
+            "answer": 2,
+            "explanation": "结尾请她在 parque 和 río 之间表达偏好。"
+          }
+        ]
+      },
+      "writing": "写60–75个西班牙语词给住宿前台：说明你周日的出行计划，问一种交通方式及返程时间；再请求暂存一件行李，并询问领取条件。",
+      "speaking": "邀请伙伴周末参加活动。伙伴先拒绝并说明已有安排，你提出另一个日期和地点；共同确认交通方式，最后复述双方约定的时间。"
+    },
+    {
+      "id": "es-stage-3",
+      "afterChapter": 18,
+      "target": "B1",
+      "reading": {
+        "text": "En su nuevo trabajo, Nuria debe preparar una presentación con datos de dos departamentos. Ya ha recibido las cifras de ventas, pero todavía espera la información de gastos. La reunión está prevista para el jueves. Como quiere comprobar todo con tiempo, escribe a sus compañeros y propone recibir lo que falta el martes por la tarde. También ofrece enviarles un borrador el miércoles. Si los datos no llegan, explicará a su responsable qué parte sigue pendiente antes de cerrar la versión final.",
+        "questions": [
+          {
+            "prompt": "Nuria 还缺哪类信息？",
+            "options": [
+              "销售数字",
+              "费用信息",
+              "参会名单"
+            ],
+            "answer": 1,
+            "explanation": "ya ha recibido las cifras de ventas, pero todavía espera la información de gastos。"
+          },
+          {
+            "prompt": "会议原定何时？",
+            "options": [
+              "周二",
+              "周三",
+              "周四"
+            ],
+            "answer": 2,
+            "explanation": "La reunión está prevista para el jueves。"
+          },
+          {
+            "prompt": "她希望何时收到缺失信息？",
+            "options": [
+              "周二下午",
+              "周三上午",
+              "周四晚上"
+            ],
+            "answer": 0,
+            "explanation": "propone recibir lo que falta el martes por la tarde。"
+          },
+          {
+            "prompt": "数据未到时她会怎样做？",
+            "options": [
+              "自行编造数字",
+              "向负责人说明仍待完成的部分",
+              "取消所有部门的工作"
+            ],
+            "answer": 1,
+            "explanation": "explicará a su responsable qué parte sigue pendiente，不是自行补造或取消。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Buenos días. Llamo por la visita del técnico que tenemos prevista para mañana. Me han cambiado el horario de trabajo y no estaré en casa hasta las cuatro. ¿Sería posible venir después o cambiar la visita al viernes por la mañana? Antes de confirmar, también quería saber si la revisión incluye el desplazamiento. Pueden responder al correo que figura en la solicitud. Gracias.",
+        "questions": [
+          {
+            "prompt": "为什么提出改时间？",
+            "options": [
+              "技术人员取消了服务",
+              "家里正在装修",
+              "工作时间被调整"
+            ],
+            "answer": 2,
+            "explanation": "Me han cambiado el horario de trabajo 是提出改期的原因。"
+          },
+          {
+            "prompt": "明天说话者何时能在家？",
+            "options": [
+              "四点以后",
+              "上午十点前",
+              "全天都在"
+            ],
+            "answer": 0,
+            "explanation": "no estaré en casa hasta las cuatro 表示直到四点才在家。"
+          },
+          {
+            "prompt": "另一个建议时段是什么？",
+            "options": [
+              "周四下午",
+              "周五上午",
+              "周六晚上"
+            ],
+            "answer": 1,
+            "explanation": "cambiar la visita al viernes por la mañana。"
+          },
+          {
+            "prompt": "确认前还要核实什么？",
+            "options": [
+              "是否必须买新设备",
+              "技术人员的国籍",
+              "检查费是否包括上门费"
+            ],
+            "answer": 2,
+            "explanation": "si la revisión incluye el desplazamiento 指检查是否含上门。"
+          }
+        ]
+      },
+      "writing": "写85–105个西班牙语词给课程协调员：你与一项必修活动时间冲突，说明原因，提出两个具体替代时段，询问补上内容与提交材料的要求，并请求书面确认。",
+      "speaking": "与伙伴模拟维修预约：你描述一种持续数日的故障，对方追问时间和频率；再协商上门时段，问清报价包含的两项费用，最后复述仍待确认的事项。"
+    },
+    {
+      "id": "es-stage-4",
+      "afterChapter": 24,
+      "target": "B1",
+      "reading": {
+        "text": "El grupo de lectura iba a reunirse el viernes en una biblioteca, pero recibió un mensaje que anunciaba otro lugar. Antes de reenviarlo, Elena consultó la página del grupo y escribió a la coordinadora. La respuesta aclaró que el mensaje correspondía a una actividad anterior. La reunión seguía en la biblioteca, aunque empezaría media hora más tarde por una obra en la entrada. Elena informó al resto, guardó la confirmación y propuso esperar juntos fuera para entrar por la puerta lateral.",
+        "questions": [
+          {
+            "prompt": "Elena 最先要核实什么？",
+            "options": [
+              "是否需要买书",
+              "聚会地点是否改变",
+              "谁负责施工"
+            ],
+            "answer": 1,
+            "explanation": "收到宣布另一个地点的消息后，她核查来源并联系协调员。"
+          },
+          {
+            "prompt": "那条消息实际属于什么？",
+            "options": [
+              "当天紧急通知",
+              "图书馆的新规定",
+              "过去的一项活动"
+            ],
+            "answer": 2,
+            "explanation": "el mensaje correspondía a una actividad anterior。"
+          },
+          {
+            "prompt": "本次聚会实际变化是什么？",
+            "options": [
+              "晚开始半小时",
+              "换到另一座城市",
+              "提前一天"
+            ],
+            "answer": 0,
+            "explanation": "seguía en la biblioteca, aunque empezaría media hora más tarde。"
+          },
+          {
+            "prompt": "Elena 提议大家如何进入？",
+            "options": [
+              "单独从正门进入",
+              "一起在外等候后从侧门进入",
+              "让施工人员带入"
+            ],
+            "answer": 1,
+            "explanation": "esperar juntos fuera para entrar por la puerta lateral。"
+          }
+        ]
+      },
+      "listening": {
+        "text": "Hola a todos. Después de probar el reparto de tareas durante una semana, creo que debemos cambiar dos cosas. La cocina ha quedado limpia, pero nadie ha sacado las bolsas del reciclaje. Además, el miércoles puse la lavadora muy tarde y molesté a Marta; lo siento. Propongo ocuparme del reciclaje y usar la lavadora antes de las nueve. ¿Podemos hablarlo el domingo y revisar cómo funciona dentro de quince días?",
+        "questions": [
+          {
+            "prompt": "这次任务分工试行了多久？",
+            "options": [
+              "十五天",
+              "一个月",
+              "一周"
+            ],
+            "answer": 2,
+            "explanation": "durante una semana 明确是一周；十五天是后续复议间隔。"
+          },
+          {
+            "prompt": "哪项任务没有人做？",
+            "options": [
+              "倒分类回收物",
+              "打扫厨房",
+              "整理卧室"
+            ],
+            "answer": 0,
+            "explanation": "nadie ha sacado las bolsas del reciclaje。"
+          },
+          {
+            "prompt": "说话者为何道歉？",
+            "options": [
+              "忘了周日见面",
+              "周三洗衣太晚打扰了 Marta",
+              "弄坏洗衣机"
+            ],
+            "answer": 1,
+            "explanation": "el miércoles puse la lavadora muy tarde y molesté a Marta。"
+          },
+          {
+            "prompt": "说话者提出何时商量？",
+            "options": [
+              "周三",
+              "明天早上",
+              "周日"
+            ],
+            "answer": 2,
+            "explanation": "¿Podemos hablarlo el domingo…? 明确商量时间，十五天后再评估。"
+          }
+        ]
+      },
+      "writing": "写100–120个西班牙语词，向合租伙伴汇报一项公共区域问题：按时间说明发现和已尝试的解决办法，提出双方可分担的任务、一个备选方案和试行期限，最后邀请对方补充意见。",
+      "speaking": "与伙伴协商一次三人周末出游：先交流预算、出发和最晚返程时间；伙伴提出天气或交通突发情况后，你调整方案并说明理由。最后总结已确定、待核实及由谁跟进的事项。"
+    }
+  ]
+}
