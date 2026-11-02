@@ -8,9 +8,9 @@
  async function audioBlob(text){const url=source(text);if(!url)throw new Error('本地示范音频未找到。');if(url.startsWith('data:')){const comma=url.indexOf(','),binary=atob(url.slice(comma+1)),bytes=new Uint8Array(binary.length);for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return new Blob([bytes],{type:url.slice(5,url.indexOf(';'))})}const base=new URL('.',runtimeScriptURL||document.baseURI||location.href);const response=await fetch(new URL(url,base));if(!response.ok)throw new Error('本地示范音频文件未找到。');return response.blob()}
  function stopPlayback(){if(playback){playback.pause();playback.currentTime=0;playback=null}}
  async function play(text,rate=1){stopPlayback();const url=source(text);if(!url)throw new Error('这句的本地音频尚未打包。');const a=new Audio(url);playback=a;a.playbackRate=rate;await a.play();return a}
- function embeddedModel(){
+ async function embeddedModel(){
   const tags=Array.from(document.querySelectorAll('script[data-model-chunk]'));
-  if(!tags.length){let base;try{base=new URL('.',runtimeScriptURL||document.baseURI||location.href)}catch{throw new Error('请打开完整的英语冒险岛.html，或从游戏目录的本地预览启动。')}return {url:new URL('models/english-small.tar.gz',base).href}}
+  if(!tags.length){let base;try{base=new URL('.',runtimeScriptURL||document.baseURI||location.href)}catch{throw new Error('请打开完整的英语冒险岛.html，或从游戏目录的本地预览启动。')}const response=await fetch(new URL('models/english-small.parts.json',base));if(!response.ok)throw new Error('无法读取分片模型清单');const manifest=await response.json();if(!Array.isArray(manifest.parts)||manifest.parts.length!==2||manifest.bytes!==41160778)throw new Error('模型清单无效');const bytes=new Uint8Array(manifest.bytes);let offset=0;for(const part of manifest.parts){if(!/^english-small\.part[12]\.bin$/.test(part.file)||!Number.isSafeInteger(part.bytes)||part.bytes<=0||offset+part.bytes>bytes.length)throw new Error('模型分片信息无效');const r=await fetch(new URL('models/'+part.file,base));if(!r.ok)throw new Error('模型分片下载失败：'+part.file);const b=new Uint8Array(await r.arrayBuffer());if(b.length!==part.bytes)throw new Error('模型分片不完整');const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),x=>x.toString(16).padStart(2,'0')).join('');if(hash!==part.sha256)throw new Error('模型分片校验失败');bytes.set(b,offset);offset+=b.length}if(offset!==bytes.length)throw new Error('模型总长度不匹配');return {url:'english-quest-embedded-vosk-0.15',buffer:bytes.buffer}}
   const size=tags.reduce((n,tag)=>{const s=tag.textContent.trim();return n+s.length/4*3-(s.endsWith('==')?2:s.endsWith('=')?1:0)},0);
   const bytes=new Uint8Array(size);let offset=0;
   for(const tag of tags){const chunk=atob(tag.textContent.trim());for(let i=0;i<chunk.length;i++)bytes[offset+i]=chunk.charCodeAt(i);offset+=chunk.length}
@@ -18,13 +18,15 @@
  }
  async function load(onProgress=()=>{}){
   if(model?.ready)return model;if(loading)return loading;
+  if(window.QuestWebRuntime&&!window.Vosk){onProgress('正在加载本地语音引擎…');await QuestWebRuntime.ensureSpeechEngine()}
+  if(model?.ready)return model;if(loading)return loading;
   if(!window.Vosk||!window.WebAssembly||!window.Worker)throw new Error('当前浏览器不支持本地语音模型，请使用新版 Edge、Chrome 或 Safari。');
   onProgress('正在从本地文件读取英语模型，首次加载可能需要几十秒…');
   loading=new Promise((resolve,reject)=>{
    let candidate=null,settled=false;
    const fail=error=>{if(settled)return;settled=true;clearTimeout(timer);candidate?.terminate();model=null;loading=null;const detail=error?.error||error?.message||'加载超时或设备内存不足';console.error('Local speech model:',detail);reject(new Error('本地语音模型未能加载：'+detail+'。文字与听力仍可离线游玩。'))};
    const timer=setTimeout(fail,90000);
-   try{const embedded=embeddedModel();candidate=new Vosk.Model(embedded.url,-1,embedded.buffer);candidate.on('load',m=>{if(settled)return;if(!m.result){fail(m);return}settled=true;clearTimeout(timer);model=candidate;onProgress('本地英语模型已就绪 · 音频不会上传');resolve(model)});candidate.on('error',fail)}catch(e){fail(e)}
+   (async()=>{try{const embedded=await embeddedModel();if(settled)return;candidate=new Vosk.Model(embedded.url,-1,embedded.buffer);candidate.on('load',m=>{if(settled)return;if(!m.result){fail(m);return}settled=true;clearTimeout(timer);model=candidate;onProgress('本地英语模型已就绪 · 音频不会上传');resolve(model)});candidate.on('error',fail)}catch(e){fail(e)}})();
   });const attempt=loading;attempt.catch(()=>{if(loading===attempt)loading=null});return attempt;
  }
  function wav(samples,rate){const b=new ArrayBuffer(44+samples.length*2),v=new DataView(b);const str=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))};str(0,'RIFF');v.setUint32(4,36+samples.length*2,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,rate,true);v.setUint32(28,rate*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,samples.length*2,true);for(let i=0;i<samples.length;i++)v.setInt16(44+i*2,Math.max(-1,Math.min(1,samples[i]))*(samples[i]<0?32768:32767),true);return new Blob([b],{type:'audio/wav'})}

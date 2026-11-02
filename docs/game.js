@@ -112,11 +112,11 @@ function drawLesson(){
  if(type==='arrange')bindArrangement(l);
  if(type==='recall'){
   $('#hint').onclick=()=>{run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">${esc(l.en)}<br>看完后，再试着自己输入一遍。</div>`};
-  $('#recallForm').onsubmit=e=>{e.preventDefault();if(Core.matches($('#recall').value,l))nextStep();else{run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">还没对上这关学过的表达。检查漏词，或点“看提示”。<br>${l.tip}</div>`}};
+  $('#recallForm').onsubmit=e=>{e.preventDefault();window.QuestAnswerSounds?.result(Core.matches($('#recall').value,l));if(Core.matches($('#recall').value,l))nextStep();else{run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">还没对上这关学过的表达。检查漏词，或点“看提示”。<br>${l.tip}</div>`}};
  }
  if(type==='dialogue'){
   const d=checkpointDialogs[l.id][run.dialogueIndex];$('#dialogueHint').onclick=()=>{run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">可以这样说：${esc(d.answers[0])}</div>`};
-  $('#dialogueForm').onsubmit=e=>{e.preventDefault();if(d.answers.some(a=>Core.normalize(a)===Core.normalize($('#dialogueAnswer').value))){run.dialogueIndex++;if(run.dialogueIndex>=3)nextStep();else drawLesson()}else{run.assisted=true;$('#answerFeedback').innerHTML='<div class="feedback">试试用学过的句型回答。需要时，可以点帮助。</div>'}};
+  $('#dialogueForm').onsubmit=e=>{e.preventDefault();window.QuestAnswerSounds?.result(d.answers.some(a=>Core.normalize(a)===Core.normalize($('#dialogueAnswer').value)));if(d.answers.some(a=>Core.normalize(a)===Core.normalize($('#dialogueAnswer').value))){run.dialogueIndex++;if(run.dialogueIndex>=3)nextStep();else drawLesson()}else{run.assisted=true;$('#answerFeedback').innerHTML='<div class="feedback">试试用学过的句型回答。需要时，可以点帮助。</div>'}};
  }
 }
 function bindOptions(type,l){
@@ -130,7 +130,7 @@ function bindOptions(type,l){
  $('#checkOption').onclick=()=>{
   if(run.checked){nextStep();return}if(type==='listen'&&!listened){toast('先播放音频，再选择答案；也可选择文字辅助。');return}
   const expected=type==='choice'?l.answer:type==='listen'?l.zh:type==='gap'?l.gap[1]:l.transfer[1];
-  if(run.selected!==expected){run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">再试一次。${type==='transfer'?'注意场景里替换了哪个信息。':type==='gap'?l.tip:type==='listen'?'可以慢速再听一遍。':l.tip}</div>`;return}
+  window.QuestAnswerSounds?.result(run.selected===expected);if(run.selected!==expected){run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">再试一次。${type==='transfer'?'注意场景里替换了哪个信息。':type==='gap'?l.tip:type==='listen'?'可以慢速再听一遍。':l.tip}</div>`;return}
   run.checked=true;const skill=type==='choice'?'understand':type==='listen'?'listen':type==='gap'?'build':'transfer';if(!(type==='listen'&&run.listenText))run.skills[skill]=true;
   document.querySelectorAll('[data-option]').forEach(b=>b.disabled=true);$('#answerFeedback').innerHTML=`<div class="feedback">✓ 对了！${type==='transfer'?'同一个句型，可以带你进入新的场景。':l.tip}</div>`;$('#checkOption').textContent='继续 →';
  };
@@ -138,7 +138,7 @@ function bindOptions(type,l){
 function bindArrangement(l){
  const draw=()=>{const tray=$('#sentenceTray');tray.innerHTML=run.arranged.length?run.arranged.map(i=>`<button class="token placed" data-remove="${i}">${esc(l.build[i])} <small>×</small></button>`).join(''):'<span class="muted">把下面的词块放到这里…</span>';document.querySelectorAll('[data-token]').forEach(b=>b.disabled=run.arranged.includes(Number(b.dataset.token)));$('#checkArrange').disabled=run.arranged.length!==l.build.length;tray.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{if(run.checked)return;run.arranged=run.arranged.filter(i=>i!==Number(b.dataset.remove));draw()})};
  document.querySelectorAll('[data-token]').forEach(b=>b.onclick=()=>{if(run.checked)return;run.arranged.push(Number(b.dataset.token));draw()});$('#resetTokens').onclick=()=>{if(run.checked)return;run.arranged=[];draw()};draw();
- $('#checkArrange').onclick=()=>{if(run.checked){nextStep();return}if(Core.normalize(run.arranged.map(i=>l.build[i]).join(' '))!==Core.normalize(l.en)){run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">词序还需要调整。${l.tip}</div>`;return}run.checked=true;run.skills.build=true;$('#answerFeedback').innerHTML='<div class="feedback">✓ 句子搭好了。接下来换个场景试试。</div>';$('#checkArrange').textContent='继续 →'};
+ $('#checkArrange').onclick=()=>{if(run.checked){nextStep();return}window.QuestAnswerSounds?.result(Core.normalize(run.arranged.map(i=>l.build[i]).join(' '))===Core.normalize(l.en));if(Core.normalize(run.arranged.map(i=>l.build[i]).join(' '))!==Core.normalize(l.en)){run.assisted=true;$('#answerFeedback').innerHTML=`<div class="feedback">词序还需要调整。${l.tip}</div>`;return}run.checked=true;run.skills.build=true;$('#answerFeedback').innerHTML='<div class="feedback">✓ 句子搭好了。接下来换个场景试试。</div>';$('#checkArrange').textContent='继续 →'};
 }
 function finish(){
  if(!run||run.finished)return;run.finished=true;const {l,isReview,assisted,queue}=run,first=!state.completed.includes(l.id),previous=state.cards[l.id];

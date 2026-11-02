@@ -1,0 +1,14 @@
+{
+  "version": "0.11.1-web",
+  "startupScriptBytesBefore": 19104647,
+  "startupScriptBytesAfter": 6955369,
+  "dictionaryEntries": 12000,
+  "dictionaryGroups": 120,
+  "fullDictionaryPreserved": true,
+  "speechEngineLazy": true,
+  "modelStillSplit": true,
+  "deferredScripts": true,
+  "actualRemoteTimingMeasured": false,
+  "startupScriptReductionPercent": 63.6,
+  "answerSounds": true
+}
